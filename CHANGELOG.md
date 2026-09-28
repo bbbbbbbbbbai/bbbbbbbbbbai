@@ -70,3 +70,12 @@
 - Recorded G05 evidence as `G05-round1.png` and `G05-round2.png`; status
   glyph artwork is still simplified compared with the raster reference.
 - G05 remains in progress and is not included in `acceptedScreens`.
+
+## 2026-09-28: G06 Custom Checklist Form
+
+- Built G06 on Figma page `223:2`, screen `223:8` with editable title,
+  project/category fields, save/cancel actions, and bottom gesture safe area.
+- Captured the exact 512x1024 first-round evidence at
+  `design/rebuild/life/G06-round1.png`.
+- Back and dropdown icon artwork still needs a repair pass; G06 is not
+  accepted.

@@ -30,8 +30,16 @@
       "confirmedRegions": ["238:42", "239:42", "239:43", "239:44", "240:42", "241:42", "242:42", "242:50"],
       "evidence": ["G05-round1.png", "G05-round2.png"],
       "remaining": ["source status glyph artwork remains simplified", "same-size final screenshot", "editable clone test"]
+    },
+    "G06": {
+      "screen": "223:8",
+      "reference": null,
+      "status": "partial-assembly",
+      "confirmedRegions": ["246:42", "246:43", "246:44", "246:47", "246:52", "246:54", "246:56"],
+      "evidence": ["G06-round1.png"],
+      "remaining": ["restore source back/dropdown icons", "same-size second repair screenshot", "editable clone test"]
     }
   },
-  "remaining": ["G01", "G02", "G06", "G07", "G08", "G09", "15 interaction groups / 75 substates"],
+  "remaining": ["G01", "G02", "G07", "G08", "G09", "15 interaction groups / 75 substates"],
   "acceptedScreens": []
 }
