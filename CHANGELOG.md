@@ -62,3 +62,11 @@
   icons and status glyph artwork; G05 remains in progress and is not accepted.
 - Figma transport became unstable during the icon-repair pass; no screenshot
   was used as a visible UI background.
+
+## 2026-09-28: G05 Second Visual Repair
+
+- Added the second same-size screenshot after restoring editable header action
+  glyphs and color-coded status pills.
+- Recorded G05 evidence as `G05-round1.png` and `G05-round2.png`; status
+  glyph artwork is still simplified compared with the raster reference.
+- G05 remains in progress and is not included in `acceptedScreens`.
