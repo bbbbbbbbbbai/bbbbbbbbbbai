@@ -54,7 +54,7 @@ test('food attraction smoothly lifts deep fish and they descend again after feed
     const pond = isolatedWorld();
     const fish = pond.fish[0];
     fish.depth = .85;
-    pond.food.push({ id: 'meal', x: 1150, y: 400, age: 0 });
+    pond.food.push({ id: 'meal', x: 900, y: 400, age: 0 });
     for (let i = 0; i < Math.round(2 / dt); i++) {
       const previous = fish.depth;
       pond.update(dt);
@@ -63,10 +63,10 @@ test('food attraction smoothly lifts deep fish and they descend again after feed
       assert.ok(previous - fish.depth <= .35 * dt + 1e-9);
     }
     assert.ok(fish.depth < .5, 'a deep fish makes visible progress toward the surface');
-    advance(pond, 5, dt);
+    for(let i=0;i<Math.round(5/dt)&&pond.food.length;i++)pond.update(dt);
     assert.equal(pond.food.length, 0, 'the target is eaten before expiry');
     const surfacedDepth = fish.depth;
-    advance(pond, 8, dt);
+    advance(pond, 3, dt);
     assert.ok(fish.depth > surfacedDepth + .03, 'return toward cruising depth');
   }
 });

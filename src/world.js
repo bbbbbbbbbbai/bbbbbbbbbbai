@@ -39,6 +39,44 @@ class SeededWander extends WanderBehavior {
   }
 }
 
+// Yuka's inverse-distance separation can consume all steering at an overlap.
+// Use bounded lateral yielding; depth and proximity fade continuously at entry.
+class PassingSeparation extends SeparationBehavior {
+  constructor(pose) {
+    super();
+    this.pose = pose;
+    this.sides = new Map();
+  }
+
+  calculate(vehicle, force) {
+    const pose = this.pose;
+    const rightX = -Math.sin(pose.angle), rightY = Math.cos(pose.angle);
+    const active = new Set();
+    let sideways = 0;
+    for (const neighbor of vehicle.neighbors) {
+      const dx = pose.position.x - neighbor.position.x;
+      const dy = pose.position.z - neighbor.position.z;
+      const radius = (pose.length + neighbor.length) * .65;
+      const proximity = Math.max(0, 1 - Math.hypot(dx, dy) / radius);
+      const layer = Math.max(0, 1 - Math.abs(pose.depth - neighbor.depth) / NEIGHBOR_DEPTH);
+      active.add(neighbor.id);
+      if (!this.sides.has(neighbor.id)) {
+        const lateral = dx * rightX + dy * rightY;
+        const side = Math.abs(lateral) > radius * .03
+          ? Math.sign(lateral)
+          : Math.cos(pose.angle - neighbor.angle) < 0
+            ? 1
+            : pose.id < neighbor.id ? 1 : -1;
+        this.sides.set(neighbor.id, side);
+      }
+      sideways += this.sides.get(neighbor.id) * proximity ** 2 * layer ** 2;
+    }
+    for (const id of this.sides.keys()) if (!active.has(id)) this.sides.delete(id);
+    const strength = clamp(sideways, -1, 1);
+    return force.set(rightX * strength, 0, rightY * strength);
+  }
+}
+
 /** Renderer-independent simulation. Screen (x, y) maps to Yuka's (x, z). */
 export class PondWorld {
   constructor(width, height, { count = 24, speed = 1, random = Math.random } = {}) {
@@ -231,6 +269,10 @@ export class PondWorld {
     for (const agent of agents) {
       const { fish, vehicle } = agent;
       vehicle.position.set(fish.x, 0, fish.y);
+      agent.pose.position.copy(vehicle.position);
+      agent.pose.depth = fish.depth;
+      agent.pose.angle = fish.angle;
+      agent.pose.length = fish.length;
       vehicle.rotation.fromEuler(0, Math.PI / 2 - fish.angle, 0);
       const cruise = agent.cruise * this._scale * this.speed;
       const previousSpeed = vehicle.velocity.length();
@@ -245,8 +287,8 @@ export class PondWorld {
         const radius = (a.fish.length + b.fish.length) * 0.65;
         if (Math.abs(a.fish.depth - b.fish.depth) < NEIGHBOR_DEPTH
           && a.vehicle.position.squaredDistanceTo(b.vehicle.position) < radius * radius) {
-          a.vehicle.neighbors.push(b.vehicle);
-          b.vehicle.neighbors.push(a.vehicle);
+          a.vehicle.neighbors.push(b.pose);
+          b.vehicle.neighbors.push(a.pose);
         }
       }
     }
@@ -318,7 +360,8 @@ export class PondWorld {
     vehicle.rotation.fromEuler(0, Math.PI / 2 - fish.angle, 0);
     const boundary = new SeekBehavior();
     const flee = new FleeBehavior(this._mouse);
-    const separation = new SeparationBehavior();
+    const pose = {id: sequenceId, position: new Vector3(), angle: fish.angle, depth, length: fish.length};
+    const separation = new PassingSeparation(pose);
     const seek = new SeekBehavior();
     const wander = new SeededWander(this._random);
     for (const behavior of [boundary, flee, separation, seek, wander]) vehicle.steering.add(behavior);
@@ -330,7 +373,7 @@ export class PondWorld {
     vehicle.velocity.set(Math.cos(angle) * speed, 0, Math.sin(angle) * speed);
     fish.swimSpeed = 2 + speed / fish.length * 4;
     const agent = {
-      fish, vehicle, boundary, flee, separation, seek, wander, cruise, length, artwork,
+      fish, vehicle, boundary, flee, separation, seek, wander, cruise, length, artwork, pose,
       targetId: null,
       boundaryTurn: 0,
       turnSign: this._nextFishId % 2 ? 1 : -1,
@@ -404,11 +447,15 @@ export class PondWorld {
     flee.weight = intensity * 5;
     vehicle.maxSpeed = cruise * (1 + intensity * 0.4);
     vehicle.maxForce = cruise * 4;
-    separation.weight = cruise * fish.length * .45;
+    separation.weight = cruise * 1.2;
 
     let target = this.food.find((food) => food.id === agent.targetId);
+    const foodRadius = this._scale * (220 + agent.profile.foodInterest * 100) * (1 - fish.depth * .25);
+    // A small retention margin avoids flickering at the perception boundary,
+    // without allowing a previously seen pellet to attract fish across the pond.
+    if (target && Math.hypot(target.x - fish.x, target.y - fish.y) > foodRadius * 1.2) target = null;
     if (!target) {
-      let nearest = (fish.length * (12 + agent.profile.foodInterest * 20)) ** 2;
+      let nearest = foodRadius ** 2;
       for (const food of this.food) {
         const distanceSq = (food.x - fish.x) ** 2 + (food.y - fish.y) ** 2;
         if (distanceSq < nearest) {

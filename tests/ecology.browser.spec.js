@@ -33,6 +33,69 @@ test.beforeEach(async ({page})=>{
 
 test.afterEach(async({page})=>expect(errors.get(page)).toEqual([]));
 
+test('a real feeding click only recruits fish near the click',async({page},info)=>{
+  const point=await page.evaluate(()=>{
+    const s=window.__ecologyScene,w=s.world.width,h=s.world.height;
+    s.setEnvironment({timeMode:'manual',manualTime:'day',weatherMode:'manual',weatherKind:'clear'});
+    s.world.setCount(8);
+    s.world.fish.forEach((f,i)=>Object.assign(f,{x:w*(.1+i*.1),y:h*.88,angle:0}));
+    Object.assign(s.world.fish[0],{x:w*.3,y:h*.4,angle:0});
+    Object.assign(s.world.fish[1],{x:w*.85,y:h*.4,angle:0});
+    s.sync();s.app.renderer.render(s.app.stage);
+    return {x:w*.35,y:h*.4};
+  });
+  await page.mouse.click(point.x,point.y);
+  const result=await page.evaluate(()=>{
+    const s=window.__ecologyScene;
+    const drop={...s.world.food[0]};
+    for(let i=0;i<6;i++){s.time+=1/60;s.world.update(1/60);s.sync();}
+    s.renderSurface();s.renderLighting(1);s.app.renderer.render(s.app.stage);
+    return {drop,near:s.world.fish[0].targetFoodId,far:s.world.fish[1].targetFoodId};
+  });
+  expect(result.drop.x).toBeCloseTo(point.x,3);
+  expect(result.drop.y).toBeCloseTo(point.y,3);
+  expect(result.near).not.toBeNull();
+  expect(result.far).toBeNull();
+  await page.screenshot({path:`artifacts/local-feeding-${info.project.name}.png`});
+});
+
+test('overlapping feeding fish keep visibly moving instead of braking in place',async({page},info)=>{
+  const origin=await page.evaluate(()=>{
+    const s=window.__ecologyScene,w=s.world.width,h=s.world.height,scale=Math.min(w,h)/1080;
+    s.setEnvironment({timeMode:'manual',manualTime:'day',weatherMode:'manual',weatherKind:'clear'});
+    s.world.setCount(8);
+    s.world.fish.forEach((f,i)=>Object.assign(f,{x:w*(.1+i*.1),y:h*.88,angle:0}));
+    const [a,b]=s.world.fish;
+    Object.assign(a,{x:w*.4,y:h*.5,angle:0,depth:.1});
+    Object.assign(b,{x:w*.4+.001*scale,y:h*.5,angle:0,depth:.1});
+    s.world.food.push({id:'overlap-meal',x:w*.4+220*scale,y:h*.5,age:0});
+    s.sync();s.renderSurface();s.renderLighting(1);s.app.renderer.render(s.app.stage);
+    return a.x;
+  });
+  const before=await page.locator('#pond canvas').screenshot();
+  const result=await page.evaluate(()=>{
+    const s=window.__ecologyScene,[a,b]=s.world.fish;
+    let slowFrames=0;
+    for(let i=0;i<120;i++){
+      const x=a.x,y=a.y;
+      s.time+=1/60;s.world.update(1/60);s.sync();
+      const ratio=Math.hypot(a.x-x,a.y-y)*60/s.world._agents.get(a.id).vehicle.maxSpeed;
+      if(ratio<.65)slowFrames++;
+    }
+    s.renderSurface();s.renderLighting(1);s.app.renderer.render(s.app.stage);
+    return {slowFrames,x:a.x,speed:s.world._agents.get(a.id).vehicle.maxSpeed,
+      renderedX:s.views.get(a.id).mesh.x,separation:Math.hypot(a.x-b.x,a.y-b.y)};
+  });
+  expect(result.slowFrames).toBeLessThan(6);
+  expect(result.x-origin).toBeGreaterThan(result.speed*1.2);
+  expect(result.renderedX).toBe(result.x);
+  expect(result.separation).toBeGreaterThan(1);
+  const after=await page.locator('#pond canvas').screenshot();
+  expect(before.equals(after)).toBe(false);
+  await info.attach('encounter-metrics',{body:JSON.stringify(result),contentType:'application/json'});
+  await page.screenshot({path:`artifacts/feeding-encounter-${info.project.name}.png`});
+});
+
 test('generated ecology has visible textured pixels, wings move, and layers have distinct depth',async({page},info)=>{
   const result=await page.evaluate(async()=>{
     const scene=window.__ecologyScene;
