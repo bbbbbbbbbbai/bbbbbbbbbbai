@@ -27,7 +27,7 @@ export function normalizeEnvironment(value) {
     weatherKind: typeof value.weatherKind === 'string' ? value.weatherKind : 'clear',
     season: typeof value.season === 'string' ? value.season : 'summer',
     quietMode: Boolean(value.quietMode),
-    quality: value.quality === 'high' || value.quality === 'power-save' ? value.quality : 'balanced',
+    quality: 'high',
   };
 }
 

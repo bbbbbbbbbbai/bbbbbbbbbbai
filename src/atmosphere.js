@@ -5,7 +5,6 @@ const TIME_MODES = new Set(['auto', 'manual']);
 const WEATHER_MODES = new Set(['local', 'manual', 'off']);
 const WEATHER = new Set(['clear', 'cloud', 'rain', 'fog', 'snow', 'storm']);
 const SEASONS = new Set(['spring', 'summer', 'autumn', 'winter']);
-const QUALITY = new Set(['high', 'balanced', 'power-save']);
 
 export function defaultAtmosphere() {
   return {
@@ -15,7 +14,7 @@ export function defaultAtmosphere() {
     weatherKind:'clear',
     season:'summer',
     quietMode:false,
-    quality:'balanced',
+    quality:'high',
   };
 }
 
@@ -29,7 +28,7 @@ export function normalizeAtmosphere(value, fallback = defaultAtmosphere()) {
     weatherKind: WEATHER.has(input.weatherKind) ? input.weatherKind : base.weatherKind,
     season: SEASONS.has(input.season) ? input.season : base.season,
     quietMode: typeof input.quietMode === 'boolean' ? input.quietMode : Boolean(base.quietMode),
-    quality: QUALITY.has(input.quality) ? input.quality : base.quality,
+    quality:'high',
   };
 }
 
@@ -45,7 +44,6 @@ export function atmosphereFor({
   season = 'summer',
   quietMode = false,
   reducedMotion = false,
-  quality = 'balanced',
 } = {}) {
   const light = lightForPeriod(TIMES.has(period) ? period : 'day');
   const weather = WEATHER.has(weatherKind) ? weatherKind : 'clear';
@@ -63,7 +61,7 @@ export function atmosphereFor({
     snow:[.88, .94, 1.02],
     storm:[.68, .77, .84],
   }[weather];
-  const motionScale = reducedMotion ? .35 : quietMode ? .55 : quality === 'power-save' ? .62 : quality === 'balanced' ? .82 : 1;
+  const motionScale = reducedMotion ? .35 : quietMode ? .55 : 1;
   const lightOut = light.map((value, index) => Math.max(.35, Math.min(1.2, value * seasonMix[index] * weatherMix[index])));
   const effect = {
     clear:{cloud:.025, fog:0, rain:0, snow:0},
@@ -81,7 +79,7 @@ export function atmosphereFor({
     rainIntensity:effect.rain,
     snowIntensity:effect.snow,
     insectRate:period === 'night' ? .5 : season === 'winter' ? .35 : .9,
-    birdRate:quietMode || reducedMotion || quality === 'power-save' ? 0 : 1,
+    birdRate:quietMode || reducedMotion ? 0 : 1,
     leafRate:quietMode || reducedMotion ? 0 : season === 'autumn' ? .8 : .12,
     rippleRate:Math.max(.2, motionScale * (weather === 'rain' || weather === 'storm' ? 1.4 : 1)),
     motionScale,

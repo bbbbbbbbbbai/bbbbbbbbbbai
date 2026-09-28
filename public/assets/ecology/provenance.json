@@ -1,0 +1,36 @@
+{
+  "provider": "Quya",
+  "model": "gpt-image-2.5-sunburst",
+  "prompts": "scripts/ecology-prompts.json",
+  "processing": "Alpha bounds trim, proportional resize and separate baked shadows",
+  "assets": [
+    {
+      "name": "egret",
+      "sha256": "b5ce4175e1234ad612127c239630f1c6eb0304affc60dfc999d3fcbbad4837c7"
+    },
+    {
+      "name": "swallow",
+      "sha256": "67729bf26ac4428c5cab8d3c4d5953b1a25eae7cfafc22b5e4a3803593b842e4"
+    },
+    {
+      "name": "grass-carp",
+      "sha256": "7f5cf034013507e025d6a69f61f97aec14473f052d60d370e3a90d77f2ae47a9"
+    },
+    {
+      "name": "loach",
+      "sha256": "f84de71d298124ac293a71ad4a10bfe3d50bfaa0381cba16982469991e2180e7"
+    },
+    {
+      "name": "butterfly",
+      "sha256": "376c3d113cfa3e5ef0520dc2d46e89716b3e0ae5a2717a709767086b21733519"
+    },
+    {
+      "name": "dragonfly",
+      "sha256": "4d509e3ada070a89ecd1805847b3729a5c8a05637bd276875afa57cd0ab6a961"
+    },
+    {
+      "name": "falling-leaf",
+      "sha256": "0b64c2817b5b954ecc60681defae3bf2422486aad2401b6597749ae229648658"
+    }
+  ]
+}

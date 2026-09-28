@@ -61,7 +61,7 @@ test('default document has the exact independent initial shape', () => {
       head: { x: 0.82, y: 0.5 },
       tail: { x: 0.18, y: 0.5 },
     },
-    settings: { count: 24, speed: 1, water: 0.65, quality: 'high' },
+    settings: { count: 24, speed: 1, water: 1, quality: 'high' },
   };
   assert.deepEqual(createDefaultDocument(), expected);
   const changed = createDefaultDocument();
@@ -77,6 +77,24 @@ test('empty storage loads defaults without writing anything', () => {
   assert.deepEqual(repository.load(), { ok: true, data: createDefaultDocument() });
   assert.equal(storage.writes, 0);
   assert.equal(storage.getItem(DEFAULT_KEY), null);
+});
+
+test('legacy quality and water preferences migrate to the full visual defaults', () => {
+  for (const quality of ['balanced', 'power-save', 'high']) {
+    const value = document();
+    value.settings = { count: 16, speed: 0.7, water: 0.05, quality };
+    const before = clone(value);
+    const storage = memoryStorage(JSON.stringify(value));
+    const repository = createRepository(storage);
+    const result = repository.load();
+    assert.equal(result.ok, true);
+    assert.deepEqual(result.data.settings, { count: 16, speed: 0.7, water: 1, quality: 'high' });
+    assert.deepEqual(result.data.works, before.works);
+    assert.deepEqual(result.data.draft, before.draft);
+    assert.equal(repository.save(result.data).ok, true);
+    assert.deepEqual(JSON.parse(storage.getItem(DEFAULT_KEY)).settings, result.data.settings);
+    assert.deepEqual(value, before);
+  }
 });
 
 test('valid works, erasing strokes and draft round-trip through a fresh repository', () => {

@@ -1,4 +1,5 @@
 const path = name => `/assets/sunburst/${name}`;
+const ecologyPath = name => `/assets/ecology/${name}`;
 
 export const ART = Object.freeze({
   bed: path('pond-bed.webp'),
@@ -7,22 +8,33 @@ export const ART = Object.freeze({
   flower: path('lotus.png'),
   turtle: path('turtle.png'),
   turtleShadow: path('turtle-shadow.png'),
-  butterfly: '/assets/butterfly.svg',
-  dragonfly: '/assets/dragonfly.svg',
+  egret: ecologyPath('egret.png'),
+  egretShadow: ecologyPath('egret-shadow.png'),
+  swallow: ecologyPath('swallow.png'),
+  swallowShadow: ecologyPath('swallow-shadow.png'),
+  butterfly: ecologyPath('butterfly.png'),
+  butterflyShadow: ecologyPath('butterfly-shadow.png'),
+  dragonfly: ecologyPath('dragonfly.png'),
+  dragonflyShadow: ecologyPath('dragonfly-shadow.png'),
   firefly: '/assets/firefly.svg',
-  birdShadow: '/assets/bird-shadow.svg',
-  fallingLeaf: '/assets/falling-leaf.svg',
+  birdShadow: ecologyPath('egret-shadow.png'),
+  fallingLeaf: ecologyPath('falling-leaf.png'),
+  fallingLeafShadow: ecologyPath('falling-leaf-shadow.png'),
 });
 
 export const FISH_SPECIES = Object.freeze([
-  { name: '红白锦鲤', id: 'kohaku', speed: 1, bend: .035 },
-  { name: '黄金锦鲤', id: 'ogon', speed: .94, bend: .03 },
-  { name: '昭和锦鲤', id: 'showa', speed: .92, bend: .033 },
-  { name: '白写锦鲤', id: 'shiro', speed: 1.02, bend: .035 },
-  { name: '彗星金鱼', id: 'goldfish', speed: .78, bend: .055 },
-  { name: '青铜鲤鱼', id: 'carp', speed: 1.08, bend: .025 },
+  { name: '红白锦鲤', id: 'kohaku', profileId: 'koi', speed: 1, bend: .035 },
+  { name: '黄金锦鲤', id: 'ogon', profileId: 'koi', speed: .94, bend: .03 },
+  { name: '昭和锦鲤', id: 'showa', profileId: 'koi', speed: .92, bend: .033 },
+  { name: '白写锦鲤', id: 'shiro', profileId: 'koi', speed: 1.02, bend: .035 },
+  { name: '彗星金鱼', id: 'goldfish', profileId: 'goldfish', speed: .78, bend: .055 },
+  { name: '青铜鲤鱼', id: 'carp', profileId: 'carp', speed: 1.08, bend: .025 },
+  { name: '草鱼', id: 'grass-carp', profileId: 'grass-carp', speed: .92, bend: .03 },
+  { name: '泥鳅', id: 'loach', profileId: 'loach', speed: 1.38, bend: .075 },
 ].map(spec => Object.freeze({
-  ...spec, texture: path(`${spec.id}.png`), shadow: path(`${spec.id}-shadow.png`),
+  ...spec,
+  texture: (['grass-carp', 'loach'].includes(spec.id) ? ecologyPath : path)(`${spec.id}.png`),
+  shadow: (['grass-carp', 'loach'].includes(spec.id) ? ecologyPath : path)(`${spec.id}-shadow.png`),
 })));
 
 export function coverFrame(width, height, nativeWidth, nativeHeight) {

@@ -33,10 +33,6 @@
     <input id="setting-count" aria-label="内置鱼数量" type="range" min="8" max="48" value="24">
     <label class="setting-row" for="setting-speed"><span>游动速度</span><output id="speed-output">1.0×</output></label>
     <input id="setting-speed" aria-label="游动速度" type="range" min="0.4" max="1.6" step="0.1" value="1">
-    <label class="setting-row" for="setting-water"><span>波光强度</span><output id="water-output">65%</output></label>
-    <input id="setting-water" aria-label="波光强度" type="range" min="0" max="1" step=".05" value=".65">
-    <div class="setting-row"><span>画面质量</span></div>
-    <div class="segments" role="group" aria-label="画面质量"><button data-quality="balanced" aria-pressed="false">流畅</button><button data-quality="high" aria-pressed="true">精细</button></div>
     <div class="setting-row environment-label"><span>时间氛围</span><output id="time-output">白天</output></div>
     <div class="segments" role="group" aria-label="时间模式"><button data-time-mode="auto" aria-pressed="true">自动</button><button data-time-mode="manual" aria-pressed="false">手动</button></div>
     <div class="segments time-periods" id="manual-time-controls" role="group" aria-label="手动时间段">
@@ -53,10 +49,6 @@
       <option value="spring">春</option><option value="summer">夏</option><option value="autumn">秋</option><option value="winter">冬</option>
     </select>
     <label class="setting-row quiet-setting" for="quiet-mode"><span>安静模式</span><input id="quiet-mode" type="checkbox"></label>
-    <label class="setting-row" for="quality-mode"><span>动态强度</span></label>
-    <select id="quality-mode" aria-label="动态强度">
-      <option value="high">精细</option><option value="balanced">平衡</option><option value="power-save">省电</option>
-    </select>
     <output id="atmosphere-status" class="atmosphere-status" role="status">晴天 · 夏</output>
     <button class="quiet-button reset-settings" id="reset-settings"><i data-lucide="rotate-ccw"></i>恢复默认</button>
   </aside>

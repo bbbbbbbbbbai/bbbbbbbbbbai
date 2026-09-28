@@ -171,6 +171,95 @@ test("settings persist and narrow viewport editor has no overflow", async ({page
   await page.screenshot({path:"artifacts/editor-mobile.png"});
 });
 
+test("settings expose full visual quality without quality or water controls", async ({page},testInfo) => {
+  await page.getByRole("button",{name:"鱼塘设置",exact:true}).click();
+  await expect(page.locator("#close-settings")).toBeFocused();
+  await expect(page.locator("[data-quality]")).toHaveCount(0);
+  await expect(page.locator("#quality-mode")).toHaveCount(0);
+  await expect(page.getByLabel("波光强度")).toHaveCount(0);
+  await expect(page.locator("#setting-water")).toHaveCount(0);
+  await page.getByRole("button",{name:"恢复默认",exact:true}).click();
+  await expect.poll(() => page.evaluate(() => {
+    const data = JSON.parse(localStorage.getItem("chijian.pond.v1"));
+    return data.settings;
+  })).toEqual({count:24,speed:1,water:1,quality:"high"});
+  await expect(page.locator("#quiet-mode")).not.toBeChecked();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  await page.screenshot({path:`artifacts/settings-full-effects-${testInfo.project.name}.png`});
+  await page.keyboard.press("Escape");
+  await expect(page.locator("#open-settings")).toBeFocused();
+});
+
+test("opening settings and refreshing weather preserve a persisted manual atmosphere", async ({page}) => {
+  await page.evaluate(() => {
+    localStorage.setItem("chijian.environment.v1", JSON.stringify({
+      version: 1,
+      timeMode: "auto",
+      manualTime: "day",
+      weatherMode: "manual",
+      weatherKind: "rain",
+      season: "summer",
+      quietMode: false,
+      quality: "power-save",
+    }));
+  });
+  await page.route("https://api.open-meteo.com/**", async route => {
+    await route.fulfill({
+      status: 200,
+      contentType: "application/json",
+      body: JSON.stringify({ current: { temperature_2m: 21, weather_code: 0 } }),
+    });
+  });
+  await page.reload();
+  await expect(page.locator("body")).toHaveAttribute("data-ready","true");
+  await expect(page.locator("#refresh-weather")).toBeEnabled();
+  await page.evaluate(() => {
+    Object.defineProperty(navigator, "geolocation", { configurable: true, value: {
+      getCurrentPosition(success) {
+        success({ coords: { latitude: 31.23, longitude: 121.47 } });
+      },
+    }});
+  });
+  await page.getByRole("button",{name:"鱼塘设置",exact:true}).click();
+  await expect(page.locator("#weather-mode")).toHaveValue("rain");
+  await page.getByRole("button",{name:"更新当地天气",exact:true}).click();
+  await expect(page.locator("#weather-status")).toContainText("21°");
+  await expect(page.locator("#weather-mode")).toHaveValue("rain");
+  await expect.poll(() => page.evaluate(() => {
+    const data = JSON.parse(localStorage.getItem("chijian.environment.v1"));
+    return data.weatherMode;
+  })).toBe("manual");
+});
+
+test("a pending local weather request cannot overwrite a new manual choice", async ({page}) => {
+  await page.evaluate(() => {
+    Object.defineProperty(navigator, "geolocation", { configurable: true, value: {
+      getCurrentPosition(success) {
+        success({ coords: { latitude: 31.23, longitude: 121.47 } });
+      },
+    }});
+  });
+  let completeWeather;
+  const pending = new Promise(resolve => { completeWeather = resolve; });
+  await page.route("https://api.open-meteo.com/**", async route => {
+    await pending;
+    await route.fulfill({
+      status:200, contentType:"application/json",
+      body:JSON.stringify({current:{temperature_2m:22,weather_code:3}}),
+    });
+  });
+  await page.getByRole("button",{name:"鱼塘设置",exact:true}).click();
+  await page.getByRole("button",{name:"更新当地天气",exact:true}).click();
+  await expect(page.locator("#refresh-weather")).toBeDisabled();
+  await page.locator("#weather-mode").selectOption("snow");
+  completeWeather();
+  await expect(page.locator("#weather-status")).toContainText("22°");
+  await expect(page.locator("#weather-mode")).toHaveValue("snow");
+  await expect(page.locator("#atmosphere-status")).toContainText("雪天");
+  await page.locator("#weather-mode").selectOption("local");
+  await expect(page.locator("#atmosphere-status")).toContainText("阴天");
+});
+
 test("manual atmosphere controls override local weather and preserve fish interaction", async ({page}) => {
   await page.route("**/src/main.js*",async route=>{
     const response=await route.fetch();

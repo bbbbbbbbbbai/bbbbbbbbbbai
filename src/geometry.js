@@ -24,3 +24,12 @@ export function paddleVertices(base, out, width, height, phase, resting) {
     out[i+1]=base[i+1]+swing*height*.018*foot;
   }
 }
+
+export function wingVertices(base, out, height, phase, amplitude = .3) {
+  for(let i=0;i<base.length;i+=2){
+    const distance=base[i+1]-height/2;
+    const wing=Math.max(0,(Math.abs(distance)/(height/2)-.12)/.88);
+    out[i]=base[i];
+    out[i+1]=base[i+1]-distance*wing*(.5+.5*Math.sin(phase))*amplitude;
+  }
+}

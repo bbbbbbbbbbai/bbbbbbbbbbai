@@ -1,14 +1,32 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { qualityBudget } from '../src/performance.js';
+import { normalizeQuality, qualityBudget } from '../src/performance.js';
 import { EcosystemController } from '../src/ecosystem.js';
 
-test('power save reduces dynamic budgets without changing fish count', () => {
-  const high = qualityBudget('high', {width:1920, height:1080, devicePixelRatio:1});
-  const power = qualityBudget('power-save', {width:1920, height:1080, devicePixelRatio:1});
-  assert.ok(power.maxFps < high.maxFps);
-  assert.ok(power.maxInsects < high.maxInsects);
-  assert.ok(power.waterStrength < high.waterStrength);
+test('default budget uses full effects without changing fish settings', () => {
+  assert.deepEqual(qualityBudget(), {
+    maxFps:60,maxInsects:8,maxBirds:2,maxLeaves:24,maxRain:80,waterStrength:1,
+  });
+});
+
+test('all legacy quality inputs now resolve to the full visual budget', () => {
+  for (const value of ['balanced', 'power-save', 'high', 'unknown', null, undefined]) {
+    assert.equal(normalizeQuality(value), 'high');
+    assert.deepEqual(
+      qualityBudget(value, {width:1920, height:1080, devicePixelRatio:1}),
+      {maxFps:60,maxInsects:8,maxBirds:2,maxLeaves:24,maxRain:80,waterStrength:1},
+    );
+  }
+});
+
+test('large viewports keep the same full effect budget as the default', () => {
+  for (const devicePixelRatio of [1, 2, 3]) {
+    const budget = qualityBudget('power-save', {width:3840, height:2160, devicePixelRatio});
+    assert.deepEqual(budget, qualityBudget());
+    assert.deepEqual(budget, {
+      maxFps:60,maxInsects:8,maxBirds:2,maxLeaves:24,maxRain:80,waterStrength:1,
+    });
+  }
 });
 
 test('ecosystem event arrays remain finite and bounded during a long run', () => {

@@ -42,6 +42,21 @@ test('environment normalizes unsupported values back to safe defaults', () => {
   }), createDefaultEnvironment());
 });
 
+test('legacy quality preferences migrate to the full atmosphere', () => {
+  for (const quality of ['balanced', 'power-save', 'high']) {
+    const value = {
+      version:1, timeMode:'manual', manualTime:'night', weatherMode:'manual',
+      weatherKind:'rain', season:'autumn', quietMode:true, quality,
+    };
+    const storage = memoryStorage(JSON.stringify(value));
+    const repository = createEnvironmentRepository(storage);
+    const normalized = repository.load().data;
+    assert.deepEqual(normalized, {...value, quality:'high'});
+    assert.equal(repository.save(normalized).ok, true);
+    assert.deepEqual(JSON.parse(storage.getItem()), {...value, quality:'high'});
+  }
+});
+
 test('environment preferences persist independently from pond artwork data', () => {
   const storage = memoryStorage();
   const repository = createEnvironmentRepository(storage);

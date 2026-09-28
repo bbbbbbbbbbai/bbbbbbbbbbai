@@ -52,7 +52,6 @@ function environmentToUI(){
   $("#weather-mode").value=weatherMode;
   $("#season-mode").value=environment.season??"summer";
   $("#quiet-mode").checked=Boolean(environment.quietMode);
-  $("#quality-mode").value=environment.quality??documentData.settings.quality;
   $("#atmosphere-status").textContent=`${weatherMode==="local"?(weatherState.kind?weatherLabels[weatherState.kind]:"当地天气"):(weatherLabels[weatherMode]??"晴天")} · ${seasonLabels[environment.season??"summer"]}${environment.quietMode?" · 安静":""}`;
 }
 function applyEnvironment(){
@@ -73,8 +72,6 @@ async function refreshWeather(showToast=true){
   $("#weather-status").textContent="定位中…";
   try{
     weatherState=await fetchLocalWeather();
-    environment={...environment,weatherMode:"local",weatherKind:weatherState.kind};
-    environmentRepository.save(environment);
     applyEnvironment();
     if(showToast)toast(`已更新当地天气：${weatherState.label}`);
   }catch{
@@ -122,7 +119,7 @@ $("#close-gallery").addEventListener("click",()=>{closePanels();$("#open-gallery
 $("#open-settings").addEventListener("click",()=>{
   const opening=$("#settings").hidden;closePanels();$("#settings").hidden=!opening;
   $("#open-settings").setAttribute("aria-expanded",String(opening));
-  if(opening){environmentToUI();$("#close-settings").focus();refreshWeather(false);}
+  if(opening){environmentToUI();$("#close-settings").focus();}
 });
 $("#close-settings").addEventListener("click",()=>{closePanels();$("#open-settings").focus();});
 $("#fullscreen").addEventListener("click",async()=>{
@@ -161,17 +158,15 @@ $("#confirm-delete").addEventListener("click",()=>{
 });
 function settingsToUI(){
   const s=documentData.settings;
-  for(const key of ["count","speed","water"])$(`#setting-${key}`).value=s[key];
-  $("#count-output").textContent=s.count;$("#speed-output").textContent=`${s.speed.toFixed(1)}×`;$("#water-output").textContent=`${Math.round(s.water*100)}%`;
-  for(const b of document.querySelectorAll("[data-quality]"))b.setAttribute("aria-pressed",String(b.dataset.quality===s.quality));
+  for(const key of ["count","speed"])$(`#setting-${key}`).value=s[key];
+  $("#count-output").textContent=s.count;$("#speed-output").textContent=`${s.speed.toFixed(1)}×`;
 }
-for(const key of ["count","speed","water"]){
+for(const key of ["count","speed"]){
   $(`#setting-${key}`).addEventListener("input",e=>{
     const value=Number(e.target.value),next={...documentData.settings,[key]:value};
     scene.configure(next);
     if(key==="count")$("#count-output").textContent=value;
     if(key==="speed")$("#speed-output").textContent=`${value.toFixed(1)}×`;
-    if(key==="water")$("#water-output").textContent=`${Math.round(value*100)}%`;
   });
   $(`#setting-${key}`).addEventListener("change",e=>{
     const result=saveDocument({...documentData,settings:{...documentData.settings,[key]:Number(e.target.value)}});
@@ -179,12 +174,6 @@ for(const key of ["count","speed","water"]){
     settingsToUI();updateCount();
   });
 }
-for(const b of document.querySelectorAll("[data-quality]"))b.addEventListener("click",()=>{
-  const next={...documentData,settings:{...documentData.settings,quality:b.dataset.quality}};
-  if(saveDocument(next).ok)scene.configure(next.settings);
-  saveEnvironment({...environment,quality:b.dataset.quality});
-  settingsToUI();
-});
 for(const button of document.querySelectorAll("[data-time-mode]"))button.addEventListener("click",()=>{
   saveEnvironment({...environment,timeMode:button.dataset.timeMode});
 });
@@ -198,12 +187,6 @@ $("#weather-mode").addEventListener("change",e=>{
 });
 $("#season-mode").addEventListener("change",e=>saveEnvironment({...environment,season:e.target.value}));
 $("#quiet-mode").addEventListener("change",e=>saveEnvironment({...environment,quietMode:e.target.checked}));
-$("#quality-mode").addEventListener("change",e=>{
-  const quality=e.target.value;
-  const next={...documentData,settings:{...documentData.settings,quality}};
-  if(saveDocument(next).ok)scene.configure(next.settings);
-  saveEnvironment({...environment,quality});
-});
 $("#reset-settings").addEventListener("click",()=>{
   const next={...documentData,settings:createDefaultDocument().settings};
   if(saveDocument(next).ok)scene.configure(next.settings);settingsToUI();updateCount();

@@ -20,16 +20,42 @@ export class EventScheduler {
     this.birds = [];
     this.leaves = [];
     this.rain = [];
-    this.spawnClock = 0;
+    this.nextInsect = .2;
+    this.nextBird = 3;
+    this.nextLeaf = .6;
+    this.nextRain = 0;
+    this.insectSequence = 0;
+    this.birdSequence = 0;
   }
 
   configure(environment = {}) {
     this.environment = {...this.environment, ...environment};
+    const night = this.environment.period === 'night';
+    this.insects = this.insects.filter(item => (item.kind === 'firefly') === night);
+    // A dusk transition stops new flights; birds already overhead finish crossing.
+    if (this.environment.quietMode || this.environment.reducedMotion) {
+      this.birds.length = 0;
+      this.insects.length = Math.min(this.insects.length, 2);
+      this.leaves.length = Math.min(this.leaves.length, 8);
+      this.rain.length = Math.min(this.rain.length, 24);
+    }
+    if (!['rain', 'storm'].includes(this.environment.weatherKind)) this.rain.length = 0;
   }
 
   setBounds(width, height) {
+    const oldWidth = this.width, oldHeight = this.height;
     this.width = Math.max(1, width);
     this.height = Math.max(1, height);
+    for (const list of [this.insects, this.birds, this.leaves, this.rain]) {
+      for (const item of list) {
+        item.x *= this.width / oldWidth;
+        item.y *= this.height / oldHeight;
+      }
+    }
+    for (const bird of this.birds) {
+      const remaining = Math.cos(bird.angle) > 0 ? this.width + 130 - bird.x : bird.x + 130;
+      bird.life = Math.max(0, remaining / bird.speed);
+    }
   }
 
   clear() {
@@ -43,7 +69,6 @@ export class EventScheduler {
     if (!Number.isFinite(dt) || dt <= 0) return;
     dt = Math.min(dt, .05);
     this.clock += dt;
-    this.spawnClock += dt;
     this._expire(this.insects, dt);
     this._expire(this.birds, dt);
     this._expire(this.leaves, dt);
@@ -51,22 +76,29 @@ export class EventScheduler {
 
     const quiet = Boolean(this.environment.quietMode);
     const reduced = Boolean(this.environment.reducedMotion);
-    const quality = this.environment.quality ?? 'high';
     const period = this.environment.period ?? 'day';
     const weather = this.environment.weatherKind ?? 'clear';
     const season = this.environment.season ?? 'summer';
-    const maxInsects = quiet || reduced ? 2 : quality === 'power-save' ? 2 : quality === 'balanced' ? 5 : 8;
-    if (this.spawnClock >= .8) {
-      this.spawnClock = 0;
+    const maxInsects = quiet || reduced ? 2 : LIMITS.insects;
+    if (this.clock >= this.nextInsect) {
+      this.nextInsect = this.clock + .65;
       if (period === 'night') {
         this._spawnInsect('firefly', maxInsects);
       } else if (!reduced) {
-        this._spawnInsect(season === 'summer' ? 'dragonfly' : 'butterfly', maxInsects);
-        if (season === 'spring' && this.insects.length < maxInsects) this._spawnInsect('butterfly', maxInsects);
+        this._spawnInsect(this.insectSequence++ % 2 ? 'dragonfly' : 'butterfly', maxInsects);
       }
-      if (!quiet && !reduced && this.clock % 8 < 1) this._spawnBird(quality);
-      if (!quiet && season === 'autumn' && this.clock % 2.4 < .8) this._spawnLeaf(quality);
-      if ((weather === 'rain' || weather === 'storm') && !reduced) this._spawnRain(quality);
+    }
+    if (this.clock >= this.nextBird) {
+      this.nextBird = this.clock + 22 + this.random() * 12;
+      if (!quiet && !reduced && period !== 'night') this._spawnBird();
+    }
+    if (this.clock >= this.nextLeaf) {
+      this.nextLeaf = this.clock + (season === 'autumn' ? 1.4 : 3.2);
+      if (!quiet && !reduced) this._spawnLeaf();
+    }
+    if (this.clock >= this.nextRain) {
+      this.nextRain = this.clock + (quiet ? .18 : weather === 'storm' ? .025 : .055);
+      if ((weather === 'rain' || weather === 'storm') && !reduced) this._spawnRain(quiet ? 24 : LIMITS.rain);
     }
   }
 
@@ -84,8 +116,24 @@ export class EventScheduler {
       const item = list[i];
       item.life -= dt;
       item.phase = (item.phase + dt * (item.rate ?? 1)) % TAU;
+      item.age = (item.age ?? 0) + dt;
+      if (list === this.insects) {
+        item.angle += Math.sin(item.phase) * dt * .8;
+        if (item.x < 24 || item.x > this.width - 24) item.angle = Math.atan2(Math.sin(item.angle), this.width / 2 - item.x);
+        if (item.y < 24 || item.y > this.height - 24) item.angle = Math.atan2(this.height / 2 - item.y, Math.cos(item.angle));
+      }
+      if (list === this.leaves) {
+        item.altitude = Math.max(0, 65 * (1 - item.age / 2.6));
+        item.state = item.altitude > 0 ? 'falling' : 'floating';
+        item.speed = item.state === 'falling' ? 12 : 3;
+        item.rotation += Math.sin(item.phase) * dt * .25;
+      }
       item.x += Math.cos(item.angle ?? 0) * (item.speed ?? 0) * dt;
       item.y += Math.sin(item.angle ?? 0) * (item.speed ?? 0) * dt;
+      if (list === this.insects || list === this.leaves) {
+        item.x = clamp(item.x, 12, Math.max(12, this.width - 12));
+        item.y = clamp(item.y, 12, Math.max(12, this.height - 12));
+      }
       if (item.life <= 0) list.splice(i, 1);
     }
   }
@@ -100,45 +148,48 @@ export class EventScheduler {
       y: this.random() * this.height * .7,
       angle: this.random() * TAU,
       phase: this.random() * TAU,
-      rate: .8 + this.random() * .5,
+      rate: kind === 'firefly' ? 1.5 : kind === 'dragonfly' ? 35 : 12,
       speed,
-      life: kind === 'firefly' ? 10 : 7,
+      life: kind === 'firefly' ? 15 : 18,
     });
   }
 
-  _spawnBird(quality) {
-    const limit = quality === 'power-save' ? 0 : quality === 'balanced' ? 1 : LIMITS.birds;
-    if (this.birds.length >= limit) return;
+  _spawnBird() {
+    if (this.birds.length >= LIMITS.birds) return;
     const fromLeft = this.random() > .5;
+    const kind = this.birdSequence++ % 2 ? 'swallow' : 'egret';
+    const speed = kind === 'egret' ? 145 : 220;
     this.birds.push({
       id: `bird-${this.nextId++}`,
-      x: fromLeft ? -50 : this.width + 50,
-      y: this.height * (.12 + this.random() * .28),
+      kind,
+      x: fromLeft ? -130 : this.width + 130,
+      y: this.height * (.22 + this.random() * .48),
       angle: fromLeft ? 0 : Math.PI,
       phase: this.random() * TAU,
-      speed: fromLeft ? 120 : -120,
-      life: 5,
+      rate: kind === 'egret' ? 4 : 9,
+      speed,
+      life: (this.width + 260) / speed,
     });
   }
 
-  _spawnLeaf(quality) {
-    const limit = quality === 'power-save' ? 6 : quality === 'balanced' ? 12 : LIMITS.leaves;
-    if (this.leaves.length >= limit) return;
+  _spawnLeaf() {
+    if (this.leaves.length >= LIMITS.leaves) return;
     this.leaves.push({
       id: `leaf-${this.nextId++}`,
-      x: this.random() * this.width,
-      y: -20,
-      angle: this.random() * TAU,
+      x: (.1 + this.random() * .8) * this.width,
+      y: (.2 + this.random() * .6) * this.height,
+      angle: .2 + this.random() * .7,
       phase: this.random() * TAU,
       rate: .6 + this.random() * .5,
       speed: 12 + this.random() * 14,
-      life: 14,
+      life: 28,
+      altitude: 65,
+      state: 'falling',
       rotation: this.random() * TAU,
     });
   }
 
-  _spawnRain(quality) {
-    const limit = quality === 'power-save' ? 16 : quality === 'balanced' ? 40 : LIMITS.rain;
+  _spawnRain(limit) {
     if (this.rain.length >= limit) return;
     this.rain.push({
       id: `rain-${this.nextId++}`,
@@ -148,7 +199,7 @@ export class EventScheduler {
       phase: 0,
       rate: 2,
       speed: 0,
-      life: .9,
+      life: 1.4,
       radius: 2 + this.random() * 5,
     });
   }

@@ -1,10 +1,9 @@
 import { Application, Assets, Container, Sprite, MeshPlane, Graphics, Texture, Filter, Rectangle, UniformGroup } from "pixi.js";
-import { bendVertices, paddleVertices } from "./geometry.js";
+import { bendVertices, paddleVertices, wingVertices } from "./geometry.js";
 import { bakeArtwork } from "./drawing.js";
 import { getTimePeriod } from "./environment.js";
 import { ART, FISH_SPECIES, coverFrame, waterBounds, lightForPeriod } from "./art.js";
 import { atmosphereFor, defaultAtmosphere, normalizeAtmosphere, resolveWeatherKind } from "./atmosphere.js";
-import { qualityBudget } from "./performance.js";
 
 const vertex = `
 in vec2 aPosition;
@@ -73,14 +72,13 @@ export class PondScene {
     this.weather={kind:"clear"};
     this.light=lightForPeriod(getTimePeriod());
     this.cloud=0;this.fog=0;this.atmosphereParams=atmosphereFor({period:"day",weatherKind:"clear",season:"summer",quality:settings.quality});
-    this.budget=qualityBudget(settings.quality,{width:innerWidth,height:innerHeight,devicePixelRatio:devicePixelRatio||1});
   }
   async init() {
     this.app=new Application();
     await this.app.init({
       preference:"webgl",antialias:true,autoDensity:true,
       resolution:this.resolution(),background:"#315f50",
-      powerPreference:"low-power",preserveDrawingBuffer:true,
+      powerPreference:"high-performance",preserveDrawingBuffer:true,
     });
     this.host.append(this.app.canvas);
     this.arrivalLabel=document.createElement("div");
@@ -88,6 +86,7 @@ export class PondScene {
     this.arrivalLabel.setAttribute("aria-hidden","true");
     this.host.append(this.arrivalLabel);
     this.motionPreference=matchMedia("(prefers-reduced-motion: reduce)");
+    this.motionPreference.addEventListener("change",()=>this.setEnvironment(this.environment,this.weather));
     this.app.canvas.setAttribute("aria-label","锦鲤鱼塘");
     const paths=[...Object.values(ART),...FISH_SPECIES.flatMap(s=>[s.texture,s.shadow])];
     this.textures=await Assets.load([...new Set(paths)]);
@@ -97,8 +96,12 @@ export class PondScene {
     this.shadows=new Container();this.animals=new Container();
     this.animals.sortableChildren=true;
     this.surface=new Graphics();this.plants=new Container();this.atmosphere=new Graphics();
-    this.root.addChild(this.bed,this.shadows,this.animals,this.surface,this.plants);
+    this.floatingLeaves=new Container();this.birdShadows=new Container();this.waterEffects=new Graphics();
+    this.rainLayer=new Container();
+    this.root.addChild(this.bed,this.shadows,this.animals,this.surface,this.waterEffects,this.floatingLeaves,this.plants,this.birdShadows,this.rainLayer);
     this.eventLayer=new Container();this.eventLayer.sortableChildren=true;
+    this.fallingLeaves=new Container();this.insectLayer=new Container();this.birdLayer=new Container();
+    this.eventLayer.addChild(this.fallingLeaves,this.insectLayer,this.birdLayer);
     this.waterFilter=Filter.from({
       gl:{vertex,fragment},
       resources:{pondUniforms:new UniformGroup({
@@ -129,7 +132,7 @@ export class PondScene {
     });
     this.resize();
     this.observer=new ResizeObserver(()=>this.resize());this.observer.observe(this.host);
-    this.app.ticker.maxFPS=this.settings.quality==="high"?60:30;
+    this.app.ticker.maxFPS=60;
     this.app.ticker.add(ticker=>{
       if(this.paused||document.hidden)return;
       const dt=Math.min(ticker.deltaMS/1000,.05);
@@ -156,8 +159,7 @@ export class PondScene {
   }
   resolution() {
     const w=this.host.clientWidth||innerWidth,h=this.host.clientHeight||innerHeight;
-    const limit=this.settings.quality==="high"?3_000_000:1_500_000;
-    return Math.min(devicePixelRatio||1,this.settings.quality==="high"?1.5:1,Math.sqrt(limit/(w*h)));
+    return Math.min(devicePixelRatio||1,2,Math.sqrt(8_294_400/(w*h)));
   }
   resize() {
     if(!this.bed)return;
@@ -213,17 +215,17 @@ export class PondScene {
   configure(settings) {
     this.settings={...settings};
     this.world.setCount(settings.count);this.world.setSpeed(settings.speed);
-    this.budget=qualityBudget(settings.quality,{width:this.host.clientWidth||innerWidth,height:this.host.clientHeight||innerHeight,devicePixelRatio:devicePixelRatio||1});
     if(!this.waterFilter)return;
     this.waterFilter.resources.pondUniforms.uniforms.uStrength=settings.water;
-    this.app.ticker.maxFPS=settings.quality==="high"?60:30;
+    this.app.ticker.maxFPS=60;
     this.resize();this.sync();
   }
   setEnvironment(environment,weather) {
     this.environment=normalizeAtmosphere({...this.environment,...environment},this.environment);
     this.weather={...this.weather,...weather};
+    this.activePeriod=this.environment.timeMode==="manual"?this.environment.manualTime:getTimePeriod();
     this.world.setEnvironment({
-      period:this.environment.timeMode==="manual"?this.environment.manualTime:getTimePeriod(),
+      period:this.activePeriod,
       weatherKind:resolveWeatherKind(this.environment,this.weather),
       season:this.environment.season,
       quietMode:this.environment.quietMode,
@@ -231,7 +233,7 @@ export class PondScene {
       quality:this.environment.quality ?? this.settings.quality,
     });
     this.atmosphereParams=atmosphereFor({
-      period:this.environment.timeMode==="manual"?this.environment.manualTime:getTimePeriod(),
+      period:this.activePeriod,
       weatherKind:resolveWeatherKind(this.environment,this.weather),
       season:this.environment.season,
       quietMode:this.environment.quietMode,
@@ -259,18 +261,19 @@ export class PondScene {
         this.views.set(fish.id,v);
       }
       const texture=v.mesh.texture;
-      const depth=.86+(v.index%5)*.037+Math.sin(this.time*.11+v.index)*.025;
-      const width=fish.length*1.18*depth;
+      const depth=fish.depth??.5;
+      const width=fish.length*1.18*(1-depth*.2);
       v.mesh.scale.set(width/texture.width);
-      v.mesh.position.set(fish.x,fish.y);v.mesh.rotation=fish.angle;v.mesh.zIndex=fish.y;
-      v.mesh.alpha=fish.customId?1:.87+(depth-.86)*.5;
-      v.mesh.tint=fish.customId?0xffffff:0xe2efdf;
+      v.mesh.position.set(fish.x,fish.y);v.mesh.rotation=fish.angle;v.mesh.zIndex=(1-depth)*1000;
+      v.mesh.alpha=1-depth*.22;
+      const r=Math.round(255-depth*52),green=Math.round(255-depth*18),b=Math.round(255-depth*22);
+      v.mesh.tint=(r<<16)|(green<<8)|b;
       bendVertices(v.base,v.mesh.geometry.positions,texture.width,0,fish.phase,
         texture.width*(fish.customId ? .04 : spec.bend));
       v.mesh.geometry.getBuffer("aPosition").update();
       v.shadow.scale.copyFrom(v.mesh.scale);v.shadow.rotation=fish.angle;
-      v.shadow.position.set(fish.x+6,fish.y+8+(1-depth)*25);
-      v.shadow.alpha=.14+(depth-.86)*.18;
+      v.shadow.position.set(fish.x+5+(1-depth)*9,fish.y+6+(1-depth)*20);
+      v.shadow.alpha=.12+depth*.15;
     }
     this.syncTurtles();
     this.syncEcosystem();
@@ -288,7 +291,7 @@ export class PondScene {
       }
       const texture=v.mesh.texture;
       v.mesh.scale.set(turtle.length*1.03/texture.width);
-      v.mesh.position.set(turtle.x,turtle.y-(turtle.surfacing?Math.sin((turtle.surfaceProgress??0)*Math.PI)*4:0));v.mesh.rotation=turtle.angle;v.mesh.zIndex=turtle.y;
+      v.mesh.position.set(turtle.x,turtle.y-(turtle.surfacing?Math.sin((turtle.surfaceProgress??0)*Math.PI)*4:0));v.mesh.rotation=turtle.angle;v.mesh.zIndex=turtle.surfacing?990:380;
       v.mesh.alpha=.91;v.mesh.tint=turtle.variant?0xd4e3cc:0xe5ecd8;
       paddleVertices(v.base,v.mesh.geometry.positions,texture.width,texture.height,turtle.phase,turtle.resting);
       v.mesh.geometry.getBuffer("aPosition").update();
@@ -301,34 +304,67 @@ export class PondScene {
     const snapshot=this.getEcosystemSnapshot();
     const maps=[
       ["insects",this.eventViews.insects,item=>item.kind==="butterfly"?ART.butterfly:item.kind==="dragonfly"?ART.dragonfly:ART.firefly],
-      ["birds",this.eventViews.birds,()=>ART.birdShadow],
+      ["birds",this.eventViews.birds,item=>ART[item.kind]],
       ["leaves",this.eventViews.leaves,()=>ART.fallingLeaf],
       ["rain",this.eventViews.rain,null],
     ];
     for(const [kind,map,asset] of maps){
       const current=new Set(snapshot[kind].map(item=>item.id));
       for(const [id,view] of map){
-        if(!current.has(id)){view.destroy();map.delete(id);}
+        if(!current.has(id)){view.ecologyShadow?.destroy();view.destroy();map.delete(id);}
       }
       for(const item of snapshot[kind]){
         let view=map.get(item.id);
         if(!view){
-          view=asset?new Sprite(this.textures[asset]):new Graphics();
-          if(asset)view.anchor.set(.5);
-          map.set(item.id,view);this.eventLayer.addChild(view);
+          const texture=asset?this.textures[asset(item)]:null;
+          if(asset&&!texture)throw new Error(`Missing ecology texture: ${kind}/${item.kind}`);
+          const winged=kind==="birds"||(kind==="insects"&&item.kind!=="firefly");
+          view=winged?meshFor(texture,13,17):asset?new Sprite(texture):new Graphics();
+          if(winged)view.ecologyBase=new Float32Array(view.geometry.positions);
+          else if(asset)view.anchor.set(.5);
+          view.ecologyKind=item.kind;
+          map.set(item.id,view);
+          const parent=kind==="birds"?this.birdLayer:kind==="insects"?this.insectLayer:kind==="leaves"?this.fallingLeaves:this.rainLayer;
+          parent.addChild(view);
+          if(kind==="birds"){
+            const shadowTexture=this.textures[ART[`${item.kind}Shadow`]];
+            view.ecologyShadow=new Sprite(shadowTexture);view.ecologyShadow.anchor.set(.5);
+            this.birdShadows.addChild(view.ecologyShadow);
+          }
         }
         if(kind==="rain"){
           view.clear();
-          view.circle(item.x,item.y,item.radius).stroke({color:0xcbe0cf,width:1,alpha:Math.min(.24,item.life*.25)});
+          const radius=item.radius+(item.age??0)*21;
+          const alpha=Math.min(1,(item.age??0)*8)*Math.min(1,item.life/.7)*.48;
+          view.ellipse(item.x,item.y,radius,radius*.5).stroke({color:0xe7f5e0,width:1.3,alpha});
+          view.ellipse(item.x,item.y,radius*.65,radius*.32).stroke({color:0xf3f8e9,width:.8,alpha:alpha*.55});
         }else{
-          view.position.set(item.x,item.y);
+          view.position.set(item.x,item.y-(item.altitude??0));
           view.rotation=item.rotation??item.angle??0;
-          view.zIndex=item.y;
           view.alpha=kind==="insects"&&item.kind==="firefly"
-            ? .35+.65*Math.max(0,Math.sin(this.time*2+item.phase))
-            : Math.min(1,item.life);
-          const scale=kind==="birds"?Math.min(this.world.width,this.world.height)/1200:.55;
-          view.scale.set(scale);
+            ? .25+.75*Math.max(0,Math.sin(item.phase))
+            : Math.min(1,item.life/1.5);
+          const size=kind==="birds"?(item.kind==="egret"?190:105)
+            :kind==="leaves"?34:item.kind==="dragonfly"?42:item.kind==="butterfly"?34:14;
+          const viewportScale=Math.max(.75,Math.min(1.3,this.world.height/900));
+          view.scale.set(size*viewportScale/view.texture.width);
+          if(view.ecologyBase){
+            wingVertices(view.ecologyBase,view.geometry.positions,view.texture.height,item.phase,kind==="birds"?.42:.65);
+            view.geometry.getBuffer("aPosition").update();
+          }
+          if(kind==="leaves"){
+            const parent=item.state==="floating"?this.floatingLeaves:this.fallingLeaves;
+            if(view.parent!==parent)parent.addChild(view);
+            if(item.state==="falling")view.rotation+=Math.sin(item.phase)*.22;
+            else view.scale.y*=.8;
+          }
+          if(view.ecologyShadow){
+            const shadow=view.ecologyShadow;
+            shadow.position.set(item.x+25,item.y+48);
+            shadow.rotation=view.rotation;
+            shadow.scale.set(view.scale.x*.92,view.scale.y*(.75+.12*Math.sin(item.phase)));
+            shadow.alpha=view.alpha*.2;
+          }
         }
       }
     }
@@ -340,6 +376,7 @@ export class PondScene {
   }
   renderLighting(dt) {
     const period=this.environment.timeMode==="manual"?this.environment.manualTime:getTimePeriod();
+    if(period!==this.activePeriod)this.setEnvironment(this.environment,this.weather);
     this.atmosphereParams=atmosphereFor({
       period,
       weatherKind:resolveWeatherKind(this.environment,this.weather),
@@ -352,8 +389,15 @@ export class PondScene {
     for(let i=0;i<3;i++)this.light[i]+=(target[i]-this.light[i])*mix;
     this.cloud+=(this.atmosphereParams.cloud-this.cloud)*mix;
     this.fog+=(this.atmosphereParams.fog-this.fog)*mix;
+    const airLight=this.light.map(channel=>Math.round(Math.min(1,channel*.7+.3)*255));
+    const airTint=(airLight[0]<<16)|(airLight[1]<<8)|airLight[2];
+    this.birdLayer.tint=airTint;this.fallingLeaves.tint=airTint;
+    for(const insect of this.eventViews.insects.values()){
+      insect.tint=insect.ecologyKind==="firefly"?0xffffff:airTint;
+    }
     const u=this.waterFilter.resources.pondUniforms.uniforms;
     u.uTime=this.time;u.uLight=new Float32Array(this.light);u.uCloud=this.cloud;u.uFog=this.fog;
+    u.uStrength=this.motionPreference.matches?0:this.settings.water*this.atmosphereParams.motionScale;
     const last=this.ripples.at(-1);
     u.uRipple=last?new Float32Array([last.x/this.host.clientWidth,last.y/this.host.clientHeight,this.time-last.at,1]):
       new Float32Array([0,0,4,0]);
@@ -400,23 +444,33 @@ export class PondScene {
   }
   renderAtmosphere() {
     const g=this.atmosphere;g.clear();
+    const water=this.waterEffects;water.clear();
     const w=this.host.clientWidth,h=this.host.clientHeight,b=this.world.habitat;
     const kind=resolveWeatherKind(this.environment,this.weather);
-    if(kind==="rain"||kind==="storm"){
-      for(let i=0;i<(kind==="storm"?62:36);i++){
-        const x=(i*137.31+this.time*33)%w,y=(i*79.7+this.time*285)%h;
-        g.moveTo(x,y).lineTo(x-3,y+11).stroke({color:0xdde5dc,width:.8,alpha:.16});
+    const reduced=this.motionPreference.matches;
+    const intensity=this.environment.quietMode ? .5 : 1;
+    if((kind==="rain"||kind==="storm")&&!reduced){
+      const count=Math.round((kind==="storm"?220:140)*intensity);
+      for(let i=0;i<count;i++){
+        const x=(i*137.31+this.time*(55+i%3*15))%w,y=(i*79.7+this.time*(370+i%4*30))%h;
+        g.moveTo(x,y).lineTo(x-5,y+18+i%3*4).stroke({color:0xe9f1eb,width:1.1,alpha:.42});
         const rx=b.left+((i*.618)%1)*(b.right-b.left),ry=b.top+((i*.414)%1)*(b.bottom-b.top);
         const age=(this.time*.7+i*.137)%1;
-        g.ellipse(rx,ry,age*12+1,age*5+1).stroke({color:0xcbe0cf,width:.7,alpha:(1-age)*.13});
+        water.ellipse(rx,ry,age*19+1,age*8+1).stroke({color:0xe2f0e3,width:1,alpha:(1-age)*.34});
       }
     }
-    if(kind==="snow")for(let i=0;i<28;i++){
-      const x=(i*103.1+Math.sin(this.time*.5+i)*12+w)%w,y=(i*59.7+this.time*17)%h;
-      g.circle(x,y,1+i%2*.5).fill({color:0xf0f4ed,alpha:.48});
+    if(kind==="snow"&&!reduced)for(let i=0;i<100*intensity;i++){
+      const x=(i*103.1+Math.sin(this.time*.5+i)*24+w)%w,y=(i*59.7+this.time*(20+i%4*7))%h;
+      g.circle(x,y,1.3+i%3*.65).fill({color:0xf0f4ed,alpha:.76});
     }
     const period=this.environment.timeMode==="manual"?this.environment.manualTime:getTimePeriod();
     if(period==="night"&&kind!=="rain"&&kind!=="storm"){
+      for(let i=0;i<44;i++){
+        const y=h*(.18+i*.014);
+        const x=w*.61+Math.sin(i*.64+(reduced?0:this.time*.6))*16;
+        const width=(8+Math.sin(i*2.1)*5)*(1+i/18);
+        water.ellipse(x,y,width,1.5).fill({color:0xc1deed,alpha:(1-i/50)*.1});
+      }
       for(let i=0;i<9;i++){
         const x=(i%2 ? .86:.12)*w+Math.sin(this.time*.18+i*3)*w*.065;
         const y=(.2+(i/9)*.6)*h+Math.cos(this.time*.3+i)*8;

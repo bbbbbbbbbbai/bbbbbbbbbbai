@@ -7,7 +7,7 @@ import {
   WanderBehavior,
 } from 'yuka';
 import { FISH_SPECIES } from './art.js';
-import { FISH_PROFILES, getFishProfile } from './species.js';
+import { getFishProfile } from './species.js';
 import { EcosystemController } from './ecosystem.js';
 
 const TAU = Math.PI * 2;
@@ -15,6 +15,8 @@ const FOOD_LIFETIME = 12;
 const MAX_FOOD = 128;
 const MOUSE_LIFETIME = 0.6;
 const TURN_RATE = 3.8;
+const NEIGHBOR_DEPTH = 0.18;
+const DEPTH_RATE = 0.35;
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 const wrap = (angle) => Math.atan2(Math.sin(angle), Math.cos(angle));
@@ -180,6 +182,7 @@ export class PondWorld {
       fish: this.fish.map((fish) => ({
         id: fish.id,
         profileId: fish.profileId,
+        depth: fish.depth,
         behaviorState: fish.behaviorState,
         targetFoodId: fish.targetFoodId,
       })),
@@ -240,7 +243,8 @@ export class PondWorld {
         const a = agents[i];
         const b = agents[j];
         const radius = (a.fish.length + b.fish.length) * 0.65;
-        if (a.vehicle.position.squaredDistanceTo(b.vehicle.position) < radius * radius) {
+        if (Math.abs(a.fish.depth - b.fish.depth) < NEIGHBOR_DEPTH
+          && a.vehicle.position.squaredDistanceTo(b.vehicle.position) < radius * radius) {
           a.vehicle.neighbors.push(b.vehicle);
           b.vehicle.neighbors.push(a.vehicle);
         }
@@ -270,16 +274,20 @@ export class PondWorld {
     const length = 45 + this._random() * 40;
     const angle = this._random() * TAU;
     const variant = Math.floor(this._random() * FISH_SPECIES.length);
-    const profileIndex = [0, 0, 0, 1, 2, 1, 3, 4, 0, 2][variant] ?? 0;
-    const profile = customId ? getFishProfile('custom') : getFishProfile(profileIndex);
+    const visualProfile = FISH_SPECIES[variant] ?? FISH_SPECIES[0];
+    const profile = getFishProfile(customId ? 'custom' : visualProfile.profileId);
+    const sequenceId = this._nextFishId++;
+    // Identity-derived layers do not consume the shared movement/feeding RNG.
+    const depth = .22 + ((sequenceId * .137508) % 1) * .56;
     const fish = {
-      id: `fish-${this._nextFishId++}`,
+      id: `fish-${sequenceId}`,
       x: 0,
       y: 0,
       angle: wrap(angle),
       length: length * this._scale,
       variant,
-      species: FISH_SPECIES[variant]?.name ?? '锦鲤',
+      species: visualProfile.name,
+      depth,
       profileId: profile.id,
       profile,
       behaviorState: 'cruise',
@@ -314,8 +322,6 @@ export class PondWorld {
     const seek = new SeekBehavior();
     const wander = new SeededWander(this._random);
     for (const behavior of [boundary, flee, separation, seek, wander]) vehicle.steering.add(behavior);
-    const visualProfile = FISH_SPECIES[fish.variant] ?? FISH_SPECIES[0];
-    fish.species = visualProfile.name;
     // Keep the established visual-species speed baseline; ecological speed
     // differences are applied by the behavior layer so existing feeding
     // response remains stable while profiles are introduced.
@@ -330,6 +336,8 @@ export class PondWorld {
       turnSign: this._nextFishId % 2 ? 1 : -1,
       profile,
       regroupTimer: 0,
+      cruiseDepth: depth,
+      depthPhase: (sequenceId * 2.4) % TAU,
     };
     this._agents.set(fish.id, agent);
     this.fish.push(fish);
@@ -384,7 +392,7 @@ export class PondWorld {
 
   _configure(agent) {
     const { fish, vehicle, boundary, flee, separation, seek, wander } = agent;
-    const cruise = agent.cruise * this._scale * this.speed;
+    const cruise = agent.cruise * this._scale * this.speed * agent.profile.speed;
     const panic = fish.length * 2.6;
     const distance = vehicle.position.distanceTo(this._mouse);
     const intensity = distance < panic
@@ -396,7 +404,7 @@ export class PondWorld {
     flee.weight = intensity * 5;
     vehicle.maxSpeed = cruise * (1 + intensity * 0.4);
     vehicle.maxForce = cruise * 4;
-    separation.weight = cruise * fish.length * 1.5;
+    separation.weight = cruise * fish.length * .45;
 
     let target = this.food.find((food) => food.id === agent.targetId);
     if (!target) {
@@ -475,7 +483,8 @@ export class PondWorld {
       agent.boundaryTurn = 0;
     }
     const angleRate = TURN_RATE * (.82 + agent.profile.turnRate * .18);
-    const angleChange = clamp(turn, -angleRate * dt, angleRate * dt);
+    const turnRate = boundary.active ? Math.min(TURN_RATE, angleRate) : angleRate;
+    const angleChange = clamp(turn, -turnRate * dt, turnRate * dt);
     fish.angle = wrap(fish.angle + angleChange);
     const speed = clamp(vehicle.velocity.length(), vehicle.maxSpeed * 0.4, vehicle.maxSpeed);
     vehicle.velocity.set(Math.cos(fish.angle) * speed, 0, Math.sin(fish.angle) * speed);
@@ -484,6 +493,12 @@ export class PondWorld {
     vehicle.position.set(fish.x, 0, fish.y);
     fish.swimSpeed = 2 + speed / fish.length * 4;
     fish.phase = (fish.phase + fish.swimSpeed * dt) % TAU;
+    agent.depthPhase = (agent.depthPhase + dt * .23) % TAU;
+    const depthTarget = agent.seek.active
+      ? .06
+      : agent.cruiseDepth + Math.sin(agent.depthPhase) * .07;
+    const depthChange = (depthTarget - fish.depth) * (1 - Math.exp(-dt * .7));
+    fish.depth = clamp(fish.depth + clamp(depthChange, -DEPTH_RATE * dt, DEPTH_RATE * dt), 0, 1);
   }
 
   _eat() {

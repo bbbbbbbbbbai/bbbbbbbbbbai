@@ -121,10 +121,10 @@ function copyDocument(value) {
   const count = number(value.settings.count, 8, 48, '鱼群数量');
   requireValid(Number.isInteger(count), '鱼群数量必须是整数。');
   const speed = number(value.settings.speed, 0.4, 1.6, '游动速度');
-  const water = number(value.settings.water, 0, 1, '波光强度');
+  number(value.settings.water, 0, 1, '波光强度');
   const quality = value.settings.quality;
   requireValid(quality === 'high' || quality === 'balanced' || quality === 'power-save', '质量档必须为 high、balanced 或 power-save。');
-  return { version: 1, works, draft, settings: { count, speed, water, quality } };
+  return { version: 1, works, draft, settings: { count, speed, water: 1, quality: 'high' } };
 }
 
 function checkSize(raw) {
@@ -163,7 +163,7 @@ export function createDefaultDocument() {
       head: { x: 0.82, y: 0.5 },
       tail: { x: 0.18, y: 0.5 },
     },
-    settings: { count: 24, speed: 1, water: 0.65, quality: 'high' },
+    settings: { count: 24, speed: 1, water: 1, quality: 'high' },
   };
 }
 
