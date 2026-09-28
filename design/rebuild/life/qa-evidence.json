@@ -38,8 +38,16 @@
       "confirmedRegions": ["246:42", "246:43", "246:44", "246:47", "246:52", "246:54", "246:56"],
       "evidence": ["G06-round1.png"],
       "remaining": ["restore source back/dropdown icons", "same-size second repair screenshot", "editable clone test"]
+    },
+    "G07": {
+      "screen": "223:9",
+      "reference": null,
+      "status": "partial-assembly",
+      "confirmedRegions": ["247:42", "247:45", "247:47", "247:49", "247:53", "247:56", "247:59"],
+      "evidence": ["G07-round1.png"],
+      "remaining": ["replace photo slots with isolated source assets", "restore source back/delete icons", "same-size second repair screenshot", "editable clone test"]
     }
   },
-  "remaining": ["G01", "G02", "G07", "G08", "G09", "15 interaction groups / 75 substates"],
+  "remaining": ["G01", "G02", "G08", "G09", "15 interaction groups / 75 substates"],
   "acceptedScreens": []
 }

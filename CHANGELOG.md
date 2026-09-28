@@ -79,3 +79,13 @@
   `design/rebuild/life/G06-round1.png`.
 - Back and dropdown icon artwork still needs a repair pass; G06 is not
   accepted.
+
+## 2026-09-28: G07 Completion Feeling Form
+
+- Built G07 on Figma page `223:2`, screen `223:9` with editable linked-item
+  context, multi-line feeling input, character count, three photo slots,
+  save/cancel actions, and gesture safe area.
+- Captured the first exact-size evidence at
+  `design/rebuild/life/G07-round1.png`.
+- Photo slots and header/delete icon artwork remain pending asset replacement;
+  G07 is not accepted.
