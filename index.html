@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#719b8b">
+  <title>池间 · 一方鱼塘</title>
+  <link rel="icon" type="image/png" href="/assets/sunburst/lotus.png">
+</head>
+<body>
+  <main id="pond" aria-label="互动鱼塘" data-feeds="0"></main>
+  <div id="loading" role="status"><span>池间</span><div class="loading-line"></div></div>
+  <header class="brand" aria-label="池间"><span class="brand-name">池间</span><span class="seal">自在</span></header>
+  <nav class="pond-tools" aria-label="鱼塘工具">
+    <button class="tool primary-tool" id="new-fish" aria-label="画一条鱼" data-tip="画一条鱼"><i data-lucide="paintbrush"></i></button>
+    <span class="tool-divider"></span>
+    <button class="tool" id="open-gallery" aria-label="我的小鱼" aria-controls="gallery" aria-expanded="false" data-tip="我的小鱼"><i data-lucide="fish"></i><span id="work-badge" hidden>0</span></button>
+    <button class="tool" id="open-settings" aria-label="鱼塘设置" aria-controls="settings" aria-expanded="false" data-tip="鱼塘设置"><i data-lucide="sliders-horizontal"></i></button>
+    <button class="tool" id="fullscreen" aria-label="全屏" data-tip="全屏"><i data-lucide="maximize"></i></button>
+  </nav>
+  <footer class="pond-footer"><i data-lucide="fish"></i><span id="fish-count">24 尾</span><span class="footer-rule"></span><span id="save-state">本地鱼塘</span></footer>
+  <div id="toast" role="status" hidden></div>
+
+  <aside id="gallery" class="side-panel" aria-label="我的小鱼" hidden>
+    <header class="panel-heading"><div><h2>我的小鱼</h2><span id="gallery-count">0 / 20</span></div><button class="tool" id="close-gallery" aria-label="关闭作品" data-tip="关闭"><i data-lucide="x"></i></button></header>
+    <div id="gallery-list"></div>
+    <div id="gallery-empty"><i data-lucide="fish"></i><p>还没有自己的小鱼</p><button class="quiet-button" id="gallery-new"><i data-lucide="plus"></i>画第一条鱼</button></div>
+  </aside>
+
+  <aside id="settings" class="side-panel settings" aria-label="鱼塘设置" hidden>
+    <header class="panel-heading"><h2>鱼塘设置</h2><button class="tool" id="close-settings" aria-label="关闭设置" data-tip="关闭"><i data-lucide="x"></i></button></header>
+    <label class="setting-row" for="setting-count"><span>内置鱼数量</span><output id="count-output">24</output></label>
+    <input id="setting-count" aria-label="内置鱼数量" type="range" min="8" max="48" value="24">
+    <label class="setting-row" for="setting-speed"><span>游动速度</span><output id="speed-output">1.0×</output></label>
+    <input id="setting-speed" aria-label="游动速度" type="range" min="0.4" max="1.6" step="0.1" value="1">
+    <label class="setting-row" for="setting-water"><span>波光强度</span><output id="water-output">65%</output></label>
+    <input id="setting-water" aria-label="波光强度" type="range" min="0" max="1" step=".05" value=".65">
+    <div class="setting-row"><span>画面质量</span></div>
+    <div class="segments" role="group" aria-label="画面质量"><button data-quality="balanced" aria-pressed="false">流畅</button><button data-quality="high" aria-pressed="true">精细</button></div>
+    <div class="setting-row environment-label"><span>时间氛围</span><output id="time-output">白天</output></div>
+    <div class="segments" role="group" aria-label="时间模式"><button data-time-mode="auto" aria-pressed="true">自动</button><button data-time-mode="manual" aria-pressed="false">手动</button></div>
+    <div class="segments time-periods" id="manual-time-controls" role="group" aria-label="手动时间段">
+      <button data-time-period="dawn">清晨</button><button data-time-period="day" aria-pressed="true">白天</button><button data-time-period="dusk">黄昏</button><button data-time-period="night">夜晚</button>
+    </div>
+    <div class="setting-row environment-label"><span>当地天气</span><output id="weather-status">准备定位</output></div>
+    <button class="quiet-button weather-button" id="refresh-weather"><i data-lucide="locate-fixed"></i><span>更新当地天气</span></button>
+    <label class="setting-row" for="weather-mode"><span>天气氛围</span></label>
+    <select id="weather-mode" aria-label="天气氛围">
+      <option value="local">跟随当地天气</option><option value="clear">晴天</option><option value="cloud">阴天</option><option value="rain">雨天</option><option value="fog">雾天</option><option value="snow">雪天</option><option value="storm">暴雨</option>
+    </select>
+    <label class="setting-row" for="season-mode"><span>季节氛围</span></label>
+    <select id="season-mode" aria-label="季节氛围">
+      <option value="spring">春</option><option value="summer">夏</option><option value="autumn">秋</option><option value="winter">冬</option>
+    </select>
+    <label class="setting-row quiet-setting" for="quiet-mode"><span>安静模式</span><input id="quiet-mode" type="checkbox"></label>
+    <label class="setting-row" for="quality-mode"><span>动态强度</span></label>
+    <select id="quality-mode" aria-label="动态强度">
+      <option value="high">精细</option><option value="balanced">平衡</option><option value="power-save">省电</option>
+    </select>
+    <output id="atmosphere-status" class="atmosphere-status" role="status">晴天 · 夏</output>
+    <button class="quiet-button reset-settings" id="reset-settings"><i data-lucide="rotate-ccw"></i>恢复默认</button>
+  </aside>
+
+  <dialog id="editor-dialog" aria-labelledby="editor-title">
+    <header class="editor-header"><div class="editor-heading"><span class="mini-stamp"><i data-lucide="paintbrush"></i></span><h1 id="editor-title">画一条鱼</h1></div><button class="tool" id="close-editor" aria-label="关闭画板" data-tip="关闭画板"><i data-lucide="x"></i></button></header>
+    <div class="editor-content">
+      <div class="creation-area">
+        <div class="editor-tabs" role="tablist" aria-label="画板视图">
+          <button id="tab-draw" role="tab" aria-selected="true"><i data-lucide="pencil"></i>绘制</button>
+          <button id="tab-preview" role="button" aria-label="预览游动"><i data-lucide="play"></i>预览游动</button>
+        </div>
+        <div class="canvas-wrap" id="draw-wrap">
+          <canvas id="drawing" width="960" height="540" aria-label="自由绘画画布"></canvas>
+          <button type="button" class="axis-label head-label" id="head-marker" aria-label="鱼头位置" title="鱼头位置">头</button><button type="button" class="axis-label tail-label" id="tail-marker" aria-label="鱼尾位置" title="鱼尾位置">尾</button>
+        </div>
+        <div class="preview-wrap" id="preview-wrap" hidden><canvas id="preview-canvas" width="960" height="540" aria-label="小鱼游动预览"></canvas></div>
+        <div class="canvas-bottom"><div class="direction-tools"><button id="mark-head" aria-pressed="false" class="small-button"><i data-lucide="locate-fixed"></i>鱼头</button><button id="mark-tail" aria-pressed="false" class="small-button"><i data-lucide="locate"></i>鱼尾</button></div><span id="stroke-indicator">0 笔</span><div class="undo-tools"><button class="tool" id="undo" aria-label="撤销" data-tip="撤销"><i data-lucide="undo-2"></i></button><button class="tool" id="redo" aria-label="重做" data-tip="重做"><i data-lucide="redo-2"></i></button></div></div>
+      </div>
+      <div class="editor-inspector">
+        <label class="field-label" for="fish-name">小鱼名字</label>
+        <input type="text" id="fish-name" aria-label="小鱼名字" placeholder="未命名的小鱼" maxlength="32" autocomplete="off">
+        <span class="field-label">画笔</span>
+        <div class="segments brush-modes"><button id="pen" aria-label="画笔" aria-pressed="true"><i data-lucide="pencil"></i></button><button id="eraser" aria-label="橡皮" aria-pressed="false"><i data-lucide="eraser"></i></button></div>
+        <label class="setting-row" for="brush-width"><span>粗细</span><output id="brush-output">12</output></label>
+        <input id="brush-width" aria-label="画笔粗细" type="range" min="3" max="54" value="12">
+        <span class="field-label">颜色</span>
+        <div id="palette" class="palette" role="group" aria-label="画笔颜色"></div>
+        <label class="custom-color"><span>自定义颜色</span><input id="custom-color" aria-label="自定义颜色" type="color" value="#d6503e"></label>
+        <div class="inspector-spacer"></div>
+        <button class="quiet-button" id="clear" aria-label="清空画布"><i data-lucide="trash-2"></i><span>清空画布</span></button>
+      </div>
+    </div>
+    <footer class="editor-footer"><span id="editor-status" role="status">草稿自动保存在本机</span><button class="submit-button" id="release" disabled><i data-lucide="fish"></i><span>放入鱼塘</span><i data-lucide="arrow-up-right"></i></button></footer>
+  </dialog>
+
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title"><h2 id="confirm-title">删除这条小鱼？</h2><p id="confirm-name"></p><div class="confirm-actions"><button class="quiet-button" id="cancel-delete">取消</button><button class="danger-button" id="confirm-delete">确认删除</button></div></dialog>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

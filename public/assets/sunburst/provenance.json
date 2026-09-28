@@ -1,0 +1,54 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "provider": "Quya",
+  "prompts": "output/imagegen/sunburst/topdown-prompts.json",
+  "processing": "Alpha trimming, proportional resizing, slight saturation adjustment and baked silhouette shadows. Original generated files retained.",
+  "background": "output/imagegen/pond-bed-sunburst.png",
+  "assets": [
+    {
+      "asset": "kohaku",
+      "source": "output/imagegen/sunburst/kohaku-top.png",
+      "sha256": "5583556906f7f7045e267ab1b859c2c77fdbf3479c3d455d16229d611980d445"
+    },
+    {
+      "asset": "ogon",
+      "source": "output/imagegen/sunburst/ogon-top.png",
+      "sha256": "69de9f9096cc65c008b47e7f1bc69f82dc5aa038116205ca4520270b63e3f07c"
+    },
+    {
+      "asset": "showa",
+      "source": "output/imagegen/sunburst/showa-top.png",
+      "sha256": "e6253d56579cb0227fea040b1e865782757afd9242e5cb7d6cf508ee144dfb0b"
+    },
+    {
+      "asset": "shiro",
+      "source": "output/imagegen/sunburst/shiro-top.png",
+      "sha256": "555c9ccff73f2b70ac1c2db6a47806169abfc97597b3eea8d288d9ecbcf133b9"
+    },
+    {
+      "asset": "goldfish",
+      "source": "output/imagegen/sunburst/goldfish-top.png",
+      "sha256": "f37cddfb7857403099b0ead68c33047d0eb8149887d11076fbf63129299cb309"
+    },
+    {
+      "asset": "carp",
+      "source": "output/imagegen/sunburst/carp-top.png",
+      "sha256": "c22f7f3767e200e10ec588103a81a84c10d0d7c6a46c1035cffebb97c143fc90"
+    },
+    {
+      "asset": "turtle",
+      "source": "output/imagegen/sunburst/turtle-top.png",
+      "sha256": "8f0cfc95a847f7acb7bd5c242270013cbf059abac16bac706846f2ef70a5cefd"
+    },
+    {
+      "asset": "lily",
+      "source": "output/imagegen/sunburst/lily-top.png",
+      "sha256": "20244ef84d6d5a4bd0bca230b05e82a952ec7d1d3ea7462c4becd26ecb851fd8"
+    },
+    {
+      "asset": "lotus",
+      "source": "output/imagegen/sunburst/lotus-top.png",
+      "sha256": "ea706b4657c77de4068a2e261e64c31b2f364e427ba06342cbd834a71bb3ca37"
+    }
+  ]
+}

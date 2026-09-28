@@ -1,0 +1,5 @@
+{
+  "origin": "Original procedural game artwork authored for this project; SVG shapes rasterized by Sharp.",
+  "generator": "scripts/make-assets.mjs",
+  "note": "No assets extracted from the reference screenshot; no external media dependencies."
+}

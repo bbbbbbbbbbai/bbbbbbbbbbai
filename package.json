@@ -1,0 +1,23 @@
+{
+  "name": "chijian-pond",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "assets": "node scripts/make-assets.mjs",
+    "assets:sunburst": "node scripts/prepare-sunburst.mjs",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.63.0",
+    "lucide": "^1.48.0",
+    "pixi.js": "^8.21.0",
+    "sharp": "^0.35.4",
+    "vite": "^8.3.1",
+    "yuka": "^0.7.8"
+  }
+}
