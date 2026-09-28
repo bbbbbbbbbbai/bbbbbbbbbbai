@@ -1,0 +1,682 @@
+{
+  "schemaVersion": "1.0.0",
+  "round": 2,
+  "createdAt": "2026-09-28T01:01:54.596903+08:00",
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "pageId": "70:6",
+  "scope": [
+    "70:7",
+    "70:9"
+  ],
+  "figmaMutationPerformed": false,
+  "conclusion": "Native image-size correction is persisted in screen instances and visibly improves prior enlargement. Pixel/position/typography parity is not yet accepted.",
+  "screens": [
+    {
+      "screen": "D01",
+      "nodeId": "70:7",
+      "screenshot": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D01-qa-round2.png",
+      "screenshotSHA256": "d40d8e0aab0b3d6b3bbe8d5cf691001ae323a4becd70239dadcb06ac62c74f12",
+      "comparison": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D01-qa-round2-comparison.png",
+      "size": [
+        512,
+        1024
+      ],
+      "wholeImageMAEBefore": 8.0258,
+      "wholeImageMAEAfter": 7.3413,
+      "metricsCaution": "Diagnostic only; whole-image score dominated by white-space and unrelated text/material differences."
+    },
+    {
+      "screen": "D02",
+      "nodeId": "70:9",
+      "screenshot": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D02-qa-round2.png",
+      "screenshotSHA256": "7c82536ee918e270545ac540d080f441dd92c7460b135825e0da6ebc961f58cb",
+      "comparison": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D02-qa-round2-comparison.png",
+      "size": [
+        512,
+        1024
+      ],
+      "wholeImageMAEBefore": 9.2978,
+      "wholeImageMAEAfter": 9.1079,
+      "metricsCaution": "Diagnostic only; whole-image score dominated by white-space and unrelated text/material differences."
+    }
+  ],
+  "nativeImageChecks": [
+    {
+      "screen": "D01",
+      "asset": "cat-rice",
+      "nodeId": "I70:307;70:305;92:192",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          74.5,
+          338,
+          44,
+          40
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          73,
+          338,
+          44,
+          40
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        1.5,
+        0
+      ],
+      "comparisonRoiLTRB": [
+        68,
+        331,
+        123,
+        384
+      ],
+      "roiMAEBefore": 16.6118,
+      "roiMAEAfter": 16.6118
+    },
+    {
+      "screen": "D01",
+      "asset": "cat-meat",
+      "nodeId": "I70:310;70:305;92:193",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          232.5,
+          336.5,
+          48,
+          43
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          232,
+          336,
+          48,
+          43
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        0.5,
+        0.5
+      ],
+      "comparisonRoiLTRB": [
+        225,
+        330,
+        286,
+        385
+      ],
+      "roiMAEBefore": 14.2486,
+      "roiMAEAfter": 9.8303
+    },
+    {
+      "screen": "D01",
+      "asset": "cat-fish",
+      "nodeId": "I70:313;70:305;92:194",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          389.5,
+          337.5,
+          52,
+          41
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          389,
+          338,
+          52,
+          41
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        0.5,
+        -0.5
+      ],
+      "comparisonRoiLTRB": [
+        383,
+        331,
+        447,
+        385
+      ],
+      "roiMAEBefore": 10.915,
+      "roiMAEAfter": 10.5763
+    },
+    {
+      "screen": "D01",
+      "asset": "cat-veg",
+      "nodeId": "I70:316;70:305;92:195",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          74,
+          447,
+          45,
+          44
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          73,
+          446,
+          45,
+          44
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        1,
+        1
+      ],
+      "comparisonRoiLTRB": [
+        68,
+        440,
+        124,
+        496
+      ],
+      "roiMAEBefore": 17.3305,
+      "roiMAEAfter": 17.1617
+    },
+    {
+      "screen": "D01",
+      "asset": "cat-fruit",
+      "nodeId": "I70:319;70:305;92:196",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          233,
+          445.5,
+          47,
+          47
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          231,
+          444,
+          47,
+          47
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        2,
+        1.5
+      ],
+      "comparisonRoiLTRB": [
+        225,
+        438,
+        285,
+        498
+      ],
+      "roiMAEBefore": 23.7837,
+      "roiMAEAfter": 25.7774
+    },
+    {
+      "screen": "D01",
+      "asset": "cat-milk",
+      "nodeId": "I70:322;70:305;92:197",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          393.5,
+          446,
+          44,
+          46
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          394,
+          445,
+          44,
+          46
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        -0.5,
+        1
+      ],
+      "comparisonRoiLTRB": [
+        387,
+        439,
+        444,
+        498
+      ],
+      "roiMAEBefore": 19.3561,
+      "roiMAEAfter": 19.3049
+    },
+    {
+      "screen": "D01",
+      "asset": "rice",
+      "nodeId": "I70:393;70:381;92:182",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          26,
+          610.5,
+          72,
+          62
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          27,
+          612,
+          72,
+          62
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        -1,
+        -1.5
+      ],
+      "comparisonRoiLTRB": [
+        20,
+        605,
+        105,
+        680
+      ],
+      "roiMAEBefore": 14.6456,
+      "roiMAEAfter": 14.6456
+    },
+    {
+      "screen": "D01",
+      "asset": "egg",
+      "nodeId": "I70:406;70:381;92:183",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          35.5,
+          700,
+          53,
+          58
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          35,
+          699,
+          53,
+          58
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        0.5,
+        1
+      ],
+      "comparisonRoiLTRB": [
+        20,
+        693,
+        105,
+        765
+      ],
+      "roiMAEBefore": 40.2111,
+      "roiMAEAfter": 8.2997
+    },
+    {
+      "screen": "D01",
+      "asset": "breast-icon",
+      "nodeId": "I70:419;70:381;92:184",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          26.5,
+          791.5,
+          71,
+          54
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          25,
+          791,
+          71,
+          54
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        1.5,
+        0.5
+      ],
+      "comparisonRoiLTRB": [
+        19,
+        785,
+        105,
+        852
+      ],
+      "roiMAEBefore": 40.2234,
+      "roiMAEAfter": 21.1817
+    },
+    {
+      "screen": "D01",
+      "asset": "banana",
+      "nodeId": "I70:432;70:381;92:185",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          28,
+          880,
+          68,
+          58
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          26,
+          879,
+          68,
+          58
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        2,
+        1
+      ],
+      "comparisonRoiLTRB": [
+        19,
+        873,
+        104,
+        945
+      ],
+      "roiMAEBefore": 31.0353,
+      "roiMAEAfter": 23.7903
+    },
+    {
+      "screen": "D02",
+      "asset": "leg-icon-first",
+      "nodeId": "I70:564;70:523;93:194",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          32.5,
+          482.5,
+          59,
+          55
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          32,
+          480,
+          59,
+          55
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        0.5,
+        2.5
+      ],
+      "comparisonRoiLTRB": [
+        22,
+        474,
+        103,
+        543
+      ],
+      "roiMAEBefore": 32.1157,
+      "roiMAEAfter": 19.5278
+    },
+    {
+      "screen": "D02",
+      "asset": "leg-icon-second",
+      "nodeId": "I70:578;70:523;93:194",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          32.5,
+          588.5,
+          59,
+          55
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "unknown",
+        "value": null,
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": null,
+      "comparisonRoiLTRB": [
+        22,
+        580,
+        103,
+        649
+      ],
+      "roiMAEBefore": 29.9303,
+      "roiMAEAfter": 25.2601
+    },
+    {
+      "screen": "D02",
+      "asset": "kungpao",
+      "nodeId": "I70:592;70:523;93:195",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          25.5,
+          690.5,
+          73,
+          69
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          26,
+          689,
+          73,
+          69
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        -0.5,
+        1.5
+      ],
+      "comparisonRoiLTRB": [
+        19,
+        682,
+        106,
+        767
+      ],
+      "roiMAEBefore": 11.3666,
+      "roiMAEAfter": 10.9704
+    },
+    {
+      "screen": "D02",
+      "asset": "white-chicken",
+      "nodeId": "I70:606;70:523;93:196",
+      "currentBoxXYWH": {
+        "status": "measured",
+        "value": [
+          22,
+          804,
+          80,
+          63
+        ],
+        "source": "fresh read-only Figma rectangle boundary"
+      },
+      "originalCropBoxXYWH": {
+        "status": "measured",
+        "value": [
+          23,
+          799,
+          80,
+          63
+        ],
+        "source": "assets.json first-occurrence crop; second leg occurrence not independently cropped"
+      },
+      "nativeDimensionsRestored": true,
+      "offsetXY": [
+        -1,
+        5
+      ],
+      "comparisonRoiLTRB": [
+        16,
+        792,
+        110,
+        875
+      ],
+      "roiMAEBefore": 15.5264,
+      "roiMAEAfter": 15.4979
+    }
+  ],
+  "measuredInkAndControlBounds": {
+    "D01": {
+      "breakfastGreenOriginalLTRB": [
+        26,
+        182,
+        137,
+        233
+      ],
+      "breakfastGreenCurrentLTRB": [
+        28,
+        183,
+        142,
+        234
+      ],
+      "allTabOriginalLTRB": [
+        58,
+        265,
+        95,
+        284
+      ],
+      "allTabCurrentLTRB": [
+        65,
+        261,
+        103,
+        280
+      ]
+    },
+    "D02": {
+      "breakfastGreenOriginalLTRB": [
+        26,
+        119,
+        138,
+        170
+      ],
+      "breakfastGreenCurrentLTRB": [
+        28,
+        120,
+        142,
+        171
+      ],
+      "allTabOriginalLTRB": [
+        60,
+        198,
+        96,
+        216
+      ],
+      "allTabCurrentLTRB": [
+        65,
+        196,
+        103,
+        215
+      ],
+      "firstNameOriginalLTRB": [
+        122,
+        264,
+        221,
+        282
+      ],
+      "firstNameCurrentLTRB": [
+        122,
+        264,
+        227,
+        283
+      ]
+    }
+  },
+  "topThreeRemainingVisibleDifferences": [
+    {
+      "rank": 1,
+      "status": "measured",
+      "issue": "Asset dimensions are restored but some placement offsets and half-pixel positions remain.",
+      "nodes": [
+        "I70:606;70:523;93:196",
+        "I70:564;70:523;93:194",
+        "I70:319;70:305;92:196"
+      ],
+      "examples": "White chicken remains y804 vs source799 (+5px); first leg y482.5 vs480 (+2.5px); fruit x233/y445.5 vs231/444 (+2/+1.5px).",
+      "action": "Retain corrected fixed shells; align internal native-pixel rectangles to measured source location. Prioritize white-chicken y-5 and first-leg y-2.5. Avoid changing shared master to fix one occurrence without checking other instances."
+    },
+    {
+      "rank": 2,
+      "status": "measured",
+      "issue": "Selected breakfast capsule geometry and the 全部 label alignment still differ; source meal divider strokes are not visible in current output.",
+      "nodes": [
+        "70:185",
+        "70:194",
+        "70:236",
+        "70:267",
+        "I70:245;70:196",
+        "I70:276;70:196"
+      ],
+      "action": "Use measuredInkAndControlBounds for capsule edges/tab ink alignment. Calibrate the selected pill and reintroduce source separator strokes; do not resize all slots."
+    },
+    {
+      "rank": 3,
+      "status": "measured",
+      "issue": "Typography remains a fallback: D02 result names and numeric labels have different glyph widths/weights; original green mottling/light surface variation is replaced with flat fills.",
+      "nodes": [
+        "70:521",
+        "70:379",
+        "I70:536;70:525",
+        "I70:536;70:530",
+        "70:185"
+      ],
+      "action": "Match text ink extents/baselines and weight against original. Preserve editable text; treat source texture as isolated material, not UI screenshot overlay."
+    }
+  ],
+  "acceptance": {
+    "nativeSizeFix": "PASS",
+    "sourcePositionParity": "PARTIAL",
+    "overallVisualParity": "NOT_ACCEPTED",
+    "bitmapDisclosure": "All corrected source icons remain independent bitmap rectangles inside shared component masters, not vector artwork."
+  }
+}

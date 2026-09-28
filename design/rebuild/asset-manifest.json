@@ -1,0 +1,705 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "A01-brand-photo",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          23,
+          162,
+          489,
+          309
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\A01-brand-photo.png",
+      "size": [
+        466,
+        147
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "8021e888cbdf4917147b31d2762749b01c0f27d9331a2ecfc55ad862ed08cefe",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "A01-mail",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          54,
+          481,
+          82,
+          509
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\A01-mail.png",
+      "size": [
+        28,
+        28
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "c2e7432559431428c968c23cc8082f5cec0f6e7db8d72c10a1b323eb81566cf5",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "A01-lock",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          54,
+          589,
+          82,
+          620
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\A01-lock.png",
+      "size": [
+        28,
+        31
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "c442b6cd9f8f90a587f72ce015daa2fdf42d8f62549d9d71e4f6bfa4937a5761",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "A01-eye",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          430,
+          590,
+          462,
+          620
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\A01-eye.png",
+      "size": [
+        32,
+        30
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "b53712c7cd5d40a438a5ce7c2b8d755ff2271d2468450e03423e71a2d0da5753",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-food-action",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          37,
+          408,
+          115,
+          485
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-food-action.png",
+      "size": [
+        78,
+        77
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "e0f460f450f16951c31aaa9b610a5e66401ed98792e163f75330fe6163869a8d",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-exercise-action",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          156,
+          408,
+          235,
+          485
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-exercise-action.png",
+      "size": [
+        79,
+        77
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "c30cac759fb9bef3f3f08f6fd6ec2b15808239136dd2398d2fa54ffe87160aa5",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-weight-action",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          277,
+          408,
+          355,
+          485
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-weight-action.png",
+      "size": [
+        78,
+        77
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "c5f15d8e6ad6ad1f165988099ecd597a93dbc32b7b5bd98b8c04280c419b97c2",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-mood-action",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          398,
+          408,
+          477,
+          485
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-mood-action.png",
+      "size": [
+        79,
+        77
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "49c5bba1b341afee0b54920b65e458a3d688b1711d4fa89487c33c74680ee978",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-breakfast",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          28,
+          608,
+          111,
+          682
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-breakfast.png",
+      "size": [
+        83,
+        74
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "19ba1dacb52c43f27ca751a594181aed6adef98d56f69ccf7101a51a2dd227b5",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-walk-record",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          34,
+          705,
+          106,
+          777
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-walk-record.png",
+      "size": [
+        72,
+        72
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "6b3ed8751bf50108c3f4c1840c3967b0503d4e07ccbf63b4fff79e9d4ced80b1",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-weight-record",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          34,
+          802,
+          106,
+          873
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-weight-record.png",
+      "size": [
+        72,
+        71
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "95ef37f2ee36c2db1aa9fb90c7a44182adf7fd4ed540f33635feec153dda8273",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-nav-home",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          48,
+          908,
+          87,
+          945
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-nav-home.png",
+      "size": [
+        39,
+        37
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "60fb8684439baeee440ac83caab2f038654681ff864c1255dafa9b706b0ef7b9",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-nav-records",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          176,
+          908,
+          210,
+          945
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-nav-records.png",
+      "size": [
+        34,
+        37
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "d77e10aedc264c3a7dd76c0ee8883728f32b6f86ce6b7fb88e6b63d0d2927b3e",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-nav-aspiration",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          300,
+          908,
+          341,
+          945
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-nav-aspiration.png",
+      "size": [
+        41,
+        37
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "bd07c23a0929ba127c9a53093d13149c5c08d677e5a8bbd4fbeea6c06cf41f42",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C01-nav-profile",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C01.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          430,
+          908,
+          465,
+          945
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C01-nav-profile.png",
+      "size": [
+        35,
+        37
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "f470f2e875ac5568343352d62a4951e1bdae0390ebff5c59099737759f0ae1a5",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-status",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          382,
+          12,
+          484,
+          36
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-status.png",
+      "size": [
+        102,
+        24
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "3697c1360064d6c090d8c7b40a23e6e410377d03cb4af47e4f4e4999ed0ebc2d",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-food-action",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          57,
+          480,
+          94,
+          521
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-food-action.png",
+      "size": [
+        37,
+        41
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "57cfdfeeef3bd892ad8eb0303c109ecadfc77537e3d4c0d8a5afe6a0c5f712ed",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-exercise-action",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          174,
+          480,
+          216,
+          522
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-exercise-action.png",
+      "size": [
+        42,
+        42
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "8151e622407511a4575a5c5ebb28f9a73041f4f73895c4dece6c77cc77c65916",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-weight-action",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          295,
+          480,
+          336,
+          522
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-weight-action.png",
+      "size": [
+        41,
+        42
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "44f777333c594c51de5e9aad283d6832ecddf710810bf08b6ba27545fa40d20b",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-mood-action",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          415,
+          480,
+          456,
+          522
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-mood-action.png",
+      "size": [
+        41,
+        42
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "3f0d3d15d03918265174835f20ad339ae710622807fa473703713a89b9c090d1",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-empty-notebook",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          220,
+          697,
+          290,
+          772
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-empty-notebook.png",
+      "size": [
+        70,
+        75
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "e57c91195122ce393fe60da7b1ba5983abacced43e5ff3144d805c014c274a30",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-nav-home",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          52,
+          910,
+          91,
+          947
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-nav-home.png",
+      "size": [
+        39,
+        37
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "3bfb6bc427935c6da8f9c367ca7c67f52cac63062d85d78371041ae99bb22419",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-nav-records",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          178,
+          911,
+          213,
+          947
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-nav-records.png",
+      "size": [
+        35,
+        36
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "301f914700b9b760ae5dbad85ed9a4156ee1a61dccff193957672540e3a0cc7d",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-nav-aspiration",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          300,
+          911,
+          337,
+          947
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-nav-aspiration.png",
+      "size": [
+        37,
+        36
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "e81da74f6fccd2d238154d38a8bd83ad03faab780b22efff7b4a71d7bda0d351",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    },
+    {
+      "id": "C02-nav-profile",
+      "source": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\C02.png",
+      "sourceCanvas": [
+        512,
+        1024
+      ],
+      "crop": {
+        "value": [
+          425,
+          912,
+          458,
+          947
+        ],
+        "evidence": "measured"
+      },
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\assets\\C02-nav-profile.png",
+      "size": [
+        33,
+        35
+      ],
+      "sourceType": "extracted from approved Sunburst concept image",
+      "alpha": false,
+      "sha256": "195447473346b9b4921bec7c81f3d6ab8d3d121967656ed3af76f3ddaadf98ee",
+      "containsEditableText": false,
+      "figmaComponentId": null,
+      "review": "crop requires visual inspection before binding"
+    }
+  ]
+}

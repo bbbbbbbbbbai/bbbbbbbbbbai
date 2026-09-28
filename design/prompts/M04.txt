@@ -1,0 +1,43 @@
+
+Generate the FINAL USER INTERFACE DESIGN picture in ONE image_generation call.
+Do NOT return photography assets, code, a background, or a written design instead.
+Original Chinese Android app 老白の日记. These are design concepts, not real screenshots.
+Sharp readable Simplified Chinese, consistent native sans-serif typography, near-white
+#FAFCFC, charcoal #20282B, jade #237B65, restrained blue #5C89D8 and coral #EE7867.
+Fine rules and unframed sections; no nested cards, no heavy shadows, no beige or purple
+theme, no gradient blobs, no fake device frames. Small 8px corners except circles.
+Native recognizable outline icons, realistic safe status bar and gesture inset.
+No clipped text, missing actions or overlap. No decorative photo banner on HOME or
+ACCOUNT screens. Login/registration can have a SMALL notebook still-life strip,
+at most 12 percent of screen height. Interior imagery must not hide controls.
+Photographs show actual recognizable subjects, not unrelated backgrounds.
+Bottom tabs only on top-level pages: 今日 / 记录 / 向往 / 我的. No bottom tabs
+on login or modal editors. No social, subscriptions, GPS, AI recognition or smart-scale
+features. No invented default private records. Example record values are fictional.
+Exact health enums: 心情=轻松/还行/烦躁/疲惫; 压力=1至5; 运动=跑步/骑行/健身/步行/自定义.
+Preserve every mandatory field. Do not replace existing fields with attractive but
+unimplemented tags. No real addresses, secrets, branded logos or claims of licensed
+database integration. The diagram is a visual proposal, not proof data migration works.
+Render an OPAQUE white background, never translucent glass or blurred backdrop.
+Do not print implementation instructions or paragraphs describing how the app works
+inside screens. Keep only concise useful user-facing labels and status messages.
+Exactly THREE attachments maximum wherever photos are supported. No product logos.
+No invented barcode scanner, daily-record template, premium or social feature.
+Each editor has one clear primary save action, not duplicated toolbar/bottom saves.
+
+MAIN SCREEN BOARD: ONE landscape3072x2048 image, EXACTLY THREE equal-width portrait
+screens side by side, full height, NO OUTER MARGINS OR HARDWARE. Each 1/3 column is a
+complete independent screen. Small ID at top, then real toolbar and app content.
+Render ALL THREE, not a title-only presentation. Do not draw photographs separately.
+
+LEFT: C02 今日：新账号
+MANDATORY: 无虚假个人记录和成绩；保留真实入口；区分未设置与已设置但没记录
+Brand title, four action icons. All personal records empty. No fake trend or weight. Profile incomplete state has 设置资料; system templates remain available.
+
+CENTER: D01 食物搜索入口
+MANDATORY: 搜索、餐次、分类/最近入口；自定义不抢主操作
+Attractive search-first food library. Search input, meal segment, 全部/最近/收藏/自定义. Small example category imagery only, not enormous dish tiles.
+
+RIGHT: D02 食物搜索结果
+MANDATORY: 多结果、别名、做法/品牌、来源、缺图占位、选择与翻页
+Search query 鸡肉. Six compact result rows distinguish cooked/raw chicken and mixed dishes. Only two thumbnails, other rows use icons. Per100g basis and 参考估算 on mixed dishes. No official provider badges.

@@ -1,0 +1,618 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifactType": "component-plan",
+  "evidenceSchema": "Domain fields use value/status/source; measured, inferred and unknown are distinct. Metadata is authored.",
+  "createdAt": {
+    "value": "2026-09-28T00:51:07.779421+08:00",
+    "status": "measured",
+    "source": "system clock"
+  },
+  "fileKey": {
+    "value": "ptA7IsUhV0rHsp8yRLFRVj",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "pageId": {
+    "value": "70:6",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "pageName": {
+    "value": "11 原图重建｜饮食",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "scope": {
+    "value": [
+      "D01",
+      "D02",
+      "D03"
+    ],
+    "status": "measured",
+    "source": "assigned audit"
+  },
+  "sourceOfTruth": {
+    "value": "Original screens/D01.png, D02.png, D03.png",
+    "status": "measured",
+    "source": "parent instruction"
+  },
+  "writePolicy": {
+    "value": "Read-only Figma audit; local QA artifacts only",
+    "status": "measured",
+    "source": "tool log"
+  },
+  "deliveryState": {
+    "value": "IN_PROGRESS_NOT_ACCEPTED",
+    "status": "inferred",
+    "source": "QA inference or proposed correction; original screenshot is authoritative"
+  },
+  "existingLibrary": {
+    "location": {
+      "value": "same page 70:6, below screens; positioned master grid",
+      "status": "measured",
+      "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+    },
+    "masterCount": {
+      "value": 23,
+      "status": "measured",
+      "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+    },
+    "overlap": {
+      "value": "masters have explicit distributed x/y, not all at origin",
+      "status": "measured",
+      "source": "readback positions x200..2482, y1400..1990"
+    },
+    "mustPreserve": {
+      "value": true,
+      "status": "inferred",
+      "source": "QA inference or proposed correction; original screenshot is authoritative"
+    },
+    "assetMasters": {
+      "value": [
+        "70:97",
+        "70:98",
+        "70:99",
+        "70:100",
+        "70:101",
+        "70:102",
+        "70:103",
+        "70:104",
+        "70:105",
+        "70:106",
+        "70:107",
+        "70:108",
+        "70:109",
+        "70:110",
+        "70:111",
+        "70:112",
+        "70:113",
+        "70:114"
+      ],
+      "status": "measured",
+      "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+    }
+  },
+  "plan": [
+    {
+      "name": {
+        "value": "区域 / 餐次选择",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": "70:185",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:236",
+          "70:267"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Preserve master. Measure selected capsule x/width and source separators; expose selectedMeal variant without inventing unobserved style.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "SelectedMeal:VARIANT"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 食物来源筛选",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": "70:194",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:245",
+          "70:276"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Keep master but calibrate labels; current 全部 x63.75 versus source visible left near58. Source underlines stay measured.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "SelectedTab:VARIANT"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "控件 / 食物分类",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": "70:304",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:307",
+          "70:310",
+          "70:313",
+          "70:316",
+          "70:319",
+          "70:322"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Stop forcing every raster artwork into44x40. Fixed outer slot may contain native-size centered inner asset.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "名称:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "列表项 / 常见食物",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": "70:379",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:393",
+          "70:406",
+          "70:419",
+          "70:432"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Retain row/master, fix per-asset natural image size inside stable slot; do not enlarge egg to72x62.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "食物名称:TEXT",
+          "热量:TEXT",
+          "来源:TEXT",
+          "Artwork:INSTANCE_SWAP",
+          "Add:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "列表项 / 食物搜索结果",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": "70:521",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:536",
+          "70:550",
+          "70:564",
+          "70:578",
+          "70:592",
+          "70:606"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Retain row/master. Leg icon native59x55 vs current72x70. Preserve source occurrence y positions and row separators.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "名称:TEXT",
+          "别名:TEXT",
+          "来源:TEXT",
+          "热量:TEXT",
+          "Artwork:INSTANCE_SWAP",
+          "Add:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "控件 / 添加食物",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not found in inspected current component graph"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:379",
+          "70:521"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Extract existing add circle into one explicit master used inside both row masters; source control artwork is not automatically vector truth.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "Icon:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 食物详情",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not found in inspected current component graph"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:771",
+          "70:772",
+          "70:773",
+          "70:774",
+          "70:775",
+          "70:776",
+          "70:778"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "D03 currently has only two asset instances and flat sibling UI. Assemble measured image/info region without covering existing text.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "Photo:INSTANCE_SWAP",
+          "Name:TEXT",
+          "Description:TEXT",
+          "Favorite:BOOLEAN"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 份量选择",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not found in inspected current component graph"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:781",
+          "70:782",
+          "70:783",
+          "70:784",
+          "70:785",
+          "70:786",
+          "70:787",
+          "70:788",
+          "70:789",
+          "70:792"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Build mode/stepper masters with fixed measured geometry and editable value/unit. Do not normalize original different circle locations.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "Mode:VARIANT",
+          "Value:TEXT",
+          "Unit:TEXT"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 营养换算",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not found in inspected current component graph"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:827",
+          "70:828",
+          "70:829",
+          "70:830",
+          "70:831",
+          "70:832",
+          "70:833",
+          "70:835",
+          "70:838",
+          "70:841"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Build repeated nutrient cell master; preserve source typography, units and divider positions.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "Value:TEXT",
+          "Unit:TEXT",
+          "Label:TEXT"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "列表项 / 记录属性",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not found in inspected current component graph"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:844",
+          "70:846",
+          "70:847",
+          "70:848",
+          "70:851",
+          "70:853",
+          "70:854",
+          "70:855",
+          "70:858",
+          "70:860",
+          "70:861",
+          "70:862"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Date/meal/notes structured rows, icon asset instance. Date and meal chevrons share one master.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "Label:TEXT",
+          "Value:TEXT",
+          "Icon:INSTANCE_SWAP",
+          "ShowChevron:BOOLEAN"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "控件 / 保存记录",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not found in inspected current component graph"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:863",
+          "70:864"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Combine background/label into button master and instance; source weight and mottled material differ.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "Label:TEXT"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "图标 / 导航与操作",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "existingMasterId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not found in inspected current component graph"
+      },
+      "currentInstancesOrNodes": {
+        "value": [
+          "70:229",
+          "70:233",
+          "70:259",
+          "70:262",
+          "70:265",
+          "70:621",
+          "70:623",
+          "70:764",
+          "70:767",
+          "70:776",
+          "70:778",
+          "70:848",
+          "70:855"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "action": {
+        "value": "Repeated search/back/chevrons should use masters; inspect or extract original icon pixels first. Existing recreated vector is an approximation, not original vector.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "properties": {
+        "value": [
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "writer": {
+        "value": "Single parent orchestrator only",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    }
+  ],
+  "replacementSafety": {
+    "value": "Save old node, parent, coordinates, z-order and overrides; remove only replaced own visuals. Verify one visible instance, no duplicate or opaque overlay.",
+    "status": "inferred",
+    "source": "QA inference or proposed correction; original screenshot is authoritative"
+  }
+}

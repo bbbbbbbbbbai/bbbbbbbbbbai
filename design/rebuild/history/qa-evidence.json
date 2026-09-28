@@ -1,0 +1,41 @@
+{
+  "status": "in_progress_not_final_acceptance",
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "page": "178:2",
+  "font": "Noto Sans SC fallback; source family unknown",
+  "screens": {
+    "F04": {
+      "screen": "178:3",
+      "reference": "178:118",
+      "evidence": "F04-round2.png",
+      "repair": "Rebuilt header, native nutrient values, source-art icons. Changed first/date rows to an 80px source-specific master after instance child geometry edits failed.",
+      "regions": ["182:116", "182:130", "182:138", "182:146", "182:197", "182:205", "182:213", "182:221"],
+      "remaining": ["Basis secondary text still slightly high", "Further typography and source material calibration"]
+    },
+    "F05": {
+      "screen": "178:4",
+      "reference": "178:120",
+      "evidence": "F05-round2.png",
+      "repair": "Moved detail title and compact right values down 3px; restored blue-gray label tone. Natural-size source running photo retained.",
+      "regions": ["180:1211", "180:1225", "180:1233", "180:1241", "180:1249", "180:1257", "180:1265", "180:1273", "180:1281", "180:1283", "180:1291"]
+    },
+    "F06": {
+      "screen": "178:5",
+      "reference": "178:7",
+      "evidence": "F06-round2.png",
+      "repair": "Corrected shared title baseline after source comparison.",
+      "regions": ["180:1129", "180:1143", "180:1151", "180:1159", "180:1167"]
+    },
+    "F07": {
+      "screen": "178:6",
+      "reference": "178:119",
+      "evidence": "F07-round2.png",
+      "repair": "Removed edge-connected pale matte from seven original icon crops and uploaded RGBA assets into existing component image nodes. Gray surrounding rectangles no longer visible in verified screenshot.",
+      "regions": ["184:354", "184:370", "184:389", "184:402", "184:410", "184:419"],
+      "assetEvidence": "assets/F07-clean-manifest.json",
+      "bitmapLimitation": "Original icon pixels remain raster. Enclosed pale areas and source blur remain; not claimed vectorized or pixel-identical."
+    }
+  },
+  "remaining": ["F01-F03 rebuild", "Independent text and asset swap tests", "Further documented repair cycles and source comparison"],
+  "acceptedScreens": []
+}

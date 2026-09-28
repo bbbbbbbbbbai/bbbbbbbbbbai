@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifactType": "qa-diff",
+  "evidenceSchema": "Domain fields use value/status/source; measured, inferred and unknown are distinct. Metadata is authored.",
+  "createdAt": {
+    "value": "2026-09-28T00:51:07.779421+08:00",
+    "status": "measured",
+    "source": "system clock"
+  },
+  "fileKey": {
+    "value": "ptA7IsUhV0rHsp8yRLFRVj",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "pageId": {
+    "value": "70:6",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "pageName": {
+    "value": "11 原图重建｜饮食",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "scope": {
+    "value": [
+      "D01",
+      "D02",
+      "D03"
+    ],
+    "status": "measured",
+    "source": "assigned audit"
+  },
+  "sourceOfTruth": {
+    "value": "Original screens/D01.png, D02.png, D03.png",
+    "status": "measured",
+    "source": "parent instruction"
+  },
+  "writePolicy": {
+    "value": "Read-only Figma audit; local QA artifacts only",
+    "status": "measured",
+    "source": "tool log"
+  },
+  "deliveryState": {
+    "value": "IN_PROGRESS_NOT_ACCEPTED",
+    "status": "inferred",
+    "source": "QA inference or proposed correction; original screenshot is authoritative"
+  },
+  "screens": [
+    {
+      "screen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "nodeId": {
+        "value": "70:7",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "instances": {
+        "value": 23,
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "currentScreenshot": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D01-qa-readonly.png",
+        "status": "measured",
+        "source": "fresh download_assets render"
+      },
+      "currentScreenshotSHA256": {
+        "value": "b8e3ed1dccadeb125ff74d1fc3fce47ffc7e5e176ef4afed25119351d85e98bc",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "comparison": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D01-qa-comparison.png",
+        "status": "measured",
+        "source": "generated left original/right current"
+      },
+      "wholeImageMAE": {
+        "value": 8.0258,
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "regionErrors": [
+        {
+          "name": {
+            "value": "gesture",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              177,
+              1001,
+              336,
+              1009
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:256"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 21.2055,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "list",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              599,
+              488,
+              955
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:392",
+              "70:393",
+              "70:406",
+              "70:419",
+              "70:432"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 13.2607,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "meal",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              181,
+              488,
+              236
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:236"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 12.5005,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "tabs",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              253,
+              488,
+              303
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:245"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 12.5,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "heading",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              555,
+              488,
+              599
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:325",
+              "70:882"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 10.1227,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "categories",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              321,
+              488,
+              532
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:307",
+              "70:310",
+              "70:313",
+              "70:316",
+              "70:319",
+              "70:322"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 8.3122,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "search",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              111,
+              488,
+              166
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:232",
+              "70:233",
+              "70:235"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 4.398,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "toolbar",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              24,
+              51,
+              488,
+              95
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:229",
+              "70:231"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 4.0223,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        }
+      ],
+      "acceptance": {
+        "value": "NOT_ACCEPTED",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "screen": {
+        "value": "D02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "nodeId": {
+        "value": "70:9",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "instances": {
+        "value": 15,
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "currentScreenshot": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D02-qa-readonly.png",
+        "status": "measured",
+        "source": "fresh download_assets render"
+      },
+      "currentScreenshotSHA256": {
+        "value": "7f6778999a7a58eb3017d589bcc66a59d63c1bf3d9e191d7bd53a5667ce175ae",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "comparison": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D02-qa-comparison.png",
+        "status": "measured",
+        "source": "generated left original/right current"
+      },
+      "wholeImageMAE": {
+        "value": 9.2978,
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "regionErrors": [
+        {
+          "name": {
+            "value": "gesture",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              177,
+              1001,
+              336,
+              1009
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:287"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 21.9942,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "results",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              250,
+              489,
+              890
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:535",
+              "70:536",
+              "70:550",
+              "70:564",
+              "70:578",
+              "70:592",
+              "70:606"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 13.1416,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "tabs",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              188,
+              488,
+              238
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:276"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 12.1594,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "meal",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              118,
+              488,
+              173
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:267"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 11.5677,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "pagination",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              182,
+              925,
+              331,
+              957
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:620",
+              "70:621",
+              "70:623"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 5.4773,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "search",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              27,
+              48,
+              489,
+              102
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:259",
+              "70:261",
+              "70:262",
+              "70:264",
+              "70:265"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 4.5525,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        }
+      ],
+      "acceptance": {
+        "value": "NOT_ACCEPTED",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "screen": {
+        "value": "D03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "nodeId": {
+        "value": "70:11",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "instances": {
+        "value": 2,
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "currentScreenshot": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D03-qa-readonly.png",
+        "status": "measured",
+        "source": "fresh download_assets render"
+      },
+      "currentScreenshotSHA256": {
+        "value": "8a37343ff33a0cd7a2abff1dc21cdf8f70a341d43c38c2e9b201a761af0fe67c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "comparison": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\D03-qa-comparison.png",
+        "status": "measured",
+        "source": "generated left original/right current"
+      },
+      "wholeImageMAE": {
+        "value": 8.7948,
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "regionErrors": [
+        {
+          "name": {
+            "value": "toolbar",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              23,
+              47,
+              488,
+              86
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:764",
+              "70:766",
+              "70:767"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 17.1383,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "food",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              22,
+              109,
+              489,
+              306
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:771",
+              "70:772",
+              "70:773",
+              "70:774",
+              "70:775",
+              "70:776",
+              "70:778"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 14.016,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "nutrition",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              23,
+              505,
+              489,
+              679
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:827",
+              "70:828",
+              "70:829",
+              "70:830",
+              "70:831",
+              "70:832"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 11.7377,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "save",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              23,
+              903,
+              489,
+              970
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:863",
+              "70:864"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 11.4119,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "date",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              26,
+              701,
+              489,
+              751
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:844",
+              "70:846",
+              "70:847",
+              "70:848",
+              "70:850"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 10.9157,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "portion_mode",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              23,
+              328,
+              489,
+              372
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:781",
+              "70:782",
+              "70:783",
+              "70:784"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 10.1289,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "gesture",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              184,
+              1004,
+              327,
+              1011
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:865"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 9.7779,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "portion",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              49,
+              382,
+              464,
+              486
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:785",
+              "70:786",
+              "70:787",
+              "70:788",
+              "70:789",
+              "70:792"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 9.3878,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "notes",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              26,
+              823,
+              489,
+              880
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:858",
+              "70:860",
+              "70:861",
+              "70:862"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 9.3768,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "meal",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              26,
+              764,
+              489,
+              814
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:851",
+              "70:853",
+              "70:854",
+              "70:855",
+              "70:857"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 6.911,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        }
+      ],
+      "acceptance": {
+        "value": "NOT_ACCEPTED",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "id": "FOOD-01",
+      "priority": {
+        "value": "P1",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "I70:406;70:381",
+          "70:104",
+          "70:379"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "D01 egg source crop53x58 at35,699 is shown in72x62 at26,698; visible egg is enlarged.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "Food-row image swap resizes natural-size source into common slot with FILL.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Keep outer72x62 slot if needed; set inner egg to53x58 and source-relative x35/y699. Re-export without changing row text.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "id": "FOOD-02",
+      "priority": {
+        "value": "P1",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "I70:564;70:523",
+          "I70:578;70:523",
+          "70:109",
+          "70:521"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "D02 leg-icon source59x55 is rendered72x70 in both occurrences; icon strokes and silhouette visibly enlarge.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "Common result photo slot drives the line-art instance dimensions.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Reuse70:109 twice at native59x55; first source crop32,480; measure second occurrence independently, do not apply photo FILL geometry.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "id": "FOOD-03",
+      "priority": {
+        "value": "P1",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:304",
+          "I70:310;70:305",
+          "I70:313;70:305",
+          "I70:316;70:305",
+          "I70:319;70:305",
+          "I70:322;70:305"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "Five category asset native sizes differ, but every current placement is44x40; positions also shift.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "Swap updates identity but not source-specific size/crop.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Use exact assets.json crop sizes and positions; inner natural-sized asset in stable card. Retain category master and expose INSTANCE_SWAP.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "id": "FOOD-04",
+      "priority": {
+        "value": "P1",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:11",
+          "70:781",
+          "70:786",
+          "70:827",
+          "70:863"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "D03 has only two instances, both asset components; controls and meaningful regions are flat siblings.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "D03 source reproduction stopped before region/control componentization.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Execute D03 region plans incrementally; preserve current measured geometry and text and return all replacement IDs.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "id": "FOOD-05",
+      "priority": {
+        "value": "P2",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:194",
+          "I70:245;70:196",
+          "I70:276;70:196",
+          "70:185"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "全部 labels and breakfast capsule width/center differ visibly from source; current 全部 x63.75 is right of source ink near58.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "Equal-width slot centering replaces measured source typography/spacing.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Calibrate label ink extent and capsule edges against source, not a generic four-equal-column assumption. Preserve source divider strokes.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "id": "FOOD-06",
+      "priority": {
+        "value": "P2",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:379",
+          "70:521",
+          "70:773",
+          "70:775",
+          "70:828",
+          "70:864"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "Fallback Noto Sans SC glyph widths/weights differ; D03 source-information text sits very close to info icon and save label is heavier.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "Original font is unknown; current fallback is not source typography evidence.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Record font fallback; measure text ink width and baseline per ROI, especially D03 source line/icon gap, nutrition heading and save label. Do not reflow unrelated content.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "id": "FOOD-07",
+      "priority": {
+        "value": "P2",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:185",
+          "70:782",
+          "70:789",
+          "70:792",
+          "70:863"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "Original green controls contain tonal variation; current green fills are uniform.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "Source material not recreated.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Extract or generate only button/control material, retaining text/geometry native and preserving independent source asset provenance.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "id": "FOOD-08",
+      "priority": {
+        "value": "P2",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:379",
+          "70:521",
+          "70:229",
+          "70:259",
+          "70:848",
+          "70:855"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "Repeated row add controls and navigation icons do not appear as dedicated icon/control masters in23-master readback.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "Vectors are embedded in larger structures or standalone frames.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Create shared masters for repeated interaction icons, reuse inside row masters, and retain original bitmap artwork as bitmap rather than claiming source vectors.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "id": "FOOD-09",
+      "priority": {
+        "value": "P1_behavior_P3_visual",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:773",
+          "70:774",
+          "70:833",
+          "70:847"
+        ],
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "observed": {
+        "value": "Source shows nutritional example values, health-related descriptive copy and2025年4月24日（今天）. These are screenshot examples, not current personal facts.",
+        "status": "measured",
+        "source": "same-size screenshot plus Figma readback"
+      },
+      "cause": {
+        "value": "Generated concept text and known reviewNotes.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "action": {
+        "value": "Keep traceable visual reference variant; production must use actual data and date, remove unverified nutrition/fitness assertions according to manifest.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "state": {
+        "value": "OPEN",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    }
+  ],
+  "evidenceNotes": [
+    {
+      "value": "D01/D02 qa1 exports were provided; fresh read-only exports were taken because live node70:882 adds a divider not visible in earlier D01 qa1.",
+      "status": "measured",
+      "source": "local files and live readback"
+    },
+    {
+      "value": "A screenshot difference is not proof of wrong file; file/page/node identity was explicitly verified.",
+      "status": "inferred",
+      "source": "QA inference or proposed correction; original screenshot is authoritative"
+    },
+    {
+      "value": "Whole-image MAE and per-region MAE are diagnostics, not completion scores.",
+      "status": "inferred",
+      "source": "QA inference or proposed correction; original screenshot is authoritative"
+    }
+  ],
+  "gates": {
+    "sameSize": {
+      "value": "PASS",
+      "status": "measured",
+      "source": "Pillow512x1024 source/current checks"
+    },
+    "identity": {
+      "value": "PASS",
+      "status": "measured",
+      "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+    },
+    "bitmapIconsCorrectlyClassified": {
+      "value": "PASS",
+      "status": "measured",
+      "source": "IMAGE fills, hashes and pixel source crops"
+    },
+    "masterGridNotAtOrigin": {
+      "value": "PASS",
+      "status": "measured",
+      "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+    },
+    "allRegionsComponentized": {
+      "value": "FAIL",
+      "status": "measured",
+      "source": "D03 only2 asset instances"
+    },
+    "assetNativeGeometry": {
+      "value": "FAIL",
+      "status": "measured",
+      "source": "source/current image dimensions above"
+    },
+    "fontExactness": {
+      "value": null,
+      "status": "unknown",
+      "source": "Original font unavailable"
+    },
+    "twoRepairLoops": {
+      "value": null,
+      "status": "unknown",
+      "source": "Not established by this read-only audit"
+    },
+    "disposableEditSwapTest": {
+      "value": "NOT_RUN",
+      "status": "measured",
+      "source": "QA-only scope"
+    },
+    "finalAcceptance": {
+      "value": "NOT_ACCEPTED; parent writer must fix and re-export",
+      "status": "inferred",
+      "source": "QA inference or proposed correction; original screenshot is authoritative"
+    }
+  }
+}

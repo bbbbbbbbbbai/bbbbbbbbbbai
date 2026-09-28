@@ -1,0 +1,13 @@
+{
+  "id": "S03",
+  "model": "gpt-image-2.5-sunburst",
+  "size": [
+    1536,
+    1024
+  ],
+  "elapsedSeconds": 87.2,
+  "imageCount": 1,
+  "sha256": "c46025fc14e443bdb9901bcee885e27bd6bc6789b6f2288f0e39eb5e4835cfd1",
+  "promptSha256": "692aa23da7a6041c8273f36ac0860684d2a7960587bf6ed479e9f279557a6298",
+  "status": "generated-unreviewed"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "S15",
+  "model": "gpt-image-2.5-sunburst",
+  "size": [
+    1536,
+    1024
+  ],
+  "elapsedSeconds": 219.2,
+  "imageCount": 1,
+  "sha256": "3016d23a94bd47f77ca423ab044e267bd77e7d75ddf1111533e840fb708f8f2e",
+  "promptSha256": "a85ffc0409d718abc8a0612b3daac32b9587c165d12651ced7c0888c7ad570be",
+  "status": "generated-unreviewed"
+}

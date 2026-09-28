@@ -1,0 +1,3087 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifactType": "asset-manifest",
+  "evidenceSchema": "Domain fields use value/status/source; measured, inferred and unknown are distinct. Metadata is authored.",
+  "createdAt": {
+    "value": "2026-09-28T00:51:07.779421+08:00",
+    "status": "measured",
+    "source": "system clock"
+  },
+  "fileKey": {
+    "value": "ptA7IsUhV0rHsp8yRLFRVj",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "pageId": {
+    "value": "70:6",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "pageName": {
+    "value": "11 原图重建｜饮食",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "scope": {
+    "value": [
+      "D01",
+      "D02",
+      "D03"
+    ],
+    "status": "measured",
+    "source": "assigned audit"
+  },
+  "sourceOfTruth": {
+    "value": "Original screens/D01.png, D02.png, D03.png",
+    "status": "measured",
+    "source": "parent instruction"
+  },
+  "writePolicy": {
+    "value": "Read-only Figma audit; local QA artifacts only",
+    "status": "measured",
+    "source": "tool log"
+  },
+  "deliveryState": {
+    "value": "IN_PROGRESS_NOT_ACCEPTED",
+    "status": "inferred",
+    "source": "QA inference or proposed correction; original screenshot is authoritative"
+  },
+  "mergedFrom": {
+    "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\assets.json",
+    "status": "measured",
+    "source": "input file kept unchanged"
+  },
+  "mergedFromSHA256": {
+    "value": "974a6be5f2134afadbaf80cdc5f3cbfbb323afb810e54b714190436232d666d2",
+    "status": "measured",
+    "source": "SHA256"
+  },
+  "assets": [
+    {
+      "name": {
+        "value": "cat-rice",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          73,
+          338,
+          117,
+          378
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-rice.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "254e1e580067acb38e30bdc267c55d697d123e4f7aab36261e4ac6b2c26da9bf",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          44,
+          40
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "1321112cfcf230a9723ae79ec1650350be8bbbf2",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:97",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:307;70:305",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              74.5,
+              338,
+              44,
+              40
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              73,
+              338,
+              44,
+              40
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              0
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "cat-meat",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          232,
+          336,
+          280,
+          379
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-meat.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "bdcdbabddb4dd5055b436dc038bea5e5ec3b6076e4a9b1291b81624af0e38e1f",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          48,
+          43
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "7333cfad653404839f783135732d569e6887a4f8",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:98",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:310;70:305",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              234.5,
+              338,
+              44,
+              40
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              232,
+              336,
+              48,
+              43
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              -4,
+              -3
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "cat-fish",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          389,
+          338,
+          441,
+          379
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-fish.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "cc5dc6db778aa46f541a8632c5e999dd88d8d2e2cf1294ffcacaeec7ab92c557",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          52,
+          41
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "101665fb4cc7410b630b50d082b9238d8a222f4d",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:99",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:313;70:305",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              393.5,
+              338,
+              44,
+              40
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              389,
+              338,
+              52,
+              41
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              -8,
+              -1
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "cat-veg",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          73,
+          446,
+          118,
+          490
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-veg.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "056c3dcde6d0dca8c3983ada21fc2affeb4f8c692ddc969125d66c99160ab167",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          45,
+          44
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "56a0b60de7b6a60f4a9d2c380e387db509d1ea23",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:100",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:316;70:305",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              74.5,
+              449,
+              44,
+              40
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              73,
+              446,
+              45,
+              44
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              -1,
+              -4
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "cat-fruit",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          231,
+          444,
+          278,
+          491
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-fruit.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "ffdcbff189c540703cdea552ed93d3248e10e0bf4bd78737490accb9713844a8",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          47,
+          47
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "51eec47257db5b39624f1011468d4a768d073b60",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:101",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:319;70:305",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              234.5,
+              449,
+              44,
+              40
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              231,
+              444,
+              47,
+              47
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              -3,
+              -7
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "cat-milk",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          394,
+          445,
+          438,
+          491
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-milk.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "68e68850ce946ff48f22f81b6cb2744501cec8094e5ac4548cb10688716120ad",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          44,
+          46
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "ec3edb601f2deae53267088be6ac33f577c9e389",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:102",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:322;70:305",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              393.5,
+              449,
+              44,
+              40
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              394,
+              445,
+              44,
+              46
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              -6
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "rice",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          27,
+          612,
+          99,
+          674
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\rice.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "9cea7cf051722f4ab9e382e6da283c3d6040f0a90c1297210f2022e17a3636f0",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          72,
+          62
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "adc6bde8da5e20c40eaa2a8faf4e9d1e5056e136",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:103",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:393;70:381",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              610.5,
+              72,
+              62
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              27,
+              612,
+              72,
+              62
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              0
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap food photograph",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "egg",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          35,
+          699,
+          88,
+          757
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\egg.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "fa6a1f48157387404ce3bcac3246d73dc2fb931edb03d3f6927e654a48909d69",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          53,
+          58
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "959df375f7a8d3374f0ec9e38b15e255bdc5ecb4",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:104",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:406;70:381",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              698,
+              72,
+              62
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              35,
+              699,
+              53,
+              58
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              19,
+              4
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "breast-icon",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          25,
+          791,
+          96,
+          845
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\breast-icon.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "a720afdf1b6efbd7a7e11f4ceb0648fb0d7c9ffc250fdaf901b7940fc7b26b39",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          71,
+          54
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "649d585cb6f900a09ce0a92f59b5cb77184ba894",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:105",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:419;70:381",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              787.5,
+              72,
+              62
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              25,
+              791,
+              71,
+              54
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              1,
+              8
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "banana",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          26,
+          879,
+          94,
+          937
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\banana.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "d17c8e9a5c150eb13b4f54681886b3c05906663dc6c589ac5740e53d53087bc4",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          68,
+          58
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "4fc6bc9c9b4d37cc5c7fe80fc3daf2eb0335d5b6",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:106",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:432;70:381",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              878,
+              72,
+              62
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              26,
+              879,
+              68,
+              58
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              4,
+              4
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "raw-breast",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D02",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D02.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "995435ad2ae59e535d7ab357f52953a79a086ac5f6bb1359826f160a60610556",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          26,
+          264,
+          98,
+          334
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\raw-breast.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "65c5502571d341a6cedf8d0773d7f9797c97c41ef7c056868ee2aa0a487a1919",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          72,
+          70
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "e67ef79e661f272f9c3866acb191b437b09ac24b",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:107",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D02",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:536;70:523",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              263,
+              72,
+              70
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              26,
+              264,
+              72,
+              70
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              0
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap food photograph",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "cooked-breast",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D02",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D02.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "995435ad2ae59e535d7ab357f52953a79a086ac5f6bb1359826f160a60610556",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          26,
+          369,
+          98,
+          439
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cooked-breast.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "e34d23bd6b1c4c7140f061ec132d00ee8dc272706cfc5d5de5e21eb02d5ce6ef",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          72,
+          70
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "62779d636d7877ba0444910d72279d0076943e8e",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:108",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D02",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:550;70:523",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              369,
+              72,
+              70
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              26,
+              369,
+              72,
+              70
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              0
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap food photograph",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "leg-icon",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D02",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D02.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "995435ad2ae59e535d7ab357f52953a79a086ac5f6bb1359826f160a60610556",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          32,
+          480,
+          91,
+          535
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\leg-icon.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "e4dd171793e3a1e88c11cb0d924ca653b85395c04deb1bd8b7a0f7f1daa344fa",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          59,
+          55
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "962954ded5ca9ac07fee32f2813d0bfe0f9925e1",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:109",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D02",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:564;70:523",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              475,
+              72,
+              70
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              32,
+              480,
+              59,
+              55
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              13,
+              15
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        },
+        {
+          "screen": {
+            "value": "D02",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:578;70:523",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              581,
+              72,
+              70
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              32,
+              480,
+              59,
+              55
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              13,
+              15
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "kungpao",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D02",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D02.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "995435ad2ae59e535d7ab357f52953a79a086ac5f6bb1359826f160a60610556",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          26,
+          689,
+          99,
+          758
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\kungpao.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "8cc1541ca0024f38bdb613b9496d9972f9eeef8f8f02b760ef277677e46d4674",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          73,
+          69
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "de690b52280d13490dac3d9088a621faa81a3670",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:110",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D02",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:592;70:523",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              690,
+              72,
+              70
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              26,
+              689,
+              73,
+              69
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              -1,
+              1
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap food photograph",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "white-chicken",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D02",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D02.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "995435ad2ae59e535d7ab357f52953a79a086ac5f6bb1359826f160a60610556",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          23,
+          799,
+          103,
+          862
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\white-chicken.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "126a41e3a49cf8b1686391b6914540e74a6d888e0523a616cab97273c5de2966",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          80,
+          63
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "60419dd7f8f1f6e05b6ca66a1fb7062eb5cb466d",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:111",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D02",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "I70:606;70:523",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              800.5,
+              72,
+              70
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              23,
+              799,
+              80,
+              63
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              -8,
+              7
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap food photograph",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "detail-chicken",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D03",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D03.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "c4124fe2ffe48c7a802bd1d3067991536d46f838c0d12294207d307c79c47632",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          22,
+          109,
+          204,
+          305
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\detail-chicken.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "5aaca0ed48fbcd7aa2614915a9c91db06e07b3ddcea4130b6239b88728d74e88",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          182,
+          196
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "668fd44639e9217d0af074a4d4f3ff89a3c068ee",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:112",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D03",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "70:771",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              22,
+              109,
+              182,
+              196
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              22,
+              109,
+              182,
+              196
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              0
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap food photograph",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "status-ios",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          386,
+          14,
+          487,
+          33
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\status-ios.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "34906e694fc54e32a3c41500df6e6c69ba567e247da393aca110a0436d835fa3",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          101,
+          19
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "4ad3ec4900edec158714524ad6119a8f03ac2ffa",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:113",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D01",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "70:228",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              386,
+              14,
+              101,
+              19
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              386,
+              14,
+              101,
+              19
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              0
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        },
+        {
+          "screen": {
+            "value": "D02",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "70:258",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              386,
+              14,
+              101,
+              19
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              386,
+              14,
+              101,
+              19
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              0
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "status-android",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceScreen": {
+        "value": "D03",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D03.png",
+        "status": "measured",
+        "source": "assets.json source mapping"
+      },
+      "sourceSHA256": {
+        "value": "c4124fe2ffe48c7a802bd1d3067991536d46f838c0d12294207d307c79c47632",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "cropLTRB": {
+        "value": [
+          344,
+          7,
+          414,
+          30
+        ],
+        "status": "measured",
+        "source": "existing assets.json; exclusive right/bottom"
+      },
+      "file": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\status-android.png",
+        "status": "measured",
+        "source": "assets.json"
+      },
+      "fileSHA256": {
+        "value": "775f171be727c711256055f5f7387db6545b7d3168fa0a86c9b1df68b2a47fbd",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "sizePx": {
+        "value": [
+          70,
+          23
+        ],
+        "status": "measured",
+        "source": "Pillow PNG header"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "source": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "source": "Pillow bands"
+      },
+      "exactDeclaredCrop": {
+        "value": true,
+        "status": "measured",
+        "source": "Pillow pixel comparison"
+      },
+      "imageHash": {
+        "value": "8c4149d2a3b2b2c60d56a6b90e67b91fb36e7cc3",
+        "status": "measured",
+        "source": "current Figma IMAGE fill readback; opaque Figma hash, not SHA256"
+      },
+      "masterId": {
+        "value": "70:114",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "placements": [
+        {
+          "screen": {
+            "value": "D03",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "nodeId": {
+            "value": "70:763",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              344,
+              7,
+              70,
+              23
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "declaredSourceCropBoxXYWH": {
+            "value": [
+              344,
+              7,
+              70,
+              23
+            ],
+            "status": "measured",
+            "source": "assets.json declared original crop; first occurrence only"
+          },
+          "sourceBoxScope": {
+            "value": "For repeated occurrence, declared crop is extraction source, not automatically the occurrence position",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sizeDeltaWH": {
+            "value": [
+              0,
+              0
+            ],
+            "status": "measured",
+            "source": "current instance size minus native asset size"
+          },
+          "scaleMode": {
+            "value": "FILL",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "correction": {
+            "value": "Keep the original native asset size inside a stable outer slot; swapping asset must not crop/scale every icon to the same rectangle.",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          }
+        }
+      ],
+      "representation": {
+        "value": "bitmap icon/artwork",
+        "status": "measured",
+        "source": "original PNG crop and IMAGE fill"
+      },
+      "vectorClaim": {
+        "value": false,
+        "status": "measured",
+        "source": "Not vectorized; native pixels inside a component"
+      },
+      "sourcePipeline": {
+        "value": "clean source extraction",
+        "status": "measured",
+        "source": "assets.json plus exact pixel comparison"
+      },
+      "generationModel": {
+        "value": null,
+        "status": "measured",
+        "source": "no new generation in this audit"
+      },
+      "editability": {
+        "value": "Independent replaceable asset component; internal raster strokes/pixels are not editable vectors",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "edgeRisk": {
+        "value": "Opaque source-matte pixels may remain around icon. Keep source crop or use approved clean extraction; never pretend raster icons are vector paths.",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      }
+    }
+  ]
+}

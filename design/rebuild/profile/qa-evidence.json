@@ -1,0 +1,62 @@
+{
+  "status": "in_progress_not_final_acceptance",
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "page": "161:2",
+  "font": "Noto Sans SC fallback, original font unknown",
+  "screens": {
+    "H01": {
+      "screen": "175:265",
+      "reference": "176:994",
+      "evidence": "H01-round2.png",
+      "repair": "Adjusted header and account text down 3px; moved clear-data divider to y705.",
+      "regions": ["176:1061", "176:1069", "176:1079", "176:1102", "176:1111", "176:1120", "176:1129", "176:1138", "176:1147"]
+    },
+    "H02": {
+      "screen": "174:222",
+      "reference": "174:223",
+      "evidence": "H02-round2.png",
+      "repair": "Adjusted title down 3px after same-size comparison.",
+      "regions": ["174:998", "174:1006", "174:1010", "174:1022", "174:1026", "174:1030", "174:1036"]
+    },
+    "H03": {
+      "screen": "172:158",
+      "reference": "173:196",
+      "evidence": "H03-round2.png",
+      "repair": "Calorie number too wide and unit label too far right; font size and label gap calibrated.",
+      "regions": ["173:937", "173:948", "173:956", "173:964", "173:972", "173:982", "173:987", "173:997", "173:1005"]
+    },
+    "H04": {
+      "screen": "165:125",
+      "reference": "165:126",
+      "evidence": "H04-round2.png",
+      "repair": "Removed source-absent header menu; restored three status separators; corrected hero icon baseline and footer wrap.",
+      "regions": ["171:65", "171:76", "171:84", "171:143", "171:147", "171:151", "171:155", "171:159"]
+    },
+    "H05": {
+      "screen": "161:3",
+      "reference": "162:2",
+      "evidence": ["H05-round1.png", "H05-round2.png"],
+      "repair": "Corrected section-description vertical gap and footer text width.",
+      "regions": ["162:769", "162:780", "162:783", "162:787", "162:790", "163:777", "163:793", "163:797", "163:804"],
+      "editabilityTest": {
+        "clone": "165:65",
+        "filenameEditedTo": "editable-test.json",
+        "artworkSwap": "Export icon swapped with folder icon in clone only",
+        "originalUnchanged": true,
+        "cloneRemoved": true,
+        "result": "Text and artwork properties function; crop artwork retains source matte and requires matching background for production use."
+      },
+      "structureAudit": {
+        "visibleTextNodes": 23,
+        "wholeScreenImageInsideScreen": false,
+        "imageShapes": [[81,28],[34,33],[22,34],[34,37],[36,33],[33,33],[31,33]]
+      }
+    }
+  },
+  "remaining": [
+    "Further source-font metric and material calibration",
+    "Second documented repair cycle before final acceptance",
+    "H01-H04 independent text and image swap tests"
+  ],
+  "acceptedScreens": []
+}

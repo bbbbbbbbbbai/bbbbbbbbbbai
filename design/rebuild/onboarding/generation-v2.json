@@ -1,0 +1,23 @@
+{
+  "modelRequested": "gpt-image-2",
+  "providerBaseUrl": "https://max2.jojocode.com/v1",
+  "operation": "image edit",
+  "source": "assets/migration-document.png",
+  "promptFile": "migration-art-prompt-v2.txt",
+  "output": "assets/migration-document-gpt-image-2-v2.png",
+  "requestedSize": [1024, 1024],
+  "actualSize": [1254, 1254],
+  "mode": "RGB",
+  "hasAlpha": false,
+  "sha256": "119f83df0928b209a987aa96a9af0019176f45e84a229f4de5303f3e47624b95",
+  "figma": {
+    "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+    "libraryPage": "75:2",
+    "candidateMaster": "140:415",
+    "imageNode": "140:416",
+    "imageHash": "7ee9bd32ed55dacdfc6997916e1d139996d11436"
+  },
+  "status": "generated-and-visually-inspected-candidate",
+  "acceptance": "Not a 1:1 replacement: contour differs from reference. Retained separately; original-source artwork remains on B03.",
+  "credentialsPersisted": false
+}

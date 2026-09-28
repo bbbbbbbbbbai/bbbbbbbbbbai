@@ -1,0 +1,4618 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-09-28T01:33:51.337750+08:00",
+  "scope": "Original-source analysis only; no Figma creation or mutation",
+  "coordinateSystem": "Original screen-local pixels,512x1024. Boxes XYWH; crops LTRB exclusive end.",
+  "geometryMeaning": "Text x/y/w/h are measured visible-ink bounds inside candidate ROI, not original editable text frames.",
+  "fontPolicy": {
+    "actualFamily": {
+      "value": null,
+      "status": "unknown",
+      "source": "No source font metadata supplied"
+    },
+    "candidateFamily": {
+      "value": "Noto Sans SC; calibrate original glyph metrics before acceptance",
+      "status": "inferred",
+      "source": "Candidate inferred from original raster; not original editable metadata"
+    }
+  },
+  "fieldStatusRules": {
+    "text": {
+      "measured": [
+        "text",
+        "x",
+        "y",
+        "w",
+        "h",
+        "inkMedianRGB"
+      ],
+      "inferred": [
+        "textBoxCandidate",
+        "fontSizeCandidate",
+        "fontWeightCandidate",
+        "lineHeightCandidate",
+        "letterSpacingCandidate",
+        "textAlignCandidate",
+        "colorRole"
+      ]
+    },
+    "controls": {
+      "measured": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ],
+      "inferred": [
+        "radiusCandidate",
+        "strokeCandidate",
+        "visibleState"
+      ]
+    },
+    "source": "Original PNG. Candidate font/line-height is not proven source typography. Shape edge tolerance1-2px."
+  },
+  "screens": [
+    {
+      "id": "D04",
+      "title": {
+        "value": "最近/常吃食物",
+        "status": "measured",
+        "source": "original visible title"
+      },
+      "manifestName": {
+        "value": "最近/常吃食物",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "sourceFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D04.png",
+      "sourceSHA256": "8db56338ced866ee616acca281a9198bf5cd48a178d8cb7d25a049dfd2e6f4f9",
+      "width": 512,
+      "height": 1024,
+      "dimensionStatus": "measured",
+      "background": {
+        "roiLTRB": {
+          "value": [
+            309,
+            961,
+            392,
+            985
+          ],
+          "status": "measured",
+          "source": "sampling coordinates"
+        },
+        "meanRGB": {
+          "value": [
+            247.52,
+            250.96,
+            251.33
+          ],
+          "status": "measured",
+          "source": "source ROI mean"
+        },
+        "stddevRGB": {
+          "value": [
+            0.51,
+            0.54,
+            0.53
+          ],
+          "status": "measured",
+          "source": "source ROI stddev"
+        },
+        "filteredMedianRGB": {
+          "value": [
+            248,
+            251,
+            251
+          ],
+          "status": "measured",
+          "source": "Accent filters green, primary filters dark ink, others unfiltered"
+        }
+      },
+      "colors": {
+        "background": {
+          "roiLTRB": {
+            "value": [
+              309,
+              961,
+              392,
+              985
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              247.52,
+              250.96,
+              251.33
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              0.51,
+              0.54,
+              0.53
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              248,
+              251,
+              251
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "primary_ink": {
+          "roiLTRB": {
+            "value": [
+              77,
+              57,
+              123,
+              78
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              137.17,
+              139.39,
+              142.65
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              102.22,
+              102.24,
+              100.5
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              11,
+              13,
+              19
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "accent": {
+          "roiLTRB": {
+            "value": [
+              449,
+              299,
+              478,
+              334
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              60.23,
+              138.89,
+              122.14
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              63.48,
+              38.36,
+              43.55
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              36,
+              124,
+              105
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "hint_surface": {
+          "roiLTRB": {
+            "value": [
+              30,
+              181,
+              71,
+              192
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              232.02,
+              239.7,
+              247.89
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              0.77,
+              0.59,
+              0.57
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              232,
+              240,
+              248
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        }
+      },
+      "text": [
+        {
+          "id": "code",
+          "text": "D04",
+          "x": 18,
+          "y": 12,
+          "w": 32,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            121,
+            127,
+            138
+          ],
+          "textBoxCandidate": [
+            17,
+            5,
+            51,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "time",
+          "text": "9:41",
+          "x": 73,
+          "y": 12,
+          "w": 32,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            110,
+            119,
+            133
+          ],
+          "textBoxCandidate": [
+            72,
+            5,
+            65,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "battery",
+          "text": "100%",
+          "x": 424,
+          "y": 12,
+          "w": 43,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            116,
+            124,
+            134
+          ],
+          "textBoxCandidate": [
+            422,
+            5,
+            72,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "title",
+          "text": "最近/常吃食物",
+          "x": 77,
+          "y": 53,
+          "w": 167,
+          "h": 28,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            30,
+            35,
+            41
+          ],
+          "textBoxCandidate": [
+            76,
+            45,
+            319,
+            39
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "tab-recent",
+          "text": "最近使用",
+          "x": 94,
+          "y": 120,
+          "w": 76,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            68,
+            141,
+            126
+          ],
+          "textBoxCandidate": [
+            25,
+            113,
+            219,
+            34
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "tab-common",
+          "text": "常吃食物",
+          "x": 335,
+          "y": 122,
+          "w": 78,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            108,
+            122
+          ],
+          "textBoxCandidate": [
+            244,
+            113,
+            244,
+            34
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "hint-1",
+          "text": "这是你最近使用过的食物列表，",
+          "x": 89,
+          "y": 192,
+          "w": 234,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            116,
+            131,
+            152
+          ],
+          "textBoxCandidate": [
+            88,
+            187,
+            396,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "hint-2",
+          "text": "方便快速再次选择。不是已保存的每日饮食记录。",
+          "x": 89,
+          "y": 218,
+          "w": 376,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            110,
+            127,
+            149
+          ],
+          "textBoxCandidate": [
+            88,
+            212,
+            396,
+            31
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-title",
+          "text": "鸡胸肉（熟）",
+          "x": 130,
+          "y": 280,
+          "w": 114,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            34,
+            38,
+            48
+          ],
+          "textBoxCandidate": [
+            130,
+            275,
+            289,
+            35
+          ],
+          "fontSizeCandidate": 22,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 30.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-date",
+          "text": "上次：2025年4月24日",
+          "x": 131,
+          "y": 314,
+          "w": 180,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            115,
+            124,
+            137
+          ],
+          "textBoxCandidate": [
+            130,
+            309,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-serving",
+          "text": "100克 · 165千卡",
+          "x": 131,
+          "y": 340,
+          "w": 135,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            120,
+            128,
+            141
+          ],
+          "textBoxCandidate": [
+            130,
+            337,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "banana-title",
+          "text": "香蕉",
+          "x": 131,
+          "y": 394,
+          "w": 39,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            38,
+            39,
+            46
+          ],
+          "textBoxCandidate": [
+            130,
+            390,
+            289,
+            35
+          ],
+          "fontSizeCandidate": 22,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 30.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "banana-date",
+          "text": "上次：2025年4月23日",
+          "x": 130,
+          "y": 427,
+          "w": 180,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            117,
+            126,
+            138
+          ],
+          "textBoxCandidate": [
+            130,
+            424,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "banana-serving",
+          "text": "1根（120克） · 105千卡",
+          "x": 131,
+          "y": 454,
+          "w": 192,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            120,
+            128,
+            140
+          ],
+          "textBoxCandidate": [
+            130,
+            451,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-title",
+          "text": "西兰花（熟）",
+          "x": 131,
+          "y": 509,
+          "w": 113,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            30,
+            34,
+            43
+          ],
+          "textBoxCandidate": [
+            130,
+            504,
+            289,
+            35
+          ],
+          "fontSizeCandidate": 22,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 30.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-date",
+          "text": "上次：2025年4月22日",
+          "x": 130,
+          "y": 542,
+          "w": 181,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            120,
+            129,
+            141
+          ],
+          "textBoxCandidate": [
+            130,
+            537,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-serving",
+          "text": "100克 · 35千卡",
+          "x": 131,
+          "y": 569,
+          "w": 129,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            121,
+            128,
+            141
+          ],
+          "textBoxCandidate": [
+            130,
+            565,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-title",
+          "text": "鸡蛋（煮）",
+          "x": 130,
+          "y": 623,
+          "w": 91,
+          "h": 22,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            27,
+            31,
+            38
+          ],
+          "textBoxCandidate": [
+            130,
+            620,
+            289,
+            35
+          ],
+          "fontSizeCandidate": 22,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 30.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-date",
+          "text": "上次：2025年4月21日",
+          "x": 130,
+          "y": 657,
+          "w": 180,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            114,
+            122,
+            135
+          ],
+          "textBoxCandidate": [
+            130,
+            653,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-serving",
+          "text": "1个（50克） · 78千卡",
+          "x": 131,
+          "y": 684,
+          "w": 173,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            109,
+            118,
+            131
+          ],
+          "textBoxCandidate": [
+            130,
+            680,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "brown-rice-title",
+          "text": "糙米饭（熟）",
+          "x": 130,
+          "y": 742,
+          "w": 114,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            37,
+            41,
+            48
+          ],
+          "textBoxCandidate": [
+            130,
+            736,
+            289,
+            35
+          ],
+          "fontSizeCandidate": 22,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 30.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "brown-rice-date",
+          "text": "上次：2025年4月20日",
+          "x": 131,
+          "y": 775,
+          "w": 180,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            117,
+            126,
+            139
+          ],
+          "textBoxCandidate": [
+            130,
+            770,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "brown-rice-serving",
+          "text": "100克 · 116千卡",
+          "x": 131,
+          "y": 802,
+          "w": 135,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            124,
+            131,
+            143
+          ],
+          "textBoxCandidate": [
+            130,
+            798,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-title",
+          "text": "苹果",
+          "x": 131,
+          "y": 856,
+          "w": 39,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            18,
+            24,
+            35
+          ],
+          "textBoxCandidate": [
+            130,
+            852,
+            289,
+            35
+          ],
+          "fontSizeCandidate": 22,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 30.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-date",
+          "text": "上次：2025年4月19日",
+          "x": 130,
+          "y": 890,
+          "w": 179,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            112,
+            120,
+            132
+          ],
+          "textBoxCandidate": [
+            130,
+            887,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-serving",
+          "text": "1个（200克） · 104千卡",
+          "x": 131,
+          "y": 917,
+          "w": 191,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            113,
+            121,
+            134
+          ],
+          "textBoxCandidate": [
+            130,
+            914,
+            289,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        }
+      ],
+      "controls": [
+        {
+          "id": "tabs-divider",
+          "type": "line",
+          "x": 24,
+          "y": 157,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "recent-underline",
+          "type": "rect",
+          "x": 24,
+          "y": 155,
+          "w": 220,
+          "h": 3,
+          "geometryStatus": "measured",
+          "radiusCandidate": 1,
+          "strokeCandidate": 0,
+          "visibleState": "selected"
+        },
+        {
+          "id": "hint",
+          "type": "rect",
+          "x": 20,
+          "y": 176,
+          "w": 472,
+          "h": 77,
+          "geometryStatus": "measured",
+          "radiusCandidate": 12,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "gesture",
+          "type": "rect",
+          "x": 184,
+          "y": 1005,
+          "w": 142,
+          "h": 5,
+          "geometryStatus": "measured",
+          "radiusCandidate": 3,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-photo",
+          "type": "rect",
+          "x": 24,
+          "y": 273,
+          "w": 89,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 10,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-add",
+          "type": "ellipse",
+          "x": 440,
+          "y": 294,
+          "w": 46,
+          "h": 46,
+          "geometryStatus": "measured",
+          "radiusCandidate": 23,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-divider",
+          "type": "line",
+          "x": 24,
+          "y": 376,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "banana-photo",
+          "type": "rect",
+          "x": 24,
+          "y": 388,
+          "w": 89,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 10,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "banana-add",
+          "type": "ellipse",
+          "x": 440,
+          "y": 408,
+          "w": 46,
+          "h": 46,
+          "geometryStatus": "measured",
+          "radiusCandidate": 23,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "banana-divider",
+          "type": "line",
+          "x": 24,
+          "y": 489,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-photo",
+          "type": "rect",
+          "x": 24,
+          "y": 503,
+          "w": 89,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 10,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-add",
+          "type": "ellipse",
+          "x": 440,
+          "y": 523,
+          "w": 46,
+          "h": 46,
+          "geometryStatus": "measured",
+          "radiusCandidate": 23,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-divider",
+          "type": "line",
+          "x": 24,
+          "y": 604,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-photo",
+          "type": "rect",
+          "x": 24,
+          "y": 618,
+          "w": 89,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 10,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-add",
+          "type": "ellipse",
+          "x": 440,
+          "y": 638,
+          "w": 46,
+          "h": 46,
+          "geometryStatus": "measured",
+          "radiusCandidate": 23,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-divider",
+          "type": "line",
+          "x": 24,
+          "y": 721,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "brown-rice-photo",
+          "type": "rect",
+          "x": 24,
+          "y": 735,
+          "w": 89,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 10,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "brown-rice-add",
+          "type": "ellipse",
+          "x": 440,
+          "y": 756,
+          "w": 46,
+          "h": 46,
+          "geometryStatus": "measured",
+          "radiusCandidate": 23,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "brown-rice-divider",
+          "type": "line",
+          "x": 24,
+          "y": 838,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-photo",
+          "type": "rect",
+          "x": 24,
+          "y": 850,
+          "w": 89,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 10,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-add",
+          "type": "ellipse",
+          "x": 440,
+          "y": 872,
+          "w": 46,
+          "h": 46,
+          "geometryStatus": "measured",
+          "radiusCandidate": 23,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-divider",
+          "type": "line",
+          "x": 24,
+          "y": 953,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        }
+      ],
+      "assets": [
+        "status-library",
+        "back-library",
+        "search-library",
+        "more-library",
+        "recent-hint-clock",
+        "add-recent",
+        "recent-chicken",
+        "recent-banana",
+        "recent-broccoli",
+        "recent-egg",
+        "recent-brown-rice",
+        "recent-apple"
+      ],
+      "reviewNotes": {
+        "value": [],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "dataBoundary": {
+        "value": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "trueDeviceSafeInset": {
+        "value": null,
+        "status": "unknown",
+        "source": "Concept image, no device/density metadata"
+      },
+      "pageIdentity": {
+        "value": "最近/常吃食物；这是食物快捷选择列表，不是已保存饮食历史",
+        "status": "measured",
+        "source": "original D04 and manifest"
+      },
+      "tabs": {
+        "value": {
+          "labels": [
+            "最近使用",
+            "常吃食物"
+          ],
+          "selected": "最近使用"
+        },
+        "status": "measured",
+        "source": "source"
+      },
+      "rows": {
+        "value": [
+          {
+            "asset": "recent-chicken",
+            "title": "鸡胸肉（熟）",
+            "date": "2025年4月24日",
+            "serving": "100克 · 165千卡",
+            "imageXYWH": [
+              24,
+              273,
+              89,
+              89
+            ],
+            "textX": 130,
+            "addXYWH": [
+              440,
+              294,
+              46,
+              46
+            ]
+          },
+          {
+            "asset": "recent-banana",
+            "title": "香蕉",
+            "date": "2025年4月23日",
+            "serving": "1根（120克） · 105千卡",
+            "imageXYWH": [
+              24,
+              388,
+              89,
+              89
+            ],
+            "textX": 130,
+            "addXYWH": [
+              440,
+              408,
+              46,
+              46
+            ]
+          },
+          {
+            "asset": "recent-broccoli",
+            "title": "西兰花（熟）",
+            "date": "2025年4月22日",
+            "serving": "100克 · 35千卡",
+            "imageXYWH": [
+              24,
+              503,
+              89,
+              89
+            ],
+            "textX": 130,
+            "addXYWH": [
+              440,
+              523,
+              46,
+              46
+            ]
+          },
+          {
+            "asset": "recent-egg",
+            "title": "鸡蛋（煮）",
+            "date": "2025年4月21日",
+            "serving": "1个（50克） · 78千卡",
+            "imageXYWH": [
+              24,
+              618,
+              89,
+              89
+            ],
+            "textX": 130,
+            "addXYWH": [
+              440,
+              638,
+              46,
+              46
+            ]
+          },
+          {
+            "asset": "recent-brown-rice",
+            "title": "糙米饭（熟）",
+            "date": "2025年4月20日",
+            "serving": "100克 · 116千卡",
+            "imageXYWH": [
+              24,
+              735,
+              89,
+              89
+            ],
+            "textX": 130,
+            "addXYWH": [
+              440,
+              756,
+              46,
+              46
+            ]
+          },
+          {
+            "asset": "recent-apple",
+            "title": "苹果",
+            "date": "2025年4月19日",
+            "serving": "1个（200克） · 104千卡",
+            "imageXYWH": [
+              24,
+              850,
+              89,
+              89
+            ],
+            "textX": 130,
+            "addXYWH": [
+              440,
+              872,
+              46,
+              46
+            ]
+          }
+        ],
+        "status": "measured",
+        "source": "Original source PNG; visible-edge native-pixel measurement, tolerance1-2px"
+      }
+    },
+    {
+      "id": "D05",
+      "title": {
+        "value": "收藏食物",
+        "status": "measured",
+        "source": "original visible title"
+      },
+      "manifestName": {
+        "value": "收藏食物",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "sourceFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D05.png",
+      "sourceSHA256": "9bdb85cbe336c558817201edbe9fea45ab304b00b51f52bdfaf59501ffc66ba9",
+      "width": 512,
+      "height": 1024,
+      "dimensionStatus": "measured",
+      "background": {
+        "roiLTRB": {
+          "value": [
+            320,
+            985,
+            380,
+            997
+          ],
+          "status": "measured",
+          "source": "sampling coordinates"
+        },
+        "meanRGB": {
+          "value": [
+            247.61,
+            251.2,
+            251.55
+          ],
+          "status": "measured",
+          "source": "source ROI mean"
+        },
+        "stddevRGB": {
+          "value": [
+            0.51,
+            0.54,
+            0.52
+          ],
+          "status": "measured",
+          "source": "source ROI stddev"
+        },
+        "filteredMedianRGB": {
+          "value": [
+            248,
+            251,
+            252
+          ],
+          "status": "measured",
+          "source": "Accent filters green, primary filters dark ink, others unfiltered"
+        }
+      },
+      "colors": {
+        "background": {
+          "roiLTRB": {
+            "value": [
+              320,
+              985,
+              380,
+              997
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              247.61,
+              251.2,
+              251.55
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              0.51,
+              0.54,
+              0.52
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              248,
+              251,
+              252
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "primary_ink": {
+          "roiLTRB": {
+            "value": [
+              78,
+              56,
+              121,
+              78
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              129.93,
+              132.71,
+              136.64
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              102.01,
+              101.87,
+              99.85
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              16,
+              21,
+              29
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "accent": {
+          "roiLTRB": {
+            "value": [
+              456,
+              211,
+              483,
+              232
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              132.11,
+              181.22,
+              171.66
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              101.83,
+              61.67,
+              70.0
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              38,
+              125,
+              107
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "hint_surface": {
+          "roiLTRB": {
+            "value": [
+              30,
+              112,
+              77,
+              124
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              228.97,
+              241.28,
+              237.95
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              0.63,
+              0.58,
+              0.6
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              229,
+              241,
+              238
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        }
+      },
+      "text": [
+        {
+          "id": "code",
+          "text": "D05",
+          "x": 19,
+          "y": 12,
+          "w": 30,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            123,
+            130,
+            142
+          ],
+          "textBoxCandidate": [
+            17,
+            5,
+            51,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "time",
+          "text": "9:41",
+          "x": 73,
+          "y": 12,
+          "w": 33,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            123,
+            131,
+            145
+          ],
+          "textBoxCandidate": [
+            72,
+            5,
+            65,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "battery",
+          "text": "100%",
+          "x": 424,
+          "y": 12,
+          "w": 43,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            112,
+            118,
+            132
+          ],
+          "textBoxCandidate": [
+            422,
+            5,
+            72,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "title",
+          "text": "收藏食物",
+          "x": 77,
+          "y": 53,
+          "w": 103,
+          "h": 26,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            26,
+            31,
+            39
+          ],
+          "textBoxCandidate": [
+            76,
+            45,
+            319,
+            39
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "hint-1",
+          "text": "收藏的食物是你手动添加的，方便快速选择，",
+          "x": 92,
+          "y": 123,
+          "w": 340,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            112,
+            132,
+            138
+          ],
+          "textBoxCandidate": [
+            90,
+            118,
+            390,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "hint-2",
+          "text": "不会自动添加。你可以随时取消收藏。",
+          "x": 92,
+          "y": 149,
+          "w": 288,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            115,
+            137,
+            142
+          ],
+          "textBoxCandidate": [
+            90,
+            144,
+            390,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-title",
+          "text": "鸡胸肉（熟）",
+          "x": 112,
+          "y": 205,
+          "w": 109,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            48,
+            49,
+            56
+          ],
+          "textBoxCandidate": [
+            111,
+            201,
+            335,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-serving",
+          "text": "100克 · 165千卡",
+          "x": 112,
+          "y": 236,
+          "w": 133,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            114,
+            123,
+            136
+          ],
+          "textBoxCandidate": [
+            111,
+            233,
+            335,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-portion-label",
+          "text": "选择份量",
+          "x": 302,
+          "y": 267,
+          "w": 64,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            112,
+            119,
+            132
+          ],
+          "textBoxCandidate": [
+            301,
+            265,
+            178,
+            26
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-view",
+          "text": "查看",
+          "x": 82,
+          "y": 297,
+          "w": 31,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            99,
+            107,
+            119
+          ],
+          "textBoxCandidate": [
+            81,
+            291,
+            52,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-unfavorite",
+          "text": "取消收藏",
+          "x": 199,
+          "y": 297,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            237,
+            122,
+            100
+          ],
+          "textBoxCandidate": [
+            198,
+            291,
+            82,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-quantity",
+          "text": "100",
+          "x": 368,
+          "y": 303,
+          "w": 28,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            32,
+            35,
+            40
+          ],
+          "textBoxCandidate": [
+            347,
+            294,
+            68,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "chicken-unit",
+          "text": "克",
+          "x": 425,
+          "y": 302,
+          "w": 15,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            105,
+            114,
+            128
+          ],
+          "textBoxCandidate": [
+            425,
+            295,
+            25,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "salmon-title",
+          "text": "三文鱼（熟）",
+          "x": 112,
+          "y": 364,
+          "w": 109,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            37,
+            40,
+            50
+          ],
+          "textBoxCandidate": [
+            111,
+            361,
+            335,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "salmon-serving",
+          "text": "100克 · 208千卡",
+          "x": 112,
+          "y": 395,
+          "w": 133,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            107,
+            117,
+            131
+          ],
+          "textBoxCandidate": [
+            111,
+            393,
+            335,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "salmon-portion-label",
+          "text": "选择份量",
+          "x": 302,
+          "y": 425,
+          "w": 64,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            116,
+            124,
+            136
+          ],
+          "textBoxCandidate": [
+            301,
+            424,
+            178,
+            26
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "salmon-view",
+          "text": "查看",
+          "x": 82,
+          "y": 456,
+          "w": 31,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            88,
+            96,
+            106
+          ],
+          "textBoxCandidate": [
+            81,
+            450,
+            52,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "salmon-unfavorite",
+          "text": "取消收藏",
+          "x": 199,
+          "y": 456,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            237,
+            120,
+            99
+          ],
+          "textBoxCandidate": [
+            198,
+            450,
+            82,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "salmon-quantity",
+          "text": "100",
+          "x": 368,
+          "y": 461,
+          "w": 28,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            27,
+            31,
+            39
+          ],
+          "textBoxCandidate": [
+            347,
+            453,
+            68,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "salmon-unit",
+          "text": "克",
+          "x": 426,
+          "y": 460,
+          "w": 14,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            109,
+            117,
+            130
+          ],
+          "textBoxCandidate": [
+            425,
+            454,
+            25,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-title",
+          "text": "鸡蛋（煮）",
+          "x": 112,
+          "y": 523,
+          "w": 89,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            41,
+            44,
+            50
+          ],
+          "textBoxCandidate": [
+            111,
+            520,
+            335,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-serving",
+          "text": "1个（50克） · 78千卡",
+          "x": 112,
+          "y": 554,
+          "w": 168,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            116,
+            123,
+            136
+          ],
+          "textBoxCandidate": [
+            111,
+            552,
+            335,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-portion-label",
+          "text": "选择份量",
+          "x": 302,
+          "y": 584,
+          "w": 64,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            114,
+            123,
+            134
+          ],
+          "textBoxCandidate": [
+            301,
+            583,
+            178,
+            26
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-view",
+          "text": "查看",
+          "x": 82,
+          "y": 615,
+          "w": 31,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            86,
+            94,
+            104
+          ],
+          "textBoxCandidate": [
+            81,
+            609,
+            52,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-unfavorite",
+          "text": "取消收藏",
+          "x": 199,
+          "y": 615,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            238,
+            125,
+            100
+          ],
+          "textBoxCandidate": [
+            198,
+            609,
+            82,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-quantity",
+          "text": "1",
+          "x": 377,
+          "y": 620,
+          "w": 6,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            51,
+            53,
+            57
+          ],
+          "textBoxCandidate": [
+            347,
+            612,
+            68,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "egg-unit",
+          "text": "个",
+          "x": 425,
+          "y": 619,
+          "w": 15,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            115,
+            123,
+            139
+          ],
+          "textBoxCandidate": [
+            425,
+            613,
+            25,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-title",
+          "text": "西兰花（熟）",
+          "x": 112,
+          "y": 681,
+          "w": 110,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            50,
+            52,
+            58
+          ],
+          "textBoxCandidate": [
+            111,
+            679,
+            335,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-serving",
+          "text": "100克 · 35千卡",
+          "x": 112,
+          "y": 713,
+          "w": 124,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            111,
+            121,
+            134
+          ],
+          "textBoxCandidate": [
+            111,
+            710,
+            335,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-portion-label",
+          "text": "选择份量",
+          "x": 302,
+          "y": 743,
+          "w": 64,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            122,
+            131,
+            142
+          ],
+          "textBoxCandidate": [
+            301,
+            742,
+            178,
+            26
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-view",
+          "text": "查看",
+          "x": 82,
+          "y": 774,
+          "w": 31,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            93,
+            103,
+            111
+          ],
+          "textBoxCandidate": [
+            81,
+            768,
+            52,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-unfavorite",
+          "text": "取消收藏",
+          "x": 199,
+          "y": 774,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            237,
+            120,
+            94
+          ],
+          "textBoxCandidate": [
+            198,
+            768,
+            82,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-quantity",
+          "text": "100",
+          "x": 368,
+          "y": 779,
+          "w": 28,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            30,
+            31,
+            37
+          ],
+          "textBoxCandidate": [
+            347,
+            771,
+            68,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "broccoli-unit",
+          "text": "克",
+          "x": 425,
+          "y": 778,
+          "w": 15,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            89,
+            100,
+            113
+          ],
+          "textBoxCandidate": [
+            425,
+            772,
+            25,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-title",
+          "text": "苹果",
+          "x": 112,
+          "y": 842,
+          "w": 39,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            35,
+            40,
+            47
+          ],
+          "textBoxCandidate": [
+            111,
+            839,
+            335,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-serving",
+          "text": "1个（200克） · 104千卡",
+          "x": 113,
+          "y": 873,
+          "w": 184,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            115,
+            124,
+            137
+          ],
+          "textBoxCandidate": [
+            111,
+            870,
+            335,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-portion-label",
+          "text": "选择份量",
+          "x": 302,
+          "y": 904,
+          "w": 64,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            117,
+            126,
+            137
+          ],
+          "textBoxCandidate": [
+            301,
+            902,
+            178,
+            26
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-view",
+          "text": "查看",
+          "x": 82,
+          "y": 935,
+          "w": 31,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            92,
+            99,
+            107
+          ],
+          "textBoxCandidate": [
+            81,
+            928,
+            52,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-unfavorite",
+          "text": "取消收藏",
+          "x": 199,
+          "y": 935,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            237,
+            125,
+            100
+          ],
+          "textBoxCandidate": [
+            198,
+            928,
+            82,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-quantity",
+          "text": "1",
+          "x": 377,
+          "y": 939,
+          "w": 5,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            67,
+            67,
+            75
+          ],
+          "textBoxCandidate": [
+            347,
+            931,
+            68,
+            31
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "apple-unit",
+          "text": "个",
+          "x": 425,
+          "y": 938,
+          "w": 15,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            107,
+            120
+          ],
+          "textBoxCandidate": [
+            425,
+            932,
+            25,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        }
+      ],
+      "controls": [
+        {
+          "id": "hint",
+          "type": "rect",
+          "x": 20,
+          "y": 107,
+          "w": 472,
+          "h": 78,
+          "geometryStatus": "measured",
+          "radiusCandidate": 12,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "gesture",
+          "type": "rect",
+          "x": 185,
+          "y": 1005,
+          "w": 141,
+          "h": 5,
+          "geometryStatus": "measured",
+          "radiusCandidate": 3,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-photo",
+          "type": "rect",
+          "x": 23,
+          "y": 201,
+          "w": 72,
+          "h": 71,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-view",
+          "type": "rect",
+          "x": 23,
+          "y": 282,
+          "w": 114,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-unfavorite",
+          "type": "rect",
+          "x": 148,
+          "y": 282,
+          "w": 135,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-minus",
+          "type": "ellipse",
+          "x": 301,
+          "y": 293,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-quantity",
+          "type": "rect",
+          "x": 347,
+          "y": 290,
+          "w": 68,
+          "h": 39,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "chicken-plus",
+          "type": "ellipse",
+          "x": 455,
+          "y": 293,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "chicken-divider",
+          "type": "line",
+          "x": 24,
+          "y": 344,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "salmon-photo",
+          "type": "rect",
+          "x": 23,
+          "y": 359,
+          "w": 72,
+          "h": 71,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "salmon-view",
+          "type": "rect",
+          "x": 23,
+          "y": 441,
+          "w": 114,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "salmon-unfavorite",
+          "type": "rect",
+          "x": 148,
+          "y": 441,
+          "w": 135,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "salmon-minus",
+          "type": "ellipse",
+          "x": 301,
+          "y": 452,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "salmon-quantity",
+          "type": "rect",
+          "x": 347,
+          "y": 449,
+          "w": 68,
+          "h": 39,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "salmon-plus",
+          "type": "ellipse",
+          "x": 455,
+          "y": 452,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "salmon-divider",
+          "type": "line",
+          "x": 24,
+          "y": 503,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-photo",
+          "type": "rect",
+          "x": 23,
+          "y": 518,
+          "w": 72,
+          "h": 71,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-view",
+          "type": "rect",
+          "x": 23,
+          "y": 600,
+          "w": 114,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-unfavorite",
+          "type": "rect",
+          "x": 148,
+          "y": 600,
+          "w": 135,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-minus",
+          "type": "ellipse",
+          "x": 301,
+          "y": 611,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-quantity",
+          "type": "rect",
+          "x": 347,
+          "y": 608,
+          "w": 68,
+          "h": 39,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "egg-plus",
+          "type": "ellipse",
+          "x": 455,
+          "y": 611,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "egg-divider",
+          "type": "line",
+          "x": 24,
+          "y": 662,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-photo",
+          "type": "rect",
+          "x": 23,
+          "y": 677,
+          "w": 72,
+          "h": 71,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-view",
+          "type": "rect",
+          "x": 23,
+          "y": 759,
+          "w": 114,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-unfavorite",
+          "type": "rect",
+          "x": 148,
+          "y": 759,
+          "w": 135,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-minus",
+          "type": "ellipse",
+          "x": 301,
+          "y": 770,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-quantity",
+          "type": "rect",
+          "x": 347,
+          "y": 767,
+          "w": 68,
+          "h": 39,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "broccoli-plus",
+          "type": "ellipse",
+          "x": 455,
+          "y": 770,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "broccoli-divider",
+          "type": "line",
+          "x": 24,
+          "y": 822,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-photo",
+          "type": "rect",
+          "x": 23,
+          "y": 837,
+          "w": 72,
+          "h": 71,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-view",
+          "type": "rect",
+          "x": 23,
+          "y": 919,
+          "w": 114,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-unfavorite",
+          "type": "rect",
+          "x": 148,
+          "y": 919,
+          "w": 135,
+          "h": 47,
+          "geometryStatus": "measured",
+          "radiusCandidate": 11,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-minus",
+          "type": "ellipse",
+          "x": 301,
+          "y": 930,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-quantity",
+          "type": "rect",
+          "x": 347,
+          "y": 927,
+          "w": 68,
+          "h": 39,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "apple-plus",
+          "type": "ellipse",
+          "x": 455,
+          "y": 930,
+          "w": 34,
+          "h": 34,
+          "geometryStatus": "measured",
+          "radiusCandidate": 17,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "apple-divider",
+          "type": "line",
+          "x": 24,
+          "y": 982,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        }
+      ],
+      "assets": [
+        "favorite-hint-star",
+        "favorite-star",
+        "view-eye",
+        "unfavorite-trash",
+        "minus-favorite",
+        "plus-favorite",
+        "favorite-chicken",
+        "favorite-salmon",
+        "favorite-egg",
+        "favorite-broccoli",
+        "favorite-apple"
+      ],
+      "reviewNotes": {
+        "value": [
+          "收藏星标与“取消收藏”存在重复操作，进入 Figma 时合并为一个明确入口。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "dataBoundary": {
+        "value": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "trueDeviceSafeInset": {
+        "value": null,
+        "status": "unknown",
+        "source": "Concept image, no device/density metadata"
+      },
+      "pageIdentity": {
+        "value": "收藏食物；5个手动收藏条目及份量控件",
+        "status": "measured",
+        "source": "original D05 and manifest"
+      },
+      "rows": {
+        "value": [
+          {
+            "asset": "favorite-chicken",
+            "title": "鸡胸肉（熟）",
+            "detail": "100克 · 165千卡",
+            "quantity": "100",
+            "unit": "克",
+            "imageXYWH": [
+              23,
+              201,
+              72,
+              71
+            ],
+            "controlsY": 282,
+            "favoriteSelected": true
+          },
+          {
+            "asset": "favorite-salmon",
+            "title": "三文鱼（熟）",
+            "detail": "100克 · 208千卡",
+            "quantity": "100",
+            "unit": "克",
+            "imageXYWH": [
+              23,
+              359,
+              72,
+              71
+            ],
+            "controlsY": 441,
+            "favoriteSelected": true
+          },
+          {
+            "asset": "favorite-egg",
+            "title": "鸡蛋（煮）",
+            "detail": "1个（50克） · 78千卡",
+            "quantity": "1",
+            "unit": "个",
+            "imageXYWH": [
+              23,
+              518,
+              72,
+              71
+            ],
+            "controlsY": 600,
+            "favoriteSelected": true
+          },
+          {
+            "asset": "favorite-broccoli",
+            "title": "西兰花（熟）",
+            "detail": "100克 · 35千卡",
+            "quantity": "100",
+            "unit": "克",
+            "imageXYWH": [
+              23,
+              677,
+              72,
+              71
+            ],
+            "controlsY": 759,
+            "favoriteSelected": true
+          },
+          {
+            "asset": "favorite-apple",
+            "title": "苹果",
+            "detail": "1个（200克） · 104千卡",
+            "quantity": "1",
+            "unit": "个",
+            "imageXYWH": [
+              23,
+              837,
+              72,
+              71
+            ],
+            "controlsY": 919,
+            "favoriteSelected": true
+          }
+        ],
+        "status": "measured",
+        "source": "Original source PNG; visible-edge native-pixel measurement, tolerance1-2px"
+      },
+      "implementationConstraint": {
+        "value": "收藏星标与“取消收藏”存在重复操作，进入 Figma 时合并为一个明确入口。",
+        "status": "measured",
+        "source": "manifest reviewNotes"
+      },
+      "referenceOnlyRedundancy": {
+        "value": "Raw source positions include both star and cancel action so the discrepancy is traceable. Production/accepted component should follow the explicit review decision.",
+        "status": "measured",
+        "source": "original and manifest"
+      }
+    },
+    {
+      "id": "D06",
+      "title": {
+        "value": "自定义食物",
+        "status": "measured",
+        "source": "original visible title"
+      },
+      "manifestName": {
+        "value": "自定义食物目录",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "sourceFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D06.png",
+      "sourceSHA256": "99509ac3413a1939179a57c8e76638219265281ba8a65170c4ce35ea2b464b3c",
+      "width": 512,
+      "height": 1024,
+      "dimensionStatus": "measured",
+      "background": {
+        "roiLTRB": {
+          "value": [
+            80,
+            784,
+            173,
+            826
+          ],
+          "status": "measured",
+          "source": "sampling coordinates"
+        },
+        "meanRGB": {
+          "value": [
+            254.25,
+            254.1,
+            254.25
+          ],
+          "status": "measured",
+          "source": "source ROI mean"
+        },
+        "stddevRGB": {
+          "value": [
+            0.56,
+            0.58,
+            0.56
+          ],
+          "status": "measured",
+          "source": "source ROI stddev"
+        },
+        "filteredMedianRGB": {
+          "value": [
+            254,
+            254,
+            254
+          ],
+          "status": "measured",
+          "source": "Accent filters green, primary filters dark ink, others unfiltered"
+        }
+      },
+      "colors": {
+        "background": {
+          "roiLTRB": {
+            "value": [
+              80,
+              784,
+              173,
+              826
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              254.25,
+              254.1,
+              254.25
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              0.56,
+              0.58,
+              0.56
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              254,
+              254,
+              254
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "primary_ink": {
+          "roiLTRB": {
+            "value": [
+              201,
+              60,
+              244,
+              80
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              142.23,
+              143.69,
+              146.3
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              102.53,
+              101.83,
+              99.69
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              25,
+              28,
+              32
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "accent": {
+          "roiLTRB": {
+            "value": [
+              30,
+              219,
+              58,
+              245
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              167.33,
+              220.71,
+              205.19
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              73.51,
+              31.42,
+              42.81
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              201,
+              235,
+              226
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        }
+      },
+      "text": [
+        {
+          "id": "time",
+          "text": "9:41",
+          "x": 26,
+          "y": 14,
+          "w": 28,
+          "h": 12,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            110,
+            109,
+            115
+          ],
+          "textBoxCandidate": [
+            25,
+            7,
+            61,
+            27
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "battery",
+          "text": "100%",
+          "x": 427,
+          "y": 14,
+          "w": 37,
+          "h": 12,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            110,
+            111,
+            114
+          ],
+          "textBoxCandidate": [
+            426,
+            7,
+            72,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "title",
+          "text": "自定义食物",
+          "x": 200,
+          "y": 58,
+          "w": 115,
+          "h": 24,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            35,
+            38,
+            42
+          ],
+          "textBoxCandidate": [
+            128,
+            50,
+            256,
+            40
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "create",
+          "text": "创建",
+          "x": 447,
+          "y": 61,
+          "w": 41,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            68,
+            180,
+            145
+          ],
+          "textBoxCandidate": [
+            445,
+            53,
+            56,
+            35
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "heading",
+          "text": "我的食物",
+          "x": 24,
+          "y": 135,
+          "w": 98,
+          "h": 24,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            27,
+            30,
+            35
+          ],
+          "textBoxCandidate": [
+            23,
+            129,
+            451,
+            39
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "oatmeal-name",
+          "text": "自制燕麦粥",
+          "x": 89,
+          "y": 203,
+          "w": 107,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            62,
+            64,
+            66
+          ],
+          "textBoxCandidate": [
+            86,
+            197,
+            378,
+            35
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "oatmeal-info",
+          "text": "每100克：68千卡 · 蛋白质2.5克 · 碳水12克 · 脂肪1.2克",
+          "x": 87,
+          "y": 236,
+          "w": 371,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            147,
+            149,
+            156
+          ],
+          "textBoxCandidate": [
+            86,
+            231,
+            379,
+            29
+          ],
+          "fontSizeCandidate": 16,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 22.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "meatball-name",
+          "text": "家常牛肉丸",
+          "x": 88,
+          "y": 300,
+          "w": 108,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            57,
+            59,
+            62
+          ],
+          "textBoxCandidate": [
+            86,
+            294,
+            378,
+            35
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "meatball-info",
+          "text": "每100克：250千卡 · 蛋白质18克 · 碳水6克 · 脂肪16克",
+          "x": 87,
+          "y": 333,
+          "w": 373,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            138,
+            141,
+            148
+          ],
+          "textBoxCandidate": [
+            86,
+            328,
+            379,
+            29
+          ],
+          "fontSizeCandidate": 16,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 22.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "soymilk-name",
+          "text": "无糖豆浆",
+          "x": 87,
+          "y": 398,
+          "w": 87,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            69,
+            71,
+            73
+          ],
+          "textBoxCandidate": [
+            86,
+            392,
+            378,
+            35
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "soymilk-info",
+          "text": "每100克：33千卡 · 蛋白质3.0克 · 碳水1.4克 · 脂肪1.8克",
+          "x": 87,
+          "y": 431,
+          "w": 378,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            144,
+            146,
+            154
+          ],
+          "textBoxCandidate": [
+            86,
+            426,
+            379,
+            29
+          ],
+          "fontSizeCandidate": 16,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 22.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        }
+      ],
+      "controls": [
+        {
+          "id": "heading-divider",
+          "type": "line",
+          "x": 24,
+          "y": 180,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "oatmeal-divider",
+          "type": "line",
+          "x": 24,
+          "y": 278,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "meatball-divider",
+          "type": "line",
+          "x": 24,
+          "y": 375,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "soymilk-divider",
+          "type": "line",
+          "x": 24,
+          "y": 473,
+          "w": 464,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "gesture",
+          "type": "rect",
+          "x": 188,
+          "y": 1002,
+          "w": 136,
+          "h": 6,
+          "geometryStatus": "measured",
+          "radiusCandidate": 3,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        }
+      ],
+      "assets": [
+        "status-custom",
+        "back-custom",
+        "create-plus",
+        "oatmeal-bowl",
+        "meatball-red",
+        "soymilk-blue",
+        "custom-chevron"
+      ],
+      "reviewNotes": {
+        "value": [],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "dataBoundary": {
+        "value": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "trueDeviceSafeInset": {
+        "value": null,
+        "status": "unknown",
+        "source": "Concept image, no device/density metadata"
+      },
+      "pageIdentity": {
+        "value": "自定义食物目录，不是创建表单",
+        "status": "measured",
+        "source": "original D06 and manifest"
+      },
+      "rows": {
+        "value": [
+          {
+            "name": "自制燕麦粥",
+            "box": [
+              24,
+              181,
+              464,
+              97
+            ],
+            "iconCrop": "oatmeal-bowl"
+          },
+          {
+            "name": "家常牛肉丸",
+            "box": [
+              24,
+              279,
+              464,
+              96
+            ],
+            "iconCrop": "meatball-red"
+          },
+          {
+            "name": "无糖豆浆",
+            "box": [
+              24,
+              376,
+              464,
+              97
+            ],
+            "iconCrop": "soymilk-blue"
+          }
+        ],
+        "status": "measured",
+        "source": "Original source PNG; visible-edge native-pixel measurement, tolerance1-2px"
+      },
+      "createEntry": {
+        "value": {
+          "plusCrop": "create-plus",
+          "text": "创建",
+          "position": [
+            405,
+            56
+          ]
+        },
+        "status": "measured",
+        "source": "source"
+      }
+    },
+    {
+      "id": "D07",
+      "title": {
+        "value": "创建食物",
+        "status": "measured",
+        "source": "original visible title"
+      },
+      "manifestName": {
+        "value": "创建自定义食物",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "sourceFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D07.png",
+      "sourceSHA256": "9f3195e0cd90861dd7dc43cbda8ca40dc38303925574ffc575df1f4b77c5934e",
+      "width": 512,
+      "height": 1024,
+      "dimensionStatus": "measured",
+      "background": {
+        "roiLTRB": {
+          "value": [
+            37,
+            970,
+            130,
+            987
+          ],
+          "status": "measured",
+          "source": "sampling coordinates"
+        },
+        "meanRGB": {
+          "value": [
+            254.22,
+            254.14,
+            254.23
+          ],
+          "status": "measured",
+          "source": "source ROI mean"
+        },
+        "stddevRGB": {
+          "value": [
+            0.53,
+            0.55,
+            0.53
+          ],
+          "status": "measured",
+          "source": "source ROI stddev"
+        },
+        "filteredMedianRGB": {
+          "value": [
+            254,
+            254,
+            254
+          ],
+          "status": "measured",
+          "source": "Accent filters green, primary filters dark ink, others unfiltered"
+        }
+      },
+      "colors": {
+        "background": {
+          "roiLTRB": {
+            "value": [
+              37,
+              970,
+              130,
+              987
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              254.22,
+              254.14,
+              254.23
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              0.53,
+              0.55,
+              0.53
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              254,
+              254,
+              254
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "primary_ink": {
+          "roiLTRB": {
+            "value": [
+              210,
+              61,
+              255,
+              80
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              123.33,
+              124.6,
+              127.02
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              98.86,
+              98.88,
+              97.66
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              27,
+              29,
+              32
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        },
+        "accent": {
+          "roiLTRB": {
+            "value": [
+              41,
+              837,
+              145,
+              862
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              29.72,
+              158.23,
+              120.27
+            ],
+            "status": "measured",
+            "source": "source ROI mean"
+          },
+          "stddevRGB": {
+            "value": [
+              0.8,
+              0.72,
+              0.8
+            ],
+            "status": "measured",
+            "source": "source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              30,
+              158,
+              120
+            ],
+            "status": "measured",
+            "source": "Accent filters green, primary filters dark ink, others unfiltered"
+          }
+        }
+      },
+      "text": [
+        {
+          "id": "time",
+          "text": "9:41",
+          "x": 26,
+          "y": 14,
+          "w": 28,
+          "h": 12,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            93,
+            94,
+            97
+          ],
+          "textBoxCandidate": [
+            25,
+            7,
+            61,
+            27
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "battery",
+          "text": "100%",
+          "x": 428,
+          "y": 14,
+          "w": 38,
+          "h": 12,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            103,
+            105,
+            108
+          ],
+          "textBoxCandidate": [
+            426,
+            7,
+            72,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "title",
+          "text": "创建食物",
+          "x": 207,
+          "y": 58,
+          "w": 98,
+          "h": 24,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            35,
+            37,
+            41
+          ],
+          "textBoxCandidate": [
+            128,
+            50,
+            256,
+            40
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "name-label",
+          "text": "名称",
+          "x": 32,
+          "y": 134,
+          "w": 36,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            65,
+            67,
+            69
+          ],
+          "textBoxCandidate": [
+            31,
+            127,
+            451,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "name-value",
+          "text": "自制燕麦粥",
+          "x": 50,
+          "y": 181,
+          "w": 100,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            69,
+            69,
+            71
+          ],
+          "textBoxCandidate": [
+            47,
+            175,
+            417,
+            36
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "calories-label",
+          "text": "每100克热量（千卡）",
+          "x": 32,
+          "y": 245,
+          "w": 175,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            77,
+            79,
+            83
+          ],
+          "textBoxCandidate": [
+            31,
+            240,
+            451,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "calories-value",
+          "text": "68",
+          "x": 49,
+          "y": 295,
+          "w": 22,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            59,
+            61,
+            65
+          ],
+          "textBoxCandidate": [
+            47,
+            288,
+            417,
+            36
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "protein-label",
+          "text": "每100克蛋白质（克）",
+          "x": 32,
+          "y": 358,
+          "w": 175,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            61,
+            64,
+            67
+          ],
+          "textBoxCandidate": [
+            31,
+            353,
+            451,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "protein-value",
+          "text": "2.5",
+          "x": 48,
+          "y": 408,
+          "w": 28,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            49,
+            50,
+            54
+          ],
+          "textBoxCandidate": [
+            47,
+            401,
+            417,
+            36
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "carbs-label",
+          "text": "每100克碳水（克）",
+          "x": 32,
+          "y": 471,
+          "w": 155,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            69,
+            70,
+            73
+          ],
+          "textBoxCandidate": [
+            31,
+            466,
+            451,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "carbs-value",
+          "text": "12",
+          "x": 49,
+          "y": 521,
+          "w": 21,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            95,
+            96,
+            99
+          ],
+          "textBoxCandidate": [
+            47,
+            514,
+            417,
+            36
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "fat-label",
+          "text": "每100克脂肪（克）",
+          "x": 32,
+          "y": 585,
+          "w": 156,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            63,
+            65,
+            68
+          ],
+          "textBoxCandidate": [
+            31,
+            580,
+            451,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "fat-value",
+          "text": "1.2",
+          "x": 49,
+          "y": 635,
+          "w": 27,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            101,
+            101,
+            102
+          ],
+          "textBoxCandidate": [
+            47,
+            628,
+            417,
+            36
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "serving-label",
+          "text": "每份克重（克）",
+          "x": 32,
+          "y": 698,
+          "w": 122,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            63,
+            65,
+            66
+          ],
+          "textBoxCandidate": [
+            31,
+            693,
+            451,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "serving-value",
+          "text": "250",
+          "x": 49,
+          "y": 749,
+          "w": 34,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            46,
+            49,
+            51
+          ],
+          "textBoxCandidate": [
+            47,
+            741,
+            417,
+            36
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "source_ink_sample"
+        },
+        {
+          "id": "save",
+          "text": "保存食物",
+          "x": 213,
+          "y": 839,
+          "w": 86,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            248,
+            253,
+            251
+          ],
+          "textBoxCandidate": [
+            141,
+            830,
+            230,
+            40
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "white"
+        },
+        {
+          "id": "cancel",
+          "text": "取消",
+          "x": 234,
+          "y": 918,
+          "w": 42,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            52,
+            56,
+            59
+          ],
+          "textBoxCandidate": [
+            141,
+            910,
+            230,
+            39
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "source_ink_sample"
+        }
+      ],
+      "controls": [
+        {
+          "id": "name",
+          "type": "rect",
+          "x": 31,
+          "y": 164,
+          "w": 451,
+          "h": 54,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "calories",
+          "type": "rect",
+          "x": 31,
+          "y": 276,
+          "w": 451,
+          "h": 55,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "protein",
+          "type": "rect",
+          "x": 31,
+          "y": 390,
+          "w": 451,
+          "h": 54,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "carbs",
+          "type": "rect",
+          "x": 31,
+          "y": 502,
+          "w": 451,
+          "h": 55,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "fat",
+          "type": "rect",
+          "x": 31,
+          "y": 616,
+          "w": 451,
+          "h": 54,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "serving",
+          "type": "rect",
+          "x": 31,
+          "y": 730,
+          "w": 451,
+          "h": 54,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "save",
+          "type": "rect",
+          "x": 28,
+          "y": 819,
+          "w": 457,
+          "h": 62,
+          "geometryStatus": "measured",
+          "radiusCandidate": 9,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "cancel",
+          "type": "rect",
+          "x": 28,
+          "y": 898,
+          "w": 457,
+          "h": 61,
+          "geometryStatus": "measured",
+          "radiusCandidate": 9,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "gesture",
+          "type": "rect",
+          "x": 188,
+          "y": 1002,
+          "w": 137,
+          "h": 6,
+          "geometryStatus": "measured",
+          "radiusCandidate": 3,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        }
+      ],
+      "assets": [],
+      "reviewNotes": {
+        "value": [],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "dataBoundary": {
+        "value": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "trueDeviceSafeInset": {
+        "value": null,
+        "status": "unknown",
+        "source": "Concept image, no device/density metadata"
+      },
+      "pageIdentity": {
+        "value": "创建自定义食物表单；六个字段，不是食物目录",
+        "status": "measured",
+        "source": "original D07 and manifest"
+      },
+      "fields": {
+        "value": [
+          "名称",
+          "每100克热量（千卡）",
+          "每100克蛋白质（克）",
+          "每100克碳水（克）",
+          "每100克脂肪（克）",
+          "每份克重（克）"
+        ],
+        "status": "measured",
+        "source": "source"
+      },
+      "exampleValues": {
+        "value": [
+          "自制燕麦粥",
+          "68",
+          "2.5",
+          "12",
+          "1.2",
+          "250"
+        ],
+        "status": "measured",
+        "source": "source visual examples, not default personal/user data"
+      },
+      "photoInput": {
+        "value": false,
+        "status": "measured",
+        "source": "No photo picker exists in original D07"
+      }
+    }
+  ]
+}

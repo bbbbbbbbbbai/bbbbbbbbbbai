@@ -1,0 +1,135 @@
+[
+  {
+    "name": "status",
+    "cropLTRB": [
+      359,
+      32,
+      435,
+      62
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\history\\assets\\F07-status-clean.png",
+    "dimensions": [
+      76,
+      30
+    ],
+    "removedBackgroundPixels": 1663,
+    "sha256": "c5aa57a43aabfe64ed36f5d9517b42bb596007f40c29e14d79192cb8534512c8",
+    "alpha": true,
+    "method": "edge-connected pale-neutral matte removal",
+    "status": "derived source asset; requires visual verification"
+  },
+  {
+    "name": "back",
+    "cropLTRB": [
+      25,
+      99,
+      61,
+      136
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\history\\assets\\F07-back-clean.png",
+    "dimensions": [
+      36,
+      37
+    ],
+    "removedBackgroundPixels": 1164,
+    "sha256": "3a8f9cee5ca6fee7cc3df4fb37851b1e5aa64f2fdabe285dc1a79a2a94346be0",
+    "alpha": true,
+    "method": "edge-connected pale-neutral matte removal",
+    "status": "derived source asset; requires visual verification"
+  },
+  {
+    "name": "edit",
+    "cropLTRB": [
+      344,
+      87,
+      381,
+      125
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\history\\assets\\F07-edit-clean.png",
+    "dimensions": [
+      37,
+      38
+    ],
+    "removedBackgroundPixels": 1019,
+    "sha256": "f9461418df0344a4cba6b8ba46ad6a79b28f4e5ca9af8361b076085ac38dd10e",
+    "alpha": true,
+    "method": "edge-connected pale-neutral matte removal",
+    "status": "derived source asset; requires visual verification"
+  },
+  {
+    "name": "delete",
+    "cropLTRB": [
+      432,
+      87,
+      466,
+      126
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\history\\assets\\F07-delete-clean.png",
+    "dimensions": [
+      34,
+      39
+    ],
+    "removedBackgroundPixels": 713,
+    "sha256": "d7f674816fe389a0fd5b646f0cb775a2909a246d942b449458760bdea165b562",
+    "alpha": true,
+    "method": "edge-connected pale-neutral matte removal",
+    "status": "derived source asset; requires visual verification"
+  },
+  {
+    "name": "sleep",
+    "cropLTRB": [
+      27,
+      579,
+      79,
+      620
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\history\\assets\\F07-sleep-clean.png",
+    "dimensions": [
+      52,
+      41
+    ],
+    "removedBackgroundPixels": 1644,
+    "sha256": "697ddc7f4e1cf40e6e8a0eca62b7be73ac1bfe947185c5fea5b69d0116c7486e",
+    "alpha": true,
+    "method": "edge-connected pale-neutral matte removal",
+    "status": "derived source asset; requires visual verification"
+  },
+  {
+    "name": "date",
+    "cropLTRB": [
+      30,
+      724,
+      75,
+      774
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\history\\assets\\F07-date-clean.png",
+    "dimensions": [
+      45,
+      50
+    ],
+    "removedBackgroundPixels": 1004,
+    "sha256": "718225cb5a73ad1e07729d0a71a3907ae019929a3c72c919e48153f515dc951e",
+    "alpha": true,
+    "method": "edge-connected pale-neutral matte removal",
+    "status": "derived source asset; requires visual verification"
+  },
+  {
+    "name": "note",
+    "cropLTRB": [
+      31,
+      879,
+      74,
+      929
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\history\\assets\\F07-note-clean.png",
+    "dimensions": [
+      43,
+      50
+    ],
+    "removedBackgroundPixels": 895,
+    "sha256": "842505a47ce44e1b9d6b196888560aa6d27fbbf0df229c373a36ef44a1d28b5c",
+    "alpha": true,
+    "method": "edge-connected pale-neutral matte removal",
+    "status": "derived source asset; requires visual verification"
+  }
+]

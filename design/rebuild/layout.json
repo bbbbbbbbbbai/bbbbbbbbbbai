@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "coordinateSpace": "source image pixels",
+  "screens": {
+    "A01": {
+      "canvas": {"value": [512, 1024], "evidence": "measured"},
+      "background": {"value": "#fafcfc", "evidence": "measured"},
+      "photo": {"value": [23, 162, 466, 147], "evidence": "measured"},
+      "brand": {"value": [30, 77, 452, 44], "evidence": "inferred"},
+      "welcome": {"value": [35, 332, 444, 46], "evidence": "inferred"},
+      "email": {"value": [35, 465, 443, 58], "evidence": "measured"},
+      "password": {"value": [35, 576, 443, 58], "evidence": "measured"},
+      "login": {"value": [35, 706, 443, 64], "evidence": "measured"},
+      "fontFamily": {"value": null, "evidence": "unknown"}
+    },
+    "C01": {
+      "canvas": {"value": [512, 1024], "evidence": "measured"},
+      "summary": {"value": [21, 163, 470, 221], "evidence": "measured"},
+      "actions": {"value": [38, 408, 439, 112], "evidence": "measured"},
+      "records": {"value": [28, 608, 456, 265], "evidence": "measured"},
+      "navigationTop": {"value": 896, "evidence": "measured"},
+      "fontFamily": {"value": null, "evidence": "unknown"}
+    },
+    "C02": {
+      "canvas": {"value": [512, 1024], "evidence": "measured"},
+      "summary": {"value": [20, 224, 473, 219], "evidence": "measured"},
+      "actions": {"value": [23, 463, 467, 103], "evidence": "measured"},
+      "emptyArtwork": {"value": [220, 697, 70, 75], "evidence": "measured"},
+      "navigationTop": {"value": 902, "evidence": "measured"},
+      "fontFamily": {"value": null, "evidence": "unknown"}
+    }
+  },
+  "uncertainties": [
+    "Generated raster glyphs do not prove a specific font family.",
+    "Generated backgrounds include slight texture and nonuniform colors.",
+    "Exact cropped artwork remains raster, not individually vectorized strokes."
+  ]
+}

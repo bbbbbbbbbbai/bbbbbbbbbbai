@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Asset type: isolated mobile diary app data migration illustration, reference-derived candidate only.
+Input image: original approved 146x133 source illustration. Preserve its identity.
+Produce a clean higher-resolution version of this exact artwork on a pure white background. Keep the same straight-on gray outlined paper document, folded upper-right corner, five short gray document lines, green right-pointing arrow in front of the document, and pale mint circular backdrop behind the upper-right part. Preserve relative size, position, line weight, soft shading, restrained green/gray palette, and original shape of the arrow.
+Place the complete artwork centrally within a square canvas with minimal white margin, without clipping any part.
+No actual text, letters, labels, UI, buttons, phone frame, watermark, extra objects, additional shadows, or new decorative shapes. Do not redesign it. This is one small replaceable raster asset, not a full app screen. Original approved crop will remain available for pixel-faithful Figma reconstruction.

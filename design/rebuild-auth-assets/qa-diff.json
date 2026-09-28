@@ -1,0 +1,3342 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifactType": "qa-diff",
+  "evidenceSchema": {
+    "description": "Every domain field uses value/status/evidence. Schema metadata is authored, not observed.",
+    "statuses": [
+      "measured",
+      "inferred",
+      "unknown"
+    ]
+  },
+  "createdAt": {
+    "value": "2026-09-28T00:41:15.172885+08:00",
+    "status": "measured",
+    "evidence": "local system clock"
+  },
+  "scope": {
+    "value": [
+      "A02",
+      "A03",
+      "A04",
+      "A05"
+    ],
+    "status": "measured",
+    "evidence": "assigned QA scope"
+  },
+  "sourceOfTruth": {
+    "value": "original screens/A02.png through A05.png",
+    "status": "measured",
+    "evidence": "parent instruction"
+  },
+  "deliveryState": {
+    "value": "in_progress_not_accepted",
+    "status": "inferred",
+    "evidence": "QA proposal; source screenshot remains authoritative"
+  },
+  "figmaIdentity": {
+    "fileKey": {
+      "value": "ptA7IsUhV0rHsp8yRLFRVj",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "apiDocumentName": {
+      "value": "Document",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "pageId": {
+      "value": "70:13",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "pageName": {
+      "value": "12 原图重建｜注册与密码",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "writePolicy": {
+      "value": "Read-only QA; no Figma writes performed in this audit",
+      "status": "measured",
+      "evidence": "task scope and tool log"
+    }
+  },
+  "round": {
+    "value": "Read-only post-build audit of existing local exports",
+    "status": "measured",
+    "evidence": "task scope"
+  },
+  "metricsWarning": {
+    "value": "Whole-image MAE is dominated by blank backgrounds and cannot establish visual acceptance.",
+    "status": "inferred",
+    "evidence": "QA proposal; source screenshot remains authoritative"
+  },
+  "screens": [
+    {
+      "screen": {
+        "value": "A02",
+        "status": "measured",
+        "evidence": "manifest"
+      },
+      "nodeId": {
+        "value": "70:14",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "referenceId": {
+        "value": "70:15",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "screenshot": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A02-editable.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "screenshotSHA256": {
+        "value": "489c5980f3c92c23d70c62eb33feb46dac4a276393aa732393f845bde8e2e122",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "sourceSHA256": {
+        "value": "732e8c3e1ae1e2c607e00feddd72be9606d45d0ddcf87ee2865c9dcea208c36e",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "comparison": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A02-comparison.png",
+        "status": "measured",
+        "evidence": "filesystem; left original/right current"
+      },
+      "sameSize": {
+        "value": true,
+        "status": "measured",
+        "evidence": "Pillow size check 512x1024"
+      },
+      "wholeImageMAE": {
+        "value": 3.8206,
+        "status": "measured",
+        "evidence": "mean absolute RGB channel error on all pixels, 0-255"
+      },
+      "components": {
+        "value": 0,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "instances": {
+        "value": 0,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "editableTextNodes": {
+        "value": 17,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "textInkComparisons": [
+        {
+          "nodeId": {
+            "value": "70:140",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "老白の日记",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              177,
+              84,
+              335,
+              114
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              177,
+              87,
+              335,
+              117
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              3,
+              0,
+              3
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:141",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "记录生活　细水长流",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              180,
+              127,
+              333,
+              142
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              176,
+              128,
+              336,
+              144
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -4,
+              1,
+              3,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:142",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "注册账号",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              36,
+              339,
+              166,
+              370
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              36,
+              340,
+              161,
+              370
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              -5,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:143",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "开启你的记录之旅",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              36,
+              385,
+              200,
+              404
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              36,
+              385,
+              202,
+              405
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              0,
+              2,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:144",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "邮箱",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              36,
+              436,
+              71,
+              454
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              36,
+              438,
+              70,
+              455
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              2,
+              -1,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:145",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              36,
+              545,
+              71,
+              562
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              36,
+              548,
+              70,
+              565
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              3,
+              -1,
+              3
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:146",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "确认密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              36,
+              656,
+              108,
+              673
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              36,
+              659,
+              106,
+              676
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              3,
+              -2,
+              3
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:147",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "密码需至少 8 位，包含字母和数字",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              37,
+              755,
+              294,
+              771
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              36,
+              756,
+              289,
+              771
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              1,
+              -5,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:148",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "已有账号？",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              216,
+              893,
+              296,
+              909
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              213,
+              892,
+              291,
+              908
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -3,
+              -1,
+              -5,
+              -1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:149",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "登录",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              236,
+              931,
+              276,
+              950
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              236,
+              932,
+              276,
+              951
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:206",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "请输入邮箱地址",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              102,
+              485,
+              234,
+              503
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              102,
+              485,
+              240,
+              503
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              0,
+              6,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:208",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "• • • • • • • •",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              102,
+              600,
+              201,
+              607
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              102,
+              600,
+              201,
+              606
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              0,
+              0,
+              -1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:210",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "• • • • • • • •",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              102,
+              712,
+              201,
+              718
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              102,
+              712,
+              201,
+              718
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:446",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "注册",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              233,
+              825,
+              280,
+              846
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              233,
+              824,
+              280,
+              847
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              -1,
+              0,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:460",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "9:41",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              17,
+              12,
+              49,
+              26
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              18,
+              13,
+              51,
+              27
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:461",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "A02",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              17,
+              47,
+              46,
+              61
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              17,
+              49,
+              47,
+              62
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              2,
+              1,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:491",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "100%",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              431,
+              12,
+              476,
+              26
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              431,
+              13,
+              476,
+              27
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        }
+      ],
+      "acceptance": {
+        "value": "FAIL: structural and visual gates remain open",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "screen": {
+        "value": "A03",
+        "status": "measured",
+        "evidence": "manifest"
+      },
+      "nodeId": {
+        "value": "70:16",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "referenceId": {
+        "value": "70:17",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "screenshot": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A03-editable.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "screenshotSHA256": {
+        "value": "ef1347e9b0d383befa5a15642e1a46a96489063f4ca6acb1b4710664fc8842d9",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "sourceSHA256": {
+        "value": "883f28cfc34bd2730929ad3b23ddb9e51bd70f3e91365c2354dc1dd85260d6b8",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "comparison": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A03-comparison.png",
+        "status": "measured",
+        "evidence": "filesystem; left original/right current"
+      },
+      "sameSize": {
+        "value": true,
+        "status": "measured",
+        "evidence": "Pillow size check 512x1024"
+      },
+      "wholeImageMAE": {
+        "value": 3.0655,
+        "status": "measured",
+        "evidence": "mean absolute RGB channel error on all pixels, 0-255"
+      },
+      "components": {
+        "value": 0,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "instances": {
+        "value": 0,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "editableTextNodes": {
+        "value": 15,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "textInkComparisons": [
+        {
+          "nodeId": {
+            "value": "70:150",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "验证邮箱",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              192,
+              325,
+              320,
+              355
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              193,
+              322,
+              319,
+              353
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              -3,
+              -1,
+              -2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:151",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "我们已向以下邮箱发送了验证码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              116,
+              377,
+              395,
+              397
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              117,
+              377,
+              395,
+              396
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              0,
+              0,
+              -1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:152",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "b***@example.com",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              160,
+              416,
+              352,
+              438
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              159,
+              417,
+              353,
+              439
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              1,
+              1,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:153",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "48秒后重新发送",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              183,
+              694,
+              328,
+              713
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              185,
+              693,
+              327,
+              712
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              2,
+              -1,
+              -1,
+              -1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:154",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "更换邮箱",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              218,
+              772,
+              295,
+              792
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              217,
+              771,
+              295,
+              790
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              -1,
+              0,
+              -2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:448",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "验证并继续",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              197,
+              624,
+              316,
+              646
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              200,
+              624,
+              312,
+              645
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              3,
+              0,
+              -4,
+              -1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:462",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "9:41",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              17,
+              12,
+              49,
+              26
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              18,
+              13,
+              51,
+              27
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:463",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "A03",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              19,
+              47,
+              48,
+              61
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              17,
+              49,
+              47,
+              62
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -2,
+              2,
+              -1,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:497",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "100%",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              431,
+              12,
+              476,
+              26
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              431,
+              13,
+              476,
+              27
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:336",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "—",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              59,
+              519,
+              82,
+              521
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              61,
+              522,
+              79,
+              523
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              2,
+              3,
+              -3,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:338",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "—",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              134,
+              519,
+              156,
+              521
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              135,
+              522,
+              153,
+              523
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              3,
+              -3,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:340",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "—",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              208,
+              519,
+              230,
+              521
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              209,
+              522,
+              227,
+              523
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              3,
+              -3,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:342",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "—",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              282,
+              519,
+              305,
+              521
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              283,
+              522,
+              301,
+              523
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              3,
+              -4,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:365",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "—",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              356,
+              519,
+              379,
+              521
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              357,
+              522,
+              375,
+              523
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              3,
+              -4,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:367",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "—",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              431,
+              519,
+              454,
+              521
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              431,
+              522,
+              449,
+              523
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              3,
+              -5,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        }
+      ],
+      "acceptance": {
+        "value": "FAIL: structural and visual gates remain open",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "screen": {
+        "value": "A04",
+        "status": "measured",
+        "evidence": "manifest"
+      },
+      "nodeId": {
+        "value": "70:18",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "referenceId": {
+        "value": "70:19",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "screenshot": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A04-editable.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "screenshotSHA256": {
+        "value": "b5a539c7cff8efa89bad4d8211febf700d01cab68755929a5fe60ddf97f00e4b",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "sourceSHA256": {
+        "value": "6ee831e23047516934b9f9e2b29bc124539df021a0b0519c87c00c1788f98388",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "comparison": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A04-comparison.png",
+        "status": "measured",
+        "evidence": "filesystem; left original/right current"
+      },
+      "sameSize": {
+        "value": true,
+        "status": "measured",
+        "evidence": "Pillow size check 512x1024"
+      },
+      "wholeImageMAE": {
+        "value": 3.5788,
+        "status": "measured",
+        "evidence": "mean absolute RGB channel error on all pixels, 0-255"
+      },
+      "components": {
+        "value": 0,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "instances": {
+        "value": 0,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "editableTextNodes": {
+        "value": 11,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "textInkComparisons": [
+        {
+          "nodeId": {
+            "value": "70:155",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "老白の日记",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              199,
+              42,
+              312,
+              64
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              199,
+              43,
+              313,
+              65
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:156",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "找回密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              39,
+              138,
+              186,
+              173
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              38,
+              138,
+              187,
+              175
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              0,
+              1,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:157",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "输入注册邮箱，系统将发送验证码至你的邮箱。",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              38,
+              188,
+              417,
+              207
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              38,
+              189,
+              424,
+              207
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              7,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:158",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "邮箱地址",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              38,
+              401,
+              106,
+              418
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              38,
+              401,
+              109,
+              419
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              0,
+              3,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:159",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "返回登录",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              218,
+              633,
+              294,
+              651
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              217,
+              632,
+              295,
+              651
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              -1,
+              1,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:160",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "验证码将发送至你的注册邮箱",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              146,
+              772,
+              366,
+              788
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              146,
+              773,
+              365,
+              788
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              -1,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:161",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "请检查垃圾邮件文件夹，以免遗漏。",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              132,
+              801,
+              375,
+              816
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              129,
+              802,
+              373,
+              816
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -3,
+              1,
+              -2,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:297",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "请输入注册邮箱",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              98,
+              454,
+              222,
+              471
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              99,
+              455,
+              230,
+              472
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              1,
+              8,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:450",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "发送验证码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              203,
+              557,
+              310,
+              577
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              202,
+              557,
+              310,
+              577
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:464",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "9:41",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              27,
+              13,
+              54,
+              25
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              27,
+              14,
+              57,
+              27
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              3,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:465",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "A04",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              27,
+              45,
+              55,
+              57
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              27,
+              49,
+              54,
+              61
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              4,
+              -1,
+              4
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        }
+      ],
+      "acceptance": {
+        "value": "FAIL: structural and visual gates remain open",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "screen": {
+        "value": "A05",
+        "status": "measured",
+        "evidence": "manifest"
+      },
+      "nodeId": {
+        "value": "70:20",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "referenceId": {
+        "value": "70:21",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "screenshot": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A05-editable.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "screenshotSHA256": {
+        "value": "ca7c898403413e711845b97be27f24e8e928ea4aa50649e227fd61a0aad42452",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "sourceSHA256": {
+        "value": "815442b9b344a592dbadfa500836dae317efe50470ce4e2498f722b8e794b912",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "comparison": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A05-comparison.png",
+        "status": "measured",
+        "evidence": "filesystem; left original/right current"
+      },
+      "sameSize": {
+        "value": true,
+        "status": "measured",
+        "evidence": "Pillow size check 512x1024"
+      },
+      "wholeImageMAE": {
+        "value": 5.3865,
+        "status": "measured",
+        "evidence": "mean absolute RGB channel error on all pixels, 0-255"
+      },
+      "components": {
+        "value": 0,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "instances": {
+        "value": 0,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "editableTextNodes": {
+        "value": 18,
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "textInkComparisons": [
+        {
+          "nodeId": {
+            "value": "70:162",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "老白の日记",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              199,
+              42,
+              312,
+              64
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              199,
+              43,
+              313,
+              65
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:163",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "设置新密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              39,
+              138,
+              224,
+              173
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              38,
+              138,
+              225,
+              175
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              0,
+              1,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:164",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "请输入邮箱验证码，并设置新的登录密码。",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              39,
+              188,
+              380,
+              207
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              38,
+              189,
+              386,
+              207
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              1,
+              6,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:165",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "验证码将发送至",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              38,
+              392,
+              141,
+              406
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              38,
+              391,
+              148,
+              405
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              -1,
+              7,
+              -1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:166",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "b***@example.com",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              153,
+              392,
+              307,
+              409
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              153,
+              392,
+              311,
+              410
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              0,
+              4,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:167",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "邮箱验证码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              36,
+              435,
+              120,
+              452
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              36,
+              436,
+              124,
+              453
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              4,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:168",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "新密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              35,
+              542,
+              85,
+              559
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              35,
+              544,
+              88,
+              562
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              2,
+              3,
+              3
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:169",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "至少8位，建议包含字母、数字和符号",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              36,
+              636,
+              294,
+              651
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              37,
+              636,
+              299,
+              650
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              0,
+              5,
+              -1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:170",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "确认新密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              35,
+              685,
+              121,
+              702
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              35,
+              686,
+              124,
+              704
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              3,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:171",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "返回登录",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              218,
+              940,
+              294,
+              958
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              217,
+              940,
+              295,
+              959
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              0,
+              1,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:299",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "请输入6位验证码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              92,
+              483,
+              225,
+              499
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              92,
+              482,
+              233,
+              499
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              -1,
+              8,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:301",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "请输入新密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              92,
+              591,
+              196,
+              607
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              92,
+              590,
+              204,
+              607
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              -1,
+              8,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:303",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "请再次输入新密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              91,
+              735,
+              232,
+              752
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              92,
+              735,
+              242,
+              752
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              1,
+              0,
+              10,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:368",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "重新发送",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              395,
+              483,
+              463,
+              499
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              395,
+              483,
+              465,
+              499
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:369",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "两次密码一致",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              70,
+              784,
+              163,
+              798
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              70,
+              784,
+              170,
+              799
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              0,
+              7,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:452",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "确认修改密码",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              192,
+              865,
+              320,
+              885
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              191,
+              865,
+              321,
+              886
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              -1,
+              0,
+              1,
+              1
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:466",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "9:41",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              27,
+              13,
+              54,
+              25
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              27,
+              14,
+              57,
+              27
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              1,
+              3,
+              2
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:467",
+            "status": "measured",
+            "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+          },
+          "content": {
+            "value": "A05",
+            "status": "measured",
+            "evidence": "visible text"
+          },
+          "originalInkBBoxLTRB": {
+            "value": [
+              27,
+              45,
+              55,
+              57
+            ],
+            "status": "measured",
+            "evidence": "original PNG ROI threshold"
+          },
+          "currentInkBBoxLTRB": {
+            "value": [
+              27,
+              49,
+              54,
+              62
+            ],
+            "status": "measured",
+            "evidence": "current PNG ROI threshold"
+          },
+          "edgeDeltaLTRB": {
+            "value": [
+              0,
+              4,
+              -1,
+              5
+            ],
+            "status": "measured",
+            "evidence": "current minus original; sensitive to antialiasing"
+          }
+        }
+      ],
+      "acceptance": {
+        "value": "FAIL: structural and visual gates remain open",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "id": "AUTH-QA-01",
+      "priority": {
+        "value": "P1",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "category": {
+        "value": "component_structure",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:14",
+          "70:16",
+          "70:18",
+          "70:20"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "observation": {
+        "value": "All four screens contain zero components and zero instances; target page has no masters",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "cause": {
+        "value": "Primitive/vector/frame construction, no master-instance conversion",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "fix": {
+        "value": "Execute component-plan in one writer; prove each repeated visual has master and instance before acceptance",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "id": "AUTH-QA-02",
+      "priority": {
+        "value": "P1",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "category": {
+        "value": "font_identity_and_metrics",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:140",
+          "70:141",
+          "70:142",
+          "70:143",
+          "70:144",
+          "70:145",
+          "70:146",
+          "70:147",
+          "70:148",
+          "70:149",
+          "70:206",
+          "70:208",
+          "70:210",
+          "70:446",
+          "70:460",
+          "70:461",
+          "70:491",
+          "70:150",
+          "70:151",
+          "70:152",
+          "70:153",
+          "70:154",
+          "70:448",
+          "70:462",
+          "70:463",
+          "70:497",
+          "70:336",
+          "70:338",
+          "70:340",
+          "70:342",
+          "70:365",
+          "70:367",
+          "70:155",
+          "70:156",
+          "70:157",
+          "70:158",
+          "70:159",
+          "70:160",
+          "70:161",
+          "70:297",
+          "70:450",
+          "70:464",
+          "70:465",
+          "70:162",
+          "70:163",
+          "70:164",
+          "70:165",
+          "70:166",
+          "70:167",
+          "70:168",
+          "70:169",
+          "70:170",
+          "70:171",
+          "70:299",
+          "70:301",
+          "70:303",
+          "70:368",
+          "70:369",
+          "70:452",
+          "70:466",
+          "70:467"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "observation": {
+        "value": "Current Noto Sans SC with Roboto masked bullets is an explicit fallback; original font identity is unknown",
+        "status": "measured",
+        "evidence": "readback and source metadata audit"
+      },
+      "cause": {
+        "value": "Fallback glyph outlines and widths differ from generated original typography",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "fix": {
+        "value": "Use per-text visible-ink delta records for measurement. Calibrate original line extent/baselines after font decision; do not treat current text boxes as original geometry",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "id": "AUTH-QA-03",
+      "priority": {
+        "value": "P1",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "category": {
+        "value": "artwork_provenance",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:719",
+          "70:725",
+          "70:486",
+          "70:492",
+          "70:500",
+          "70:507",
+          "70:498",
+          "70:505",
+          "70:512",
+          "70:639",
+          "70:643",
+          "70:647",
+          "70:651",
+          "70:655",
+          "70:659",
+          "70:671",
+          "70:675",
+          "70:679",
+          "70:683",
+          "70:687",
+          "70:691"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "observation": {
+        "value": "Illustrations/icons were hand-authored SVG approximations, without Image Two/extraction asset provenance or fallback exception",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "cause": {
+        "value": "Original bitmaps were interpreted geometrically before new skill was applied",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "fix": {
+        "value": "Prioritize A03 mail illustration and A04 mail-hint artwork; extract from original or use approved Image Two workflow. Classify precise UI icons separately before retaining native vectors",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "id": "AUTH-QA-04",
+      "priority": {
+        "value": "P2",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "category": {
+        "value": "material_and_color",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:14",
+          "70:16",
+          "70:18",
+          "70:20",
+          "70:445",
+          "70:447",
+          "70:449",
+          "70:451"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "observation": {
+        "value": "Original has subtle surface/button variation; rebuild replaces it with uniform RGB fills",
+        "status": "measured",
+        "evidence": "sampled image statistics and paired images"
+      },
+      "cause": {
+        "value": "Flat SOLID paints used",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "fix": {
+        "value": "Reconstruct only isolated material layer and measured mean colors, leaving button label and geometry native",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "id": "AUTH-QA-05",
+      "priority": {
+        "value": "P2",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "category": {
+        "value": "otp_geometry",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:334",
+          "70:335",
+          "70:337",
+          "70:339",
+          "70:341",
+          "70:364",
+          "70:366"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "observation": {
+        "value": "Current OTP row is x39,y482,w433,h76; original visible outlined block is approximately x38..474,y481..559",
+        "status": "measured",
+        "evidence": "Figma readback plus source inspection"
+      },
+      "cause": {
+        "value": "Assumed six 63px cells and uniform 11px gap did not exactly preserve outer source edges",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "fix": {
+        "value": "Measure all six outlines and hyphen stroke lengths before cell-master creation; source outlines include antialiasing tolerance",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "id": "AUTH-QA-06",
+      "priority": {
+        "value": "P2",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "category": {
+        "value": "detached_semantic_layers",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:298",
+          "70:368",
+          "70:687",
+          "70:300",
+          "70:655",
+          "70:679"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "observation": {
+        "value": "Field rectangles/text use auto-layout but their icons and resend action are screen-level siblings",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "cause": {
+        "value": "Original build appended icons/actions directly to screen",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "fix": {
+        "value": "Group under control masters while converting screen-local coordinates; verify icons remain aligned and no duplicate original survives",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "id": "AUTH-QA-07",
+      "priority": {
+        "value": "P1_behavior_P3_visual",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "category": {
+        "value": "source_state_contradiction",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "nodeIds": {
+        "value": [
+          "70:369",
+          "70:691",
+          "70:759"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "observation": {
+        "value": "A05 original shows empty new-password placeholders while stating two passwords match; rebuild preserves it",
+        "status": "measured",
+        "evidence": "source PNG, manifest reviewNotes, current screenshot"
+      },
+      "cause": {
+        "value": "Known generated-concept issue recorded by manifest",
+        "status": "measured",
+        "evidence": "manifest.json pages.A05.reviewNotes"
+      },
+      "fix": {
+        "value": "Preserve source-traceable QA variant and explicit note; production behavior must conditionally show consistency only after nonempty valid comparison",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    }
+  ],
+  "gates": {
+    "filePageIdentity": {
+      "value": "PASS",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "originalCanvasDimensions": {
+      "value": "PASS",
+      "status": "measured",
+      "evidence": "PNG and Figma width/height"
+    },
+    "noFullScreenshotInsideScreens": {
+      "value": "PASS",
+      "status": "measured",
+      "evidence": "image fill readback: A02/A04/A05 only photo, A03 no image"
+    },
+    "referenceLockedOutsideScreens": {
+      "value": "PASS",
+      "status": "measured",
+      "evidence": "reference sibling nodes readback"
+    },
+    "nativeVisibleText": {
+      "value": "PASS",
+      "status": "measured",
+      "evidence": "readback 61 TEXT nodes plus screenshots"
+    },
+    "componentMastersAndInstances": {
+      "value": "FAIL",
+      "status": "measured",
+      "evidence": "zero component/instance counts"
+    },
+    "assetComponents": {
+      "value": "FAIL",
+      "status": "measured",
+      "evidence": "photo rectangles and vector frames are not instances"
+    },
+    "fontExactness": {
+      "value": "FAIL",
+      "status": "measured",
+      "evidence": "fallback; original unknown"
+    },
+    "imageTwoArtworkProvenance": {
+      "value": "FAIL",
+      "status": "measured",
+      "evidence": "no compliant provenance/exceptions for interpreted artwork"
+    },
+    "twoDocumentedRepairRounds": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "Previous build has initial export then font/bullet correction and final comparison; two complete logged fix cycles not established"
+    },
+    "referenceLayersHiddenExport": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "No explicit hide-all-reference operation was performed; no screenshot dependency shown by subtree readback"
+    },
+    "disposableCopyTextAndAssetSwap": {
+      "value": "NOT_RUN",
+      "status": "measured",
+      "evidence": "read-only audit; must be performed by orchestrator"
+    },
+    "finalAcceptance": {
+      "value": "NOT_ACCEPTED; continue componentization and visual repairs",
+      "status": "inferred",
+      "evidence": "QA proposal; source screenshot remains authoritative"
+    }
+  },
+  "nextWriterInstructions": {
+    "value": [
+      "Use original PNGs as source of truth; do not restyle the current approximation as authoritative.",
+      "Preserve locked references and originals; use current verified IDs, then re-read after any replacement.",
+      "Componentize measured source regions, not scaled copies of earlier 390x844 designs.",
+      "Keep one Figma writer; verify geometry and visual evidence after each replacement batch.",
+      "Export after hiding references, conduct disposable-copy edit/swap test, and perform two recorded repair loops."
+    ],
+    "status": "inferred",
+    "evidence": "QA proposal; source screenshot remains authoritative"
+  }
+}

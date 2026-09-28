@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "libraryPage": "75:2",
+  "source": "source-spec.json and asset-manifest.json",
+  "coordinateSystem": "512x1024 original source pixels",
+  "fontPolicy": "Noto Sans SC fallback; exact raster font unknown",
+  "status": "in_progress",
+  "components": [
+    {"name": "Record detail header", "screens": ["F04", "F05", "F06"], "properties": ["caption:TEXT", "title:TEXT"], "assets": ["status-detail", "back-detail", "edit-detail", "delete-detail"]},
+    {"name": "Record detail row", "screens": ["F04", "F05", "F06"], "properties": ["label:TEXT", "value:TEXT", "icon:INSTANCE_SWAP", "divider:BOOLEAN"], "layout": "fixed natural-size icon slot plus horizontal label and right-aligned value"},
+    {"name": "Estimation basis", "screens": ["F04", "F05"], "properties": ["description:TEXT"], "assets": ["basis-book", "basis-chevron"]},
+    {"name": "Nutrition values", "screens": ["F04"], "layout": "four nested row instances without outer decoration", "assets": ["energy-coral", "protein-blue", "carbs-amber", "fat-coral"]},
+    {"name": "Exercise attachment", "screens": ["F05"], "assets": ["exercise-attachment"], "layout": "independent interchangeable bitmap image, natural 459x226"},
+    {"name": "Mood detail header", "screens": ["F07"], "assets": ["status-mood", "back-mood", "edit-mood", "delete-mood"], "layout": "source-specific header with edit/delete labels"},
+    {"name": "Mood option", "screens": ["F07"], "properties": ["label:TEXT", "icon:INSTANCE_SWAP"], "states": ["selected", "unselected"]},
+    {"name": "Mood selector", "screens": ["F07"], "layout": "four source-size horizontal items"},
+    {"name": "Pressure scale", "screens": ["F07"], "layout": "five native circles with editable numerals, second selected"},
+    {"name": "Mood record field", "screens": ["F07"], "properties": ["label:TEXT", "value:TEXT", "icon:INSTANCE_SWAP"], "layout": "section title then horizontal artwork and text"},
+    {"name": "History overview header", "screens": ["F01", "F02", "F03"], "properties": ["caption:TEXT", "title:TEXT"], "assets": ["status-overview", "back-overview"]},
+    {"name": "History period selector", "screens": ["F01", "F03"], "states": ["7-days-selected"], "layout": "two equal-width editable segments"},
+    {"name": "History filters", "screens": ["F01"], "properties": ["category:TEXT", "dateRange:TEXT", "order:TEXT"], "assets": ["calendar-filter-small", "filter-chevron"]},
+    {"name": "History record row", "screens": ["F01", "F02"], "properties": ["time:TEXT", "type:TEXT", "detail:TEXT", "icon:INSTANCE_SWAP"], "layout": "fixed time and image columns, text stack and right chevron"},
+    {"name": "History date group", "screens": ["F01"], "properties": ["date:TEXT"], "layout": "native editable date heading with record row instance"},
+    {"name": "History bottom navigation", "screens": ["F01", "F02", "F03"], "layout": "source-specific four columns with record tab selected"}
+  ],
+  "constraints": [
+    "Do not treat example dates, nutritional values or counts as live account data.",
+    "No whole screenshot inside rebuilt screen.",
+    "Source F07 differs from F04-F06; do not normalize its layout to the other details.",
+    "All acceptance gates remain pending until documented visual and editability verification."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "in_progress_not_final_acceptance",
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "libraryPage": "75:2",
+  "referencePolicy": "Complete screenshots are independent reference frames outside final screens.",
+  "fontPolicy": "Source raster font unknown. Noto Sans SC fallback; remaining metric differences must not be described as exact.",
+  "repairs": [
+    {"screen": "B01", "issue": "Missing source icons, incorrect note wrapping and oversized save label", "action": "Restored original crops; note stays on one line; corrected label size and button green", "evidence": "onboarding/B01-round2.png"},
+    {"screen": "B02", "issue": "Temporary character icons and incorrect separators", "action": "Replaced character glyphs with extracted artwork; added connectors; componentized steps", "evidence": "onboarding/B02-round2.png"},
+    {"screen": "B03", "issue": "Original artwork incorrectly clipped by ellipse", "action": "Replaced ellipse with natural-size rectangle artwork instance 140:409", "evidence": "onboarding/B03-round2.png"},
+    {"screen": "D04", "issue": "Missing complete recent-food list", "action": "Created source-photo instances, six editable rows, header, tabs and note components", "evidence": "food-extra/D04-round2.png"},
+    {"screen": "D05", "issue": "Empty frame followed by header placed 17px left and 5px up", "action": "Created five editable favorite rows; corrected header to source position 17,5", "evidence": "food-extra/D05-round2.png"},
+    {"screen": "D06", "issue": "Empty frame followed by clipped nutrition text and low baselines", "action": "Created reusable directory rows; widened text frame, calibrated font size and top alignment", "evidence": "food-extra/D06-round2.png"},
+    {"screen": "D07", "issue": "Temporary back glyph, missing status asset and incorrect label/color sizes", "action": "Original source icons restored; six field component instances; save/cancel styling corrected", "evidence": "food-extra/D07-round2.png"}
+  ],
+  "editableSwapTest": {
+    "screen": "B01",
+    "temporaryClone": "146:47",
+    "textEdit": "172 cm",
+    "artworkSwap": "weight icon",
+    "originalUnchanged": true,
+    "temporaryCloneRemoved": true,
+    "status": "passed"
+  },
+  "instances": {
+    "D04": ["149:41", "149:52", "149:63", "149:74", "149:85", "149:96", "150:83", "150:98", "150:105"],
+    "D05": ["157:602", "157:615", "157:619", "157:649", "157:679", "157:709", "157:739"],
+    "D06": ["153:542", "153:552", "153:562", "153:589"],
+    "D07": ["145:435", "145:439", "145:443", "145:447", "145:451", "145:455"]
+  },
+  "generatedArt": "onboarding/generation-v2.json",
+  "remaining": [
+    "Further per-screen font, color and material calibration",
+    "Complete region componentization where still missing",
+    "Independent editability and image-swap tests for remaining component families",
+    "At least two documented visual repair cycles per final accepted screen",
+    "Unbuilt profile, history, life and interaction-state content"
+  ],
+  "acceptedScreens": []
+}

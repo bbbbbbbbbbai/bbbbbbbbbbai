@@ -1,0 +1,4233 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-09-28T01:15:57.942215+08:00",
+  "scope": "source analysis only; no Figma created or modified",
+  "coordinateSystem": "Original screen-local pixels,512x1024. Boxes XYWH; crops LTRB exclusive end.",
+  "geometryMeaning": "Text x/y/w/h are thresholded visible-ink bounds. textBoxCandidate is inferred editing layout, never an original Figma frame.",
+  "fontPolicy": {
+    "actualFamily": {
+      "value": null,
+      "status": "unknown",
+      "source": "Raster generator did not provide source font metadata"
+    },
+    "candidateFamily": {
+      "value": "Noto Sans SC; verify glyph width/weight before accepting",
+      "status": "inferred",
+      "source": "Layout/typography candidate inferred from original raster"
+    }
+  },
+  "screens": [
+    {
+      "id": "E01",
+      "title": {
+        "value": "健康记录",
+        "status": "measured",
+        "source": "original text"
+      },
+      "sourceFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\E01.png",
+      "sourceSHA256": "bba0146b83aee209a23f7229ee1378e6ebb69e46fb7c7b1b5de05eea63877128",
+      "width": 512,
+      "height": 1024,
+      "dimensionStatus": "measured",
+      "background": {
+        "roiLTRB": {
+          "value": [
+            310,
+            950,
+            345,
+            980
+          ],
+          "status": "measured",
+          "source": "sampling coordinates"
+        },
+        "meanRGB": {
+          "value": [
+            254.28,
+            254.16,
+            254.28
+          ],
+          "status": "measured",
+          "source": "Pillow source ROI mean, mixed edge pixels may occur"
+        },
+        "stddevRGB": {
+          "value": [
+            0.51,
+            0.53,
+            0.51
+          ],
+          "status": "measured",
+          "source": "Pillow source ROI stddev"
+        },
+        "filteredMedianRGB": {
+          "value": [
+            254,
+            254,
+            254
+          ],
+          "status": "measured",
+          "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+        }
+      },
+      "colors": {
+        "background": {
+          "roiLTRB": {
+            "value": [
+              310,
+              950,
+              345,
+              980
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              254.28,
+              254.16,
+              254.28
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              0.51,
+              0.53,
+              0.51
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              254,
+              254,
+              254
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "primary_ink": {
+          "roiLTRB": {
+            "value": [
+              205,
+              59,
+              227,
+              79
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              105.45,
+              106.94,
+              109.44
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              91.26,
+              91.92,
+              91.09
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              20,
+              21,
+              26
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "accent": {
+          "roiLTRB": {
+            "value": [
+              460,
+              144,
+              480,
+              151
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              127.13,
+              200.14,
+              179.36
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              99.61,
+              42.14,
+              58.53
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              26,
+              159,
+              122
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        }
+      },
+      "text": [
+        {
+          "id": "time",
+          "text": "9:41",
+          "x": 26,
+          "y": 13,
+          "w": 29,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            105,
+            108,
+            112
+          ],
+          "textBoxCandidate": [
+            25,
+            7,
+            60,
+            27
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "battery",
+          "text": "100%",
+          "x": 428,
+          "y": 14,
+          "w": 39,
+          "h": 12,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            113,
+            114,
+            116
+          ],
+          "textBoxCandidate": [
+            427,
+            7,
+            65,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "title",
+          "text": "健康记录",
+          "x": 203,
+          "y": 57,
+          "w": 103,
+          "h": 26,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            32,
+            35,
+            38
+          ],
+          "textBoxCandidate": [
+            170,
+            48,
+            174,
+            39
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "history",
+          "text": "历史",
+          "x": 448,
+          "y": 61,
+          "w": 40,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            35,
+            163,
+            121
+          ],
+          "textBoxCandidate": [
+            447,
+            54,
+            49,
+            33
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "exercise-heading",
+          "text": "运动",
+          "x": 25,
+          "y": 135,
+          "w": 48,
+          "h": 24,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            28,
+            31,
+            36
+          ],
+          "textBoxCandidate": [
+            24,
+            130,
+            110,
+            36
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "exercise-1-title",
+          "text": "跑步30分钟",
+          "x": 88,
+          "y": 201,
+          "w": 104,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            63,
+            66,
+            68
+          ],
+          "textBoxCandidate": [
+            88,
+            195,
+            330,
+            32
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "exercise-1-date",
+          "text": "2024年3月10日 07:20",
+          "x": 89,
+          "y": 234,
+          "w": 164,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            141,
+            144,
+            151
+          ],
+          "textBoxCandidate": [
+            88,
+            230,
+            331,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "exercise-2-title",
+          "text": "步行25分钟",
+          "x": 89,
+          "y": 295,
+          "w": 104,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            71,
+            72,
+            75
+          ],
+          "textBoxCandidate": [
+            88,
+            290,
+            330,
+            32
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "exercise-2-date",
+          "text": "2024年3月9日 18:40",
+          "x": 90,
+          "y": 329,
+          "w": 154,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            133,
+            136,
+            144
+          ],
+          "textBoxCandidate": [
+            88,
+            325,
+            331,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "weight-heading",
+          "text": "体重",
+          "x": 25,
+          "y": 416,
+          "w": 48,
+          "h": 24,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            30,
+            32,
+            38
+          ],
+          "textBoxCandidate": [
+            24,
+            411,
+            110,
+            38
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "weight-1-value",
+          "text": "69.5kg",
+          "x": 89,
+          "y": 484,
+          "w": 64,
+          "h": 22,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            66,
+            66,
+            69
+          ],
+          "textBoxCandidate": [
+            88,
+            477,
+            330,
+            33
+          ],
+          "fontSizeCandidate": 22,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 30.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "weight-1-date",
+          "text": "2024年3月10日 08:00",
+          "x": 90,
+          "y": 517,
+          "w": 163,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            140,
+            143,
+            152
+          ],
+          "textBoxCandidate": [
+            88,
+            512,
+            331,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "weight-2-value",
+          "text": "69.7kg",
+          "x": 89,
+          "y": 580,
+          "w": 63,
+          "h": 23,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            64,
+            66,
+            71
+          ],
+          "textBoxCandidate": [
+            88,
+            573,
+            330,
+            33
+          ],
+          "fontSizeCandidate": 22,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 30.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "weight-2-date",
+          "text": "2024年3月9日 08:10",
+          "x": 90,
+          "y": 614,
+          "w": 154,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            131,
+            134,
+            141
+          ],
+          "textBoxCandidate": [
+            88,
+            608,
+            331,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "mood-heading",
+          "text": "心情",
+          "x": 25,
+          "y": 701,
+          "w": 48,
+          "h": 25,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            42,
+            44,
+            47
+          ],
+          "textBoxCandidate": [
+            24,
+            697,
+            110,
+            38
+          ],
+          "fontSizeCandidate": 26,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 36.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "mood-1-value",
+          "text": "轻松",
+          "x": 89,
+          "y": 770,
+          "w": 39,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            62,
+            65,
+            67
+          ],
+          "textBoxCandidate": [
+            88,
+            765,
+            330,
+            31
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "mood-1-date",
+          "text": "2024年3月10日 21:30",
+          "x": 90,
+          "y": 804,
+          "w": 163,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            134,
+            137,
+            145
+          ],
+          "textBoxCandidate": [
+            88,
+            799,
+            331,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "mood-2-value",
+          "text": "还行",
+          "x": 89,
+          "y": 866,
+          "w": 40,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            73,
+            74,
+            78
+          ],
+          "textBoxCandidate": [
+            88,
+            861,
+            330,
+            31
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "mood-2-date",
+          "text": "2024年3月9日 20:15",
+          "x": 90,
+          "y": 901,
+          "w": 154,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            132,
+            135,
+            143
+          ],
+          "textBoxCandidate": [
+            88,
+            895,
+            331,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        }
+      ],
+      "controls": [
+        {
+          "id": "exercise-divider-1",
+          "type": "line",
+          "x": 24,
+          "y": 179,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "exercise-divider-2",
+          "type": "line",
+          "x": 24,
+          "y": 273,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "exercise-divider-3",
+          "type": "line",
+          "x": 24,
+          "y": 367,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "weight-divider-1",
+          "type": "line",
+          "x": 24,
+          "y": 460,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "weight-divider-2",
+          "type": "line",
+          "x": 24,
+          "y": 556,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "weight-divider-3",
+          "type": "line",
+          "x": 24,
+          "y": 653,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "mood-divider-1",
+          "type": "line",
+          "x": 24,
+          "y": 748,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "mood-divider-2",
+          "type": "line",
+          "x": 24,
+          "y": 843,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "mood-divider-3",
+          "type": "line",
+          "x": 24,
+          "y": 940,
+          "w": 465,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "gesture",
+          "type": "rect",
+          "x": 189,
+          "y": 1002,
+          "w": 136,
+          "h": 6,
+          "geometryStatus": "measured",
+          "radiusCandidate": 3,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        }
+      ],
+      "assets": [
+        "back-E01",
+        "status-E01",
+        "history",
+        "add-green",
+        "run-blue",
+        "walk-blue",
+        "weight-scale-green",
+        "mood-relaxed-red",
+        "mood-okay-red",
+        "edit-pencil"
+      ],
+      "reviewNotes": {
+        "value": [],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "dataBoundary": {
+        "value": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "trueDeviceSafeInset": {
+        "value": null,
+        "status": "unknown",
+        "source": "These are concept images, not device metadata."
+      },
+      "listRows": {
+        "value": [
+          {
+            "section": "运动",
+            "rows": [
+              [
+                24,
+                180,
+                465,
+                93
+              ],
+              [
+                24,
+                274,
+                465,
+                93
+              ]
+            ],
+            "iconX": 29,
+            "textX": 88,
+            "editX": 459
+          },
+          {
+            "section": "体重",
+            "rows": [
+              [
+                24,
+                461,
+                465,
+                95
+              ],
+              [
+                24,
+                557,
+                465,
+                96
+              ]
+            ],
+            "iconX": 27,
+            "textX": 88,
+            "editX": 459
+          },
+          {
+            "section": "心情",
+            "rows": [
+              [
+                24,
+                749,
+                465,
+                94
+              ],
+              [
+                24,
+                844,
+                465,
+                96
+              ]
+            ],
+            "iconX": 25,
+            "textX": 88,
+            "editX": 459
+          }
+        ],
+        "status": "measured",
+        "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+      },
+      "repeatedControls": {
+        "value": {
+          "addXY": [
+            [
+              454,
+              131
+            ],
+            [
+              454,
+              412
+            ],
+            [
+              454,
+              700
+            ]
+          ],
+          "editXY": [
+            [
+              459,
+              210
+            ],
+            [
+              459,
+              306
+            ],
+            [
+              459,
+              492
+            ],
+            [
+              459,
+              588
+            ],
+            [
+              459,
+              779
+            ],
+            [
+              459,
+              875
+            ]
+          ],
+          "reuse": "one add master and one edit master; icon artwork remains bitmap"
+        },
+        "status": "inferred",
+        "source": "Layout/typography candidate inferred from original raster"
+      }
+    },
+    {
+      "id": "E02",
+      "title": {
+        "value": "E02 运动记录",
+        "status": "measured",
+        "source": "original text"
+      },
+      "sourceFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\E02.png",
+      "sourceSHA256": "a1f72b072dd98c736a8584864a907875e829c5c4345397fd6d3abe7090838f03",
+      "width": 512,
+      "height": 1024,
+      "dimensionStatus": "measured",
+      "background": {
+        "roiLTRB": {
+          "value": [
+            320,
+            983,
+            360,
+            996
+          ],
+          "status": "measured",
+          "source": "sampling coordinates"
+        },
+        "meanRGB": {
+          "value": [
+            252.55,
+            252.93,
+            252.93
+          ],
+          "status": "measured",
+          "source": "Pillow source ROI mean, mixed edge pixels may occur"
+        },
+        "stddevRGB": {
+          "value": [
+            0.5,
+            0.54,
+            0.54
+          ],
+          "status": "measured",
+          "source": "Pillow source ROI stddev"
+        },
+        "filteredMedianRGB": {
+          "value": [
+            253,
+            253,
+            253
+          ],
+          "status": "measured",
+          "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+        }
+      },
+      "colors": {
+        "background": {
+          "roiLTRB": {
+            "value": [
+              320,
+              983,
+              360,
+              996
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              252.55,
+              252.93,
+              252.93
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              0.5,
+              0.54,
+              0.54
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              253,
+              253,
+              253
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "primary_ink": {
+          "roiLTRB": {
+            "value": [
+              194,
+              52,
+              210,
+              68
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              153.3,
+              153.67,
+              153.66
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              103.63,
+              103.68,
+              103.94
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              7,
+              6,
+              6
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "field_border": {
+          "roiLTRB": {
+            "value": [
+              25,
+              435,
+              65,
+              437
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              251.15,
+              251.88,
+              252.39
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              5.29,
+              4.43,
+              3.7
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              253,
+              253,
+              253
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "accent": {
+          "roiLTRB": {
+            "value": [
+              35,
+              924,
+              110,
+              955
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              34.58,
+              149.92,
+              110.81
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              0.69,
+              0.92,
+              0.8
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              35,
+              150,
+              111
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        }
+      },
+      "text": [
+        {
+          "id": "time",
+          "text": "9:41",
+          "x": 24,
+          "y": 9,
+          "w": 29,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            95,
+            100,
+            106
+          ],
+          "textBoxCandidate": [
+            23,
+            3,
+            61,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "battery",
+          "text": "100%",
+          "x": 436,
+          "y": 9,
+          "w": 42,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            101,
+            106,
+            113
+          ],
+          "textBoxCandidate": [
+            435,
+            3,
+            65,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "title",
+          "text": "E02 运动记录",
+          "x": 190,
+          "y": 50,
+          "w": 130,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            27,
+            28,
+            28
+          ],
+          "textBoxCandidate": [
+            153,
+            43,
+            206,
+            34
+          ],
+          "fontSizeCandidate": 24,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 33.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "type-label",
+          "text": "运动类型",
+          "x": 24,
+          "y": 202,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            83,
+            87,
+            91
+          ],
+          "textBoxCandidate": [
+            23,
+            198,
+            160,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "type-run",
+          "text": "跑步",
+          "x": 20,
+          "y": 280,
+          "w": 87,
+          "h": 22,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            238,
+            250,
+            243
+          ],
+          "textBoxCandidate": [
+            20,
+            274,
+            87,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "white"
+        },
+        {
+          "id": "type-cycle",
+          "text": "骑行",
+          "x": 145,
+          "y": 279,
+          "w": 30,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            101,
+            103
+          ],
+          "textBoxCandidate": [
+            116,
+            274,
+            88,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "type-gym",
+          "text": "健身",
+          "x": 241,
+          "y": 279,
+          "w": 29,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            103,
+            106,
+            110
+          ],
+          "textBoxCandidate": [
+            213,
+            274,
+            87,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "type-walk",
+          "text": "步行",
+          "x": 338,
+          "y": 279,
+          "w": 29,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            98,
+            104
+          ],
+          "textBoxCandidate": [
+            309,
+            274,
+            87,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "type-custom",
+          "text": "自定义",
+          "x": 427,
+          "y": 279,
+          "w": 43,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            98,
+            103
+          ],
+          "textBoxCandidate": [
+            404,
+            274,
+            88,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "intensity-label",
+          "text": "运动强度",
+          "x": 24,
+          "y": 320,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            100,
+            104
+          ],
+          "textBoxCandidate": [
+            23,
+            316,
+            160,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "intensity-low",
+          "text": "低",
+          "x": 92,
+          "y": 361,
+          "w": 15,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            244,
+            252,
+            249
+          ],
+          "textBoxCandidate": [
+            23,
+            353,
+            152,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "white"
+        },
+        {
+          "id": "intensity-medium",
+          "text": "中",
+          "x": 248,
+          "y": 360,
+          "w": 14,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            79,
+            87,
+            97
+          ],
+          "textBoxCandidate": [
+            176,
+            353,
+            157,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "intensity-high",
+          "text": "高",
+          "x": 403,
+          "y": 360,
+          "w": 15,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            110,
+            114,
+            121
+          ],
+          "textBoxCandidate": [
+            334,
+            353,
+            154,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "duration-label",
+          "text": "运动时长",
+          "x": 25,
+          "y": 409,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            100,
+            104,
+            110
+          ],
+          "textBoxCandidate": [
+            23,
+            405,
+            220,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "distance-label",
+          "text": "运动距离",
+          "x": 269,
+          "y": 409,
+          "w": 65,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            107,
+            112,
+            117
+          ],
+          "textBoxCandidate": [
+            268,
+            405,
+            220,
+            28
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "duration-value",
+          "text": "30分钟",
+          "x": 79,
+          "y": 446,
+          "w": 55,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            66,
+            67,
+            66
+          ],
+          "textBoxCandidate": [
+            77,
+            439,
+            158,
+            31
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "distance-value",
+          "text": "5公里",
+          "x": 322,
+          "y": 446,
+          "w": 42,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            81,
+            84,
+            91
+          ],
+          "textBoxCandidate": [
+            320,
+            439,
+            157,
+            31
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "steps-label",
+          "text": "步数（可选）",
+          "x": 26,
+          "y": 490,
+          "w": 91,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            96,
+            103,
+            109
+          ],
+          "textBoxCandidate": [
+            23,
+            486,
+            220,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "weight-label",
+          "text": "体重（用于估算）",
+          "x": 269,
+          "y": 489,
+          "w": 125,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            94,
+            101,
+            109
+          ],
+          "textBoxCandidate": [
+            268,
+            486,
+            224,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "steps-value",
+          "text": "6000",
+          "x": 80,
+          "y": 529,
+          "w": 43,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            65,
+            65,
+            67
+          ],
+          "textBoxCandidate": [
+            77,
+            521,
+            158,
+            31
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "weight-value",
+          "text": "69.5 kg",
+          "x": 323,
+          "y": 528,
+          "w": 61,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            56,
+            58,
+            61
+          ],
+          "textBoxCandidate": [
+            320,
+            521,
+            157,
+            31
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "energy-label",
+          "text": "预计消耗",
+          "x": 25,
+          "y": 572,
+          "w": 66,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            99,
+            103,
+            109
+          ],
+          "textBoxCandidate": [
+            23,
+            568,
+            161,
+            27
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "energy-value",
+          "text": "320千卡",
+          "x": 68,
+          "y": 601,
+          "w": 82,
+          "h": 22,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            20,
+            22,
+            21
+          ],
+          "textBoxCandidate": [
+            67,
+            594,
+            196,
+            36
+          ],
+          "fontSizeCandidate": 24,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 33.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "energy-source",
+          "text": "估算来源",
+          "x": 396,
+          "y": 595,
+          "w": 61,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            58,
+            159,
+            123
+          ],
+          "textBoxCandidate": [
+            394,
+            589,
+            71,
+            27
+          ],
+          "fontSizeCandidate": 16,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 22.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "formula",
+          "text": "基于公式：MET × 体重 × 时间 × 1.05 = 8.0 × 69.5 × 0.5 × 1.05 ≈ 320",
+          "x": 37,
+          "y": 646,
+          "w": 436,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            134,
+            141,
+            148
+          ],
+          "textBoxCandidate": [
+            36,
+            641,
+            443,
+            27
+          ],
+          "fontSizeCandidate": 13,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 18.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "photo-label",
+          "text": "照片（最多3张）",
+          "x": 25,
+          "y": 689,
+          "w": 118,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            95,
+            100,
+            105
+          ],
+          "textBoxCandidate": [
+            23,
+            684,
+            256,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "date-label",
+          "text": "日期",
+          "x": 26,
+          "y": 830,
+          "w": 29,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            77,
+            85,
+            92
+          ],
+          "textBoxCandidate": [
+            23,
+            825,
+            57,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "date-value",
+          "text": "2026年9月26日",
+          "x": 137,
+          "y": 831,
+          "w": 108,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            76,
+            79,
+            80
+          ],
+          "textBoxCandidate": [
+            136,
+            825,
+            294,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "note-label",
+          "text": "备注",
+          "x": 24,
+          "y": 876,
+          "w": 32,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            93,
+            98,
+            104
+          ],
+          "textBoxCandidate": [
+            23,
+            871,
+            57,
+            30
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "note-placeholder",
+          "text": "简单记录一下这次运动吧…",
+          "x": 137,
+          "y": 880,
+          "w": 192,
+          "h": 15,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            163,
+            170,
+            178
+          ],
+          "textBoxCandidate": [
+            136,
+            873,
+            316,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "save",
+          "text": "保存",
+          "x": 236,
+          "y": 935,
+          "w": 40,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            248,
+            252,
+            251
+          ],
+          "textBoxCandidate": [
+            199,
+            925,
+            114,
+            35
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "white"
+        }
+      ],
+      "controls": [
+        {
+          "id": "header-separator",
+          "type": "line",
+          "x": 0,
+          "y": 85,
+          "w": 512,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "run-card",
+          "type": "rect",
+          "x": 20,
+          "y": 230,
+          "w": 87,
+          "h": 74,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": "selected"
+        },
+        {
+          "id": "cycle-card",
+          "type": "rect",
+          "x": 116,
+          "y": 230,
+          "w": 88,
+          "h": 74,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": "default"
+        },
+        {
+          "id": "gym-card",
+          "type": "rect",
+          "x": 213,
+          "y": 230,
+          "w": 87,
+          "h": 74,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": "default"
+        },
+        {
+          "id": "walk-card",
+          "type": "rect",
+          "x": 309,
+          "y": 230,
+          "w": 87,
+          "h": 74,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": "default"
+        },
+        {
+          "id": "custom-card",
+          "type": "rect",
+          "x": 404,
+          "y": 230,
+          "w": 88,
+          "h": 74,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": "default"
+        },
+        {
+          "id": "intensity-shell",
+          "type": "rect",
+          "x": 23,
+          "y": 346,
+          "w": 465,
+          "h": 44,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "intensity-selected",
+          "type": "rect",
+          "x": 23,
+          "y": 346,
+          "w": 152,
+          "h": 44,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 0,
+          "visibleState": "low"
+        },
+        {
+          "id": "intensity-divider",
+          "type": "line",
+          "x": 333,
+          "y": 346,
+          "w": 1,
+          "h": 44,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "duration-input",
+          "type": "rect",
+          "x": 24,
+          "y": 434,
+          "w": 220,
+          "h": 41,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "distance-input",
+          "type": "rect",
+          "x": 268,
+          "y": 434,
+          "w": 220,
+          "h": 41,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "steps-input",
+          "type": "rect",
+          "x": 24,
+          "y": 516,
+          "w": 220,
+          "h": 41,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "weight-input",
+          "type": "rect",
+          "x": 268,
+          "y": 516,
+          "w": 220,
+          "h": 41,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "formula-surface",
+          "type": "rect",
+          "x": 23,
+          "y": 634,
+          "w": 465,
+          "h": 38,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "photo1-frame",
+          "type": "rect",
+          "x": 24,
+          "y": 715,
+          "w": 137,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 7,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "photo2-frame",
+          "type": "rect",
+          "x": 178,
+          "y": 715,
+          "w": 137,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 7,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "photo-add",
+          "type": "rect",
+          "x": 332,
+          "y": 715,
+          "w": 123,
+          "h": 89,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 1,
+          "visibleState": "dashed"
+        },
+        {
+          "id": "date-input",
+          "type": "rect",
+          "x": 82,
+          "y": 818,
+          "w": 406,
+          "h": 41,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "note-input",
+          "type": "rect",
+          "x": 82,
+          "y": 867,
+          "w": 406,
+          "h": 41,
+          "geometryStatus": "measured",
+          "radiusCandidate": 6,
+          "strokeCandidate": 1,
+          "visibleState": "empty"
+        },
+        {
+          "id": "save",
+          "type": "rect",
+          "x": 23,
+          "y": 917,
+          "w": 465,
+          "h": 56,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "gesture",
+          "type": "rect",
+          "x": 197,
+          "y": 1000,
+          "w": 118,
+          "h": 5,
+          "geometryStatus": "measured",
+          "radiusCandidate": 3,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        }
+      ],
+      "assets": [
+        "back-editor",
+        "status-editor",
+        "exercise-hero",
+        "type-run-white",
+        "type-cycle",
+        "type-gym",
+        "type-walk",
+        "type-custom",
+        "duration-clock",
+        "distance-pin",
+        "steps",
+        "estimate-weight",
+        "energy-flame",
+        "source-chevron",
+        "exercise-photo-1",
+        "exercise-photo-2",
+        "photo-remove",
+        "photo-add-plus",
+        "calendar-compact",
+        "note-compact",
+        "dropdown-compact"
+      ],
+      "reviewNotes": {
+        "value": [
+          "图中估算公式与320千卡示例不一致，不得照抄；实际数值和来源须使用现有计算逻辑。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "dataBoundary": {
+        "value": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "trueDeviceSafeInset": {
+        "value": null,
+        "status": "unknown",
+        "source": "These are concept images, not device metadata."
+      },
+      "formulaPolicy": {
+        "value": "原图文字只用于视觉溯源；manifest明确指出公式与320示例不一致，实装须由现有计算逻辑驱动。",
+        "status": "measured",
+        "source": "manifest reviewNotes"
+      },
+      "photoLayering": {
+        "value": "Two photos include baked close circles. Clean image content first, then separate close control; do not claim independent photo/control if overlay remains inside image.",
+        "status": "inferred",
+        "source": "Layout/typography candidate inferred from original raster"
+      }
+    },
+    {
+      "id": "E03",
+      "title": {
+        "value": "E03 体重记录",
+        "status": "measured",
+        "source": "original text"
+      },
+      "sourceFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\E03.png",
+      "sourceSHA256": "8ee07144d89dbf9ba0b989900871dcd45d88d93e367100e88587e80d7064042c",
+      "width": 512,
+      "height": 1024,
+      "dimensionStatus": "measured",
+      "background": {
+        "roiLTRB": {
+          "value": [
+            320,
+            983,
+            360,
+            996
+          ],
+          "status": "measured",
+          "source": "sampling coordinates"
+        },
+        "meanRGB": {
+          "value": [
+            252.62,
+            253.02,
+            253.02
+          ],
+          "status": "measured",
+          "source": "Pillow source ROI mean, mixed edge pixels may occur"
+        },
+        "stddevRGB": {
+          "value": [
+            0.48,
+            0.53,
+            0.53
+          ],
+          "status": "measured",
+          "source": "Pillow source ROI stddev"
+        },
+        "filteredMedianRGB": {
+          "value": [
+            253,
+            253,
+            253
+          ],
+          "status": "measured",
+          "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+        }
+      },
+      "colors": {
+        "background": {
+          "roiLTRB": {
+            "value": [
+              320,
+              983,
+              360,
+              996
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              252.62,
+              253.02,
+              253.02
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              0.48,
+              0.53,
+              0.53
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              253,
+              253,
+              253
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "primary_ink": {
+          "roiLTRB": {
+            "value": [
+              194,
+              52,
+              210,
+              68
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              148.43,
+              148.75,
+              148.72
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              103.51,
+              103.43,
+              103.6
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              7,
+              7,
+              6
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "field_border": {
+          "roiLTRB": {
+            "value": [
+              26,
+              551,
+              60,
+              553
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              238.93,
+              241.32,
+              244.85
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              13.51,
+              11.89,
+              8.71
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              235,
+              237,
+              241
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "accent": {
+          "roiLTRB": {
+            "value": [
+              35,
+              923,
+              110,
+              950
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              34.24,
+              150.02,
+              110.46
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              0.63,
+              0.61,
+              0.57
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              34,
+              150,
+              110
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        }
+      },
+      "text": [
+        {
+          "id": "time",
+          "text": "9:41",
+          "x": 25,
+          "y": 9,
+          "w": 29,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            91,
+            97,
+            103
+          ],
+          "textBoxCandidate": [
+            23,
+            3,
+            61,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "battery",
+          "text": "100%",
+          "x": 437,
+          "y": 9,
+          "w": 42,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            102,
+            109
+          ],
+          "textBoxCandidate": [
+            435,
+            3,
+            65,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "title",
+          "text": "E03 体重记录",
+          "x": 191,
+          "y": 50,
+          "w": 130,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            27,
+            28,
+            27
+          ],
+          "textBoxCandidate": [
+            153,
+            43,
+            206,
+            34
+          ],
+          "fontSizeCandidate": 24,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 33.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "weight-label",
+          "text": "体重（kg）",
+          "x": 24,
+          "y": 240,
+          "w": 81,
+          "h": 20,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            83,
+            85,
+            88
+          ],
+          "textBoxCandidate": [
+            23,
+            234,
+            245,
+            32
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "weight-value",
+          "text": "69.5",
+          "x": 184,
+          "y": 296,
+          "w": 65,
+          "h": 26,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            9,
+            9,
+            9
+          ],
+          "textBoxCandidate": [
+            175,
+            285,
+            150,
+            48
+          ],
+          "fontSizeCandidate": 34,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 47.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "ruler-67",
+          "text": "67",
+          "x": 35,
+          "y": 419,
+          "w": 17,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            137,
+            145,
+            152
+          ],
+          "textBoxCandidate": [
+            32,
+            413,
+            26,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "ruler-68",
+          "text": "68",
+          "x": 119,
+          "y": 419,
+          "w": 16,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            133,
+            141,
+            151
+          ],
+          "textBoxCandidate": [
+            117,
+            413,
+            26,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "ruler-69",
+          "text": "69",
+          "x": 204,
+          "y": 419,
+          "w": 17,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            135,
+            145,
+            153
+          ],
+          "textBoxCandidate": [
+            202,
+            413,
+            26,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "ruler-70",
+          "text": "70",
+          "x": 293,
+          "y": 419,
+          "w": 16,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            132,
+            138,
+            148
+          ],
+          "textBoxCandidate": [
+            288,
+            413,
+            26,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "ruler-71",
+          "text": "71",
+          "x": 378,
+          "y": 419,
+          "w": 15,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            141,
+            148,
+            156
+          ],
+          "textBoxCandidate": [
+            374,
+            413,
+            26,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "ruler-72",
+          "text": "72",
+          "x": 462,
+          "y": 419,
+          "w": 16,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            146,
+            151,
+            161
+          ],
+          "textBoxCandidate": [
+            459,
+            413,
+            26,
+            28
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "ruler-current",
+          "text": "69.5",
+          "x": 234,
+          "y": 446,
+          "w": 45,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            24,
+            150,
+            108
+          ],
+          "textBoxCandidate": [
+            231,
+            437,
+            89,
+            36
+          ],
+          "fontSizeCandidate": 24,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 33.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "sleep-label",
+          "text": "睡眠时长（小时）",
+          "x": 25,
+          "y": 519,
+          "w": 129,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            85,
+            91,
+            96
+          ],
+          "textBoxCandidate": [
+            23,
+            512,
+            318,
+            34
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "sleep-value",
+          "text": "7.5",
+          "x": 102,
+          "y": 567,
+          "w": 31,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            14,
+            15,
+            15
+          ],
+          "textBoxCandidate": [
+            101,
+            558,
+            265,
+            36
+          ],
+          "fontSizeCandidate": 25,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 35.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "date-label",
+          "text": "日期",
+          "x": 26,
+          "y": 636,
+          "w": 32,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            80,
+            88,
+            95
+          ],
+          "textBoxCandidate": [
+            23,
+            630,
+            128,
+            32
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "date-value",
+          "text": "2026年9月26日",
+          "x": 86,
+          "y": 680,
+          "w": 128,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            55,
+            56,
+            57
+          ],
+          "textBoxCandidate": [
+            84,
+            674,
+            328,
+            36
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "note-label",
+          "text": "备注",
+          "x": 24,
+          "y": 743,
+          "w": 34,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            82,
+            86,
+            94
+          ],
+          "textBoxCandidate": [
+            23,
+            736,
+            128,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "note-placeholder",
+          "text": "记录一下今天的身体状态吧…",
+          "x": 90,
+          "y": 789,
+          "w": 229,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            161,
+            169,
+            176
+          ],
+          "textBoxCandidate": [
+            88,
+            782,
+            366,
+            33
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "save",
+          "text": "保存",
+          "x": 236,
+          "y": 933,
+          "w": 41,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            248,
+            252,
+            249
+          ],
+          "textBoxCandidate": [
+            199,
+            924,
+            114,
+            37
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "white"
+        }
+      ],
+      "controls": [
+        {
+          "id": "header-separator",
+          "type": "line",
+          "x": 0,
+          "y": 86,
+          "w": 512,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "weight-input",
+          "type": "rect",
+          "x": 24,
+          "y": 274,
+          "w": 382,
+          "h": 69,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "keyboard-button",
+          "type": "rect",
+          "x": 416,
+          "y": 274,
+          "w": 73,
+          "h": 69,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "ruler-active",
+          "type": "rect",
+          "x": 254,
+          "y": 363,
+          "w": 4,
+          "h": 71,
+          "geometryStatus": "measured",
+          "radiusCandidate": 2,
+          "strokeCandidate": 0,
+          "visibleState": "69.5"
+        },
+        {
+          "id": "sleep-input",
+          "type": "rect",
+          "x": 24,
+          "y": 551,
+          "w": 465,
+          "h": 48,
+          "geometryStatus": "measured",
+          "radiusCandidate": 7,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "sleep-icon-cell",
+          "type": "rect",
+          "x": 24,
+          "y": 551,
+          "w": 61,
+          "h": 48,
+          "geometryStatus": "measured",
+          "radiusCandidate": 7,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "date-input",
+          "type": "rect",
+          "x": 24,
+          "y": 664,
+          "w": 465,
+          "h": 49,
+          "geometryStatus": "measured",
+          "radiusCandidate": 7,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "note-input",
+          "type": "rect",
+          "x": 24,
+          "y": 773,
+          "w": 465,
+          "h": 80,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "empty"
+        },
+        {
+          "id": "save",
+          "type": "rect",
+          "x": 24,
+          "y": 915,
+          "w": 465,
+          "h": 56,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "gesture",
+          "type": "rect",
+          "x": 197,
+          "y": 1000,
+          "w": 119,
+          "h": 5,
+          "geometryStatus": "measured",
+          "radiusCandidate": 3,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        }
+      ],
+      "assets": [
+        "scale-hero",
+        "keyboard",
+        "sleep-moon",
+        "calendar",
+        "note",
+        "dropdown"
+      ],
+      "reviewNotes": {
+        "value": [],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "dataBoundary": {
+        "value": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "trueDeviceSafeInset": {
+        "value": null,
+        "status": "unknown",
+        "source": "These are concept images, not device metadata."
+      },
+      "ruler": {
+        "majorTickX": {
+          "value": [
+            42,
+            127,
+            212,
+            300,
+            385,
+            471
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "majorTickYH": {
+          "value": [
+            370,
+            37
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "minorTickYH": {
+          "value": [
+            370,
+            13
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "mediumTickYH": {
+          "value": [
+            370,
+            21
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "minorSpacingCandidate": {
+          "value": 8.55,
+          "status": "inferred",
+          "source": "Layout/typography candidate inferred from original raster"
+        },
+        "rangeLabels": {
+          "value": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "status": "measured",
+          "source": "source text"
+        },
+        "selected": {
+          "value": 69.5,
+          "status": "measured",
+          "source": "source text"
+        },
+        "selectedLineXYWH": {
+          "value": [
+            254,
+            363,
+            4,
+            71
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "type": {
+          "value": "native editable tick marks and value text; keyboard entry must remain",
+          "status": "inferred",
+          "source": "Layout/typography candidate inferred from original raster"
+        }
+      }
+    },
+    {
+      "id": "E04",
+      "title": {
+        "value": "E04 心情记录",
+        "status": "measured",
+        "source": "original text"
+      },
+      "sourceFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\E04.png",
+      "sourceSHA256": "5fbdee19cae25b9a7f84d65c368e609b42dd14d18ac91fec1d9a808a9a962990",
+      "width": 512,
+      "height": 1024,
+      "dimensionStatus": "measured",
+      "background": {
+        "roiLTRB": {
+          "value": [
+            320,
+            983,
+            360,
+            996
+          ],
+          "status": "measured",
+          "source": "sampling coordinates"
+        },
+        "meanRGB": {
+          "value": [
+            252.66,
+            253.13,
+            253.07
+          ],
+          "status": "measured",
+          "source": "Pillow source ROI mean, mixed edge pixels may occur"
+        },
+        "stddevRGB": {
+          "value": [
+            0.48,
+            0.53,
+            0.54
+          ],
+          "status": "measured",
+          "source": "Pillow source ROI stddev"
+        },
+        "filteredMedianRGB": {
+          "value": [
+            253,
+            253,
+            253
+          ],
+          "status": "measured",
+          "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+        }
+      },
+      "colors": {
+        "background": {
+          "roiLTRB": {
+            "value": [
+              320,
+              983,
+              360,
+              996
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              252.66,
+              253.13,
+              253.07
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              0.48,
+              0.53,
+              0.54
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              253,
+              253,
+              253
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "primary_ink": {
+          "roiLTRB": {
+            "value": [
+              194,
+              52,
+              210,
+              68
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              146.94,
+              147.13,
+              147.16
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              102.75,
+              102.76,
+              102.93
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              9,
+              9,
+              8
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "field_border": {
+          "roiLTRB": {
+            "value": [
+              26,
+              455,
+              60,
+              457
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              245.18,
+              246.81,
+              248.35
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              8.93,
+              7.51,
+              5.85
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              242,
+              244,
+              247
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        },
+        "accent": {
+          "roiLTRB": {
+            "value": [
+              35,
+              923,
+              110,
+              950
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "meanRGB": {
+            "value": [
+              35.15,
+              149.89,
+              110.61
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI mean, mixed edge pixels may occur"
+          },
+          "stddevRGB": {
+            "value": [
+              0.75,
+              0.63,
+              0.6
+            ],
+            "status": "measured",
+            "source": "Pillow source ROI stddev"
+          },
+          "filteredMedianRGB": {
+            "value": [
+              35,
+              150,
+              111
+            ],
+            "status": "measured",
+            "source": "Per-channel source median; accent filters green, primary filters dark ink; other roles unfiltered"
+          }
+        }
+      },
+      "text": [
+        {
+          "id": "time",
+          "text": "9:41",
+          "x": 26,
+          "y": 9,
+          "w": 29,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            94,
+            100,
+            108
+          ],
+          "textBoxCandidate": [
+            23,
+            3,
+            61,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "battery",
+          "text": "100%",
+          "x": 438,
+          "y": 9,
+          "w": 42,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            102,
+            111
+          ],
+          "textBoxCandidate": [
+            435,
+            3,
+            65,
+            27
+          ],
+          "fontSizeCandidate": 17,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 23.8,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "title",
+          "text": "E04 心情记录",
+          "x": 191,
+          "y": 50,
+          "w": 130,
+          "h": 21,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            39,
+            41,
+            41
+          ],
+          "textBoxCandidate": [
+            153,
+            43,
+            206,
+            34
+          ],
+          "fontSizeCandidate": 24,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 33.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "mood-label",
+          "text": "当前心情",
+          "x": 25,
+          "y": 107,
+          "w": 67,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            98,
+            103,
+            108
+          ],
+          "textBoxCandidate": [
+            23,
+            102,
+            245,
+            31
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "mood-relaxed",
+          "text": "轻松",
+          "x": 21,
+          "y": 205,
+          "w": 110,
+          "h": 34,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            69,
+            104,
+            103
+          ],
+          "textBoxCandidate": [
+            21,
+            205,
+            111,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "mood-okay",
+          "text": "还行",
+          "x": 178,
+          "y": 211,
+          "w": 35,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            69,
+            70,
+            70
+          ],
+          "textBoxCandidate": [
+            141,
+            205,
+            111,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "mood-irritable",
+          "text": "烦躁",
+          "x": 298,
+          "y": 212,
+          "w": 35,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            75,
+            74,
+            75
+          ],
+          "textBoxCandidate": [
+            261,
+            205,
+            111,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "mood-tired",
+          "text": "疲惫",
+          "x": 420,
+          "y": 211,
+          "w": 34,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            75,
+            75,
+            76
+          ],
+          "textBoxCandidate": [
+            382,
+            205,
+            110,
+            34
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "primary"
+        },
+        {
+          "id": "stress-label",
+          "text": "压力（1–5）",
+          "x": 24,
+          "y": 287,
+          "w": 90,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            93,
+            99,
+            107
+          ],
+          "textBoxCandidate": [
+            23,
+            280,
+            263,
+            34
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "stress-1",
+          "text": "1",
+          "x": 29,
+          "y": 364,
+          "w": 7,
+          "h": 13,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            106,
+            114,
+            126
+          ],
+          "textBoxCandidate": [
+            23,
+            357,
+            28,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "stress-2",
+          "text": "2",
+          "x": 134,
+          "y": 364,
+          "w": 8,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            96,
+            104,
+            107
+          ],
+          "textBoxCandidate": [
+            130,
+            357,
+            28,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "stress-3",
+          "text": "3",
+          "x": 251,
+          "y": 365,
+          "w": 8,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            119,
+            126,
+            134
+          ],
+          "textBoxCandidate": [
+            246,
+            357,
+            28,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "stress-4",
+          "text": "4",
+          "x": 366,
+          "y": 365,
+          "w": 9,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            122,
+            129,
+            137
+          ],
+          "textBoxCandidate": [
+            362,
+            357,
+            28,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "stress-5",
+          "text": "5",
+          "x": 477,
+          "y": 365,
+          "w": 8,
+          "h": 14,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            123,
+            128,
+            137
+          ],
+          "textBoxCandidate": [
+            472,
+            357,
+            28,
+            29
+          ],
+          "fontSizeCandidate": 18,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 25.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "sleep-label",
+          "text": "睡眠时长（小时）",
+          "x": 24,
+          "y": 423,
+          "w": 127,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            90,
+            96,
+            102
+          ],
+          "textBoxCandidate": [
+            23,
+            417,
+            318,
+            34
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "sleep-value",
+          "text": "7.5",
+          "x": 102,
+          "y": 470,
+          "w": 30,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            57,
+            56,
+            57
+          ],
+          "textBoxCandidate": [
+            101,
+            462,
+            265,
+            36
+          ],
+          "fontSizeCandidate": 25,
+          "fontWeightCandidate": 500,
+          "lineHeightCandidate": 35.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "date-label",
+          "text": "日期",
+          "x": 26,
+          "y": 534,
+          "w": 31,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            102,
+            108,
+            112
+          ],
+          "textBoxCandidate": [
+            23,
+            528,
+            128,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "date-value",
+          "text": "2026年9月26日",
+          "x": 85,
+          "y": 579,
+          "w": 128,
+          "h": 18,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            61,
+            61,
+            62
+          ],
+          "textBoxCandidate": [
+            84,
+            573,
+            328,
+            35
+          ],
+          "fontSizeCandidate": 21,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 29.4,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "note-label",
+          "text": "备注",
+          "x": 24,
+          "y": 650,
+          "w": 33,
+          "h": 16,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            97,
+            102,
+            108
+          ],
+          "textBoxCandidate": [
+            23,
+            643,
+            128,
+            33
+          ],
+          "fontSizeCandidate": 20,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 28.0,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "primary"
+        },
+        {
+          "id": "note-placeholder",
+          "text": "记录一下今天的心情吧…",
+          "x": 87,
+          "y": 699,
+          "w": 201,
+          "h": 17,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            164,
+            171,
+            179
+          ],
+          "textBoxCandidate": [
+            86,
+            692,
+            368,
+            35
+          ],
+          "fontSizeCandidate": 19,
+          "fontWeightCandidate": 400,
+          "lineHeightCandidate": 26.6,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "LEFT",
+          "colorRole": "secondary"
+        },
+        {
+          "id": "save",
+          "text": "保存",
+          "x": 236,
+          "y": 932,
+          "w": 40,
+          "h": 19,
+          "geometryStatus": "measured",
+          "inkMedianRGB": [
+            249,
+            253,
+            251
+          ],
+          "textBoxCandidate": [
+            199,
+            923,
+            114,
+            37
+          ],
+          "fontSizeCandidate": 23,
+          "fontWeightCandidate": 700,
+          "lineHeightCandidate": 32.2,
+          "letterSpacingCandidate": 0,
+          "textAlignCandidate": "CENTER",
+          "colorRole": "white"
+        }
+      ],
+      "controls": [
+        {
+          "id": "header-separator",
+          "type": "line",
+          "x": 0,
+          "y": 86,
+          "w": 512,
+          "h": 1,
+          "geometryStatus": "measured",
+          "radiusCandidate": 0,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "relaxed-card",
+          "type": "rect",
+          "x": 21,
+          "y": 140,
+          "w": 111,
+          "h": 107,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "selected"
+        },
+        {
+          "id": "okay-card",
+          "type": "rect",
+          "x": 141,
+          "y": 140,
+          "w": 111,
+          "h": 108,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "default"
+        },
+        {
+          "id": "irritable-card",
+          "type": "rect",
+          "x": 261,
+          "y": 140,
+          "w": 111,
+          "h": 108,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "default"
+        },
+        {
+          "id": "tired-card",
+          "type": "rect",
+          "x": 382,
+          "y": 140,
+          "w": 110,
+          "h": 108,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "default"
+        },
+        {
+          "id": "stress-track",
+          "type": "rect",
+          "x": 28,
+          "y": 328,
+          "w": 457,
+          "h": 10,
+          "geometryStatus": "measured",
+          "radiusCandidate": 5,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "stress-selected",
+          "type": "rect",
+          "x": 28,
+          "y": 328,
+          "w": 110,
+          "h": 10,
+          "geometryStatus": "measured",
+          "radiusCandidate": 5,
+          "strokeCandidate": 0,
+          "visibleState": "2"
+        },
+        {
+          "id": "stress-thumb",
+          "type": "ellipse",
+          "x": 122,
+          "y": 317,
+          "w": 32,
+          "h": 32,
+          "geometryStatus": "measured",
+          "radiusCandidate": 16,
+          "strokeCandidate": 2,
+          "visibleState": "2"
+        },
+        {
+          "id": "sleep-input",
+          "type": "rect",
+          "x": 24,
+          "y": 455,
+          "w": 465,
+          "h": 48,
+          "geometryStatus": "measured",
+          "radiusCandidate": 7,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "sleep-icon-cell",
+          "type": "rect",
+          "x": 24,
+          "y": 455,
+          "w": 61,
+          "h": 48,
+          "geometryStatus": "measured",
+          "radiusCandidate": 7,
+          "strokeCandidate": 1,
+          "visibleState": ""
+        },
+        {
+          "id": "date-input",
+          "type": "rect",
+          "x": 24,
+          "y": 564,
+          "w": 465,
+          "h": 49,
+          "geometryStatus": "measured",
+          "radiusCandidate": 7,
+          "strokeCandidate": 1,
+          "visibleState": "filled"
+        },
+        {
+          "id": "note-input",
+          "type": "rect",
+          "x": 24,
+          "y": 681,
+          "w": 465,
+          "h": 79,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 1,
+          "visibleState": "empty"
+        },
+        {
+          "id": "save",
+          "type": "rect",
+          "x": 24,
+          "y": 914,
+          "w": 465,
+          "h": 56,
+          "geometryStatus": "measured",
+          "radiusCandidate": 8,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        },
+        {
+          "id": "gesture",
+          "type": "rect",
+          "x": 197,
+          "y": 1000,
+          "w": 120,
+          "h": 5,
+          "geometryStatus": "measured",
+          "radiusCandidate": 3,
+          "strokeCandidate": 0,
+          "visibleState": ""
+        }
+      ],
+      "assets": [
+        "mood-relaxed-green",
+        "mood-okay-black",
+        "mood-irritable-black",
+        "mood-tired-black"
+      ],
+      "reviewNotes": {
+        "value": [],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "dataBoundary": {
+        "value": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "trueDeviceSafeInset": {
+        "value": null,
+        "status": "unknown",
+        "source": "These are concept images, not device metadata."
+      },
+      "stressSlider": {
+        "tickX": {
+          "value": [
+            32,
+            138,
+            255,
+            371,
+            481
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "tickYH": {
+          "value": [
+            343,
+            10
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "selectedValue": {
+          "value": 2,
+          "status": "measured",
+          "source": "source thumb aligned to2"
+        },
+        "trackXYWH": {
+          "value": [
+            28,
+            328,
+            457,
+            10
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "thumbXYWH": {
+          "value": [
+            122,
+            317,
+            32,
+            32
+          ],
+          "status": "measured",
+          "source": "Original PNG at 1:1; manual visible-edge measurement, tolerance 1-2px"
+        },
+        "nativeStructure": {
+          "value": true,
+          "status": "inferred",
+          "source": "Layout/typography candidate inferred from original raster"
+        }
+      }
+    }
+  ],
+  "fieldStatusRules": {
+    "text": {
+      "measured": [
+        "text",
+        "x",
+        "y",
+        "w",
+        "h",
+        "inkMedianRGB"
+      ],
+      "inferred": [
+        "textBoxCandidate",
+        "fontSizeCandidate",
+        "fontWeightCandidate",
+        "lineHeightCandidate",
+        "letterSpacingCandidate",
+        "textAlignCandidate",
+        "colorRole"
+      ]
+    },
+    "controls": {
+      "measured": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ],
+      "inferred": [
+        "radiusCandidate",
+        "strokeCandidate",
+        "visibleState"
+      ]
+    },
+    "source": "All measured values come from the source screen named by page. Text ink uses threshold in candidate box; geometry tolerance1-2px. Unknown metadata stays explicitly unknown."
+  }
+}

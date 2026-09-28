@@ -1,0 +1,60 @@
+[
+  {
+    "id": "exercise-photo-1-clean",
+    "source": "screens/E02.png",
+    "cropLTRB": [
+      24,
+      715,
+      161,
+      804
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\exercise-photo-1-clean.png",
+    "sourceType": "original Sunburst photo crop",
+    "processing": "Local inpainting only under the close-control circle",
+    "inferredArea": {
+      "center": [
+        120,
+        17
+      ],
+      "radius": 13
+    },
+    "limitation": "Occluded original photo pixels are unknown; this area is reconstructed.",
+    "sha256": "4b8bee394aca6cec812edc36adf42845e9fd9d8924198011d90b8f47267a97fc"
+  },
+  {
+    "id": "exercise-photo-2-clean",
+    "source": "screens/E02.png",
+    "cropLTRB": [
+      178,
+      715,
+      315,
+      804
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\exercise-photo-2-clean.png",
+    "sourceType": "original Sunburst photo crop",
+    "processing": "Local inpainting only under the close-control circle",
+    "inferredArea": {
+      "center": [
+        119,
+        17
+      ],
+      "radius": 13
+    },
+    "limitation": "Occluded original photo pixels are unknown; this area is reconstructed.",
+    "sha256": "94daaf504d0121970cd11740a7531459645d79cc5cfea1f125c46ed9403edacb"
+  },
+  {
+    "id": "photo-close",
+    "source": "screens/E02.png",
+    "cropLTRB": [
+      132,
+      719,
+      158,
+      745
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\photo-close.png",
+    "processing": "Independent source close-control artwork; elliptical alpha mask",
+    "geometryStatus": "inferred",
+    "sha256": "7d4c840bfd91fbcc36ef9b2b099a2cab63d6de400215c5ef8001b2b0bad2a6a6"
+  }
+]

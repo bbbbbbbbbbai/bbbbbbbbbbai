@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "tool": "official Figma MCP; Figwright is not exposed in this environment",
+  "phase": "reconstruction-and-qa",
+  "currentBatch": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "C01",
+    "C02",
+    "D01",
+    "D02",
+    "D03",
+    "B01",
+    "B02",
+    "B03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05",
+    "I01",
+    "I02",
+    "I03"
+  ],
+  "accepted": [],
+  "blocked": [],
+  "connectionRecovery": "2026-09-28: identity and page reads recovered; confirmed uncertain F01-F03 frames had not been created. Created verified shells 189:306, 189:307, 189:308.",
+  "versionControl": {
+    "localRepository": "D:/codex/laobai-diary-design-v2",
+    "branch": "codex/figma-reconstruction-20260928",
+    "requestedRemote": "bbbbbbbbbbai/bbbbbbbbbbai",
+    "remotePush": "pending-network-and-github-authentication"
+  },
+  "nextAction": "Continue F01-F03 component assembly, G01-G09 and 75 state variants, then complete visual/editability gates. State S01-S03 refinement agent stopped on quota; no further measurements claimed.",
+  "lastEvidence": "B01-B03, E01-E04, D04-D07, H01-H05 and F04-F07 round2 renders saved locally. F07 icon matte repaired. H05 clone edit/swap tested and removed. G01-G09 source specs and all 75 state identities analyzed; states still need precise per-control geometry. See profile/qa-evidence.json and history/qa-evidence.json. Accepted list remains empty.",
+  "latestBatchEvidenceFile": "batch-food-onboarding-evidence.json",
+  "pages": [
+    {
+      "id": "A01",
+      "name": "登录",
+      "source": "screens/A01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "A02",
+      "name": "注册",
+      "source": "screens/A02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "A03",
+      "name": "注册邮箱验证",
+      "source": "screens/A03.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "A04",
+      "name": "找回密码",
+      "source": "screens/A04.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "A05",
+      "name": "重置密码",
+      "source": "screens/A05.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "B01",
+      "name": "首次资料与目标",
+      "source": "screens/B01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "B02",
+      "name": "首次数据检查/同步",
+      "source": "screens/B02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "B03",
+      "name": "旧账号数据过渡",
+      "source": "screens/B03.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "C01",
+      "name": "今日：已有记录",
+      "source": "screens/C01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "C02",
+      "name": "今日：新账号",
+      "source": "screens/C02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "D01",
+      "name": "食物搜索入口",
+      "source": "screens/D01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "D02",
+      "name": "食物搜索结果",
+      "source": "screens/D02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "D03",
+      "name": "食物详情与份量",
+      "source": "screens/D03.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "D04",
+      "name": "最近/常吃食物",
+      "source": "screens/D04.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "D05",
+      "name": "收藏食物",
+      "source": "screens/D05.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "D06",
+      "name": "自定义食物目录",
+      "source": "screens/D06.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "D07",
+      "name": "创建自定义食物",
+      "source": "screens/D07.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "E01",
+      "name": "健康记录集合",
+      "source": "screens/E01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "E02",
+      "name": "运动记录",
+      "source": "screens/E02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "E03",
+      "name": "体重记录",
+      "source": "screens/E03.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "E04",
+      "name": "心情记录",
+      "source": "screens/E04.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "F01",
+      "name": "历史列表与筛选",
+      "source": "screens/F01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "F02",
+      "name": "日历选择记录",
+      "source": "screens/F02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "F03",
+      "name": "趋势与统计",
+      "source": "screens/F03.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "F04",
+      "name": "饮食记录详情",
+      "source": "screens/F04.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "F05",
+      "name": "运动记录详情",
+      "source": "screens/F05.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "F06",
+      "name": "体重记录详情",
+      "source": "screens/F06.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "F07",
+      "name": "心情记录详情",
+      "source": "screens/F07.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G01",
+      "name": "问题目录",
+      "source": "screens/G01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G02",
+      "name": "问题与历次回答",
+      "source": "screens/G02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G03",
+      "name": "写下回答",
+      "source": "screens/G03.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G04",
+      "name": "自定义问题新增/编辑",
+      "source": "screens/G04.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G05",
+      "name": "人生清单",
+      "source": "screens/G05.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G06",
+      "name": "自定义清单新增/编辑",
+      "source": "screens/G06.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G07",
+      "name": "完成感受新增/编辑",
+      "source": "screens/G07.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G08",
+      "name": "生活足迹",
+      "source": "screens/G08.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "G09",
+      "name": "足迹新增/编辑",
+      "source": "screens/G09.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "H01",
+      "name": "我的概览",
+      "source": "screens/H01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "H02",
+      "name": "编辑个人资料",
+      "source": "screens/H02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "H03",
+      "name": "目标与热量设置",
+      "source": "screens/H03.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "H04",
+      "name": "同步详情与恢复入口",
+      "source": "screens/H04.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "H05",
+      "name": "备份与恢复",
+      "source": "screens/H05.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "I01",
+      "name": "日期选择层",
+      "source": "screens/I01.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "I02",
+      "name": "添加/管理图片层",
+      "source": "screens/I02.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "I03",
+      "name": "记录图片查看",
+      "source": "screens/I03.png",
+      "status": "not-accepted",
+      "requiredVariants": []
+    },
+    {
+      "id": "S01",
+      "name": "密码与验证码校验",
+      "source": "boards/S01.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S01-01",
+        "S01-02",
+        "S01-03",
+        "S01-04",
+        "S01-05"
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "键盘与长内容",
+      "source": "boards/S02.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S02-01",
+        "S02-02",
+        "S02-03",
+        "S02-04"
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "首次进入失败",
+      "source": "boards/S03.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S03-01",
+        "S03-02",
+        "S03-03",
+        "S03-04"
+      ]
+    },
+    {
+      "id": "S04",
+      "name": "搜索加载与无结果",
+      "source": "boards/S04.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S04-01",
+        "S04-02",
+        "S04-03",
+        "S04-04"
+      ]
+    },
+    {
+      "id": "S05",
+      "name": "搜索联网异常",
+      "source": "boards/S05.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S05-01",
+        "S05-02",
+        "S05-03",
+        "S05-04"
+      ]
+    },
+    {
+      "id": "S06",
+      "name": "输入与营养边界",
+      "source": "boards/S06-r2.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S06-01",
+        "S06-02",
+        "S06-03",
+        "S06-04",
+        "S06-05",
+        "S06-06"
+      ]
+    },
+    {
+      "id": "S07",
+      "name": "新增到编辑",
+      "source": "boards/S07.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S07-01",
+        "S07-02",
+        "S07-03",
+        "S07-04"
+      ]
+    },
+    {
+      "id": "S08",
+      "name": "保存与退出编辑",
+      "source": "boards/S08.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S08-01",
+        "S08-02",
+        "S08-03",
+        "S08-04"
+      ]
+    },
+    {
+      "id": "S09",
+      "name": "删除确认",
+      "source": "boards/S09.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S09-01",
+        "S09-02",
+        "S09-03",
+        "S09-04",
+        "S09-05",
+        "S09-06"
+      ]
+    },
+    {
+      "id": "S10",
+      "name": "导入备份",
+      "source": "boards/S10.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S10-01",
+        "S10-02",
+        "S10-03",
+        "S10-04",
+        "S10-05"
+      ]
+    },
+    {
+      "id": "S11",
+      "name": "清空个人数据",
+      "source": "boards/S11.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S11-01",
+        "S11-02",
+        "S11-03",
+        "S11-04",
+        "S11-05"
+      ]
+    },
+    {
+      "id": "S12",
+      "name": "身份与会话",
+      "source": "boards/S12.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S12-01",
+        "S12-02",
+        "S12-03",
+        "S12-04"
+      ]
+    },
+    {
+      "id": "S13",
+      "name": "图片异常",
+      "source": "boards/S13.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S13-01",
+        "S13-02",
+        "S13-03",
+        "S13-04",
+        "S13-05",
+        "S13-06"
+      ]
+    },
+    {
+      "id": "S14",
+      "name": "各模块空状态",
+      "source": "boards/S14.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S14-01",
+        "S14-02",
+        "S14-03",
+        "S14-04",
+        "S14-05",
+        "S14-06",
+        "S14-07",
+        "S14-08"
+      ]
+    },
+    {
+      "id": "S15",
+      "name": "同步运行状态",
+      "source": "boards/S15.png",
+      "status": "not-accepted",
+      "requiredVariants": [
+        "S15-01",
+        "S15-02",
+        "S15-03",
+        "S15-04",
+        "S15-05",
+        "S15-06"
+      ]
+    }
+  ],
+  "gate": {
+    "sourceHiddenExport": false,
+    "twoVisualRepairRounds": false,
+    "componentInstances": false,
+    "editableTextAndControls": false,
+    "assetSwapTest": false,
+    "noOverlapsOrClipping": false
+  },
+  "font": {
+    "sourceFamily": "unknown: raster-generated reference",
+    "fallback": "Noto Sans SC",
+    "status": "requires text-metric comparison per page"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "pageId": "132:2",
+  "libraryPageId": "75:2",
+  "coordinateSystem": "512x1024 original pixels",
+  "components": [
+    {"name": "Source artwork", "scope": "B01-B03", "implementation": "natural-size raster rectangle within replaceable component"},
+    {"name": "Profile field", "scope": "B01", "properties": ["label:TEXT", "placeholder:TEXT", "artwork:INSTANCE_SWAP"]},
+    {"name": "Gender selector", "scope": "B01", "implementation": "measured three-option layout"},
+    {"name": "Goal preview", "scope": "B01", "implementation": "editable text and original target artwork"},
+    {"name": "Sync step", "scope": "B02", "properties": ["title:TEXT", "description:TEXT", "artwork:INSTANCE_SWAP"]},
+    {"name": "Migration status", "scope": "B03", "implementation": "two editable rows"},
+    {"name": "Primary action", "scope": "B01,B03", "properties": ["label:TEXT"]},
+    {"name": "Return login", "scope": "B02,B03", "properties": ["label:TEXT"]}
+  ],
+  "knownDefectsAtEntry": [
+    "B01 example wraps; source is a single line. Earlier claim that this matches source was incorrect.",
+    "B01 field icons and system symbols absent.",
+    "B02 uses temporary symbol glyphs, missing connectors, wrong divider baselines.",
+    "B03 source crop placed on ellipse, causing artwork clipping.",
+    "All B page back arrows use temporary text glyphs.",
+    "Generated migration candidate is a new raster, not pixel-identical to the approved crop."
+  ],
+  "status": "repairing"
+}

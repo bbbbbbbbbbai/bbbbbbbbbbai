@@ -1,0 +1,833 @@
+{
+  "schemaVersion": "1.0.0",
+  "scope": "source crop planning only; crop files not generated",
+  "sources": {
+    "D04": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D04.png",
+      "sha256": "8db56338ced866ee616acca281a9198bf5cd48a178d8cb7d25a049dfd2e6f4f9",
+      "status": "measured"
+    },
+    "D05": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D05.png",
+      "sha256": "9bdb85cbe336c558817201edbe9fea45ab304b00b51f52bdfaf59501ffc66ba9",
+      "status": "measured"
+    },
+    "D06": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D06.png",
+      "sha256": "99509ac3413a1939179a57c8e76638219265281ba8a65170c4ce35ea2b464b3c",
+      "status": "measured"
+    },
+    "D07": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D07.png",
+      "sha256": "9f3195e0cd90861dd7dc43cbda8ca40dc38303925574ffc575df1f4b77c5934e",
+      "status": "measured"
+    }
+  },
+  "fieldStatusRules": {
+    "measured": [
+      "sourceScreen",
+      "cropLTRB",
+      "pixelSize",
+      "classification",
+      "sourcePixelSHA256",
+      "vector",
+      "fileCreated"
+    ],
+    "inferred": [
+      "plannedFile",
+      "status",
+      "componentRule"
+    ],
+    "unknown": [
+      "alpha"
+    ],
+    "source": "sourceScreen resolves through sources. Source artwork remains bitmap."
+  },
+  "componentRule": {
+    "value": "Use independent bitmap masters, reuse instances at natural pixel size within stable outer slots. Do not normalize all image fills to one size.",
+    "status": "inferred",
+    "source": "Candidate inferred from original raster; not original editable metadata"
+  },
+  "assets": [
+    {
+      "id": "status-library",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        344,
+        7,
+        416,
+        31
+      ],
+      "pixelSize": [
+        72,
+        24
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\status-library.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "75a2ee933bca3279f40caef8aed09daae9d1997cb76a2390a22b7b7b5929905c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Different from D06/D07 header family; no time/100% text in crop."
+    },
+    {
+      "id": "back-library",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        22,
+        52,
+        52,
+        83
+      ],
+      "pixelSize": [
+        30,
+        31
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\back-library.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "db8a8f70531d3b1cabaae70c9c587be2cff3cfef5fd1664f9d4f69b685835932",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Shared D04/D05 candidate."
+    },
+    {
+      "id": "search-library",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        396,
+        50,
+        427,
+        82
+      ],
+      "pixelSize": [
+        31,
+        32
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\search-library.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "f48d186efd5e06da1469f561ca538541c1ed986c758aef3f1691a6b61fff1c82",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "more-library",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        465,
+        49,
+        486,
+        84
+      ],
+      "pixelSize": [
+        21,
+        35
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\more-library.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "6d5fd5839144644ea2a5153a1fdaf6b82b0bee219d6c1c995f8050920f016a38",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "recent-hint-clock",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        33,
+        195,
+        70,
+        234
+      ],
+      "pixelSize": [
+        37,
+        39
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\recent-hint-clock.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "0dfd55af18281c0b8a202b650a82f1524355c9197d4def0c07403a2b8a3e0de9",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Source pale-blue matte; no copy in crop."
+    },
+    {
+      "id": "add-recent",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        438,
+        292,
+        489,
+        343
+      ],
+      "pixelSize": [
+        51,
+        51
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\add-recent.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "5f22033b685ebfb8875a295fafa49cc24ed30b1a6e3b4a9ec97b30695a2dbc65",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Filled circular source control artwork; native interaction shell separate."
+    },
+    {
+      "id": "favorite-hint-star",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        36,
+        127,
+        73,
+        166
+      ],
+      "pixelSize": [
+        37,
+        39
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\favorite-hint-star.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "4eee62c3efa7ad7b7133ceed57c2668f6f10155ea900fd928436d4c57578cf2f",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "favorite-star",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        456,
+        205,
+        490,
+        240
+      ],
+      "pixelSize": [
+        34,
+        35
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\favorite-star.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "60b2e72191e5833175ef13909ddff867592bdc691b58f8a8160bf7fc8303c7f5",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Repeated selected star; source also shows cancel action, see manifest warning."
+    },
+    {
+      "id": "view-eye",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        42,
+        294,
+        69,
+        320
+      ],
+      "pixelSize": [
+        27,
+        26
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\view-eye.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "17d8ba52fbfb262d9453fd1539e659284f5391e7a1a0606bfe9fda0118c18007",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "unfavorite-trash",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        163,
+        290,
+        189,
+        321
+      ],
+      "pixelSize": [
+        26,
+        31
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\unfavorite-trash.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "1eda6fd1b79aa775c36489d58df40c5cfc7bd9666304308316cee441e60c20b8",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Red matte must remain separate from action label."
+    },
+    {
+      "id": "minus-favorite",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        300,
+        291,
+        337,
+        329
+      ],
+      "pixelSize": [
+        37,
+        38
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\minus-favorite.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "d48333b51b8cea0434d446bc83fe1093d849134fd4165f459f6475d693570ba8",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Precise native minus geometry only after explicit source classification."
+    },
+    {
+      "id": "plus-favorite",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        453,
+        291,
+        492,
+        330
+      ],
+      "pixelSize": [
+        39,
+        39
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\plus-favorite.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "a002d2c9cce586e4f1dc68b9ece5a2e53ab77b5bc6f1bdf807d52ef4feee55bf",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Do not replace with D04 larger source control at forced scale."
+    },
+    {
+      "id": "status-custom",
+      "sourceScreen": "D06",
+      "cropLTRB": [
+        350,
+        8,
+        422,
+        31
+      ],
+      "pixelSize": [
+        72,
+        23
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\status-custom.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "df720a75bb1f77824d66dc54d537b2e58fa886861427ab717e680724d4dddf4e",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "No interface text in crop."
+    },
+    {
+      "id": "back-custom",
+      "sourceScreen": "D06",
+      "cropLTRB": [
+        24,
+        56,
+        55,
+        89
+      ],
+      "pixelSize": [
+        31,
+        33
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\back-custom.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "f0405037e8c202737b03418c639b41de4d5010d7b8669be26c508aa9c30cb7d5",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Shared D06/D07 candidate."
+    },
+    {
+      "id": "create-plus",
+      "sourceScreen": "D06",
+      "cropLTRB": [
+        405,
+        56,
+        436,
+        88
+      ],
+      "pixelSize": [
+        31,
+        32
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\create-plus.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "7b5fee7238f45af521769bfd354e19c77adf2ca8f610e55c5f244be6e4c93bda",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "oatmeal-bowl",
+      "sourceScreen": "D06",
+      "cropLTRB": [
+        23,
+        207,
+        65,
+        250
+      ],
+      "pixelSize": [
+        42,
+        43
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\oatmeal-bowl.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "0d641159ec9291b6a2a2ccd46569a88c94feb550bdded84a475626c2c24192a1",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Bitmap colored source icon, not vector."
+    },
+    {
+      "id": "meatball-red",
+      "sourceScreen": "D06",
+      "cropLTRB": [
+        22,
+        305,
+        65,
+        347
+      ],
+      "pixelSize": [
+        43,
+        42
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\meatball-red.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "7aa786b16e8525bef5afa1673bcb158decd21e0bdb43abf9c5f5fe88cd35959d",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "soymilk-blue",
+      "sourceScreen": "D06",
+      "cropLTRB": [
+        27,
+        404,
+        61,
+        448
+      ],
+      "pixelSize": [
+        34,
+        44
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\soymilk-blue.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "4371932ac500e5459e6526c8da5e9ed13ca32807e6b2653d618d0c04cedcf0c2",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "custom-chevron",
+      "sourceScreen": "D06",
+      "cropLTRB": [
+        474,
+        216,
+        491,
+        242
+      ],
+      "pixelSize": [
+        17,
+        26
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\custom-chevron.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "8af088ad2bd134cffd0470ec4e933bf4d1dfc14f1b105dada034310102d82238",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Reuse master at source row positions."
+    },
+    {
+      "id": "recent-chicken",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        24,
+        273,
+        113,
+        362
+      ],
+      "pixelSize": [
+        89,
+        89
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\recent-chicken.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "7b499b468e61e5bd9df78c9d361da820768300044aeac14226f96ffd7e215b1c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural89x89 source crop; rounded-corner background pixels remain."
+    },
+    {
+      "id": "recent-banana",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        24,
+        388,
+        113,
+        477
+      ],
+      "pixelSize": [
+        89,
+        89
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\recent-banana.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "ed4ccb6a8ca27939b6f5afd9ff18087674e34d4bc9934807e721dc2fed8e9677",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural89x89 source crop; rounded-corner background pixels remain."
+    },
+    {
+      "id": "recent-broccoli",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        24,
+        503,
+        113,
+        592
+      ],
+      "pixelSize": [
+        89,
+        89
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\recent-broccoli.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "353abab2c24aad0f47ba3bd12b4367d9d650a823ee57fd2c9bb17a9df013c4c0",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural89x89 source crop; rounded-corner background pixels remain."
+    },
+    {
+      "id": "recent-egg",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        24,
+        618,
+        113,
+        707
+      ],
+      "pixelSize": [
+        89,
+        89
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\recent-egg.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "a4932b356a8fe494f309f6474a4e4d8f4482bcb4b706df05ab00e4636de0fa97",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural89x89 source crop; rounded-corner background pixels remain."
+    },
+    {
+      "id": "recent-brown-rice",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        24,
+        735,
+        113,
+        824
+      ],
+      "pixelSize": [
+        89,
+        89
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\recent-brown-rice.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "5b86fa9192d3af4c1c9af1284a0c28ce8a894e2004ffeca33973493fc9e2a5db",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural89x89 source crop; rounded-corner background pixels remain."
+    },
+    {
+      "id": "recent-apple",
+      "sourceScreen": "D04",
+      "cropLTRB": [
+        24,
+        850,
+        113,
+        939
+      ],
+      "pixelSize": [
+        89,
+        89
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\recent-apple.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "94b269b76e0dd0b024c221afccd9cefac39a6cbb4cfa21852f0521e59c28ece8",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural89x89 source crop; rounded-corner background pixels remain."
+    },
+    {
+      "id": "favorite-chicken",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        23,
+        201,
+        95,
+        272
+      ],
+      "pixelSize": [
+        72,
+        71
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\favorite-chicken.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "de5134578189d2982551ab3794313a50bda3302f8ad048800d5154348be63939",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural72x71 source crop. Do not silently reuse D04 photo framing."
+    },
+    {
+      "id": "favorite-salmon",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        23,
+        359,
+        95,
+        430
+      ],
+      "pixelSize": [
+        72,
+        71
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\favorite-salmon.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "6fee11864815ae048376bb1f1bf09a2d72ebcbf97de9b7edded6d7b4b3032ace",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural72x71 source crop. Do not silently reuse D04 photo framing."
+    },
+    {
+      "id": "favorite-egg",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        23,
+        518,
+        95,
+        589
+      ],
+      "pixelSize": [
+        72,
+        71
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\favorite-egg.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "b14315780cac12addd7aef7b57593c3d112f3e15f683bf1474591b9de774315c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural72x71 source crop. Do not silently reuse D04 photo framing."
+    },
+    {
+      "id": "favorite-broccoli",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        23,
+        677,
+        95,
+        748
+      ],
+      "pixelSize": [
+        72,
+        71
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\favorite-broccoli.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "daa92a344c8ec77c1c0a9386a0a84419f86452256a1445cf4b4a3f1725a0f711",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural72x71 source crop. Do not silently reuse D04 photo framing."
+    },
+    {
+      "id": "favorite-apple",
+      "sourceScreen": "D05",
+      "cropLTRB": [
+        23,
+        837,
+        95,
+        908
+      ],
+      "pixelSize": [
+        72,
+        71
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\food-extra\\assets\\favorite-apple.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "bc2d9cd1e9498819d09acd428f7f492f8873a704f5b00fb33b794c9f61202fbf",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Natural72x71 source crop. Do not silently reuse D04 photo framing."
+    }
+  ]
+}

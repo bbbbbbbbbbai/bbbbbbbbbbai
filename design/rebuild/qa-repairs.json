@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "acceptance": "IN_PROGRESS",
+  "rounds": [
+    {
+      "screens": ["A01"],
+      "round": 1,
+      "evidence": "Inline 512x1024 render of node 70:4",
+      "observed": ["System status icons absent", "Source photo and editable form restored"],
+      "repairs": ["Added Android status glyphs and battery percentage"],
+      "remaining": ["Library icon shapes differed from source", "Fields were not component instances"]
+    },
+    {
+      "screens": ["A01"],
+      "round": 2,
+      "evidence": "Inline render after source asset replacement",
+      "repairs": ["Replaced mail, lock, eye with exact source artwork", "Created input and button masters and instances"],
+      "remaining": ["Source font family unknown; Noto Sans SC fallback", "Subtle source texture differs", "Disposable edit/swap test pending"]
+    },
+    {
+      "screens": ["C01", "C02"],
+      "round": 1,
+      "evidence": "Inline full-size renders of 70:353 and 70:355",
+      "observed": ["Approximate cloud/settings shapes", "C01 title baseline too high", "C01 more arrow absent"],
+      "repairs": ["Source crop components for cloud/settings/status/more", "C01 brand moved down 6px", "Source artwork bound to action and navigation instances"],
+      "remaining": ["Not every region componentized", "Source-generated font and background differences"]
+    },
+    {
+      "screens": ["D01", "D02"],
+      "round": 1,
+      "evidence": "food-rebuild-assets/qa-round2.json and corresponding screenshots",
+      "observed": ["Nested instance resizing did not persist", "Egg, leg and category artwork stretched"],
+      "repairs": ["Changed asset masters to fixed outer slots plus native-sized raster children"],
+      "verified": ["14 internal artwork dimensions match original crop sizes"],
+      "remaining": ["White-chicken and leg vertical offsets", "Tabs and breakfast capsule geometry"]
+    },
+    {
+      "screens": ["D01", "D02"],
+      "round": 2,
+      "repairs": ["Moved white-chicken artwork up 5px", "Moved leg artwork up 2.5px", "Adjusted tab font to 18px and baseline", "Narrowed breakfast capsule", "Added meal dividers"],
+      "remaining": ["Fresh screenshot and comparison pending", "Source green material differs"]
+    },
+    {
+      "screens": ["A02", "A03", "A04", "A05"],
+      "round": 2,
+      "evidence": "Inline post-repair renders of 70:14,70:16,70:20",
+      "repairs": ["Corrected brand/title baselines from measured QA", "Replaced mail illustrations and form glyphs with source crops", "Attached glyphs inside fields", "Created input/button masters and instances", "Created shared OTP cell master and matched row bounds"],
+      "remaining": ["A04 fresh screenshot pending", "Surface texture and source glyph differences", "Known A05 empty-password consistency issue retained only as source reference, not production behavior"]
+    },
+    {
+      "screens": ["E01", "E02", "E03", "E04"],
+      "round": 1,
+      "evidence": "Inline 512x1024 renders and rebuild/health/E01-round2.png through E04-round2.png",
+      "observed": ["E02 initially lacked editable labels and image instances", "E04 lacked pressure ticks", "E01 initially empty"],
+      "repairs": ["Filled E02 text, type/intensity, metrics, energy, photos, date and note", "Added E04 five pressure ticks", "Built E01 health list with section and record row components", "Wrapped E02/E03/E04 repeated areas into components"],
+      "remaining": ["Health page source font is unknown; Noto Sans SC fallback", "E01/E02/E03/E04 need fresh same-size comparison against source", "Some artwork is raster crop by design"]
+    },
+    {
+      "screens": ["B01", "B02", "B03"],
+      "round": 1,
+      "evidence": "rebuild/onboarding/B01-round1.png, B02-round1.png, B03-round1.png",
+      "observed": ["B01 field and button geometry tracks source", "B02 state rows and button remain in safe area", "B03 migration artwork was placeholder"],
+      "repairs": ["Created new page 132:2 with editable B01/B02/B03 screens", "Replaced B03 placeholder with exact 146x133 source crop uploaded to node 133:83"],
+      "remaining": ["B01/B02 small source icons still need exact crops", "B01 source text wraps slightly differently under fallback font", "Second visual comparison pending"]
+    }
+  ],
+  "gate": {
+    "all45Screens": false,
+    "all75StateVariants": false,
+    "editableCopyTest": false,
+    "assetSwapTest": false,
+    "finalScreenshotPass": false
+  }
+}

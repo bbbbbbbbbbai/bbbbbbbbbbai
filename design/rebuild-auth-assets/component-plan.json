@@ -1,0 +1,756 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifactType": "component-plan",
+  "evidenceSchema": {
+    "description": "Every domain field uses value/status/evidence. Schema metadata is authored, not observed.",
+    "statuses": [
+      "measured",
+      "inferred",
+      "unknown"
+    ]
+  },
+  "createdAt": {
+    "value": "2026-09-28T00:41:15.172885+08:00",
+    "status": "measured",
+    "evidence": "local system clock"
+  },
+  "scope": {
+    "value": [
+      "A02",
+      "A03",
+      "A04",
+      "A05"
+    ],
+    "status": "measured",
+    "evidence": "assigned QA scope"
+  },
+  "sourceOfTruth": {
+    "value": "original screens/A02.png through A05.png",
+    "status": "measured",
+    "evidence": "parent instruction"
+  },
+  "deliveryState": {
+    "value": "in_progress_not_accepted",
+    "status": "inferred",
+    "evidence": "QA proposal; source screenshot remains authoritative"
+  },
+  "figmaIdentity": {
+    "fileKey": {
+      "value": "ptA7IsUhV0rHsp8yRLFRVj",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "apiDocumentName": {
+      "value": "Document",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "pageId": {
+      "value": "70:13",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "pageName": {
+      "value": "12 原图重建｜注册与密码",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "writePolicy": {
+      "value": "Read-only QA; no Figma writes performed in this audit",
+      "status": "measured",
+      "evidence": "task scope and tool log"
+    }
+  },
+  "currentState": {
+    "componentsOnTargetPage": {
+      "value": 0,
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "instancesInScreens": {
+      "value": 0,
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "masterPageId": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "No source-rebuild component library created"
+    },
+    "requiredLibraryLocation": {
+      "value": "02｜组件库与素材",
+      "status": "inferred",
+      "evidence": "skill recommendation; parent orchestrator must resolve coexistence with existing pages"
+    },
+    "screenLocation": {
+      "value": "12 原图重建｜注册与密码",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "migrationPolicy": {
+      "value": "Preserve these screens; do not create duplicate accepted screens or alter originals without parent decision",
+      "status": "inferred",
+      "evidence": "QA proposal; source screenshot remains authoritative"
+    }
+  },
+  "dependencyOrder": {
+    "value": [
+      "tokens",
+      "asset masters",
+      "atomic controls",
+      "region masters",
+      "screen region instances",
+      "QA replacement test"
+    ],
+    "status": "inferred",
+    "evidence": "QA proposal; source screenshot remains authoritative"
+  },
+  "components": [
+    {
+      "name": {
+        "value": "控件 / 主操作按钮",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:445",
+          "70:447",
+          "70:449",
+          "70:451"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Label:TEXT; source-family:VARIANT",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [
+          "A02/A03 soft grey",
+          "A04/A05 near-black typography"
+        ],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Keep measured widths/heights and text styles; don't normalize all to one size.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "控件 / 表单输入",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:205",
+          "70:207",
+          "70:209",
+          "70:296",
+          "70:298",
+          "70:300",
+          "70:302"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Value:TEXT; leading:INSTANCE_SWAP; trailing:INSTANCE_SWAP; showTrailing:BOOLEAN",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [
+          "empty",
+          "masked"
+        ],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Reparent each external leading/trailing icon into corresponding input instance; preserve screen-local placement.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "控件 / 验证码单格",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:335",
+          "70:337",
+          "70:339",
+          "70:341",
+          "70:364",
+          "70:366"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Value:TEXT",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [
+          "empty only"
+        ],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Six master-linked cells in auto-layout; measure original per-cell widths, not assumed equal rounding.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 六位验证码",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:334"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "six Value:TEXT",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [
+          "empty only"
+        ],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Current width433 vs source visible block near436: remeasure gaps/edge stroke before replacing.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 注册表单",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:144",
+          "70:205",
+          "70:145",
+          "70:207",
+          "70:146",
+          "70:209",
+          "70:147"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "labels/value TEXT; field instance properties",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Label, field, help relationships must be auto-layout; preserve three original y groups.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 邮箱验证说明",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:719",
+          "70:150",
+          "70:151",
+          "70:152"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Title:TEXT; Description:TEXT; Email:TEXT; Artwork:INSTANCE_SWAP",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Center-aligned art plus text stack; no full screenshot layer.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 找回密码表单",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:158",
+          "70:296",
+          "70:449"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Email:TEXT; ActionLabel:TEXT",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Add known photo/heading as separate region instances.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 重置密码表单",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:167",
+          "70:298",
+          "70:168",
+          "70:300",
+          "70:169",
+          "70:170",
+          "70:302",
+          "70:369"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Value TEXT; showConsistencyHint:BOOLEAN",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [
+          "source contradictory state"
+        ],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Document original inconsistency. Do not invent validated/invalid source variants; implementation state is separate.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 顶部系统与品牌",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:460",
+          "70:486",
+          "70:491",
+          "70:462",
+          "70:492",
+          "70:497",
+          "70:155",
+          "70:500",
+          "70:162",
+          "70:507"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Time:TEXT; code:TEXT; showPercentage:BOOLEAN; family:VARIANT",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [
+          "A02/A03",
+          "A04/A05"
+        ],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Preserve screenshot differences, do not impose an OS design-system status bar.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "素材 / 生活静物照片",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:36",
+          "70:37",
+          "70:38"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Photo:INSTANCE_SWAP",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [
+          "A02",
+          "A04",
+          "A05"
+        ],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Build three measured asset masters with exact crop dimensions; no resizing to shared aspect ratio.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "素材 / 图标与邮件插画",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:719",
+          "70:725",
+          "70:486",
+          "70:492",
+          "70:500",
+          "70:507",
+          "70:498",
+          "70:505",
+          "70:512",
+          "70:639",
+          "70:643",
+          "70:647",
+          "70:651",
+          "70:655",
+          "70:659",
+          "70:671",
+          "70:675",
+          "70:679",
+          "70:683",
+          "70:687",
+          "70:691"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Artwork:INSTANCE_SWAP",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Resolve Image Two/source extraction provenance first; maintain source-specific artwork.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 返回与辅助操作",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "existingNodeIds": {
+        "value": [
+          "70:149",
+          "70:154",
+          "70:159",
+          "70:171",
+          "70:153"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "masterId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "not created"
+      },
+      "instanceIds": {
+        "value": [],
+        "status": "measured",
+        "evidence": "readback confirms zero instances"
+      },
+      "proposedProperties": {
+        "value": "Label:TEXT",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceObservedStates": {
+        "value": [
+          "active link",
+          "countdown visible"
+        ],
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "replacementInstructions": {
+        "value": "Use measured typography and locations; don't add interactions unsupported by screenshot.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "risk": {
+        "value": "Record parent-relative coordinates and z-order before replacement; verify only one visible copy remains.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    }
+  ],
+  "tokens": {
+    "proposedColorTokens": {
+      "value": [
+        "surface/source-family",
+        "text/primary",
+        "text/secondary",
+        "text/helper",
+        "action/green",
+        "border/input"
+      ],
+      "status": "inferred",
+      "evidence": "QA proposal; source screenshot remains authoritative"
+    },
+    "valueAuthority": {
+      "value": "Use layout.json sampled original colors, not current flat fills; separate A02/A03 and A04/A05 where source differs",
+      "status": "inferred",
+      "evidence": "QA proposal; source screenshot remains authoritative"
+    },
+    "spacingTokens": {
+      "value": "Only introduce shared tokens after measured repetition is established; preserve source-specific dimensions",
+      "status": "inferred",
+      "evidence": "QA proposal; source screenshot remains authoritative"
+    },
+    "fontTokens": {
+      "value": "Explicitly named fallback tokens until original font identity is known",
+      "status": "inferred",
+      "evidence": "QA proposal; source screenshot remains authoritative"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "pageId": "135:2",
+  "libraryPageId": "75:2",
+  "source": "source-spec.json and asset-manifest.json",
+  "coordinateSystem": "512x1024 source pixels",
+  "components": [
+    {"name": "Recent food row", "scope": "D04", "properties": ["title:TEXT", "lastUsed:TEXT", "nutrition:TEXT", "photo:INSTANCE_SWAP"], "layout": "horizontal auto-layout with vertical text stack"},
+    {"name": "Food library header", "scope": "D04", "properties": ["title:TEXT"], "assets": ["back-library", "search-library", "more-library", "status-library"]},
+    {"name": "Recent food tabs", "scope": "D04", "layout": "measured two-option selector"},
+    {"name": "Recent food note", "scope": "D04", "layout": "source clock asset and editable text"},
+    {"name": "Custom food field", "scope": "D07", "masterId": "145:431", "properties": ["label:TEXT", "value:TEXT"]},
+    {"name": "Custom food directory row", "scope": "D06", "properties": ["name:TEXT", "nutrition:TEXT", "icon:INSTANCE_SWAP"], "layout": "horizontal auto-layout with fixed icon slot and vertical text stack", "sourceRowsY": [197, 294, 392]},
+    {"name": "Custom food directory header", "scope": "D06", "properties": ["title:TEXT"], "assets": ["status-custom", "back-custom", "create-custom"]},
+    {"name": "Favorite food row", "scope": "D05", "properties": ["name:TEXT", "nutrition:TEXT", "quantity:TEXT", "unit:TEXT", "photo:INSTANCE_SWAP"], "layout": "fixed 466x145 region, horizontal photo-text section and auto-layout command and quantity sections", "sourceRowsY": [200, 359, 518, 677, 837]},
+    {"name": "Favorite explanation", "scope": "D05", "assets": ["favorite-hint-star"], "layout": "horizontal auto-layout, editable two-line text"}
+  ],
+  "status": "in_progress",
+  "acceptance": ["same-size source comparison", "no complete screenshot within screen", "editable text and interchangeable photos", "no clipping or overlap"]
+}

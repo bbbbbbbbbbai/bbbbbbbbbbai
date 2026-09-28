@@ -1,0 +1,2189 @@
+{
+  "app": "老白の日记",
+  "date": "2026-09-26",
+  "model": "gpt-image-2.5-sunburst",
+  "purpose": "全功能生成概念图，供确认后在 Figma 可编辑重建；非真实 App 截图",
+  "scope": {
+    "mainViews": 45,
+    "stateBoards": 15,
+    "jobs": 30
+  },
+  "pages": [
+    {
+      "id": "A01",
+      "name": "登录",
+      "group": "账号",
+      "basis": "AUTH；用户要求补齐",
+      "requirements": "邮箱、密码眼睛、登录、注册、忘记密码、本地入口；小图而非半屏封面",
+      "flow": "从启动或账号入口进入；成功进入验证码/账号检查，返回回到登录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M01.png",
+      "image": "screens/A01.png",
+      "crop": {
+        "from": "boards\\M01.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S01、S02、S03、S12",
+      "imageRationale": "仅用小幅生活静物建立日记身份，不挤占登录操作；无需每页配图。"
+    },
+    {
+      "id": "A02",
+      "name": "注册",
+      "group": "账号",
+      "basis": "AUTH；确认密码补齐",
+      "requirements": "邮箱、密码、确认密码、独立眼睛和一致性反馈",
+      "flow": "从启动或账号入口进入；成功进入验证码/账号检查，返回回到登录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M01.png",
+      "image": "screens/A02.png",
+      "crop": {
+        "from": "boards\\M01.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S01、S02、S03、S12",
+      "imageRationale": "仅用小幅生活静物建立日记身份，不挤占登录操作；无需每页配图。"
+    },
+    {
+      "id": "A03",
+      "name": "注册邮箱验证",
+      "group": "账号",
+      "basis": "AUTH",
+      "requirements": "验证码、邮箱、重发、倒计时、返回修改；不是只有输入框",
+      "flow": "从启动或账号入口进入；成功进入验证码/账号检查，返回回到登录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M01.png",
+      "image": "screens/A03.png",
+      "crop": {
+        "from": "boards\\M01.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S01、S02、S03、S12",
+      "imageRationale": "仅用小幅生活静物建立日记身份，不挤占登录操作；无需每页配图。"
+    },
+    {
+      "id": "A04",
+      "name": "找回密码",
+      "group": "账号",
+      "basis": "AUTH",
+      "requirements": "输入邮箱、请求验证码、发出后的明确反馈",
+      "flow": "从启动或账号入口进入；成功进入验证码/账号检查，返回回到登录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M02.png",
+      "image": "screens/A04.png",
+      "crop": {
+        "from": "boards\\M02.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S01、S02、S03、S12",
+      "imageRationale": "仅用小幅生活静物建立日记身份，不挤占登录操作；无需每页配图。"
+    },
+    {
+      "id": "A05",
+      "name": "重置密码",
+      "group": "账号",
+      "basis": "AUTH；用户要求补齐",
+      "requirements": "验证码、新密码、确认密码、显示切换、成功后进入登录",
+      "flow": "从启动或账号入口进入；成功进入验证码/账号检查，返回回到登录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M02.png",
+      "image": "screens/A05.png",
+      "crop": {
+        "from": "boards\\M02.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "空密码输入时不应显示“两次密码一致”；后续按校验状态显示。"
+      ],
+      "relatedStates": "S01、S02、S03、S12",
+      "imageRationale": "仅用小幅生活静物建立日记身份，不挤占登录操作；无需每页配图。"
+    },
+    {
+      "id": "B01",
+      "name": "首次资料与目标",
+      "group": "首次进入",
+      "basis": "SETUP",
+      "requirements": "昵称、性别、身高、年龄、活动、当前/目标体重、变化目标；合理分组，不漏字段",
+      "flow": "从登录或首次使用进入；完成后进入今日；失败可重试或返回登录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M02.png",
+      "image": "screens/B01.png",
+      "crop": {
+        "from": "boards\\M02.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "首次设置与个人资料的性别选项、目标字段必须统一；示例不能成为预填个人数据。"
+      ],
+      "relatedStates": "S03、S12、S15",
+      "imageRationale": "用小图标表达处理状态，不使用风景图或假个人回忆。"
+    },
+    {
+      "id": "B02",
+      "name": "首次数据检查/同步",
+      "group": "首次进入",
+      "basis": "ROOT/SYNC",
+      "requirements": "检查与等待、失败重试、返回登录；不让用户以为登录按钮失效",
+      "flow": "从登录或首次使用进入；完成后进入今日；失败可重试或返回登录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M03-r2.png",
+      "image": "screens/B02.png",
+      "crop": {
+        "from": "boards\\M03-r2.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S03、S12、S15",
+      "imageRationale": "用小图标表达处理状态，不使用风景图或假个人回忆。"
+    },
+    {
+      "id": "B03",
+      "name": "旧账号数据过渡",
+      "group": "首次进入",
+      "basis": "用户实际报错；ROOT/服务端迁移",
+      "requirements": "不向用户暴露 v3 技术报错；说明数据处理与可返回路径；不默认清空",
+      "flow": "从登录或首次使用进入；完成后进入今日；失败可重试或返回登录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M03-r2.png",
+      "image": "screens/B03.png",
+      "crop": {
+        "from": "boards\\M03-r2.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S03、S12、S15",
+      "imageRationale": "用小图标表达处理状态，不使用风景图或假个人回忆。"
+    },
+    {
+      "id": "C01",
+      "name": "今日：已有记录",
+      "group": "今日",
+      "basis": "TODAY；用户要求简化",
+      "requirements": "紧凑概览、四类记录入口、当天记录、同步状态；没有大横幅",
+      "flow": "从底部今日进入；记录入口进入对应编辑器，保存后回到来源页面。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M03-r2.png",
+      "image": "screens/C01.png",
+      "crop": {
+        "from": "boards\\M03-r2.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "概览和底部导航的布局方向待确认；生成稿的阴影、圆角不直接作为组件规范。"
+      ],
+      "relatedStates": "S14、S15",
+      "imageRationale": "不设置大封面；仅允许真实记录的小缩略图，新账号没有记录图片。"
+    },
+    {
+      "id": "C02",
+      "name": "今日：新账号",
+      "group": "今日",
+      "basis": "TODAY；用户要求空数据",
+      "requirements": "无虚假个人记录和成绩；保留真实入口；区分未设置与已设置但没记录",
+      "flow": "从底部今日进入；记录入口进入对应编辑器，保存后回到来源页面。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M04-r2.png",
+      "image": "screens/C02.png",
+      "crop": {
+        "from": "boards\\M04-r2.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "没有个人记录时显示空状态；首次同步成功前不能显示“已同步”。"
+      ],
+      "relatedStates": "S14、S15",
+      "imageRationale": "不设置大封面；仅允许真实记录的小缩略图，新账号没有记录图片。"
+    },
+    {
+      "id": "D01",
+      "name": "食物搜索入口",
+      "group": "饮食",
+      "basis": "FOOD",
+      "requirements": "搜索、餐次、分类/最近入口；自定义不抢主操作",
+      "flow": "从今日饮食入口进入；搜索/最近/收藏选择食物后调整份量并保存。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M04-r2.png",
+      "image": "screens/D01.png",
+      "crop": {
+        "from": "boards\\M04-r2.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S04、S05、S06、S07、S08、S09、S14",
+      "imageRationale": "缩略图辅助辨认食物；无图片仍可通过名称、单位和来源选择，不要求每种食物一张图。"
+    },
+    {
+      "id": "D02",
+      "name": "食物搜索结果",
+      "group": "饮食",
+      "basis": "FOOD/FOOD-DATA；用户明确要求",
+      "requirements": "多结果、别名、做法/品牌、来源、缺图占位、选择与翻页",
+      "flow": "从今日饮食入口进入；搜索/最近/收藏选择食物后调整份量并保存。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M04-r2.png",
+      "image": "screens/D02.png",
+      "crop": {
+        "from": "boards\\M04-r2.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "食物名称、别名、热量与来源是布局示例，不代表真实数据库已接通或营养事实。"
+      ],
+      "relatedStates": "S02、S04、S05、S06、S07、S08、S09、S14",
+      "imageRationale": "缩略图辅助辨认食物；无图片仍可通过名称、单位和来源选择，不要求每种食物一张图。"
+    },
+    {
+      "id": "D03",
+      "name": "食物详情与份量",
+      "group": "饮食",
+      "basis": "FOOD",
+      "requirements": "克数/份数、份量基准、热量及营养换算、日期、备注、收藏、保存",
+      "flow": "从今日饮食入口进入；搜索/最近/收藏选择食物后调整份量并保存。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M05.png",
+      "image": "screens/D03.png",
+      "crop": {
+        "from": "boards\\M05.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "删除未经核实的增肌减脂描述；营养数值、份量和来源需由真实数据驱动。"
+      ],
+      "relatedStates": "S02、S04、S05、S06、S07、S08、S09、S14",
+      "imageRationale": "缩略图辅助辨认食物；无图片仍可通过名称、单位和来源选择，不要求每种食物一张图。"
+    },
+    {
+      "id": "D04",
+      "name": "最近/常吃食物",
+      "group": "饮食",
+      "basis": "FOOD",
+      "requirements": "最近使用列表、直接再次选择；与历史饮食记录区分",
+      "flow": "从今日饮食入口进入；搜索/最近/收藏选择食物后调整份量并保存。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M05.png",
+      "image": "screens/D04.png",
+      "crop": {
+        "from": "boards\\M05.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S04、S05、S06、S07、S08、S09、S14",
+      "imageRationale": "缩略图辅助辨认食物；无图片仍可通过名称、单位和来源选择，不要求每种食物一张图。"
+    },
+    {
+      "id": "D05",
+      "name": "收藏食物",
+      "group": "饮食",
+      "basis": "FOOD",
+      "requirements": "查看、取消收藏、选择份量；无收藏时不制造默认收藏",
+      "flow": "从今日饮食入口进入；搜索/最近/收藏选择食物后调整份量并保存。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M05.png",
+      "image": "screens/D05.png",
+      "crop": {
+        "from": "boards\\M05.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "收藏星标与“取消收藏”存在重复操作，进入 Figma 时合并为一个明确入口。"
+      ],
+      "relatedStates": "S02、S04、S05、S06、S07、S08、S09、S14",
+      "imageRationale": "缩略图辅助辨认食物；无图片仍可通过名称、单位和来源选择，不要求每种食物一张图。"
+    },
+    {
+      "id": "D06",
+      "name": "自定义食物目录",
+      "group": "饮食",
+      "basis": "FOOD",
+      "requirements": "已创建条目列表、选择、创建入口；系统与用户条目分清",
+      "flow": "从今日饮食入口进入；搜索/最近/收藏选择食物后调整份量并保存。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M06-r2.png",
+      "image": "screens/D06.png",
+      "crop": {
+        "from": "boards\\M06-r2.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S04、S05、S06、S07、S08、S09、S14",
+      "imageRationale": "缩略图辅助辨认食物；无图片仍可通过名称、单位和来源选择，不要求每种食物一张图。"
+    },
+    {
+      "id": "D07",
+      "name": "创建自定义食物",
+      "group": "饮食",
+      "basis": "FOOD",
+      "requirements": "名称、每100g热量/蛋白质/碳水/脂肪、每份克重；作为搜索不到时的兜底",
+      "flow": "从今日饮食入口进入；搜索/最近/收藏选择食物后调整份量并保存。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M06-r2.png",
+      "image": "screens/D07.png",
+      "crop": {
+        "from": "boards\\M06-r2.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S04、S05、S06、S07、S08、S09、S14",
+      "imageRationale": "缩略图辅助辨认食物；无图片仍可通过名称、单位和来源选择，不要求每种食物一张图。"
+    },
+    {
+      "id": "E01",
+      "name": "健康记录集合",
+      "group": "健康记录",
+      "basis": "HEALTH",
+      "requirements": "现有入口可达的运动/体重/心情集合，编辑与返回路径；若合并到历史须明确重定向",
+      "flow": "从今日或健康记录进入；保存回到来源，编辑不得创建重复记录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M06-r2.png",
+      "image": "screens/E01.png",
+      "crop": {
+        "from": "boards\\M06-r2.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S06、S07、S08、S09、S13",
+      "imageRationale": "运动/体重的小幅场景图辅助识别模块；心情用选项表情，附件只属于支持照片的模块。"
+    },
+    {
+      "id": "E02",
+      "name": "运动记录",
+      "group": "健康记录",
+      "basis": "EXERCISE",
+      "requirements": "跑步/骑行/健身/步行/自定义，强度、时长、距离、可选步数、估算体重、照片、日期备注",
+      "flow": "从今日或健康记录进入；保存回到来源，编辑不得创建重复记录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M07-r2.png",
+      "image": "screens/E02.png",
+      "crop": {
+        "from": "boards\\M07-r2.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "图中估算公式与320千卡示例不一致，不得照抄；实际数值和来源须使用现有计算逻辑。"
+      ],
+      "relatedStates": "S02、S06、S07、S08、S09、S13",
+      "imageRationale": "运动/体重的小幅场景图辅助识别模块；心情用选项表情，附件只属于支持照片的模块。"
+    },
+    {
+      "id": "E03",
+      "name": "体重记录",
+      "group": "健康记录",
+      "basis": "WEIGHT/HEALTH",
+      "requirements": "数值、单位、直接键盘入口、睡眠时长、日期、备注；标尺是输入优化而非取消输入框",
+      "flow": "从今日或健康记录进入；保存回到来源，编辑不得创建重复记录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M07-r2.png",
+      "image": "screens/E03.png",
+      "crop": {
+        "from": "boards\\M07-r2.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S06、S07、S08、S09、S13",
+      "imageRationale": "运动/体重的小幅场景图辅助识别模块；心情用选项表情，附件只属于支持照片的模块。"
+    },
+    {
+      "id": "E04",
+      "name": "心情记录",
+      "group": "健康记录",
+      "basis": "MOOD/HEALTH",
+      "requirements": "现有四种心情、压力1至5、睡眠时长、日期备注；不能漏压力睡眠或凭空换枚举",
+      "flow": "从今日或健康记录进入；保存回到来源，编辑不得创建重复记录。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M07-r2.png",
+      "image": "screens/E04.png",
+      "crop": {
+        "from": "boards\\M07-r2.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S06、S07、S08、S09、S13",
+      "imageRationale": "运动/体重的小幅场景图辅助识别模块；心情用选项表情，附件只属于支持照片的模块。"
+    },
+    {
+      "id": "F01",
+      "name": "历史列表与筛选",
+      "group": "历史统计",
+      "basis": "HISTORY",
+      "requirements": "分类、日期范围、时间顺序、详情入口、返回时保持筛选和位置",
+      "flow": "从记录页进入；筛选打开详情；返回保留范围、日期和列表位置。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M08.png",
+      "image": "screens/F01.png",
+      "crop": {
+        "from": "boards\\M08.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "7/30天与自定义日期范围需互斥；图中星期、日期与范围不完全一致，重建时使用真实日期。"
+      ],
+      "relatedStates": "S07、S09、S13、S14",
+      "imageRationale": "图表表达实际记录趋势，照片只展示已有附件，不增加装饰性横幅。"
+    },
+    {
+      "id": "F02",
+      "name": "日历选择记录",
+      "group": "历史统计",
+      "basis": "HISTORY",
+      "requirements": "可选日期、记录标记、当天结果、无记录日期",
+      "flow": "从记录页进入；筛选打开详情；返回保留范围、日期和列表位置。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M08.png",
+      "image": "screens/F02.png",
+      "crop": {
+        "from": "boards\\M08.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "移除混排的“无记录日期示例”，选中哪一天只显示那一天的实际结果。"
+      ],
+      "relatedStates": "S07、S09、S13、S14",
+      "imageRationale": "图表表达实际记录趋势，照片只展示已有附件，不增加装饰性横幅。"
+    },
+    {
+      "id": "F03",
+      "name": "趋势与统计",
+      "group": "历史统计",
+      "basis": "HISTORY",
+      "requirements": "7/30天、实际支持的营养/运动/体重统计；空数据不画虚假曲线",
+      "flow": "从记录页进入；筛选打开详情；返回保留范围、日期和列表位置。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M08.png",
+      "image": "screens/F03.png",
+      "crop": {
+        "from": "boards\\M08.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "图表数值、轴刻度和目标线仅示意，最终由数据生成，不描摹图片数字。"
+      ],
+      "relatedStates": "S07、S09、S13、S14",
+      "imageRationale": "图表表达实际记录趋势，照片只展示已有附件，不增加装饰性横幅。"
+    },
+    {
+      "id": "F04",
+      "name": "饮食记录详情",
+      "group": "历史统计",
+      "basis": "DETAIL",
+      "requirements": "餐次、数量、营养、来源、备注、日期、编辑删除",
+      "flow": "从记录页进入；筛选打开详情；返回保留范围、日期和列表位置。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M09.png",
+      "image": "screens/F04.png",
+      "crop": {
+        "from": "boards\\M09.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "当前参考图遗漏了具体食物名称；可编辑设计必须补上名称再进入开发。"
+      ],
+      "relatedStates": "S07、S09、S13、S14",
+      "imageRationale": "图表表达实际记录趋势，照片只展示已有附件，不增加装饰性横幅。"
+    },
+    {
+      "id": "F05",
+      "name": "运动记录详情",
+      "group": "历史统计",
+      "basis": "DETAIL",
+      "requirements": "类型、强度、时长距离、消耗估算依据、照片、编辑删除",
+      "flow": "从记录页进入；筛选打开详情；返回保留范围、日期和列表位置。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M09.png",
+      "image": "screens/F05.png",
+      "crop": {
+        "from": "boards\\M09.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S07、S09、S13、S14",
+      "imageRationale": "图表表达实际记录趋势，照片只展示已有附件，不增加装饰性横幅。"
+    },
+    {
+      "id": "F06",
+      "name": "体重记录详情",
+      "group": "历史统计",
+      "basis": "DETAIL",
+      "requirements": "体重、睡眠时长、日期、备注、编辑删除；不加未支持的体脂检测",
+      "flow": "从记录页进入；筛选打开详情；返回保留范围、日期和列表位置。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M09.png",
+      "image": "screens/F06.png",
+      "crop": {
+        "from": "boards\\M09.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S07、S09、S13、S14",
+      "imageRationale": "图表表达实际记录趋势，照片只展示已有附件，不增加装饰性横幅。"
+    },
+    {
+      "id": "F07",
+      "name": "心情记录详情",
+      "group": "历史统计",
+      "basis": "DETAIL",
+      "requirements": "心情、压力、睡眠、备注、编辑删除",
+      "flow": "从记录页进入；筛选打开详情；返回保留范围、日期和列表位置。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M10.png",
+      "image": "screens/F07.png",
+      "crop": {
+        "from": "boards\\M10.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "详情页的心情与压力应只读；点击编辑后才进入可调整的控件。"
+      ],
+      "relatedStates": "S07、S09、S13、S14",
+      "imageRationale": "图表表达实际记录趋势，照片只展示已有附件，不增加装饰性横幅。"
+    },
+    {
+      "id": "G01",
+      "name": "问题目录",
+      "group": "向往",
+      "basis": "REFLECTION",
+      "requirements": "分组、全部/未答/已答、系统问题与自定义问题",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M10.png",
+      "image": "screens/G01.png",
+      "crop": {
+        "from": "boards\\M10.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "参考图遗漏新增自定义问题入口及问题/清单/足迹的分区切换，重建时必须补齐。"
+      ],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "G02",
+      "name": "问题与历次回答",
+      "group": "向往",
+      "basis": "REFLECTION；信息拆分",
+      "requirements": "当前问题、已有答案及日期、继续回答；旧答案不是随新回答覆盖",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M10.png",
+      "image": "screens/G02.png",
+      "crop": {
+        "from": "boards\\M10.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "删去解释实现方式的历史保留说明；保留清楚的日期、内容和继续回答入口。"
+      ],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "G03",
+      "name": "写下回答",
+      "group": "向往",
+      "basis": "REFLECTION",
+      "requirements": "问题上下文、编辑区、取消保存、键盘空间",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M11.png",
+      "image": "screens/G03.png",
+      "crop": {
+        "from": "boards\\M11.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "上下重复的保存按钮需合并；字符上限按代码约束，不采用生成图中随意给出的500。"
+      ],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "G04",
+      "name": "自定义问题新增/编辑",
+      "group": "向往",
+      "basis": "REFLECTION",
+      "requirements": "分组、问题、保存；系统模板不出现无依据的删除入口",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M11.png",
+      "image": "screens/G04.png",
+      "crop": {
+        "from": "boards\\M11.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "上下重复的保存按钮需合并；字符上限按代码约束，不采用生成图中随意给出的100。"
+      ],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "G05",
+      "name": "人生清单",
+      "group": "向往",
+      "basis": "CHECKLIST",
+      "requirements": "分类、三种状态、真实完成数、完成感受入口",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M11.png",
+      "image": "screens/G05.png",
+      "crop": {
+        "from": "boards\\M11.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "系统模板菜单不能提供删除模板；完成状态和数量只来源于当前账号。"
+      ],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "G06",
+      "name": "自定义清单新增/编辑",
+      "group": "向往",
+      "basis": "CHECKLIST",
+      "requirements": "项目与分类；不替换系统模板、不虚构默认完成状态",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M12-r2.png",
+      "image": "screens/G06.png",
+      "crop": {
+        "from": "boards\\M12-r2.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "G07",
+      "name": "完成感受新增/编辑",
+      "group": "向往",
+      "basis": "CHECKLIST",
+      "requirements": "感受、关联照片、保存、取消、删除完成记录",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M12-r2.png",
+      "image": "screens/G07.png",
+      "crop": {
+        "from": "boards\\M12-r2.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "G08",
+      "name": "生活足迹",
+      "group": "向往",
+      "basis": "FOOTPRINT",
+      "requirements": "按日期查看标题、地点、正文、已有照片和编辑入口",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M12-r2.png",
+      "image": "screens/G08.png",
+      "crop": {
+        "from": "boards\\M12-r2.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "G09",
+      "name": "足迹新增/编辑",
+      "group": "向往",
+      "basis": "FOOTPRINT",
+      "requirements": "标题、地点、日期、正文、照片、保存取消",
+      "flow": "从向往进入；选择问题/清单/足迹，编辑保存后返回相应列表。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M13-r2.png",
+      "image": "screens/G09.png",
+      "crop": {
+        "from": "boards\\M13-r2.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S08、S09、S13、S14",
+      "imageRationale": "问题与清单以文字操作为主；感受/足迹的照片作为实际记录内容。"
+    },
+    {
+      "id": "H01",
+      "name": "我的概览",
+      "group": "我的",
+      "basis": "PROFILE/ROOT；信息拆分",
+      "requirements": "当前身份、账号信息、资料/目标/备份入口、同步摘要、退出",
+      "flow": "从我的进入；资料更新可返回，备份/清空必须先确认范围。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M13-r2.png",
+      "image": "screens/H01.png",
+      "crop": {
+        "from": "boards\\M13-r2.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S08、S10、S11、S12、S15",
+      "imageRationale": "资料与设置强调操作清晰，不加大图或未确认的社交内容。"
+    },
+    {
+      "id": "H02",
+      "name": "编辑个人资料",
+      "group": "我的",
+      "basis": "PROFILE；信息拆分",
+      "requirements": "昵称、性别、身高、年龄、活动水平；保存反馈",
+      "flow": "从我的进入；资料更新可返回，备份/清空必须先确认范围。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M13-r2.png",
+      "image": "screens/H02.png",
+      "crop": {
+        "from": "boards\\M13-r2.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S08、S10、S11、S12、S15",
+      "imageRationale": "资料与设置强调操作清晰，不加大图或未确认的社交内容。"
+    },
+    {
+      "id": "H03",
+      "name": "目标与热量设置",
+      "group": "我的",
+      "basis": "PROFILE；信息拆分",
+      "requirements": "起始/当前/目标体重、变化目标、自动/手动热量；切换后字段与解释",
+      "flow": "从我的进入；资料更新可返回，备份/清空必须先确认范围。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M14.png",
+      "image": "screens/H03.png",
+      "crop": {
+        "from": "boards\\M14.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "自动/手动模式应只显示对应输入；每周变化的正负语义以业务定义统一。"
+      ],
+      "relatedStates": "S08、S10、S11、S12、S15",
+      "imageRationale": "资料与设置强调操作清晰，不加大图或未确认的社交内容。"
+    },
+    {
+      "id": "H04",
+      "name": "同步详情与恢复入口",
+      "group": "我的",
+      "basis": "ROOT/SYNC；信息拆分",
+      "requirements": "已同步/等待/离线/失败/需登录；不能把待同步说成已上传",
+      "flow": "从我的进入；资料更新可返回，备份/清空必须先确认范围。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M14.png",
+      "image": "screens/H04.png",
+      "crop": {
+        "from": "boards\\M14.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "同步详情展示当前状态；参考图列举的其他状态应移至状态板，不堆成说明表。"
+      ],
+      "relatedStates": "S08、S10、S11、S12、S15",
+      "imageRationale": "资料与设置强调操作清晰，不加大图或未确认的社交内容。"
+    },
+    {
+      "id": "H05",
+      "name": "备份与恢复",
+      "group": "我的",
+      "basis": "PROFILE",
+      "requirements": "导出、选取文件、导入预览和覆盖确认；不把它包装成日常同步必做步骤",
+      "flow": "从我的进入；资料更新可返回，备份/清空必须先确认范围。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M14.png",
+      "image": "screens/H05.png",
+      "crop": {
+        "from": "boards\\M14.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [
+        "导入预览的替换范围必须与实际导入策略一致；危险操作只在明确确认后执行。"
+      ],
+      "relatedStates": "S08、S10、S11、S12、S15",
+      "imageRationale": "资料与设置强调操作清晰，不加大图或未确认的社交内容。"
+    },
+    {
+      "id": "I01",
+      "name": "日期选择层",
+      "group": "通用操作",
+      "basis": "HISTORY 的选择器及各记录日期",
+      "requirements": "统一日期选择与取消确认，保留合法手工输入策略",
+      "flow": "由记录或附件入口打开；确认返回来源，取消不丢失编辑内容。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M15-r2.png",
+      "image": "screens/I01.png",
+      "crop": {
+        "from": "boards\\M15-r2.png",
+        "bounds": [
+          0,
+          0,
+          512,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S08、S13",
+      "imageRationale": "附件查看使用真实附件内容，选择器不添加装饰照片。"
+    },
+    {
+      "id": "I02",
+      "name": "添加/管理图片层",
+      "group": "通用操作",
+      "basis": "MEDIA",
+      "requirements": "相册/相机、缩略图、删除、数量限制和取消；只用于当前支持媒体的模块",
+      "flow": "由记录或附件入口打开；确认返回来源，取消不丢失编辑内容。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M15-r2.png",
+      "image": "screens/I02.png",
+      "crop": {
+        "from": "boards\\M15-r2.png",
+        "bounds": [
+          512,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S08、S13",
+      "imageRationale": "附件查看使用真实附件内容，选择器不添加装饰照片。"
+    },
+    {
+      "id": "I03",
+      "name": "记录图片查看",
+      "group": "通用操作",
+      "basis": "DETAIL/MEDIA；交互补齐",
+      "requirements": "展示实际附件、关闭返回、缺失/错误状态；不伪装成系统图片编辑器",
+      "flow": "由记录或附件入口打开；确认返回来源，取消不丢失编辑内容。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "board": "boards/M15-r2.png",
+      "image": "screens/I03.png",
+      "crop": {
+        "from": "boards\\M15-r2.png",
+        "bounds": [
+          1024,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "reviewNotes": [],
+      "relatedStates": "S02、S08、S13",
+      "imageRationale": "附件查看使用真实附件内容，选择器不添加装饰照片。"
+    },
+    {
+      "id": "S01",
+      "name": "密码与验证码校验",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "密码显示/隐藏、二次不一致、验证码错误/过期/重发等待；对应 A01-A05",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S01.png",
+      "board": "boards/S01.png",
+      "variants": [
+        {
+          "id": "S01-01",
+          "name": "显示密码",
+          "requirement": "Registration password visible as safe example Abc12345 with eye toggled; confirm still hidden."
+        },
+        {
+          "id": "S01-02",
+          "name": "两次不一致",
+          "requirement": "Red error below confirm password, preserve inputs, submit disabled."
+        },
+        {
+          "id": "S01-03",
+          "name": "验证码错误",
+          "requirement": "Code input highlighted, concise error, edit and retry."
+        },
+        {
+          "id": "S01-04",
+          "name": "验证码过期",
+          "requirement": "Expired message and 重新发送, no misleading verification success."
+        },
+        {
+          "id": "S01-05",
+          "name": "重发等待",
+          "requirement": "48秒后重发 disabled action, back to correct email allowed."
+        }
+      ],
+      "reviewNotes": [
+        "验证码重发等待时仍须保留验证提交动作；按钮文案需与主页面统一。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S02",
+      "name": "键盘与长内容",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "键盘展开、长邮箱/长菜名/长备注、大字体、滚动后的保存位置",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S02.png",
+      "board": "boards/S02.png",
+      "variants": [
+        {
+          "id": "S02-01",
+          "name": "登录键盘",
+          "requirement": "Keyboard visible, small photo collapses, login action reachable above keyboard."
+        },
+        {
+          "id": "S02-02",
+          "name": "长邮箱与大字",
+          "requirement": "Long example email and larger font, no clipping or overlapping eye icon."
+        },
+        {
+          "id": "S02-03",
+          "name": "长菜名",
+          "requirement": "Two-line food name with per100g and plus icon kept aligned."
+        },
+        {
+          "id": "S02-04",
+          "name": "长备注",
+          "requirement": "Scrollable note editor with keyboard and visible save; no lost typed text."
+        }
+      ],
+      "reviewNotes": [
+        "键盘图只是遮挡关系示意，不是定制系统键盘；真实设备安全区和大字体仍需验证。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S03",
+      "name": "首次进入失败",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "离线检查、同步重试、数据空间打不开、旧账号过渡失败；不能统一成无法操作的报错文字",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S03.png",
+      "board": "boards/S03.png",
+      "variants": [
+        {
+          "id": "S03-01",
+          "name": "首次离线",
+          "requirement": "Data check cannot connect, retry and return login; no empty account invented."
+        },
+        {
+          "id": "S03-02",
+          "name": "同步失败",
+          "requirement": "Retryable server error with preserved login and retry action."
+        },
+        {
+          "id": "S03-03",
+          "name": "本地空间错误",
+          "requirement": "User-friendly local data open error, details expander, retry/back; no raw database dump by default."
+        },
+        {
+          "id": "S03-04",
+          "name": "旧账号待处理",
+          "requirement": "Migration not completed, records not deleted, view status and return login; no false migration complete."
+        }
+      ],
+      "reviewNotes": [
+        "“正在迁移”“记录不会被删除”等文案不能靠推测显示，须绑定真实后端处理状态。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S04",
+      "name": "搜索加载与无结果",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "有旧结果时加载、空结果、相关词建议、清空搜索、自定义兜底",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S04.png",
+      "board": "boards/S04.png",
+      "variants": [
+        {
+          "id": "S04-01",
+          "name": "正在搜索",
+          "requirement": "Existing query and prior results remain, small loading indicator."
+        },
+        {
+          "id": "S04-02",
+          "name": "无匹配结果",
+          "requirement": "Clear no match for typed food, related words and subdued custom add."
+        },
+        {
+          "id": "S04-03",
+          "name": "相关搜索",
+          "requirement": "番茄 and 西红柿 aliases suggested, not fake generated nutrient values."
+        },
+        {
+          "id": "S04-04",
+          "name": "清空搜索",
+          "requirement": "X clear restores blank search/recent suggestions, keyboard focus sensible."
+        }
+      ],
+      "reviewNotes": [
+        "相关词与历史建议属于搜索体验补齐；未有真实历史时不可预置个人搜索记录。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S05",
+      "name": "搜索联网异常",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "超时、离线、限流、重试、缓存提示；不能把网络失败说成没有这种食物",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S05.png",
+      "board": "boards/S05.png",
+      "variants": [
+        {
+          "id": "S05-01",
+          "name": "查询超时",
+          "requirement": "Network timeout vs no food distinguished, retry button."
+        },
+        {
+          "id": "S05-02",
+          "name": "离线结果",
+          "requirement": "Local/cached foods visible with 离线 marker, remote request unavailable."
+        },
+        {
+          "id": "S05-03",
+          "name": "请求过快",
+          "requirement": "Wait-before-retry message, no fake no-results statement."
+        },
+        {
+          "id": "S05-04",
+          "name": "恢复联网",
+          "requirement": "User taps retry, loading visible, same query retained."
+        }
+      ],
+      "reviewNotes": [
+        "离线结果应显示食物和营养数据，不应显示图中的烹饪时间；缓存能力尚未因出图而实现。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S06",
+      "name": "输入与营养边界",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "非法份量、未知营养值、缺图片、来源展开、菜谱估算；运动自定义/参数变化和估算更新",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S06-r2.png",
+      "board": "boards/S06-r2.png",
+      "variants": [
+        {
+          "id": "S06-01",
+          "name": "份量无效",
+          "requirement": "Negative/empty grams shows localized error, do not calculate nonsense."
+        },
+        {
+          "id": "S06-02",
+          "name": "未知营养",
+          "requirement": "Missing protein shown -- / 暂无数据, never0g."
+        },
+        {
+          "id": "S06-03",
+          "name": "无照片",
+          "requirement": "Food result remains selectable using category icon."
+        },
+        {
+          "id": "S06-04",
+          "name": "菜谱估算来源",
+          "requirement": "Mixed-dish source bottom sheet labeled参考估算, recipe/portion basis; no official badge."
+        },
+        {
+          "id": "S06-05",
+          "name": "自定义运动",
+          "requirement": "Exercise custom name field appears alongside duration/intensity/weight parameters."
+        },
+        {
+          "id": "S06-06",
+          "name": "消耗估算",
+          "requirement": "Exercise parameter changed, display recomputation and formula/source expander."
+        }
+      ],
+      "reviewNotes": [
+        "所有来源与计算数值均为界面示例；不得把生成文本当作医学或营养依据。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S07",
+      "name": "新增到编辑",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "饮食/运动/体重/心情分别画出预填编辑、更新操作、删除入口；原始数值不因编辑备注改变",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S07.png",
+      "board": "boards/S07.png",
+      "variants": [
+        {
+          "id": "S07-01",
+          "name": "编辑饮食",
+          "requirement": "Prefilled food/grams/meal/date/note, 更新记录 and delete, no duplicate add."
+        },
+        {
+          "id": "S07-02",
+          "name": "编辑运动",
+          "requirement": "Prefilled type/duration/distance/intensity/steps/weight/photos/date/note, 更新记录."
+        },
+        {
+          "id": "S07-03",
+          "name": "编辑体重",
+          "requirement": "Prefilled weight AND sleep hours/date/note, 更新记录."
+        },
+        {
+          "id": "S07-04",
+          "name": "编辑心情",
+          "requirement": "Existing4mood options plus pressure/sleep/date/note, 更新记录."
+        }
+      ],
+      "reviewNotes": [
+        "删除入口需为四种编辑记录统一补齐；图中的更新动作不代表保存逻辑已经验证。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S08",
+      "name": "保存与退出编辑",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "保存中、成功、失败保留输入、未保存离开确认（补齐建议）",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S08.png",
+      "board": "boards/S08.png",
+      "variants": [
+        {
+          "id": "S08-01",
+          "name": "保存中",
+          "requirement": "Button spinner and disabled duplicate submit, form remains visible."
+        },
+        {
+          "id": "S08-02",
+          "name": "保存成功",
+          "requirement": "Return to source list with new entry and short success snackbar."
+        },
+        {
+          "id": "S08-03",
+          "name": "保存失败",
+          "requirement": "Typed text remains, retry available, not silently dismissed."
+        },
+        {
+          "id": "S08-04",
+          "name": "离开未保存",
+          "requirement": "Dialog 留下继续编辑 / 放弃修改, non-destructive default; proposed safety improvement."
+        }
+      ],
+      "reviewNotes": [
+        "状态反馈可复用，但图中背景表单混合了足迹、运动和心情字段，不能作为新的合并记录页面。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S09",
+      "name": "删除确认",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "四类记录、自定义问题连同回答、自定义清单连同完成记录、完成感受、足迹；明确删除范围",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S09.png",
+      "board": "boards/S09.png",
+      "variants": [
+        {
+          "id": "S09-01",
+          "name": "删除饮食记录",
+          "requirement": "Named food record confirmation, cancel/delete."
+        },
+        {
+          "id": "S09-02",
+          "name": "删除健康记录",
+          "requirement": "Exercise/weight/mood scoped to selected record, no all-data wording."
+        },
+        {
+          "id": "S09-03",
+          "name": "删除自定义问题",
+          "requirement": "Warn associated historical answers also removed, system questions cannot use this."
+        },
+        {
+          "id": "S09-04",
+          "name": "删除自定义清单",
+          "requirement": "Warn states/completion/media scope, not system templates."
+        },
+        {
+          "id": "S09-05",
+          "name": "删除完成感受",
+          "requirement": "Only completion text/media scope, not all personal diary."
+        },
+        {
+          "id": "S09-06",
+          "name": "删除生活足迹",
+          "requirement": "Footprint entry and unreferenced images, cancel/delete."
+        }
+      ],
+      "reviewNotes": [
+        "健康记录删除弹窗应替换为具体类型与记录名称，不能保留“健康记录”泛称。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S10",
+      "name": "导入备份",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "文件选取返回、摘要预览、覆盖确认、成功、无效文件/身份变化失败",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S10.png",
+      "board": "boards/S10.png",
+      "variants": [
+        {
+          "id": "S10-01",
+          "name": "选择备份",
+          "requirement": "App return from native file picker with selected JSON filename, no custom imitation OS picker."
+        },
+        {
+          "id": "S10-02",
+          "name": "导入预览",
+          "requirement": "Actual placeholder counts by record type, target current account, cancel."
+        },
+        {
+          "id": "S10-03",
+          "name": "确认覆盖",
+          "requirement": "Clear warning replacement local data, explicit confirmation, cancel primary safe choice."
+        },
+        {
+          "id": "S10-04",
+          "name": "导入完成",
+          "requirement": "Success summary, return to records, sync state separate."
+        },
+        {
+          "id": "S10-05",
+          "name": "无法导入",
+          "requirement": "Invalid file/account changed errors, no replacement done, choose another file."
+        }
+      ],
+      "reviewNotes": [
+        "删除“在设置中开启云同步”的生成文案，账号模式应自动同步；附件是否包含必须按实际备份格式显示。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S11",
+      "name": "清空个人数据",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "二次确认、云端删除等待、本机清理未完、重试、完成；系统模板保留",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S11.png",
+      "board": "boards/S11.png",
+      "variants": [
+        {
+          "id": "S11-01",
+          "name": "确认清空",
+          "requirement": "Warn cloud/local personal data cleared, system templates retained, explicit cancel and destructive confirm."
+        },
+        {
+          "id": "S11-02",
+          "name": "云端待确认",
+          "requirement": "Deletion pending, no claimed cloud success; resume handling."
+        },
+        {
+          "id": "S11-03",
+          "name": "本机待清理",
+          "requirement": "Cloud step confirmed but local cleanup incomplete, retry."
+        },
+        {
+          "id": "S11-04",
+          "name": "处理失败",
+          "requirement": "Show bounded retry and actual incomplete state, no fake clean slate."
+        },
+        {
+          "id": "S11-05",
+          "name": "清空完成",
+          "requirement": "Personal history empty, system food/questions/checklist remain; account session preserved."
+        }
+      ],
+      "reviewNotes": [
+        "云端删除提交后的返回不等于撤回删除，按钮不能误称取消；删除范围和重试次数须取实际状态。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S12",
+      "name": "身份与会话",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "本地模式、登录态、退出确认（补齐建议）、登录过期；不能串账号",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S12.png",
+      "board": "boards/S12.png",
+      "variants": [
+        {
+          "id": "S12-01",
+          "name": "本地模式",
+          "requirement": "Guest identity, data stays device, login entry; no 已同步 claim."
+        },
+        {
+          "id": "S12-02",
+          "name": "账号模式",
+          "requirement": "Masked email plus correct current account records; no guest-data auto mixing."
+        },
+        {
+          "id": "S12-03",
+          "name": "退出确认",
+          "requirement": "Cancel/logout, reassure pending status honestly, safety improvement not current implementation claim."
+        },
+        {
+          "id": "S12-04",
+          "name": "登录过期",
+          "requirement": "Need reauthenticate, preserve local queue, not clear records."
+        }
+      ],
+      "reviewNotes": [
+        "登录切换不得自动混合本地访客数据；待上传记录处理规则须与实际账号隔离策略一致。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S13",
+      "name": "图片异常",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "权限拒绝、选择取消、上限、移除最后一张、图片丢失、加载失败",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S13.png",
+      "board": "boards/S13.png",
+      "variants": [
+        {
+          "id": "S13-01",
+          "name": "相机权限拒绝",
+          "requirement": "Explain camera unavailable, choose album or cancel."
+        },
+        {
+          "id": "S13-02",
+          "name": "选择已取消",
+          "requirement": "Editor draft remains, no phantom empty attachment."
+        },
+        {
+          "id": "S13-03",
+          "name": "图片已达上限",
+          "requirement": "3 thumbnails, add disabled, remove supported."
+        },
+        {
+          "id": "S13-04",
+          "name": "移除最后一张",
+          "requirement": "No thumbnail remains, edit preserves explicit empty media state."
+        },
+        {
+          "id": "S13-05",
+          "name": "图片找不到",
+          "requirement": "Named missing attachment placeholder, not unrelated stock image."
+        },
+        {
+          "id": "S13-06",
+          "name": "读取失败",
+          "requirement": "Retry/close image preview, editor remains intact."
+        }
+      ],
+      "reviewNotes": [
+        "此板仅示意附件异常；背景表单须替换成运动、完成感受或足迹的真实字段。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S14",
+      "name": "各模块空状态",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "新账号首页、收藏/最近/自定义、历史、问题未答、清单未开始、足迹为空；不能使用演示数据补位",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S14.png",
+      "board": "boards/S14.png",
+      "variants": [
+        {
+          "id": "S14-01",
+          "name": "新账号",
+          "requirement": "Today empty, four recording actions, no sample values."
+        },
+        {
+          "id": "S14-02",
+          "name": "没有收藏",
+          "requirement": "Empty favorites with search entry, no default favorite rows."
+        },
+        {
+          "id": "S14-03",
+          "name": "没有最近记录",
+          "requirement": "Recent empty, create actual record first."
+        },
+        {
+          "id": "S14-04",
+          "name": "没有自定义食物",
+          "requirement": "Custom catalog empty, optional create; search still primary."
+        },
+        {
+          "id": "S14-05",
+          "name": "历史为空",
+          "requirement": "No records in selected date range, adjust range."
+        },
+        {
+          "id": "S14-06",
+          "name": "问题未回答",
+          "requirement": "System questions present, answers empty."
+        },
+        {
+          "id": "S14-07",
+          "name": "清单未开始",
+          "requirement": "System templates visible, completion0, nothing checked by default."
+        },
+        {
+          "id": "S14-08",
+          "name": "足迹为空",
+          "requirement": "No invented trips or photos, 新增足迹 action."
+        }
+      ],
+      "reviewNotes": [
+        "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    },
+    {
+      "id": "S15",
+      "name": "同步运行状态",
+      "group": "交互状态",
+      "basis": "完整功能范围中的交互状态要求",
+      "requirements": "等待、正在上传、已同步、离线、需重新登录、失败可重试；返回页面时状态一致",
+      "flow": "依适用页面触发；保持当前身份和输入，明确重试、取消及返回。",
+      "status": "已生成，待用户确认",
+      "figmaStatus": "尚未开始",
+      "appStatus": "未实装",
+      "dataBoundary": "所有图中数字、日期、记录均为示例；新账号个人记录为空。",
+      "image": "boards/S15.png",
+      "board": "boards/S15.png",
+      "variants": [
+        {
+          "id": "S15-01",
+          "name": "等待上传",
+          "requirement": "Pending2, preserved on device, not green confirmed sync."
+        },
+        {
+          "id": "S15-02",
+          "name": "正在同步",
+          "requirement": "Active upload indicator, user can continue local recording."
+        },
+        {
+          "id": "S15-03",
+          "name": "已同步",
+          "requirement": "Confirmed state and timestamp, no pending count."
+        },
+        {
+          "id": "S15-04",
+          "name": "离线等待",
+          "requirement": "Pending queue indicator, no data loss claim beyond actual local save."
+        },
+        {
+          "id": "S15-05",
+          "name": "需重新登录",
+          "requirement": "Sign-in action, local queue retained."
+        },
+        {
+          "id": "S15-06",
+          "name": "失败可重试",
+          "requirement": "Friendly error and retry, confirmed data remains."
+        }
+      ],
+      "reviewNotes": [
+        "状态应嵌入当前页面，不要求日常跳入独立同步页；没有可量化进度时用不定进度提示。"
+      ],
+      "relatedStates": "状态板内编号逐项对应",
+      "imageRationale": "只表现状态、反馈和可执行动作；空数据不以生成照片填充。"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "M01",
+      "kind": "main",
+      "pages": [
+        "A01",
+        "A02",
+        "A03"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M01.txt"
+    },
+    {
+      "id": "M02",
+      "kind": "main",
+      "pages": [
+        "A04",
+        "A05",
+        "B01"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M02.txt"
+    },
+    {
+      "id": "M03",
+      "kind": "main",
+      "pages": [
+        "B02",
+        "B03",
+        "C01"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M03.txt"
+    },
+    {
+      "id": "M04",
+      "kind": "main",
+      "pages": [
+        "C02",
+        "D01",
+        "D02"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M04.txt"
+    },
+    {
+      "id": "M05",
+      "kind": "main",
+      "pages": [
+        "D03",
+        "D04",
+        "D05"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M05.txt"
+    },
+    {
+      "id": "M06",
+      "kind": "main",
+      "pages": [
+        "D06",
+        "D07",
+        "E01"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M06.txt"
+    },
+    {
+      "id": "M07",
+      "kind": "main",
+      "pages": [
+        "E02",
+        "E03",
+        "E04"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M07.txt"
+    },
+    {
+      "id": "M08",
+      "kind": "main",
+      "pages": [
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M08.txt"
+    },
+    {
+      "id": "M09",
+      "kind": "main",
+      "pages": [
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M09.txt"
+    },
+    {
+      "id": "M10",
+      "kind": "main",
+      "pages": [
+        "F07",
+        "G01",
+        "G02"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M10.txt"
+    },
+    {
+      "id": "M11",
+      "kind": "main",
+      "pages": [
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M11.txt"
+    },
+    {
+      "id": "M12",
+      "kind": "main",
+      "pages": [
+        "G06",
+        "G07",
+        "G08"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M12.txt"
+    },
+    {
+      "id": "M13",
+      "kind": "main",
+      "pages": [
+        "G09",
+        "H01",
+        "H02"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M13.txt"
+    },
+    {
+      "id": "M14",
+      "kind": "main",
+      "pages": [
+        "H03",
+        "H04",
+        "H05"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M14.txt"
+    },
+    {
+      "id": "M15",
+      "kind": "main",
+      "pages": [
+        "I01",
+        "I02",
+        "I03"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\M15.txt"
+    },
+    {
+      "id": "S01",
+      "kind": "states",
+      "pages": [
+        "S01"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S01.txt"
+    },
+    {
+      "id": "S02",
+      "kind": "states",
+      "pages": [
+        "S02"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S02.txt"
+    },
+    {
+      "id": "S03",
+      "kind": "states",
+      "pages": [
+        "S03"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S03.txt"
+    },
+    {
+      "id": "S04",
+      "kind": "states",
+      "pages": [
+        "S04"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S04.txt"
+    },
+    {
+      "id": "S05",
+      "kind": "states",
+      "pages": [
+        "S05"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S05.txt"
+    },
+    {
+      "id": "S06",
+      "kind": "states",
+      "pages": [
+        "S06"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S06.txt"
+    },
+    {
+      "id": "S07",
+      "kind": "states",
+      "pages": [
+        "S07"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S07.txt"
+    },
+    {
+      "id": "S08",
+      "kind": "states",
+      "pages": [
+        "S08"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S08.txt"
+    },
+    {
+      "id": "S09",
+      "kind": "states",
+      "pages": [
+        "S09"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S09.txt"
+    },
+    {
+      "id": "S10",
+      "kind": "states",
+      "pages": [
+        "S10"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S10.txt"
+    },
+    {
+      "id": "S11",
+      "kind": "states",
+      "pages": [
+        "S11"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S11.txt"
+    },
+    {
+      "id": "S12",
+      "kind": "states",
+      "pages": [
+        "S12"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S12.txt"
+    },
+    {
+      "id": "S13",
+      "kind": "states",
+      "pages": [
+        "S13"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S13.txt"
+    },
+    {
+      "id": "S14",
+      "kind": "states",
+      "pages": [
+        "S14"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S14.txt"
+    },
+    {
+      "id": "S15",
+      "kind": "states",
+      "pages": [
+        "S15"
+      ],
+      "prompt": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\.tmp\\ui-design-full\\prompts\\S15.txt"
+    }
+  ],
+  "ready": 60,
+  "reviewNotice": "图片已生成不等于功能验收通过。须逐页检查必备字段、数字、枚举、空白状态和模型可能加入的额外控件。Figma 尚未开始，App 未修改。分图裁自三联原图，原图一并保留。这些不是小米14实测截图；图片比例、字体和系统栏像素不能直接当作安卓布局规范。"
+}

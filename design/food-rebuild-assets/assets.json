@@ -1,0 +1,200 @@
+[
+  {
+    "name": "cat-rice",
+    "source": "D01",
+    "crop": [
+      73,
+      338,
+      117,
+      378
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-rice.png"
+  },
+  {
+    "name": "cat-meat",
+    "source": "D01",
+    "crop": [
+      232,
+      336,
+      280,
+      379
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-meat.png"
+  },
+  {
+    "name": "cat-fish",
+    "source": "D01",
+    "crop": [
+      389,
+      338,
+      441,
+      379
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-fish.png"
+  },
+  {
+    "name": "cat-veg",
+    "source": "D01",
+    "crop": [
+      73,
+      446,
+      118,
+      490
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-veg.png"
+  },
+  {
+    "name": "cat-fruit",
+    "source": "D01",
+    "crop": [
+      231,
+      444,
+      278,
+      491
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-fruit.png"
+  },
+  {
+    "name": "cat-milk",
+    "source": "D01",
+    "crop": [
+      394,
+      445,
+      438,
+      491
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cat-milk.png"
+  },
+  {
+    "name": "rice",
+    "source": "D01",
+    "crop": [
+      27,
+      612,
+      99,
+      674
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\rice.png"
+  },
+  {
+    "name": "egg",
+    "source": "D01",
+    "crop": [
+      35,
+      699,
+      88,
+      757
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\egg.png"
+  },
+  {
+    "name": "breast-icon",
+    "source": "D01",
+    "crop": [
+      25,
+      791,
+      96,
+      845
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\breast-icon.png"
+  },
+  {
+    "name": "banana",
+    "source": "D01",
+    "crop": [
+      26,
+      879,
+      94,
+      937
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\banana.png"
+  },
+  {
+    "name": "raw-breast",
+    "source": "D02",
+    "crop": [
+      26,
+      264,
+      98,
+      334
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\raw-breast.png"
+  },
+  {
+    "name": "cooked-breast",
+    "source": "D02",
+    "crop": [
+      26,
+      369,
+      98,
+      439
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\cooked-breast.png"
+  },
+  {
+    "name": "leg-icon",
+    "source": "D02",
+    "crop": [
+      32,
+      480,
+      91,
+      535
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\leg-icon.png"
+  },
+  {
+    "name": "kungpao",
+    "source": "D02",
+    "crop": [
+      26,
+      689,
+      99,
+      758
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\kungpao.png"
+  },
+  {
+    "name": "white-chicken",
+    "source": "D02",
+    "crop": [
+      23,
+      799,
+      103,
+      862
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\white-chicken.png"
+  },
+  {
+    "name": "detail-chicken",
+    "source": "D03",
+    "crop": [
+      22,
+      109,
+      204,
+      305
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\detail-chicken.png"
+  },
+  {
+    "name": "status-ios",
+    "source": "D01",
+    "crop": [
+      386,
+      14,
+      487,
+      33
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\status-ios.png"
+  },
+  {
+    "name": "status-android",
+    "source": "D03",
+    "crop": [
+      344,
+      7,
+      414,
+      30
+    ],
+    "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\food-rebuild-assets\\status-android.png"
+  }
+]

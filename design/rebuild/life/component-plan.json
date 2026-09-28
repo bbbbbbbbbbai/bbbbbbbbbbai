@@ -1,0 +1,364 @@
+{
+  "schemaVersion": "1.0.0",
+  "scope": "G01-G09 original-reference component planning only; no Figma edits",
+  "designInterpretation": "面向个人生活与健康记录用户的向往、问题、人生清单及足迹页面；轻量浅色生活记录视觉，绿色操作强调，原图大标题/列表/表单各不相同。DESIGN_VARIANCE 2 / MOTION_INTENSITY 1 / VISUAL_DENSITY 5。",
+  "statusRules": {
+    "measured": "Visible source composition and strings",
+    "inferred": "Suggested component boundaries, layout behaviors and properties",
+    "unknown": "Source font metadata, unshown states, real safe insets and app constraints"
+  },
+  "sourceAuthority": "Each original G PNG is authoritative for the strict reproduction. Product reviewNotes must be represented as a separate labeled revision, not silently substituted.",
+  "libraryPage": {
+    "name": "02｜组件库与素材",
+    "id": "75:2",
+    "status": "inferred",
+    "note": "Inherited from parent task, must verify file/page before use."
+  },
+  "fileKey": {
+    "value": "ptA7IsUhV0rHsp8yRLFRVj",
+    "status": "inferred",
+    "note": "Parent-provided target identity, not queried by analysis agent"
+  },
+  "masters": [
+    {
+      "name": "区域 / 问题目录页头",
+      "screens": [
+        "G01"
+      ],
+      "properties": [
+        "TEXT:标题",
+        "INSTANCE_SWAP:帮助图标"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "控件 / 三项回答筛选",
+      "screens": [
+        "G01"
+      ],
+      "properties": [
+        "TEXT:选项",
+        "VARIANT:全部/未答/已答"
+      ],
+      "layout": "horizontal auto-layout within measured fixed track",
+      "status": "inferred"
+    },
+    {
+      "name": "列表项 / 问题",
+      "screens": [
+        "G01"
+      ],
+      "properties": [
+        "TEXT:问题",
+        "TEXT:状态",
+        "INSTANCE_SWAP:图标",
+        "VARIANT:已答/未答"
+      ],
+      "layout": "horizontal auto-layout; icon natural size; fixed pill; text fills remaining width",
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 问题分组标题",
+      "screens": [
+        "G01"
+      ],
+      "properties": [
+        "TEXT:标题",
+        "TEXT:数量"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 底部导航 G01",
+      "screens": [
+        "G01"
+      ],
+      "properties": [
+        "TEXT:标签",
+        "INSTANCE_SWAP:每项图标",
+        "VARIANT:向往选中"
+      ],
+      "note": "G08 uses different icons and spacing; do not force identical visuals.",
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 当前问题上下文",
+      "screens": [
+        "G02",
+        "G03"
+      ],
+      "properties": [
+        "TEXT:问题",
+        "TEXT:说明"
+      ],
+      "note": "Separate appearance variants; G02 is unframed and G03 has subtle surface.",
+      "status": "inferred"
+    },
+    {
+      "name": "列表项 / 历次回答",
+      "screens": [
+        "G02"
+      ],
+      "properties": [
+        "TEXT:日期",
+        "TEXT:回答"
+      ],
+      "layout": "vertical auto-layout, divider outside text flow",
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 简洁编辑页头",
+      "screens": [
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "properties": [
+        "TEXT:标题",
+        "TEXT:右侧操作",
+        "INSTANCE_SWAP:返回",
+        "BOOLEAN:添加图标"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "控件 / 多行编辑器",
+      "screens": [
+        "G03",
+        "G04",
+        "G07",
+        "G09"
+      ],
+      "properties": [
+        "TEXT:内容",
+        "TEXT:计数",
+        "BOOLEAN:计数"
+      ],
+      "note": "Measured fixed height per variant; do not invent common 500-character limit.",
+      "status": "inferred"
+    },
+    {
+      "name": "控件 / 标签输入字段",
+      "screens": [
+        "G04",
+        "G06",
+        "G09"
+      ],
+      "properties": [
+        "TEXT:标签",
+        "TEXT:数值",
+        "INSTANCE_SWAP:尾部图标",
+        "BOOLEAN:尾部图标"
+      ],
+      "layout": "vertical auto-layout label then fixed input",
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 双按钮横排",
+      "screens": [
+        "G03",
+        "G04"
+      ],
+      "properties": [
+        "TEXT:主操作",
+        "TEXT:次操作"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 分类切换",
+      "screens": [
+        "G05"
+      ],
+      "properties": [
+        "TEXT:三项分类",
+        "VARIANT:旅行"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "卡片 / 清单完成统计",
+      "screens": [
+        "G05"
+      ],
+      "properties": [
+        "TEXT:数量",
+        "TEXT:标签",
+        "INSTANCE_SWAP:状态图标"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "列表项 / 人生清单",
+      "screens": [
+        "G05"
+      ],
+      "properties": [
+        "TEXT:项目",
+        "TEXT:状态",
+        "TEXT:完成感受",
+        "BOOLEAN:完成感受",
+        "INSTANCE_SWAP:状态图标"
+      ],
+      "layout": "vertical row+optional feeling; horizontal row uses fixed icons and state pill",
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 大标题页头",
+      "screens": [
+        "G06",
+        "G07"
+      ],
+      "properties": [
+        "TEXT:标题",
+        "INSTANCE_SWAP:返回",
+        "BOOLEAN:删除"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 保存取消纵排",
+      "screens": [
+        "G06",
+        "G07"
+      ],
+      "properties": [
+        "TEXT:主操作",
+        "TEXT:次操作"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 关联清单项目",
+      "screens": [
+        "G07"
+      ],
+      "properties": [
+        "TEXT:项目",
+        "INSTANCE_SWAP:图标"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "控件 / 可移除照片",
+      "screens": [
+        "G07",
+        "G09"
+      ],
+      "properties": [
+        "INSTANCE_SWAP:照片",
+        "INSTANCE_SWAP:移除图标",
+        "BOOLEAN:可移除"
+      ],
+      "note": "Source thumbnails contain baked X buttons. Clean image first; never double-render/remove-control overlay.",
+      "status": "inferred"
+    },
+    {
+      "name": "控件 / 添加照片",
+      "screens": [
+        "G07",
+        "G09"
+      ],
+      "properties": [
+        "INSTANCE_SWAP:加号"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 照片编辑行",
+      "screens": [
+        "G07",
+        "G09"
+      ],
+      "properties": [
+        "TEXT:照片数量",
+        "INSTANCE_SWAP:照片1",
+        "INSTANCE_SWAP:照片2"
+      ],
+      "layout": "horizontal auto-layout for photos, natural ratio per measured source variant",
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 足迹页头与分区",
+      "screens": [
+        "G08"
+      ],
+      "properties": [
+        "TEXT:标题",
+        "TEXT:说明",
+        "VARIANT:足迹"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "卡片 / 生活足迹",
+      "screens": [
+        "G08"
+      ],
+      "properties": [
+        "TEXT:日期",
+        "TEXT:标题",
+        "TEXT:地点",
+        "TEXT:正文",
+        "INSTANCE_SWAP:照片"
+      ],
+      "layout": "vertical card; content row text+image; actions top-right; use native text and border",
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 底部导航 G08",
+      "screens": [
+        "G08"
+      ],
+      "properties": [
+        "TEXT:标签",
+        "INSTANCE_SWAP:每项图标",
+        "VARIANT:向往选中"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 足迹编辑页头",
+      "screens": [
+        "G09"
+      ],
+      "properties": [
+        "TEXT:标题",
+        "INSTANCE_SWAP:返回"
+      ],
+      "status": "inferred"
+    },
+    {
+      "name": "区域 / 足迹编辑操作",
+      "screens": [
+        "G09"
+      ],
+      "properties": [
+        "TEXT:保存",
+        "TEXT:取消"
+      ],
+      "status": "inferred"
+    }
+  ],
+  "assemblyRules": [
+    "All meaningful screen regions are component instances; masters arranged explicitly on library page.",
+    "Use original source-local 512x1024 coordinates; do not resize artwork to normalized square slots.",
+    "Do not use full-screen source image as visible UI background.",
+    "Text remains editable, including dates/status/labels/numbers; source photos may contain incidental printed text.",
+    "Reference-code labels G01-G05 are part of original raster. Preserve in strict-reproduction frame; omit only in separately labeled production revision.",
+    "G01 and G08 bottom navigation look different in source; do not silently normalize them.",
+    "All account content shown is example content, never preseed a new account.",
+    "No generated image requested or used by this analysis agent; assets are plans for exact source extraction."
+  ],
+  "acceptance": {
+    "status": "not_started",
+    "required": [
+      "Verify target file/page IDs before writing.",
+      "Clean overlay-baked thumbnails and verify isolated asset boundaries.",
+      "Export every screen at512x1024, compare against original with at least two evidence-backed repair passes.",
+      "Disable all full-reference images during final screenshot.",
+      "Test text override and asset swap in disposable clone.",
+      "Record real Figma master/instance/screen IDs and exact screenshot paths."
+    ]
+  }
+}

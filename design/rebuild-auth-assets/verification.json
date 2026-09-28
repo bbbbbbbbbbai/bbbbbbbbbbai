@@ -1,0 +1,58 @@
+[
+  {
+    "screen": "A02",
+    "nodeId": "70:14",
+    "pageId": "70:13",
+    "dimensions": [
+      512,
+      1024
+    ],
+    "editableTextNodes": 17,
+    "wholeImageMeanAbsoluteChannelError": 3.821,
+    "pixelIdentical": false,
+    "screenshot": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A02-editable.png",
+    "comparison": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A02-comparison.png"
+  },
+  {
+    "screen": "A03",
+    "nodeId": "70:16",
+    "pageId": "70:13",
+    "dimensions": [
+      512,
+      1024
+    ],
+    "editableTextNodes": 15,
+    "wholeImageMeanAbsoluteChannelError": 3.065,
+    "pixelIdentical": false,
+    "screenshot": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A03-editable.png",
+    "comparison": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A03-comparison.png"
+  },
+  {
+    "screen": "A04",
+    "nodeId": "70:18",
+    "pageId": "70:13",
+    "dimensions": [
+      512,
+      1024
+    ],
+    "editableTextNodes": 11,
+    "wholeImageMeanAbsoluteChannelError": 3.579,
+    "pixelIdentical": false,
+    "screenshot": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A04-editable.png",
+    "comparison": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A04-comparison.png"
+  },
+  {
+    "screen": "A05",
+    "nodeId": "70:20",
+    "pageId": "70:13",
+    "dimensions": [
+      512,
+      1024
+    ],
+    "editableTextNodes": 18,
+    "wholeImageMeanAbsoluteChannelError": 5.387,
+    "pixelIdentical": false,
+    "screenshot": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A05-editable.png",
+    "comparison": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A05-comparison.png"
+  }
+]

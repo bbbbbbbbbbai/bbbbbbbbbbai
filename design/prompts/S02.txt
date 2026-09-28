@@ -1,0 +1,42 @@
+
+Generate the FINAL USER INTERFACE DESIGN picture in ONE image_generation call.
+Do NOT return photography assets, code, a background, or a written design instead.
+Original Chinese Android app 老白の日记. These are design concepts, not real screenshots.
+Sharp readable Simplified Chinese, consistent native sans-serif typography, near-white
+#FAFCFC, charcoal #20282B, jade #237B65, restrained blue #5C89D8 and coral #EE7867.
+Fine rules and unframed sections; no nested cards, no heavy shadows, no beige or purple
+theme, no gradient blobs, no fake device frames. Small 8px corners except circles.
+Native recognizable outline icons, realistic safe status bar and gesture inset.
+No clipped text, missing actions or overlap. No decorative photo banner on HOME or
+ACCOUNT screens. Login/registration can have a SMALL notebook still-life strip,
+at most 12 percent of screen height. Interior imagery must not hide controls.
+Photographs show actual recognizable subjects, not unrelated backgrounds.
+Bottom tabs only on top-level pages: 今日 / 记录 / 向往 / 我的. No bottom tabs
+on login or modal editors. No social, subscriptions, GPS, AI recognition or smart-scale
+features. No invented default private records. Example record values are fictional.
+Exact health enums: 心情=轻松/还行/烦躁/疲惫; 压力=1至5; 运动=跑步/骑行/健身/步行/自定义.
+Preserve every mandatory field. Do not replace existing fields with attractive but
+unimplemented tags. No real addresses, secrets, branded logos or claims of licensed
+database integration. The diagram is a visual proposal, not proof data migration works.
+Render an OPAQUE white background, never translucent glass or blurred backdrop.
+Do not print implementation instructions or paragraphs describing how the app works
+inside screens. Keep only concise useful user-facing labels and status messages.
+Exactly THREE attachments maximum wherever photos are supported. No product logos.
+No invented barcode scanner, daily-record template, premium or social feature.
+Each editor has one clear primary save action, not duplicated toolbar/bottom saves.
+
+STATE BOARD: ONE high-resolution image, landscape3072x2048, showing exactly
+4 numbered UI STATE PANELS. These are actual interface fragments,
+dialogs, forms or relevant screen areas, not explanatory paragraphs. Arrange a
+balanced 2-row grid with clearly separated panels. Each panel large enough for its
+text, labelled ID and state name. Show controls, actual error wording, selected
+values and primary/secondary actions. Full phone frames unnecessary for short
+dialogs. Native app UI only, not code. Overall title: S02 键盘与长内容.
+
+PANEL S02-01 登录键盘: Keyboard visible, small photo collapses, login action reachable above keyboard.
+
+PANEL S02-02 长邮箱与大字: Long example email and larger font, no clipping or overlapping eye icon.
+
+PANEL S02-03 长菜名: Two-line food name with per100g and plus icon kept aligned.
+
+PANEL S02-04 长备注: Scrollable note editor with keyboard and visible save; no lost typed text.

@@ -1,0 +1,1181 @@
+{
+  "schemaVersion": "1.0.0",
+  "scope": {
+    "value": "Source-only component plan; no Figma inspection or mutation in this task",
+    "status": "measured",
+    "source": "task"
+  },
+  "sourceSpecs": {
+    "value": [
+      "source-spec.json",
+      "asset-manifest.json"
+    ],
+    "status": "measured",
+    "source": "local outputs"
+  },
+  "masterPage": {
+    "value": "02｜组件库与素材",
+    "status": "inferred",
+    "source": "Candidate inferred from original raster; not original editable metadata"
+  },
+  "screenPage": {
+    "value": "01｜还原稿与组件",
+    "status": "inferred",
+    "source": "Candidate inferred from original raster; not original editable metadata"
+  },
+  "figmaFileKey": {
+    "value": null,
+    "status": "unknown",
+    "source": "No target document read during this source-only analysis"
+  },
+  "order": {
+    "value": [
+      "tokens from original samples",
+      "accepted asset masters",
+      "atomic controls",
+      "region masters",
+      "screen instances",
+      "visual and editable QA"
+    ],
+    "status": "inferred",
+    "source": "Candidate inferred from original raster; not original editable metadata"
+  },
+  "components": [
+    {
+      "name": {
+        "value": "区域 / 问题目录筛选",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G01"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "filter",
+          "filter-selected"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Selected:VARIANT"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "全部/未答/已答；原图只选中全部",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 0,
+          "row": 0,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "列表项 / 问题",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G01"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "question-0",
+          "question-1",
+          "question-2",
+          "question-3"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Question:TEXT",
+          "State:VARIANT",
+          "Icon:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "问题文本、状态徽标、文档图标与chevron统一母版",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 1,
+          "row": 0,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 问题上下文",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G02",
+          "G03"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "question",
+          "question-context"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Question:TEXT",
+          "Description:TEXT"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "不同源图字号/布局用有依据变体，不强行缩放",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 2,
+          "row": 0,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "列表项 / 历次回答",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G02"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "date-1",
+          "answer-1",
+          "date-2",
+          "answer-2",
+          "date-3",
+          "answer-3"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Date:TEXT",
+          "Answer:TEXT"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "旧答案保留；不把说明实现方式的文案混进组件",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 0,
+          "row": 1,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "控件 / 编辑表单",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G03",
+          "G04",
+          "G06",
+          "G07",
+          "G09"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "answer",
+          "question",
+          "item",
+          "category",
+          "feeling",
+          "title",
+          "place",
+          "date",
+          "body"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Label:TEXT",
+          "Value:TEXT",
+          "Helper:TEXT",
+          "ShowCounter:BOOLEAN"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "Auto-layout label/field/helper；源图计数字符上限非业务约束",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 1,
+          "row": 1,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "控件 / 保存取消",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G03",
+          "G04",
+          "G06",
+          "G07",
+          "G09"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "save",
+          "cancel"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Label:TEXT",
+          "Style:VARIANT"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "G03/G04只留一个清楚保存入口；G09取消是文本，不能套用G06背景按钮",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 2,
+          "row": 1,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 分类切换",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G05"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "category",
+          "category-selected"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Selected:VARIANT"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "旅行/学习/生活",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 0,
+          "row": 2,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "卡片 / 清单统计",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G05"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "summary-0",
+          "summary-1",
+          "summary-2"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Count:TEXT",
+          "Icon:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "不将3/1/2作为默认账号数据",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 1,
+          "row": 2,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "列表项 / 清单项目",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G05"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "item-0",
+          "item-1",
+          "item-2",
+          "item-3"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Title:TEXT",
+          "State:VARIANT",
+          "IsSystem:BOOLEAN",
+          "Feeling:TEXT",
+          "ShowFeeling:BOOLEAN"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "系统模板禁止删除模板；自定义与系统必须可区分",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 2,
+          "row": 2,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 关联项目",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G07"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "associated-item"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Title:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "独立书本像素素材",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 0,
+          "row": 3,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "控件 / 照片附件",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G07",
+          "G09"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "photo-0",
+          "photo-1",
+          "photo-add"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Photo:INSTANCE_SWAP",
+          "ShowRemove:BOOLEAN"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "保持每个源图照片比例；先清理烘焙关闭按钮",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 1,
+          "row": 3,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "卡片 / 足迹记录",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G08"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "footprint-0",
+          "footprint-1"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Date:TEXT",
+          "Title:TEXT",
+          "Place:TEXT",
+          "Body:TEXT",
+          "Photo:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "将编辑/删除操作做共用图标实例；照片与文字独立",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 2,
+          "row": 3,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 向往分区",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G08",
+          "G01"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "section-tab-0",
+          "section-tab-1",
+          "section-tab-2"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Selected:VARIANT"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "G08源图可测；G01遗漏入口的新增位置unknown，父编排需确定",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 0,
+          "row": 4,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "区域 / 底部导航",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G01",
+          "G08"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "nav-0",
+          "nav-1",
+          "nav-2",
+          "nav-3"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Selected:VARIANT",
+          "Icons:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "G01叶片与G08山形原图不同，不互换",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 1,
+          "row": 4,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    },
+    {
+      "name": {
+        "value": "素材 / 原图艺术与图标",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "screens": {
+        "value": [
+          "G01",
+          "G02",
+          "G03",
+          "G04",
+          "G05",
+          "G06",
+          "G07",
+          "G08",
+          "G09"
+        ],
+        "status": "measured",
+        "source": "source applicability"
+      },
+      "sourceElementIds": {
+        "value": [
+          "status-soft",
+          "help-soft",
+          "question-document",
+          "question-chevron",
+          "nav-home-soft",
+          "nav-record-soft",
+          "nav-leaf-selected",
+          "nav-profile-soft",
+          "back-soft",
+          "status-form-soft",
+          "form-back",
+          "group-chevron",
+          "checklist-add",
+          "summary-unstarted",
+          "summary-progress",
+          "summary-done",
+          "item-unstarted",
+          "item-progress",
+          "item-done",
+          "item-more",
+          "status-clean",
+          "back-clean",
+          "item-clear",
+          "category-chevron",
+          "delete-completion",
+          "associated-book",
+          "feeling-photo-book",
+          "feeling-photo-openbook",
+          "photo-remove-clean",
+          "photo-add-clean",
+          "status-footprints",
+          "footprint-add",
+          "footprint-edit",
+          "footprint-delete",
+          "footprint-location",
+          "footprint-park",
+          "footprint-dinner",
+          "nav-home-clean",
+          "nav-record-clean",
+          "nav-aspiration-clean",
+          "nav-profile-clean",
+          "status-warm",
+          "back-warm",
+          "footprint-calendar",
+          "footprint-seaside",
+          "footprint-sunset",
+          "photo-remove-warm",
+          "photo-add-warm"
+        ],
+        "status": "measured",
+        "source": "source-spec ids, not Figma node IDs"
+      },
+      "masterNodeId": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "instanceNodeIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "Not created"
+      },
+      "properties": {
+        "value": [
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "notes": {
+        "value": "所有源图艺术仍是位图，先干净提取；无法干净提取才走Image Two，禁止通用图标替代",
+        "status": "inferred",
+        "source": "Candidate inferred from original raster; not original editable metadata"
+      },
+      "placement": {
+        "value": {
+          "column": 2,
+          "row": 4,
+          "gap": 120
+        },
+        "status": "inferred",
+        "source": "proposed nonoverlapping library grid"
+      },
+      "_fieldStatus": {
+        "name": "measured",
+        "screens": "measured",
+        "sourceElementIds": "measured",
+        "masterNodeId": "measured",
+        "instanceNodeIds": "measured",
+        "properties": "measured",
+        "notes": "measured",
+        "placement": "measured"
+      }
+    }
+  ],
+  "reviewNotes": {
+    "G01": {
+      "value": [
+        "参考图遗漏新增自定义问题入口及问题/清单/足迹的分区切换，重建时必须补齐。"
+      ],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "G02": {
+      "value": [
+        "删去解释实现方式的历史保留说明；保留清楚的日期、内容和继续回答入口。"
+      ],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "G03": {
+      "value": [
+        "上下重复的保存按钮需合并；字符上限按代码约束，不采用生成图中随意给出的500。"
+      ],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "G04": {
+      "value": [
+        "上下重复的保存按钮需合并；字符上限按代码约束，不采用生成图中随意给出的100。"
+      ],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "G05": {
+      "value": [
+        "系统模板菜单不能提供删除模板；完成状态和数量只来源于当前账号。"
+      ],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "G06": {
+      "value": [],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "G07": {
+      "value": [],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "G08": {
+      "value": [],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "G09": {
+      "value": [],
+      "status": "measured",
+      "source": "original manifest copied unchanged"
+    },
+    "_fieldStatus": {
+      "G01": "measured",
+      "G02": "measured",
+      "G03": "measured",
+      "G04": "measured",
+      "G05": "measured",
+      "G06": "measured",
+      "G07": "measured",
+      "G08": "measured",
+      "G09": "measured"
+    }
+  },
+  "acceptance": {
+    "value": "NOT BUILT / NOT ACCEPTED. Parent writer must resolve review gates, verify source-size screenshots and editability.",
+    "status": "inferred",
+    "source": "Candidate inferred from original raster; not original editable metadata"
+  },
+  "_fieldStatus": {
+    "schemaVersion": "measured",
+    "scope": "inferred",
+    "sourceSpecs": "measured",
+    "masterPage": "measured",
+    "screenPage": "measured",
+    "figmaFileKey": "measured",
+    "order": "measured",
+    "components": "measured",
+    "reviewNotes": "measured",
+    "acceptance": "measured"
+  }
+}

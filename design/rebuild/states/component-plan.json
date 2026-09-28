@@ -1,0 +1,5730 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-09-28",
+  "status": "analysis_only_not_built",
+  "masterPage": {
+    "value": "02｜组件库与素材",
+    "status": "inferred",
+    "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+  },
+  "semantics": {
+    "value": "逐状态保留原图证据；明显生成错误单独标注，不静默当成真实业务行为。",
+    "status": "measured",
+    "source": "manifest.reviewNotes与本轮目视检查"
+  },
+  "sharedComponents": [
+    {
+      "value": {
+        "name": "控件 / 状态按钮",
+        "properties": [
+          "文案:TEXT",
+          "状态:默认|禁用|提交中",
+          "类型:主要|次要|破坏性",
+          "图形:INSTANCE_SWAP"
+        ]
+      },
+      "status": "inferred",
+      "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+    },
+    {
+      "value": {
+        "name": "控件 / 校验输入",
+        "properties": [
+          "内容:TEXT",
+          "错误:TEXT",
+          "错误可见:BOOLEAN",
+          "密码显示:BOOLEAN",
+          "前缀/尾部图标:INSTANCE_SWAP"
+        ]
+      },
+      "status": "inferred",
+      "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+    },
+    {
+      "value": {
+        "name": "区域 / 状态反馈",
+        "properties": [
+          "标题:TEXT",
+          "说明:TEXT",
+          "图形:INSTANCE_SWAP",
+          "重试可见:BOOLEAN"
+        ]
+      },
+      "status": "inferred",
+      "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+    },
+    {
+      "value": {
+        "name": "区域 / 确认弹窗",
+        "properties": [
+          "标题:TEXT",
+          "内容:TEXT",
+          "主次动作:TEXT",
+          "图形:INSTANCE_SWAP",
+          "勾选确认:BOOLEAN"
+        ]
+      },
+      "status": "inferred",
+      "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+    },
+    {
+      "value": {
+        "name": "列表项 / 食物结果",
+        "properties": [
+          "名称:TEXT",
+          "份量热量:TEXT",
+          "营养:TEXT",
+          "缩略图:INSTANCE_SWAP",
+          "离线:BOOLEAN"
+        ]
+      },
+      "status": "inferred",
+      "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+    },
+    {
+      "value": {
+        "name": "区域 / 附件列表",
+        "properties": [
+          "附件1/2/3:INSTANCE_SWAP",
+          "数量:TEXT",
+          "状态:空|已有|上限|缺失|读取失败"
+        ]
+      },
+      "status": "inferred",
+      "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+    },
+    {
+      "value": {
+        "name": "区域 / 同步提示",
+        "properties": [
+          "状态:等待|上传|完成|离线|过期|失败",
+          "数量:TEXT",
+          "时间:TEXT",
+          "图形:INSTANCE_SWAP"
+        ]
+      },
+      "status": "inferred",
+      "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+    },
+    {
+      "value": {
+        "name": "区域 / 空状态",
+        "properties": [
+          "标题:TEXT",
+          "说明:TEXT",
+          "图形:INSTANCE_SWAP",
+          "动作可见:BOOLEAN"
+        ]
+      },
+      "status": "inferred",
+      "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+    }
+  ],
+  "variants": [
+    {
+      "id": {
+        "value": "S01-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "A02",
+          "A05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "仅密码框明文显示；确认框仍掩码；原图按钮叫可继续。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "邮箱",
+          "锁",
+          "睁眼/闭眼"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "验证码重发等待时仍须保留验证提交动作；按钮文案需与主页面统一。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S01-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "A02",
+          "A05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "确认密码红边和下方错误提示；输入保留。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "邮箱",
+          "锁",
+          "错误感叹号",
+          "睁眼/闭眼"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "验证码重发等待时仍须保留验证提交动作；按钮文案需与主页面统一。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S01-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "A03",
+          "A05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "验证码红边、字段末尾红叉、错误行。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "信封插画",
+          "盾牌",
+          "红叉",
+          "错误图标"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "验证码重发等待时仍须保留验证提交动作；按钮文案需与主页面统一。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S01-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "A03",
+          "A05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "保留过期输入，提示过期；重发可用。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "信封插画",
+          "盾牌",
+          "错误图标"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "验证码重发等待时仍须保留验证提交动作；按钮文案需与主页面统一。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S01-05",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "A03",
+          "A05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "蓝色倒计时替代红色错误；原图缺独立验证提交操作。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "信封插画",
+          "盾牌",
+          "时钟"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "验证码重发等待时仍须保留验证提交动作；按钮文案需与主页面统一。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S02-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "A01"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "小幅登录静物位于顶端；键盘覆盖下方，登录仍可见。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "笔记本杯子静物",
+          "系统键盘示意",
+          "邮箱",
+          "锁",
+          "眼睛"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "键盘图只是遮挡关系示意，不是定制系统键盘；真实设备安全区和大字体仍需验证。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S02-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "A01"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "放大字体且邮箱单行；和A01不是等比例一致布局。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "邮箱",
+          "锁",
+          "眼睛"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "键盘图只是遮挡关系示意，不是定制系统键盘；真实设备安全区和大字体仍需验证。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S02-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D02",
+          "D03"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "食物名两行；营养列、右侧加号仍对齐。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "餐盘缩略图",
+          "加号",
+          "返回"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "键盘图只是遮挡关系示意，不是定制系统键盘；真实设备安全区和大字体仍需验证。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S02-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D03",
+          "E02",
+          "E03",
+          "E04",
+          "G03",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "大段文本滚动；按钮在键盘上方；计数是生成样例未核对。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "键盘示意",
+          "返回"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "键盘图只是遮挡关系示意，不是定制系统键盘；真实设备安全区和大字体仍需验证。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S03-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "B02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "首次检查失败，不应跳到虚构空账号。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "断线云图标"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "“正在迁移”“记录不会被删除”等文案不能靠推测显示，须绑定真实后端处理状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S03-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "B02",
+          "H04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "登录身份仍在；同步重试而非清空本地。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "同步错误图标",
+          "用户头像符号"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "“正在迁移”“记录不会被删除”等文案不能靠推测显示，须绑定真实后端处理状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S03-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "B02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "本地读写错误，默认不暴露数据库原始错误。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "存储错误图标",
+          "详情文档"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "“正在迁移”“记录不会被删除”等文案不能靠推测显示，须绑定真实后端处理状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S03-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "B03"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "迁移状态待确认；这些后端保证必须由实际状态驱动。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "账号等待插画",
+          "时钟"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "“正在迁移”“记录不会被删除”等文案不能靠推测显示，须绑定真实后端处理状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S04-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D01",
+          "D02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "搜索框与结果标题均有小加载圆环；已有结果不清除。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "四个食物缩略图",
+          "搜索",
+          "加载圆环",
+          "箭头"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "相关词与历史建议属于搜索体验补齐；未有真实历史时不可预置个人搜索记录。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S04-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "无结果提示+建议词+次要创建入口；不是超时。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "空结果放大镜",
+          "搜索",
+          "加号"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "相关词与历史建议属于搜索体验补齐；未有真实历史时不可预置个人搜索记录。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S04-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D01",
+          "D02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "以相关词/别名列表替换食物结果。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "搜索",
+          "箭头"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "相关词与历史建议属于搜索体验补齐；未有真实历史时不可预置个人搜索记录。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S04-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D01"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "空输入含光标，显示真实历史才可呈现最近条目。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "时钟",
+          "垃圾桶",
+          "搜索",
+          "箭头"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "相关词与历史建议属于搜索体验补齐；未有真实历史时不可预置个人搜索记录。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S05-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "超时状态明确区别无结果。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "超时时钟",
+          "搜索",
+          "更多"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "离线结果应显示食物和营养数据，不应显示图中的烹饪时间；缓存能力尚未因出图而实现。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S05-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "顶部蓝色离线横幅+三条缓存项；原图时间/日期不是正确营养列。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "断网标记",
+          "三张食物图"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "离线结果应显示食物和营养数据，不应显示图中的烹饪时间；缓存能力尚未因出图而实现。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S05-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "红色限流倒计时，避免连续提交。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "红色时钟"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "离线结果应显示食物和营养数据，不应显示图中的烹饪时间；缓存能力尚未因出图而实现。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S05-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "查询保留，蓝色圆环和按钮加载。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "加载圆环"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "离线结果应显示食物和营养数据，不应显示图中的烹饪时间；缓存能力尚未因出图而实现。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S06-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D03"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "负克数红边校验，禁止保存。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "米饭分类图标",
+          "错误感叹号"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "所有来源与计算数值均为界面示例；不得把生成文本当作医学或营养依据。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S06-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D03"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "缺蛋白质明确未知而非零；营养值均为生成示例。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "米饭分类图标",
+          "信息图标"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "所有来源与计算数值均为界面示例；不得把生成文本当作医学或营养依据。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S06-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "无照片用分类插画替代，条目仍可选择。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "土豆",
+          "红薯",
+          "玉米",
+          "加号"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "所有来源与计算数值均为界面示例；不得把生成文本当作医学或营养依据。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S06-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D03"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "遮罩与底部来源说明层，不标成官方数据。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "面条餐碗",
+          "关闭"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "所有来源与计算数值均为界面示例；不得把生成文本当作医学或营养依据。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S06-05",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "E02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "选择自定义后显示名称字段。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "五个运动分类图标"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "所有来源与计算数值均为界面示例；不得把生成文本当作医学或营养依据。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S06-06",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "E02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "估算结果与可展开来源区；不要把示例当真实依据。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "展开箭头"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "所有来源与计算数值均为界面示例；不得把生成文本当作医学或营养依据。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S07-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D03",
+          "F04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "已填充字段+更新而非新增；明确删除入口。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "食具",
+          "称",
+          "碗",
+          "日历",
+          "备注",
+          "垃圾桶"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除入口需为四种编辑记录统一补齐；图中的更新动作不代表保存逻辑已经验证。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S07-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "E02",
+          "F05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "运动值和三张照片预填；原图缺明确删除记录按钮。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "跑步/时钟/路线/强度/鞋/称",
+          "三张运动照片",
+          "日期/备注"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除入口需为四种编辑记录统一补齐；图中的更新动作不代表保存逻辑已经验证。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S07-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "E03",
+          "F06"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "保留睡眠字段并预填；原图缺明确删除记录。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "称",
+          "月亮",
+          "日期",
+          "备注"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除入口需为四种编辑记录统一补齐；图中的更新动作不代表保存逻辑已经验证。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S07-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "E04",
+          "F07"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "四种心情和压力保留；原图缺明确删除记录。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "四种心情图标",
+          "压力",
+          "月亮",
+          "日期",
+          "备注"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除入口需为四种编辑记录统一补齐；图中的更新动作不代表保存逻辑已经验证。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S08-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D03",
+          "D07",
+          "E02",
+          "E03",
+          "E04",
+          "G03",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "表单可见、按钮转圈；背景混合足迹/运动/心情，不可作为新合并页。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "道路照片",
+          "圆环"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态反馈可复用，但图中背景表单混合了足迹、运动和心情字段，不能作为新的合并记录页面。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S08-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "C01",
+          "F01",
+          "G08"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "回来源列表，新记录高亮，底部深色短反馈。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "四张列表照片",
+          "成功勾"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态反馈可复用，但图中背景表单混合了足迹、运动和心情字段，不能作为新的合并记录页面。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S08-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D03",
+          "D07",
+          "E02",
+          "E03",
+          "E04",
+          "G03",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "原输入及附件保持；红色失败行和重试。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "道路照片",
+          "失败图标"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态反馈可复用，但图中背景表单混合了足迹、运动和心情字段，不能作为新的合并记录页面。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S08-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D03",
+          "D07",
+          "E02",
+          "E03",
+          "E04",
+          "G03",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "半透明遮罩+居中确认弹窗；保留编辑主操作。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "背景已有附件"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态反馈可复用，但图中背景表单混合了足迹、运动和心情字段，不能作为新的合并记录页面。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S09-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "F04",
+          "D03"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "目标明确一条饮食，橙红破坏性按钮。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "食具"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "健康记录删除弹窗应替换为具体类型与记录名称，不能保留“健康记录”泛称。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S09-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "F05",
+          "F06",
+          "F07",
+          "E01"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "原图危险地混合三类记录；重建记录此差异，实装需具体单条。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "健康波形"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "健康记录删除弹窗应替换为具体类型与记录名称，不能保留“健康记录”泛称。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S09-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "G01",
+          "G02",
+          "G04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "说明连带删除答案，禁止系统问题走此流程。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "问号"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "健康记录删除弹窗应替换为具体类型与记录名称，不能保留“健康记录”泛称。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S09-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "G05",
+          "G06"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "明确自定义清单关联范围。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "清单"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "健康记录删除弹窗应替换为具体类型与记录名称，不能保留“健康记录”泛称。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S09-05",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "G07"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "只删除当前完成感受，不清其他个人记录。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "勾选"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "健康记录删除弹窗应替换为具体类型与记录名称，不能保留“健康记录”泛称。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S09-06",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "G08",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "足迹及未复用媒体；取消安全选择。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "定位"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "健康记录删除弹窗应替换为具体类型与记录名称，不能保留“健康记录”泛称。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S10-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "原生选文件返回后的应用内确认，不仿造系统选择器。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "文件",
+          "回形针",
+          "已选勾"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除“在设置中开启云同步”的生成文案，账号模式应自动同步；附件是否包含必须按实际备份格式显示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S10-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "展示记录类型数量与目标身份，数字仅原图示例。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "文档",
+          "心形",
+          "清单",
+          "账号"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除“在设置中开启云同步”的生成文案，账号模式应自动同步；附件是否包含必须按实际备份格式显示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S10-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "红色警告区域+显式勾选，取消安全。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "警告三角"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除“在设置中开启云同步”的生成文案，账号模式应自动同步；附件是否包含必须按实际备份格式显示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S10-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H05",
+          "H04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "本地导入成功与同步分开；原图手动开启云同步文案错误。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "成功勾",
+          "文件/心形/清单",
+          "云",
+          "信息"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除“在设置中开启云同步”的生成文案，账号模式应自动同步；附件是否包含必须按实际备份格式显示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S10-05",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "拒绝导入且保留原数据；两种错误仅按实际原因显示。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "红叉"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "删除“在设置中开启云同步”的生成文案，账号模式应自动同步；附件是否包含必须按实际备份格式显示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S11-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H01",
+          "H05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "范围需核对业务；围度是原图额外生成字段。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "警告",
+          "设置垃圾桶"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "云端删除提交后的返回不等于撤回删除，按钮不能误称取消；删除范围和重试次数须取实际状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S11-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H01",
+          "H05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "提交后的取消不等于撤回；需改准确返回语义。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "云端时钟",
+          "信息"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "云端删除提交后的返回不等于撤回删除，按钮不能误称取消；删除范围和重试次数须取实际状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S11-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H01",
+          "H05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "只重试未完成本机步骤。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "手机时钟",
+          "信息"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "云端删除提交后的返回不等于撤回删除，按钮不能误称取消；删除范围和重试次数须取实际状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S11-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H01",
+          "H05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "保留不确定状态，不假装已清空；次数取真实策略。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "红叉",
+          "错误"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "云端删除提交后的返回不等于撤回删除，按钮不能误称取消；删除范围和重试次数须取实际状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S11-05",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H01",
+          "H05",
+          "C02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "成功必须两端确认；系统模板与会话保留。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "成功勾",
+          "三条勾选"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "云端删除提交后的返回不等于撤回删除，按钮不能误称取消；删除范围和重试次数须取实际状态。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S12-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H01",
+          "A01"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "本地身份，无已同步标记。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "手机",
+          "用户"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "登录切换不得自动混合本地访客数据；待上传记录处理规则须与实际账号隔离策略一致。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S12-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H01"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "掩码账号，明确数据隔离。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "用户",
+          "文档",
+          "设置",
+          "退出"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "登录切换不得自动混合本地访客数据；待上传记录处理规则须与实际账号隔离策略一致。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S12-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "H01"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "退出确认；不暗示待上传已完成。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "退出"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "登录切换不得自动混合本地访客数据；待上传记录处理规则须与实际账号隔离策略一致。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S12-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "A01",
+          "H01",
+          "H04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "保留队列重认证；真实提交邮箱需完整值，不能发送掩码。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "锁",
+          "眼睛",
+          "文档"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "登录切换不得自动混合本地访客数据；待上传记录处理规则须与实际账号隔离策略一致。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S13-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "I02",
+          "E02",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "权限拒绝时替代路径，表单不丢失。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "相机",
+          "缺图占位"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "此板仅示意附件异常；背景表单须替换成运动、完成感受或足迹的真实字段。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S13-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "I02",
+          "E02",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "取消选择无幽灵附件；泛化写记录不是新正式模块。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "成功勾",
+          "图片占位"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "此板仅示意附件异常；背景表单须替换成运动、完成感受或足迹的真实字段。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S13-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "I02",
+          "E02",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "三张达到上限，仍可移除。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "鞋照片",
+          "骑行照片",
+          "哑铃照片",
+          "叉",
+          "图片"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "此板仅示意附件异常；背景表单须替换成运动、完成感受或足迹的真实字段。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S13-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "I02",
+          "E02",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "最后一张移除后显式空附件覆盖，不误用旧图。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "图片占位",
+          "勾"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "此板仅示意附件异常；背景表单须替换成运动、完成感受或足迹的真实字段。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S13-05",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "I02",
+          "I03",
+          "E02",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "保留缺失文件名与错误占位；不能换无关照片。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "损坏图片图标"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "此板仅示意附件异常；背景表单须替换成运动、完成感受或足迹的真实字段。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S13-06",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "I03",
+          "E02",
+          "G07",
+          "G09"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "读取失败弹窗覆盖表单；关闭后保留编辑。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "图片错误图标",
+          "底层鞋缩略图"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "此板仅示意附件异常；背景表单须替换成运动、完成感受或足迹的真实字段。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S14-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "C02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "无示例个人数据；写日记需改体重。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "空文档",
+          "四个记录入口",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S14-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "生成图错误放入记录模块；实际应食物收藏。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "空星星",
+          "搜索",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S14-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "生成图是泛化记录最近；实际应最近食物，无预填。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "空文档",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S14-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "D06"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "零自定义目录；搜索食物仍为主要饮食入口。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "空碗",
+          "搜索"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S14-05",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "F01",
+          "F02"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "空筛选不等于所有历史为空。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "日历",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S14-06",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "G02",
+          "G03"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "系统问题保留但答案为空；真实问题文案需用项目模板。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "月亮",
+          "靶心",
+          "闪电"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S14-07",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "G05"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "系统模板保留零进度；不能把生成习惯/饮水建议当真实模板。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "清单",
+          "未选框"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S14-08",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "G08"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "无虚构旅行/照片，只有入口和空状态。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "地图定位",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "首格的“写日记”须改为“体重”；收藏和最近应位于食物库；系统模板要用项目真实目录，不能采用图中生成的每日习惯与饮水建议。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S15-01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "C01",
+          "C02",
+          "H04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "本地待上传数量，不能标绿色已同步。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "上传文档"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态应嵌入当前页面，不要求日常跳入独立同步页；没有可量化进度时用不定进度提示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S15-02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "C01",
+          "C02",
+          "H04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "只有真实可量化进度才能用1/2圆环；无则不定进度。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "同步圆环"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态应嵌入当前页面，不要求日常跳入独立同步页；没有可量化进度时用不定进度提示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S15-03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "C01",
+          "C02",
+          "H04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "已获确认的完成时间，无待上传数量。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "成功圆环勾"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态应嵌入当前页面，不要求日常跳入独立同步页；没有可量化进度时用不定进度提示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S15-04",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "C01",
+          "C02",
+          "H04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "本机队列保留，离线标记清晰。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "断网"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态应嵌入当前页面，不要求日常跳入独立同步页；没有可量化进度时用不定进度提示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S15-05",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "C01",
+          "C02",
+          "H04",
+          "A01"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "重认证而非清除记录。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "锁"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态应嵌入当前页面，不要求日常跳入独立同步页；没有可量化进度时用不定进度提示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": {
+        "value": "S15-06",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "relatedBasePages": {
+        "value": [
+          "C01",
+          "C02",
+          "H04"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "delta": {
+        "value": "失败保留确认/待处理边界；承诺需后端幂等支持。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "nativeLayers": {
+        "value": [
+          "所有标题/说明/数值/按钮文本",
+          "输入框、按钮、分隔线、遮罩、进度结构"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "sourceArtwork": {
+        "value": [
+          "错误圆环"
+        ],
+        "status": "measured",
+        "source": "2026-09-28 原始 PNG 视觉检查：可读文字直接转录"
+      },
+      "properties": {
+        "value": [
+          "State:VARIANT",
+          "Title:TEXT",
+          "Description:TEXT",
+          "Action:TEXT",
+          "Artwork:INSTANCE_SWAP"
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "layout": {
+        "value": "按原板ROI的比例建立独立状态参考；正式手机页用基础页区域变体，不拉伸拼板截图",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "masterIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "instanceIds": {
+        "value": null,
+        "status": "unknown",
+        "source": "未创建/未读取Figma"
+      },
+      "requiredRepairs": {
+        "value": [
+          "状态应嵌入当前页面，不要求日常跳入独立同步页；没有可量化进度时用不定进度提示。"
+        ],
+        "status": "measured",
+        "source": "manifest.json"
+      },
+      "nextStep": {
+        "value": "逐控件几何测量→纯图形裁切→母版/变体→实例→截图QA",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    }
+  ],
+  "acceptanceGate": {
+    "value": [
+      "原图单独参考层",
+      "状态组件可编辑",
+      "文字换行校准",
+      "原图图形独立裁切并有哈希",
+      "两轮同尺寸截图修复",
+      "文案和换图测试",
+      "修订语义与原样还原分离",
+      "真实手机安全区验证单列"
+    ],
+    "status": "measured",
+    "source": "skill requirements"
+  }
+}

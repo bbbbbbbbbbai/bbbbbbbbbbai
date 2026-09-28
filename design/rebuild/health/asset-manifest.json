@@ -1,0 +1,1142 @@
+{
+  "schemaVersion": "1.0.0",
+  "scope": "source asset planning only; crop files not generated",
+  "assets": [
+    {
+      "id": "back-E01",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        25,
+        56,
+        53,
+        87
+      ],
+      "pixelSize": [
+        28,
+        31
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\back-E01.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "809c74761cc0c2240b2372c5b7e01507d466071ee70c9feeb0c9383031467ced",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "status-E01",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        351,
+        8,
+        422,
+        31
+      ],
+      "pixelSize": [
+        71,
+        23
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\status-E01.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "3fab8e0b0fac8ad83f7ededae4ddce5c42bdefd76c9cadd7ea22446e025a8fa6",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "history",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        400,
+        55,
+        435,
+        89
+      ],
+      "pixelSize": [
+        35,
+        34
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\history.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "186148984ceef2a587fe97b38da28b5308f8552fdc2b14f37c200a6d59dbce1c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "add-green",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        454,
+        131,
+        486,
+        165
+      ],
+      "pixelSize": [
+        32,
+        34
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\add-green.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "09ffa048400c5b27f95f0cef5b7fae538798b2dcf49ac990bb7099313f0b8c3b",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Reuse for section add controls only after occurrence alignment."
+    },
+    {
+      "id": "run-blue",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        29,
+        198,
+        64,
+        242
+      ],
+      "pixelSize": [
+        35,
+        44
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\run-blue.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "9dd5969b1db27282d91375503e731f27c01c8316dce8f637be403e05dfed9535",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "walk-blue",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        29,
+        291,
+        64,
+        337
+      ],
+      "pixelSize": [
+        35,
+        46
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\walk-blue.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "f8597ef92720f9d94fba3147dae31f77004bbf41bfb0cf595a4d25ced0f750a2",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "weight-scale-green",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        27,
+        484,
+        64,
+        524
+      ],
+      "pixelSize": [
+        37,
+        40
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\weight-scale-green.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "2255fb8ac6ed2bddb7de4adf1adca3281cd79808c54f3b173457ad247bf0a801",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Second original occurrence around27,581..620; same master is candidate, not proof pixels identical."
+    },
+    {
+      "id": "mood-relaxed-red",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        25,
+        772,
+        65,
+        814
+      ],
+      "pixelSize": [
+        40,
+        42
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\mood-relaxed-red.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "012625a76d3e90f7f291d48d3c2ab13e31b1ea0ad597cbf391ad1ff4fa425810",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "mood-okay-red",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        25,
+        868,
+        65,
+        910
+      ],
+      "pixelSize": [
+        40,
+        42
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\mood-okay-red.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "4957d8929cd6c854f3ff882428a7ec0a5e67bbee80ad652b76bb7956baa776fe",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "edit-pencil",
+      "sourceScreen": "E01",
+      "cropLTRB": [
+        459,
+        210,
+        487,
+        239
+      ],
+      "pixelSize": [
+        28,
+        29
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\edit-pencil.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "22241e2971975e6e865df71f1a976f17f03dc82063b91b092703bf622eb8dd8a",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Reusable with measured row placement."
+    },
+    {
+      "id": "back-editor",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        22,
+        46,
+        51,
+        74
+      ],
+      "pixelSize": [
+        29,
+        28
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\back-editor.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "5de9cc6113848d51a387b4bad86c417af909fa274aec79d19b3cd99edabd013f",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "status-editor",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        362,
+        4,
+        430,
+        29
+      ],
+      "pixelSize": [
+        68,
+        25
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\status-editor.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "6a9b31fcde769657d6ef254618d605d9fb021955e5827f94ae823d2bf25bf6f5",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "E03/E04 visually similar; compare before master reuse."
+    },
+    {
+      "id": "exercise-hero",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        0,
+        87,
+        512,
+        194
+      ],
+      "pixelSize": [
+        512,
+        107
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\exercise-hero.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "767c35ffb9f7a3886c91f2ce4cc90c67b813730594b53da0e17d4a59da34efdd",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Full-width header picture; no interface text inside crop."
+    },
+    {
+      "id": "type-run-white",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        44,
+        237,
+        85,
+        272
+      ],
+      "pixelSize": [
+        41,
+        35
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\type-run-white.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "ac4bd0a380d5215d330f7e5753ec6002321097cd7ffc3f90b647e6f531142460",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Selected green matte remains; not transparent."
+    },
+    {
+      "id": "type-cycle",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        141,
+        238,
+        179,
+        272
+      ],
+      "pixelSize": [
+        38,
+        34
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\type-cycle.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "93a94fe3c742de58766f21954a46669524c504e358c7ebc06a3f9507efd9394c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "type-gym",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        234,
+        242,
+        278,
+        269
+      ],
+      "pixelSize": [
+        44,
+        27
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\type-gym.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "d71b0ac4ef33c47a0ec13fda0d2f1f268276f0570f5ced2326fee816e2bf0cb4",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "type-walk",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        336,
+        238,
+        369,
+        274
+      ],
+      "pixelSize": [
+        33,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\type-walk.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "7e5aec5312f7cb24287b57e2e14b2b6792117d01ef69ec6f5ad13e97b2c1764c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "type-custom",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        437,
+        247,
+        460,
+        264
+      ],
+      "pixelSize": [
+        23,
+        17
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\type-custom.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "b63ff38e07061a0a01688466f7aba6907453a7840551bc3b33bda2b8cfb10109",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "duration-clock",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        36,
+        441,
+        63,
+        467
+      ],
+      "pixelSize": [
+        27,
+        26
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\duration-clock.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "a4ba18e5e73e729e4abb49508b8ff23aef4556ded20a90683bb5f0ebab4c0ab5",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "distance-pin",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        281,
+        441,
+        304,
+        468
+      ],
+      "pixelSize": [
+        23,
+        27
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\distance-pin.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "4cff8b5a3a5f8b364ea6bb538ecb03315f3504cd08ee18993796058a11f3a945",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "steps",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        35,
+        524,
+        64,
+        550
+      ],
+      "pixelSize": [
+        29,
+        26
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\steps.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "d14eb4f7f401e2256be07c1515d0db29c3a3d924f4413cb5f7e382ca74051891",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "estimate-weight",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        279,
+        522,
+        307,
+        551
+      ],
+      "pixelSize": [
+        28,
+        29
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\estimate-weight.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "d3f6c711d43203b8b5b842b80cac9f8c371b4a68cae62b5dea06ab5eac49103f",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "energy-flame",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        29,
+        598,
+        55,
+        625
+      ],
+      "pixelSize": [
+        26,
+        27
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\energy-flame.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "f9375334e4cb258ba66952114f52a4ffac39601b90ea6a4448f2704937e664b5",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "source-chevron",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        468,
+        594,
+        487,
+        611
+      ],
+      "pixelSize": [
+        19,
+        17
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\source-chevron.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "b7e0e805e29e16798284ff85a2199fb8afb5259bfa8a3f8da43bef5411f659ac",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "exercise-photo-1",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        24,
+        715,
+        161,
+        804
+      ],
+      "pixelSize": [
+        137,
+        89
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\exercise-photo-1.png",
+      "fileCreated": false,
+      "classification": "photo_with_overlay",
+      "sourcePixelSHA256": "02fdc891fae166a9b78a4a4a803f301d892a871b4b10bf5ea62ebdff3f9dcc3c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Contains close button at136,720..156,742. Needs clean extraction/inpainting before independent editable close control."
+    },
+    {
+      "id": "exercise-photo-2",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        178,
+        715,
+        315,
+        804
+      ],
+      "pixelSize": [
+        137,
+        89
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\exercise-photo-2.png",
+      "fileCreated": false,
+      "classification": "photo_with_overlay",
+      "sourcePixelSHA256": "0cb939cd9ce709607a8018cb683fca37813bd0eafc06fe0a42ac8860b32e8f19",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Contains close button at284,720..308,744. Needs clean extraction/inpainting before independent editable close control."
+    },
+    {
+      "id": "photo-remove",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        136,
+        720,
+        157,
+        742
+      ],
+      "pixelSize": [
+        21,
+        22
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\photo-remove.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "6488518074f0bc8ee7c8ebd8e46f0ab7d3343ec61f7b88982277207485830e7d",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Circle overlays photo; exterior corners require alpha or clean extraction."
+    },
+    {
+      "id": "photo-add-plus",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        382,
+        747,
+        406,
+        773
+      ],
+      "pixelSize": [
+        24,
+        26
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\photo-add-plus.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "b75537727cd793c274c46c435a673d55f0a2c5d775a38061b862b02ca622a7ce",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Could be precise native interaction geometry only with explicit source classification."
+    },
+    {
+      "id": "calendar-compact",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        96,
+        827,
+        118,
+        851
+      ],
+      "pixelSize": [
+        22,
+        24
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\calendar-compact.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "758de0167723566a32d24cbd96de86475285bdf9444367858529a4cfa7ac3e35",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "note-compact",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        96,
+        875,
+        118,
+        900
+      ],
+      "pixelSize": [
+        22,
+        25
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\note-compact.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "9e3179ca7f77e7bf88165cf0c9be0aeb5c501ce55cee49292f969ff323b703e0",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "dropdown-compact",
+      "sourceScreen": "E02",
+      "cropLTRB": [
+        458,
+        831,
+        475,
+        846
+      ],
+      "pixelSize": [
+        17,
+        15
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\dropdown-compact.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "4bfa57af55662ae41de4a77c055098363e091e4b041d50846fe24a0691d5b669",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "scale-hero",
+      "sourceScreen": "E03",
+      "cropLTRB": [
+        0,
+        87,
+        512,
+        197
+      ],
+      "pixelSize": [
+        512,
+        110
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\scale-hero.png",
+      "fileCreated": false,
+      "classification": "photo",
+      "sourcePixelSHA256": "d7e99c07e56262f9edaa38418eab29d17b080b9108727b4e59b8dc03e000668d",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Full-width photograph; clean, no UI overlay."
+    },
+    {
+      "id": "keyboard",
+      "sourceScreen": "E03",
+      "cropLTRB": [
+        437,
+        294,
+        472,
+        323
+      ],
+      "pixelSize": [
+        35,
+        29
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\keyboard.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "6d40dce77ee4203ca849561ecc403baa34784189c7bb8d5adf8a0a5fa6cf07d9",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Native input-button container remains separate."
+    },
+    {
+      "id": "sleep-moon",
+      "sourceScreen": "E03",
+      "cropLTRB": [
+        40,
+        560,
+        70,
+        592
+      ],
+      "pixelSize": [
+        30,
+        32
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\sleep-moon.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "ef48363b4ed92c6f11421e3b176d26221bb14c56451d41f27c1dd825933e84a7",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "E04 occurrence at40,464..496; candidate for shared bitmap master."
+    },
+    {
+      "id": "calendar",
+      "sourceScreen": "E03",
+      "cropLTRB": [
+        39,
+        676,
+        65,
+        702
+      ],
+      "pixelSize": [
+        26,
+        26
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\calendar.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "752ef81478c74ffedc591b61ce0112d497ad6b69c75c5826312f58393b10818c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "note",
+      "sourceScreen": "E03",
+      "cropLTRB": [
+        40,
+        785,
+        66,
+        815
+      ],
+      "pixelSize": [
+        26,
+        30
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\note.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "5139b71e296afb10846ffc0a161667e9a53d386f96755a1faac7cd7bb22cc387",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "dropdown",
+      "sourceScreen": "E03",
+      "cropLTRB": [
+        457,
+        680,
+        475,
+        698
+      ],
+      "pixelSize": [
+        18,
+        18
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\dropdown.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "63d91d86153b25cbb3467557e2b13f51614ae32bec8e8b9d9404c4d29862acd0",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "mood-relaxed-green",
+      "sourceScreen": "E04",
+      "cropLTRB": [
+        51,
+        152,
+        101,
+        202
+      ],
+      "pixelSize": [
+        50,
+        50
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\mood-relaxed-green.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "c5158030d5b49cae8a80d95b9ee40a38905fbbe8ba848e99e46112b1356c1ea0",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Selected-card pale-green matte; preserve or clean alpha."
+    },
+    {
+      "id": "mood-okay-black",
+      "sourceScreen": "E04",
+      "cropLTRB": [
+        171,
+        152,
+        221,
+        202
+      ],
+      "pixelSize": [
+        50,
+        50
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\mood-okay-black.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "7dc558a10d5c35affa97f5eb98e04199df18b3426415314c4d25cb15f1bd9742",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "mood-irritable-black",
+      "sourceScreen": "E04",
+      "cropLTRB": [
+        291,
+        152,
+        341,
+        202
+      ],
+      "pixelSize": [
+        50,
+        50
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\mood-irritable-black.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "07e25c3c388657e7e71d7043c20db205c8d09cb7db6c1d4c2c066530f9c3e32c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    },
+    {
+      "id": "mood-tired-black",
+      "sourceScreen": "E04",
+      "cropLTRB": [
+        411,
+        152,
+        462,
+        202
+      ],
+      "pixelSize": [
+        51,
+        50
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\health\\assets\\mood-tired-black.png",
+      "fileCreated": false,
+      "classification": "icon",
+      "sourcePixelSHA256": "2c4071e86bb10c3a0c8c0709731c1d668490597f6445857037f02d2f11de30a5",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Source is flattened; clean transparency must be extracted, not assumed."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": ""
+    }
+  ],
+  "sharedMasterCandidates": {
+    "value": {
+      "all": [
+        "back-editor",
+        "status-editor",
+        "sleep-moon",
+        "calendar",
+        "note",
+        "dropdown"
+      ],
+      "E01": [
+        "add-green",
+        "edit-pencil",
+        "weight-scale-green"
+      ],
+      "notInterchangeable": [
+        "mood-relaxed-red vs mood-relaxed-green",
+        "type-run-white vs run-blue"
+      ]
+    },
+    "status": "inferred",
+    "source": "Layout/typography candidate inferred from original raster"
+  },
+  "sources": {
+    "E01": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\E01.png",
+      "sha256": "bba0146b83aee209a23f7229ee1378e6ebb69e46fb7c7b1b5de05eea63877128",
+      "status": "measured"
+    },
+    "E02": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\E02.png",
+      "sha256": "a1f72b072dd98c736a8584864a907875e829c5c4345397fd6d3abe7090838f03",
+      "status": "measured"
+    },
+    "E03": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\E03.png",
+      "sha256": "8ee07144d89dbf9ba0b989900871dcd45d88d93e367100e88587e80d7064042c",
+      "status": "measured"
+    },
+    "E04": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\E04.png",
+      "sha256": "5fbdee19cae25b9a7f84d65c368e609b42dd14d18ac91fec1d9a808a9a962990",
+      "status": "measured"
+    }
+  },
+  "fieldStatusRules": {
+    "measured": [
+      "sourceScreen",
+      "cropLTRB",
+      "pixelSize",
+      "classification",
+      "sourcePixelSHA256",
+      "vector",
+      "fileCreated"
+    ],
+    "inferred": [
+      "plannedFile",
+      "status",
+      "componentRule"
+    ],
+    "unknown": [
+      "alpha"
+    ],
+    "source": "sourceScreen resolves through sources; crop edges are source-native pixels with margin tolerance2px."
+  },
+  "componentRule": {
+    "value": "Independent bitmap asset master; reuse instances at native pixel size inside fixed shell. Do not scale all icons to one filled slot.",
+    "status": "inferred",
+    "source": "Layout/typography candidate inferred from original raster"
+  }
+}

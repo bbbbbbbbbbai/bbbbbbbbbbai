@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "libraryPageId": "75:2",
+  "source": "source-spec.json and asset-manifest.json",
+  "coordinateSystem": "512x1024 source pixels",
+  "fontPolicy": "Noto Sans SC fallback, calibrated against source ink; exact original font unknown",
+  "components": [
+    {"name": "Health record row", "scope": "E01", "layout": "horizontal auto-layout with vertical text stack", "properties": ["title:TEXT", "date:TEXT", "artwork:INSTANCE_SWAP"]},
+    {"name": "Health section heading", "scope": "E01", "layout": "horizontal auto-layout", "properties": ["title:TEXT"]},
+    {"name": "Health editor header", "scope": "E02,E03,E04", "existingMaster": "115:2"},
+    {"name": "Sleep input", "scope": "E03,E04", "existingMaster": "121:20"},
+    {"name": "Date input", "scope": "E03,E04", "existingMaster": "121:210"},
+    {"name": "Note input", "scope": "E03,E04", "existingMaster": "121:219"},
+    {"name": "Save", "scope": "E02,E03,E04", "existingMaster": "121:226"},
+    {"name": "Exercise type and intensity", "scope": "E02", "layout": "measured selection geometry", "properties": ["visible text"]},
+    {"name": "Exercise metrics", "scope": "E02", "layout": "two-column measured fields", "properties": ["visible text"]},
+    {"name": "Exercise energy", "scope": "E02", "layout": "measured labels and formula", "properties": ["visible text"]},
+    {"name": "Exercise attachments", "scope": "E02", "layout": "horizontal photo slots", "properties": ["independent photo instances"]},
+    {"name": "Weight input and ruler", "scope": "E03", "layout": "measured native geometry", "properties": ["weight:TEXT"]},
+    {"name": "Mood selection", "scope": "E04", "existingMasters": ["122:2", "122:5"]},
+    {"name": "Stress slider", "scope": "E04", "layout": "measured native geometry"}
+  ],
+  "acceptance": ["two source comparison rounds", "no full-screen bitmap backing", "editable text and swappable artwork", "original artwork retained", "no missing content or overlaps"],
+  "status": "in_progress"
+}

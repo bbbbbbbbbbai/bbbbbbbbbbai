@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-09-28T13:39:51+08:00",
+  "status": "external_connection_blocked_not_complete",
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "confirmedScreenFrames": 33,
+  "finalAcceptedScreens": 0,
+  "functionalPagesRemainingToRebuild": ["F01", "F02", "F03", "G01", "G02", "G03", "G04", "G05", "G06", "G07", "G08", "G09"],
+  "interactionStates": {
+    "groups": 15,
+    "substates": 75,
+    "identityAndDifferenceAnalysis": "complete",
+    "preciseGeometryAndFigmaRebuild": "pending",
+    "sourceLedger": "states/source-spec.json"
+  },
+  "lastConfirmedCanvasWork": "F07 source icon matte removal and verified screenshot; F04-F07 screenshots persisted.",
+  "uncertainOperation": {
+    "page": "178:2",
+    "operation": "Create F01-F03 screen frames",
+    "requestedNames": ["F01 历史列表与筛选｜原图重建·进行中", "F02 日历选择记录｜原图重建·进行中", "F03 趋势与统计｜原图重建·进行中"],
+    "requestedPositions": [[2520,40],[3140,40],[3760,40]],
+    "instruction": "Read current page state first on reconnection; no creation IDs were returned."
+  },
+  "connectionChecks": [
+    {"operation": "create frames", "result": "transport failure", "waitSeconds": 45},
+    {"operation": "read page to verify", "result": "transport failure", "waitSeconds": 19},
+    {"operation": "get existing F06 screenshot", "result": "transport failure", "waitSeconds": 19},
+    {"operation": "whoami", "result": "transport failure", "waitSeconds": 19}
+  ],
+  "verification": "13 local JSON ledgers parsed successfully. No pending exec sessions. No business code, deployment or Git push performed."
+}

@@ -1,0 +1,43 @@
+
+Generate the FINAL USER INTERFACE DESIGN picture in ONE image_generation call.
+Do NOT return photography assets, code, a background, or a written design instead.
+Original Chinese Android app 老白の日记. These are design concepts, not real screenshots.
+Sharp readable Simplified Chinese, consistent native sans-serif typography, near-white
+#FAFCFC, charcoal #20282B, jade #237B65, restrained blue #5C89D8 and coral #EE7867.
+Fine rules and unframed sections; no nested cards, no heavy shadows, no beige or purple
+theme, no gradient blobs, no fake device frames. Small 8px corners except circles.
+Native recognizable outline icons, realistic safe status bar and gesture inset.
+No clipped text, missing actions or overlap. No decorative photo banner on HOME or
+ACCOUNT screens. Login/registration can have a SMALL notebook still-life strip,
+at most 12 percent of screen height. Interior imagery must not hide controls.
+Photographs show actual recognizable subjects, not unrelated backgrounds.
+Bottom tabs only on top-level pages: 今日 / 记录 / 向往 / 我的. No bottom tabs
+on login or modal editors. No social, subscriptions, GPS, AI recognition or smart-scale
+features. No invented default private records. Example record values are fictional.
+Exact health enums: 心情=轻松/还行/烦躁/疲惫; 压力=1至5; 运动=跑步/骑行/健身/步行/自定义.
+Preserve every mandatory field. Do not replace existing fields with attractive but
+unimplemented tags. No real addresses, secrets, branded logos or claims of licensed
+database integration. The diagram is a visual proposal, not proof data migration works.
+Render an OPAQUE white background, never translucent glass or blurred backdrop.
+Do not print implementation instructions or paragraphs describing how the app works
+inside screens. Keep only concise useful user-facing labels and status messages.
+Exactly THREE attachments maximum wherever photos are supported. No product logos.
+No invented barcode scanner, daily-record template, premium or social feature.
+Each editor has one clear primary save action, not duplicated toolbar/bottom saves.
+
+MAIN SCREEN BOARD: ONE landscape3072x2048 image, EXACTLY THREE equal-width portrait
+screens side by side, full height, NO OUTER MARGINS OR HARDWARE. Each 1/3 column is a
+complete independent screen. Small ID at top, then real toolbar and app content.
+Render ALL THREE, not a title-only presentation. Do not draw photographs separately.
+
+LEFT: I01 日期选择层
+MANDATORY: 统一日期选择与取消确认，保留合法手工输入策略
+Native date picker bottom sheet over dimmed weight form. Cancel/confirm, date heading, accessible month arrows. No fabricated Android branding.
+
+CENTER: I02 添加/管理图片层
+MANDATORY: 相册/相机、缩略图、删除、数量限制和取消；只用于当前支持媒体的模块
+Image action sheet on an exercise editor: 拍照/从相册选择/取消, with preview row max3 and remove icons. No custom replacement OS camera UI.
+
+RIGHT: I03 记录图片查看
+MANDATORY: 展示实际附件、关闭返回、缺失/错误状态；不伪装成系统图片编辑器
+Attachment viewer: actual full photo of park walk, close/back, 1/2 position, no invented retouch editor or share-to-social controls.

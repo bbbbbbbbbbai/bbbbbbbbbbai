@@ -1,0 +1,2589 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifactType": "layout",
+  "evidenceSchema": "Domain fields use value/status/source; measured, inferred and unknown are distinct. Metadata is authored.",
+  "createdAt": {
+    "value": "2026-09-28T00:51:07.779421+08:00",
+    "status": "measured",
+    "source": "system clock"
+  },
+  "fileKey": {
+    "value": "ptA7IsUhV0rHsp8yRLFRVj",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "pageId": {
+    "value": "70:6",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "pageName": {
+    "value": "11 原图重建｜饮食",
+    "status": "measured",
+    "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+  },
+  "scope": {
+    "value": [
+      "D01",
+      "D02",
+      "D03"
+    ],
+    "status": "measured",
+    "source": "assigned audit"
+  },
+  "sourceOfTruth": {
+    "value": "Original screens/D01.png, D02.png, D03.png",
+    "status": "measured",
+    "source": "parent instruction"
+  },
+  "writePolicy": {
+    "value": "Read-only Figma audit; local QA artifacts only",
+    "status": "measured",
+    "source": "tool log"
+  },
+  "deliveryState": {
+    "value": "IN_PROGRESS_NOT_ACCEPTED",
+    "status": "inferred",
+    "source": "QA inference or proposed correction; original screenshot is authoritative"
+  },
+  "coordinateSystem": {
+    "value": "source pixels; viewport origin top-left; 512x1024; crop and ROI are LTRB exclusive right/bottom; Figma geometry is XYWH",
+    "status": "measured",
+    "source": "declared convention and PNG headers"
+  },
+  "screens": [
+    {
+      "screen": {
+        "value": "D01",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "nodeId": {
+        "value": "70:7",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "originalFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D01.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "originalSHA256": {
+        "value": "379bdc39538de3a1ef3c376054e72a9ba86c6afeda7f1e591aed63a509b80792",
+        "status": "measured",
+        "source": "file bytes SHA256"
+      },
+      "sizePx": {
+        "value": [
+          512,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR and Figma readback"
+      },
+      "topStatusBand": {
+        "value": [
+          0,
+          0,
+          512,
+          38
+        ],
+        "status": "inferred",
+        "source": "visible icons/time"
+      },
+      "gestureBand": {
+        "value": [
+          0,
+          987,
+          512,
+          1024
+        ],
+        "status": "inferred",
+        "source": "visible bar; not verified Android safe inset"
+      },
+      "trueDeviceDensity": {
+        "value": null,
+        "status": "unknown",
+        "source": "Concept PNG has no dp/density metadata"
+      },
+      "scrollAndFixedBehavior": {
+        "value": null,
+        "status": "unknown",
+        "source": "Single screenshot does not prove runtime scroll behavior"
+      },
+      "regions": [
+        {
+          "name": {
+            "value": "toolbar",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              24,
+              51,
+              488,
+              95
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:229",
+              "70:231"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 4.0223,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "search",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              111,
+              488,
+              166
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:232",
+              "70:233",
+              "70:235"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 4.398,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "meal",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              181,
+              488,
+              236
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:236"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 12.5005,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "tabs",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              253,
+              488,
+              303
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:245"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 12.5,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "categories",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              321,
+              488,
+              532
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:307",
+              "70:310",
+              "70:313",
+              "70:316",
+              "70:319",
+              "70:322"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 8.3122,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "heading",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              555,
+              488,
+              599
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:325",
+              "70:882"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 10.1227,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "list",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              599,
+              488,
+              955
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:392",
+              "70:393",
+              "70:406",
+              "70:419",
+              "70:432"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 13.2607,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "gesture",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              177,
+              1001,
+              336,
+              1009
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:256"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 21.2055,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        }
+      ],
+      "keyTextGeometry": [
+        {
+          "nodeId": {
+            "value": "70:231",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "记录饮食",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              75,
+              57,
+              96,
+              34
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Bold",
+              "sizePx": 24
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:235",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "搜索食物名称",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              82,
+              124,
+              126,
+              30
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 21
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:325",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "常见食物",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              26,
+              553,
+              92,
+              32
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Bold",
+              "sizePx": 23
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "I70:245;70:196",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "全部",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              63.75,
+              256,
+              40,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Bold",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "I70:406;70:383",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "鸡蛋",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              118,
+              701,
+              40,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Medium",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "I70:406;70:387",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "143千卡",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              341,
+              727.5,
+              75,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Medium",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        }
+      ],
+      "colorSamples": [
+        {
+          "roiLTRB": {
+            "value": [
+              220,
+              8,
+              290,
+              30
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              249.914,
+              252.325,
+              252.793
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              0.566,
+              0.562,
+              0.405
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              249.0,
+              252.0,
+              252.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        },
+        {
+          "roiLTRB": {
+            "value": [
+              350,
+              966,
+              470,
+              990
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              249.631,
+              252.012,
+              252.331
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              0.493,
+              0.533,
+              0.533
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              249.0,
+              252.0,
+              252.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        },
+        {
+          "roiLTRB": {
+            "value": [
+              37,
+              191,
+              57,
+              223
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              49.441,
+              155.556,
+              113.777
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              0.812,
+              1.732,
+              1.082
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              40.0,
+              153.0,
+              119.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        }
+      ],
+      "visibleState": {
+        "value": "早餐和全部选中；空搜索；常见食物",
+        "status": "inferred",
+        "source": "source screenshot"
+      },
+      "sourceMaterial": {
+        "value": "Subtle nonuniform light background and mottled green emphasis; current flat fills do not reproduce it",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "sourceRadiusAndStroke": {
+        "value": null,
+        "status": "unknown",
+        "source": "Exact editable radii/stroke parameters cannot be proven from raster; measure edge contours before normalization"
+      }
+    },
+    {
+      "screen": {
+        "value": "D02",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "nodeId": {
+        "value": "70:9",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "originalFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D02.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "originalSHA256": {
+        "value": "995435ad2ae59e535d7ab357f52953a79a086ac5f6bb1359826f160a60610556",
+        "status": "measured",
+        "source": "file bytes SHA256"
+      },
+      "sizePx": {
+        "value": [
+          512,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR and Figma readback"
+      },
+      "topStatusBand": {
+        "value": [
+          0,
+          0,
+          512,
+          38
+        ],
+        "status": "inferred",
+        "source": "visible icons/time"
+      },
+      "gestureBand": {
+        "value": [
+          0,
+          987,
+          512,
+          1024
+        ],
+        "status": "inferred",
+        "source": "visible bar; not verified Android safe inset"
+      },
+      "trueDeviceDensity": {
+        "value": null,
+        "status": "unknown",
+        "source": "Concept PNG has no dp/density metadata"
+      },
+      "scrollAndFixedBehavior": {
+        "value": null,
+        "status": "unknown",
+        "source": "Single screenshot does not prove runtime scroll behavior"
+      },
+      "regions": [
+        {
+          "name": {
+            "value": "search",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              27,
+              48,
+              489,
+              102
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:259",
+              "70:261",
+              "70:262",
+              "70:264",
+              "70:265"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 4.5525,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "meal",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              118,
+              488,
+              173
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:267"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 11.5677,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "tabs",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              188,
+              488,
+              238
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:276"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 12.1594,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "results",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              25,
+              250,
+              489,
+              890
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:535",
+              "70:536",
+              "70:550",
+              "70:564",
+              "70:578",
+              "70:592",
+              "70:606"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 13.1416,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "pagination",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              182,
+              925,
+              331,
+              957
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:620",
+              "70:621",
+              "70:623"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 5.4773,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "gesture",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              177,
+              1001,
+              336,
+              1009
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:287"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 21.9942,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        }
+      ],
+      "keyTextGeometry": [
+        {
+          "nodeId": {
+            "value": "70:264",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "鸡肉",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              131,
+              60,
+              42,
+              30
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 21
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "I70:536;70:525",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "鸡胸肉（生）",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              121,
+              259,
+              120,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Medium",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "I70:536;70:526",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "别名：鸡小胸、鸡里脊",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              121,
+              287,
+              170,
+              25
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 17
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "I70:536;70:527",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "数据来源：示例",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              121,
+              312,
+              119,
+              25
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 17
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "I70:536;70:530",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "120千卡",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              349,
+              293,
+              75,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Medium",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "I70:606;70:525",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "白切鸡",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              121,
+              796.5,
+              60,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Medium",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:620",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "1 / 1",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              235,
+              924,
+              41,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 21
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        }
+      ],
+      "colorSamples": [
+        {
+          "roiLTRB": {
+            "value": [
+              220,
+              8,
+              290,
+              30
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              249.755,
+              252.223,
+              252.542
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              0.524,
+              0.546,
+              0.536
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              249.0,
+              252.0,
+              252.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        },
+        {
+          "roiLTRB": {
+            "value": [
+              350,
+              966,
+              470,
+              990
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              249.617,
+              252.009,
+              252.322
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              0.525,
+              0.531,
+              0.501
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              249.0,
+              252.0,
+              252.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        },
+        {
+          "roiLTRB": {
+            "value": [
+              37,
+              128,
+              57,
+              160
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              50.661,
+              156.934,
+              115.628
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              0.7,
+              1.759,
+              0.987
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              40.0,
+              153.0,
+              119.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        }
+      ],
+      "visibleState": {
+        "value": "鸡肉搜索；早餐和全部选中；6条结果；1/1分页",
+        "status": "inferred",
+        "source": "source screenshot"
+      },
+      "sourceMaterial": {
+        "value": "Subtle nonuniform light background and mottled green emphasis; current flat fills do not reproduce it",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "sourceRadiusAndStroke": {
+        "value": null,
+        "status": "unknown",
+        "source": "Exact editable radii/stroke parameters cannot be proven from raster; measure edge contours before normalization"
+      }
+    },
+    {
+      "screen": {
+        "value": "D03",
+        "status": "measured",
+        "source": "manifest"
+      },
+      "nodeId": {
+        "value": "70:11",
+        "status": "measured",
+        "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+      },
+      "originalFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\D03.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "originalSHA256": {
+        "value": "c4124fe2ffe48c7a802bd1d3067991536d46f838c0d12294207d307c79c47632",
+        "status": "measured",
+        "source": "file bytes SHA256"
+      },
+      "sizePx": {
+        "value": [
+          512,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR and Figma readback"
+      },
+      "topStatusBand": {
+        "value": [
+          0,
+          0,
+          512,
+          38
+        ],
+        "status": "inferred",
+        "source": "visible icons/time"
+      },
+      "gestureBand": {
+        "value": [
+          0,
+          987,
+          512,
+          1024
+        ],
+        "status": "inferred",
+        "source": "visible bar; not verified Android safe inset"
+      },
+      "trueDeviceDensity": {
+        "value": null,
+        "status": "unknown",
+        "source": "Concept PNG has no dp/density metadata"
+      },
+      "scrollAndFixedBehavior": {
+        "value": null,
+        "status": "unknown",
+        "source": "Single screenshot does not prove runtime scroll behavior"
+      },
+      "regions": [
+        {
+          "name": {
+            "value": "toolbar",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              23,
+              47,
+              488,
+              86
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:764",
+              "70:766",
+              "70:767"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 17.1383,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "food",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              22,
+              109,
+              489,
+              306
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:771",
+              "70:772",
+              "70:773",
+              "70:774",
+              "70:775",
+              "70:776",
+              "70:778"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 14.016,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "portion_mode",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              23,
+              328,
+              489,
+              372
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:781",
+              "70:782",
+              "70:783",
+              "70:784"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 10.1289,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "portion",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              49,
+              382,
+              464,
+              486
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:785",
+              "70:786",
+              "70:787",
+              "70:788",
+              "70:789",
+              "70:792"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 9.3878,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "nutrition",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              23,
+              505,
+              489,
+              679
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:827",
+              "70:828",
+              "70:829",
+              "70:830",
+              "70:831",
+              "70:832"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 11.7377,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "date",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              26,
+              701,
+              489,
+              751
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:844",
+              "70:846",
+              "70:847",
+              "70:848",
+              "70:850"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 10.9157,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "meal",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              26,
+              764,
+              489,
+              814
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:851",
+              "70:853",
+              "70:854",
+              "70:855",
+              "70:857"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 6.911,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "notes",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              26,
+              823,
+              489,
+              880
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:858",
+              "70:860",
+              "70:861",
+              "70:862"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 9.3768,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "save",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              23,
+              903,
+              489,
+              970
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:863",
+              "70:864"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 11.4119,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        },
+        {
+          "name": {
+            "value": "gesture",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "sourceInspectionRoiLTRB": {
+            "value": [
+              184,
+              1004,
+              327,
+              1011
+            ],
+            "status": "inferred",
+            "source": "same-size manual visual region boundary; not original editable layer bounds"
+          },
+          "currentNodeIds": {
+            "value": [
+              "70:865"
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "meanAbsoluteChannelError": {
+            "value": 9.7779,
+            "status": "measured",
+            "source": "Pillow RGB difference in ROI; 0-255, not acceptance score"
+          }
+        }
+      ],
+      "keyTextGeometry": [
+        {
+          "nodeId": {
+            "value": "70:766",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "食物详情与份量",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              76,
+              47,
+              182,
+              37
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Bold",
+              "sizePx": 26
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:772",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "鸡胸肉（熟）",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              225,
+              116,
+              168,
+              40
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Bold",
+              "sizePx": 28
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:773",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "高蛋白 · 低脂肪 · 适合增肌减脂",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              225,
+              165,
+              269,
+              26
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 18
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:774",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "鸡胸肉是优质蛋白质来源，\n脂肪含量低，适合日常健康饮食。",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              225,
+              205,
+              270,
+              51
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 18
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:775",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "数据来源：示例营养数据",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              225,
+              271,
+              187,
+              24
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 17
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:785",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "1份 = 100克",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              206,
+              380,
+              105,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:787",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "100",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              205,
+              432,
+              50,
+              40
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Bold",
+              "sizePx": 28
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:828",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "热量及营养换算（100克）",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              40,
+              520,
+              259,
+              31
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Bold",
+              "sizePx": 22
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:847",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "2025年4月24日（今天）",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              241,
+              704,
+              218,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:862",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "添加备注（可选）",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              146,
+              829,
+              160,
+              28
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Regular",
+              "sizePx": 20
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        },
+        {
+          "nodeId": {
+            "value": "70:864",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "content": {
+            "value": "保存记录",
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentBoxXYWH": {
+            "value": [
+              207,
+              916,
+              100,
+              35
+            ],
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "currentFont": {
+            "value": {
+              "family": "Noto Sans SC",
+              "style": "Bold",
+              "sizePx": 25
+            },
+            "status": "measured",
+            "source": "Read-only Figma use_figma inspection on 2026-09-28; file ptA7IsUhV0rHsp8yRLFRVj, page 70:6"
+          },
+          "originalFont": {
+            "value": null,
+            "status": "unknown",
+            "source": "Original generator font identity unavailable"
+          },
+          "fontPolicy": {
+            "value": "Explicit fallback; calibrate original glyph extent and baseline, do not use current box as original evidence",
+            "status": "inferred",
+            "source": "QA inference or proposed correction; original screenshot is authoritative"
+          },
+          "originalEditableBox": {
+            "value": null,
+            "status": "unknown",
+            "source": "Raster has no original text-box metadata"
+          }
+        }
+      ],
+      "colorSamples": [
+        {
+          "roiLTRB": {
+            "value": [
+              220,
+              8,
+              290,
+              30
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              247.586,
+              251.318,
+              251.61
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              0.512,
+              0.515,
+              0.516
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              249.0,
+              252.0,
+              252.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        },
+        {
+          "roiLTRB": {
+            "value": [
+              350,
+              966,
+              470,
+              990
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              215.781,
+              232.683,
+              229.963
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              72.895,
+              42.622,
+              49.658
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              213.333,
+              232.167,
+              229.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              79.753,
+              44.349,
+              51.43
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        },
+        {
+          "roiLTRB": {
+            "value": [
+              36,
+              918,
+              170,
+              955
+            ],
+            "status": "measured",
+            "source": "sampling coordinates"
+          },
+          "sourceMeanRGB": {
+            "value": [
+              37.441,
+              127.647,
+              107.94
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "sourceStddevRGB": {
+            "value": [
+              0.716,
+              0.755,
+              0.659
+            ],
+            "status": "measured",
+            "source": "original pixel sample"
+          },
+          "currentMeanRGB": {
+            "value": [
+              35.0,
+              133.0,
+              114.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          },
+          "currentStddevRGB": {
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "status": "measured",
+            "source": "current pixel sample"
+          }
+        }
+      ],
+      "visibleState": {
+        "value": "收藏选中；克数选中；100克；午餐；空备注",
+        "status": "inferred",
+        "source": "source screenshot"
+      },
+      "sourceMaterial": {
+        "value": "Subtle nonuniform light background and mottled green emphasis; current flat fills do not reproduce it",
+        "status": "inferred",
+        "source": "QA inference or proposed correction; original screenshot is authoritative"
+      },
+      "sourceRadiusAndStroke": {
+        "value": null,
+        "status": "unknown",
+        "source": "Exact editable radii/stroke parameters cannot be proven from raster; measure edge contours before normalization"
+      }
+    }
+  ]
+}

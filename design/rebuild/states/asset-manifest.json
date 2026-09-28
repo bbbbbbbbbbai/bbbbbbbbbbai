@@ -1,0 +1,5584 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-09-28",
+  "scope": "逐状态素材需求清单；没有独立素材裁切生成，也没有调用API",
+  "policy": {
+    "value": "优先从对应原图提取纯图形；文字/容器必须原生。整板和整页参考不可作UI背景。",
+    "status": "measured",
+    "source": "用户要求与image-to-editable-figma"
+  },
+  "assets": [
+    {
+      "id": "S01-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S01.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7f9eec08a4983dbfcc8cd08a2a702dc60175d6e357a1804a11a50ab65c7232f6",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          55,
+          110,
+          490,
+          574
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "邮箱",
+          "锁",
+          "睁眼/闭眼"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S01-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S01.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7f9eec08a4983dbfcc8cd08a2a702dc60175d6e357a1804a11a50ab65c7232f6",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          553,
+          110,
+          989,
+          584
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "邮箱",
+          "锁",
+          "错误感叹号",
+          "睁眼/闭眼"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S01-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S01.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7f9eec08a4983dbfcc8cd08a2a702dc60175d6e357a1804a11a50ab65c7232f6",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1057,
+          111,
+          1488,
+          566
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "信封插画",
+          "盾牌",
+          "红叉",
+          "错误图标"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S01-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S01.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7f9eec08a4983dbfcc8cd08a2a702dc60175d6e357a1804a11a50ab65c7232f6",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          177,
+          642,
+          690,
+          992
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "信封插画",
+          "盾牌",
+          "错误图标"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S01-05-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S01.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7f9eec08a4983dbfcc8cd08a2a702dc60175d6e357a1804a11a50ab65c7232f6",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          858,
+          642,
+          1451,
+          992
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "信封插画",
+          "盾牌",
+          "时钟"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S02-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S02.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "dd111312dd439d0dac2ce5707e8b199bd7ff42bea83729f64488ac62a1b3fd7a",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          41,
+          107,
+          760,
+          625
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "笔记本杯子静物",
+          "系统键盘示意",
+          "邮箱",
+          "锁",
+          "眼睛"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S02-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S02.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "dd111312dd439d0dac2ce5707e8b199bd7ff42bea83729f64488ac62a1b3fd7a",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          778,
+          107,
+          1496,
+          625
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "邮箱",
+          "锁",
+          "眼睛"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S02-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S02.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "dd111312dd439d0dac2ce5707e8b199bd7ff42bea83729f64488ac62a1b3fd7a",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          41,
+          670,
+          760,
+          1011
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "餐盘缩略图",
+          "加号",
+          "返回"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S02-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S02.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "dd111312dd439d0dac2ce5707e8b199bd7ff42bea83729f64488ac62a1b3fd7a",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          778,
+          670,
+          1496,
+          1011
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "键盘示意",
+          "返回"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S03-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S03.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c46025fc14e443bdb9901bcee885e27bd6bc6789b6f2288f0e39eb5e4835cfd1",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          75,
+          121,
+          724,
+          528
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "断线云图标"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S03-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S03.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c46025fc14e443bdb9901bcee885e27bd6bc6789b6f2288f0e39eb5e4835cfd1",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          817,
+          121,
+          1475,
+          528
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "同步错误图标",
+          "用户头像符号"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S03-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S03.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c46025fc14e443bdb9901bcee885e27bd6bc6789b6f2288f0e39eb5e4835cfd1",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          75,
+          585,
+          725,
+          1005
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "存储错误图标",
+          "详情文档"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S03-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S03.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c46025fc14e443bdb9901bcee885e27bd6bc6789b6f2288f0e39eb5e4835cfd1",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          817,
+          585,
+          1475,
+          1005
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "账号等待插画",
+          "时钟"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S04-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S04.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7045fc8e2af1afa02e3013e55e231c8f73e61e948788f0001e3fcf581975175c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          55,
+          111,
+          730,
+          538
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "四个食物缩略图",
+          "搜索",
+          "加载圆环",
+          "箭头"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S04-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S04.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7045fc8e2af1afa02e3013e55e231c8f73e61e948788f0001e3fcf581975175c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          807,
+          111,
+          1481,
+          538
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "空结果放大镜",
+          "搜索",
+          "加号"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S04-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S04.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7045fc8e2af1afa02e3013e55e231c8f73e61e948788f0001e3fcf581975175c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          55,
+          602,
+          730,
+          1001
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "搜索",
+          "箭头"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S04-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S04.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "7045fc8e2af1afa02e3013e55e231c8f73e61e948788f0001e3fcf581975175c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          807,
+          602,
+          1481,
+          1001
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "时钟",
+          "垃圾桶",
+          "搜索",
+          "箭头"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S05-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S05.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "fcb19920c11f7d9cafd5fd6815331e8caf7fe56bc1fbd901f81b7d4038bebcdb",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          50,
+          113,
+          737,
+          563
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "超时时钟",
+          "搜索",
+          "更多"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S05-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S05.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "fcb19920c11f7d9cafd5fd6815331e8caf7fe56bc1fbd901f81b7d4038bebcdb",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          800,
+          113,
+          1487,
+          563
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "断网标记",
+          "三张食物图"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S05-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S05.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "fcb19920c11f7d9cafd5fd6815331e8caf7fe56bc1fbd901f81b7d4038bebcdb",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          50,
+          626,
+          737,
+          1009
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "红色时钟"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S05-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S05.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "fcb19920c11f7d9cafd5fd6815331e8caf7fe56bc1fbd901f81b7d4038bebcdb",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          800,
+          626,
+          1487,
+          1009
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "加载圆环"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S06-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S06-r2.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "9bd2f3289e8c9009427a35deb3e999ff827ad338e0deea48a416ed01df5ac206",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          28,
+          120,
+          499,
+          518
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "米饭分类图标",
+          "错误感叹号"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S06-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S06-r2.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "9bd2f3289e8c9009427a35deb3e999ff827ad338e0deea48a416ed01df5ac206",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          531,
+          120,
+          1004,
+          518
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "米饭分类图标",
+          "信息图标"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S06-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S06-r2.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "9bd2f3289e8c9009427a35deb3e999ff827ad338e0deea48a416ed01df5ac206",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1038,
+          120,
+          1510,
+          518
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "土豆",
+          "红薯",
+          "玉米",
+          "加号"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S06-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S06-r2.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "9bd2f3289e8c9009427a35deb3e999ff827ad338e0deea48a416ed01df5ac206",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          28,
+          582,
+          499,
+          986
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "面条餐碗",
+          "关闭"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S06-05-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S06-r2.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "9bd2f3289e8c9009427a35deb3e999ff827ad338e0deea48a416ed01df5ac206",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          531,
+          582,
+          1004,
+          986
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "五个运动分类图标"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S06-06-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S06-r2.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "9bd2f3289e8c9009427a35deb3e999ff827ad338e0deea48a416ed01df5ac206",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1038,
+          582,
+          1510,
+          986
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "展开箭头"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S07-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S07.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "45c132cd1137fa49082b7e1884e1b0a749af49c28f0ee8d11d5aba6b18ad5839",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          58,
+          110,
+          743,
+          568
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "食具",
+          "称",
+          "碗",
+          "日历",
+          "备注",
+          "垃圾桶"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S07-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S07.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "45c132cd1137fa49082b7e1884e1b0a749af49c28f0ee8d11d5aba6b18ad5839",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          791,
+          110,
+          1481,
+          568
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "跑步/时钟/路线/强度/鞋/称",
+          "三张运动照片",
+          "日期/备注"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S07-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S07.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "45c132cd1137fa49082b7e1884e1b0a749af49c28f0ee8d11d5aba6b18ad5839",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          58,
+          619,
+          743,
+          1005
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "称",
+          "月亮",
+          "日期",
+          "备注"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S07-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S07.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "45c132cd1137fa49082b7e1884e1b0a749af49c28f0ee8d11d5aba6b18ad5839",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          791,
+          619,
+          1481,
+          1005
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "四种心情图标",
+          "压力",
+          "月亮",
+          "日期",
+          "备注"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S08-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S08.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c6fa2afe73eaf755614b317aaaf1e15871840a96744311749221e17deb0fc9f0",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          52,
+          95,
+          746,
+          545
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "道路照片",
+          "圆环"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S08-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S08.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c6fa2afe73eaf755614b317aaaf1e15871840a96744311749221e17deb0fc9f0",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          786,
+          95,
+          1484,
+          545
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "四张列表照片",
+          "成功勾"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S08-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S08.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c6fa2afe73eaf755614b317aaaf1e15871840a96744311749221e17deb0fc9f0",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          52,
+          580,
+          746,
+          1001
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "道路照片",
+          "失败图标"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S08-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S08.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c6fa2afe73eaf755614b317aaaf1e15871840a96744311749221e17deb0fc9f0",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          786,
+          580,
+          1484,
+          1001
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "背景已有附件"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S09-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S09.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "865ace856b960976083b86754e3eb489a2ace4868bf639f5d1bd91b37dada8d5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          31,
+          120,
+          498,
+          524
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "食具"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S09-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S09.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "865ace856b960976083b86754e3eb489a2ace4868bf639f5d1bd91b37dada8d5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          535,
+          120,
+          1003,
+          524
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "健康波形"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S09-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S09.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "865ace856b960976083b86754e3eb489a2ace4868bf639f5d1bd91b37dada8d5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1039,
+          120,
+          1507,
+          524
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "问号"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S09-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S09.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "865ace856b960976083b86754e3eb489a2ace4868bf639f5d1bd91b37dada8d5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          31,
+          589,
+          498,
+          992
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "清单"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S09-05-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S09.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "865ace856b960976083b86754e3eb489a2ace4868bf639f5d1bd91b37dada8d5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          535,
+          589,
+          1003,
+          992
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "勾选"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S09-06-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S09.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "865ace856b960976083b86754e3eb489a2ace4868bf639f5d1bd91b37dada8d5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1039,
+          589,
+          1507,
+          992
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "定位"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S10-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S10.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "66262a24b4833fa3b4ce21beb6f56c9262609a0a5be306bb8f963434e175ec9d",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          50,
+          139,
+          493,
+          558
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "文件",
+          "回形针",
+          "已选勾"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S10-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S10.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "66262a24b4833fa3b4ce21beb6f56c9262609a0a5be306bb8f963434e175ec9d",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          545,
+          139,
+          992,
+          558
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "文档",
+          "心形",
+          "清单",
+          "账号"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S10-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S10.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "66262a24b4833fa3b4ce21beb6f56c9262609a0a5be306bb8f963434e175ec9d",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1045,
+          139,
+          1488,
+          558
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "警告三角"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S10-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S10.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "66262a24b4833fa3b4ce21beb6f56c9262609a0a5be306bb8f963434e175ec9d",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          53,
+          635,
+          787,
+          998
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "成功勾",
+          "文件/心形/清单",
+          "云",
+          "信息"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S10-05-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S10.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "66262a24b4833fa3b4ce21beb6f56c9262609a0a5be306bb8f963434e175ec9d",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          841,
+          635,
+          1488,
+          998
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "红叉"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S11-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S11.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "704749bab1c8be00f0f9c06a8a2e58c3975834add4282651ff7bc98acc1ef2c5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          80,
+          114,
+          508,
+          589
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "警告",
+          "设置垃圾桶"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S11-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S11.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "704749bab1c8be00f0f9c06a8a2e58c3975834add4282651ff7bc98acc1ef2c5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          551,
+          114,
+          982,
+          589
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "云端时钟",
+          "信息"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S11-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S11.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "704749bab1c8be00f0f9c06a8a2e58c3975834add4282651ff7bc98acc1ef2c5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1025,
+          114,
+          1458,
+          589
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "手机时钟",
+          "信息"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S11-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S11.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "704749bab1c8be00f0f9c06a8a2e58c3975834add4282651ff7bc98acc1ef2c5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          80,
+          651,
+          748,
+          991
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "红叉",
+          "错误"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S11-05-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S11.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "704749bab1c8be00f0f9c06a8a2e58c3975834add4282651ff7bc98acc1ef2c5",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          787,
+          651,
+          1458,
+          991
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "成功勾",
+          "三条勾选"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S12-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S12.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c382ee79cfbe421ae68973f90b6a5817bae7ea2ebee9bc1a415258dc58b5f61c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          48,
+          139,
+          723,
+          548
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "手机",
+          "用户"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S12-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S12.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c382ee79cfbe421ae68973f90b6a5817bae7ea2ebee9bc1a415258dc58b5f61c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          814,
+          139,
+          1489,
+          548
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "用户",
+          "文档",
+          "设置",
+          "退出"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S12-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S12.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c382ee79cfbe421ae68973f90b6a5817bae7ea2ebee9bc1a415258dc58b5f61c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          86,
+          638,
+          685,
+          991
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "退出"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S12-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S12.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c382ee79cfbe421ae68973f90b6a5817bae7ea2ebee9bc1a415258dc58b5f61c",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          851,
+          628,
+          1449,
+          1000
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "锁",
+          "眼睛",
+          "文档"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S13-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S13.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "d051a95b00295ec03a2db9356dbad8507e3bd0b049b430aeec7ee4f5e0f4b968",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          26,
+          106,
+          491,
+          528
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "相机",
+          "缺图占位"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S13-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S13.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "d051a95b00295ec03a2db9356dbad8507e3bd0b049b430aeec7ee4f5e0f4b968",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          537,
+          106,
+          1000,
+          528
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "成功勾",
+          "图片占位"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S13-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S13.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "d051a95b00295ec03a2db9356dbad8507e3bd0b049b430aeec7ee4f5e0f4b968",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1045,
+          106,
+          1510,
+          528
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "鞋照片",
+          "骑行照片",
+          "哑铃照片",
+          "叉",
+          "图片"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S13-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S13.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "d051a95b00295ec03a2db9356dbad8507e3bd0b049b430aeec7ee4f5e0f4b968",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          26,
+          592,
+          491,
+          1003
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "图片占位",
+          "勾"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S13-05-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S13.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "d051a95b00295ec03a2db9356dbad8507e3bd0b049b430aeec7ee4f5e0f4b968",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          537,
+          592,
+          1000,
+          1003
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "损坏图片图标"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S13-06-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S13.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "d051a95b00295ec03a2db9356dbad8507e3bd0b049b430aeec7ee4f5e0f4b968",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1045,
+          592,
+          1510,
+          1003
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "图片错误图标",
+          "底层鞋缩略图"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S14-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S14.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c5eea75c5b19826873c384d964d2251ba158d1372fcb80bd7e8845b0f938b342",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          39,
+          113,
+          359,
+          530
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "空文档",
+          "四个记录入口",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S14-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S14.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c5eea75c5b19826873c384d964d2251ba158d1372fcb80bd7e8845b0f938b342",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          419,
+          113,
+          738,
+          530
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "空星星",
+          "搜索",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S14-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S14.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c5eea75c5b19826873c384d964d2251ba158d1372fcb80bd7e8845b0f938b342",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          798,
+          113,
+          1118,
+          530
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "空文档",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S14-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S14.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c5eea75c5b19826873c384d964d2251ba158d1372fcb80bd7e8845b0f938b342",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1178,
+          113,
+          1499,
+          530
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "空碗",
+          "搜索"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S14-05-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S14.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c5eea75c5b19826873c384d964d2251ba158d1372fcb80bd7e8845b0f938b342",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          39,
+          594,
+          359,
+          1009
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "日历",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S14-06-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S14.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c5eea75c5b19826873c384d964d2251ba158d1372fcb80bd7e8845b0f938b342",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          419,
+          594,
+          738,
+          1009
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "月亮",
+          "靶心",
+          "闪电"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S14-07-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S14.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c5eea75c5b19826873c384d964d2251ba158d1372fcb80bd7e8845b0f938b342",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          798,
+          594,
+          1118,
+          1009
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "清单",
+          "未选框"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S14-08-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S14.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "c5eea75c5b19826873c384d964d2251ba158d1372fcb80bd7e8845b0f938b342",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1178,
+          594,
+          1499,
+          1009
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "地图定位",
+          "导航"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S15-01-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S15.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "3016d23a94bd47f77ca423ab044e267bd77e7d75ddf1111533e840fb708f8f2e",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          51,
+          130,
+          485,
+          535
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "上传文档"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S15-02-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S15.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "3016d23a94bd47f77ca423ab044e267bd77e7d75ddf1111533e840fb708f8f2e",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          560,
+          130,
+          978,
+          535
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "同步圆环"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S15-03-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S15.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "3016d23a94bd47f77ca423ab044e267bd77e7d75ddf1111533e840fb708f8f2e",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1052,
+          130,
+          1487,
+          535
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "成功圆环勾"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S15-04-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S15.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "3016d23a94bd47f77ca423ab044e267bd77e7d75ddf1111533e840fb708f8f2e",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          51,
+          603,
+          485,
+          993
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "断网"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S15-05-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S15.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "3016d23a94bd47f77ca423ab044e267bd77e7d75ddf1111533e840fb708f8f2e",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          560,
+          603,
+          978,
+          993
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "锁"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    },
+    {
+      "id": "S15-06-source-artwork",
+      "sourcePath": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\boards\\S15.png",
+        "status": "measured",
+        "source": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "3016d23a94bd47f77ca423ab044e267bd77e7d75ddf1111533e840fb708f8f2e",
+        "status": "measured",
+        "source": "SHA256"
+      },
+      "panelRoiLTRB": {
+        "value": [
+          1052,
+          603,
+          1487,
+          993
+        ],
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "artworkFamilies": {
+        "value": [
+          "错误圆环"
+        ],
+        "status": "measured",
+        "source": "原图可见图形/照片，独立边界尚待定位"
+      },
+      "pureArtworkCropLTRB": {
+        "value": null,
+        "status": "unknown",
+        "source": "不可使用整panel作为素材；需要裁切纯图形并排除邻近文字"
+      },
+      "outputFile": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "outputSHA256": {
+        "value": null,
+        "status": "unknown",
+        "source": "未提取"
+      },
+      "alpha": {
+        "value": false,
+        "status": "measured",
+        "source": "源PNG为flattened参考；独立透明素材未创建"
+      },
+      "sourceDimensions": {
+        "value": [
+          1536,
+          1024
+        ],
+        "status": "measured",
+        "source": "PNG IHDR"
+      },
+      "targetDimensions": {
+        "value": null,
+        "status": "unknown",
+        "source": "在独立素材边界确认后测量"
+      },
+      "action": {
+        "value": "优先原图裁切；若边缘背景需重建，再单独申请生成，不使用通用图标代替",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      },
+      "notes": {
+        "value": "不同板的图标绘法可能不完全一致，1:1还原需使用本状态来源。",
+        "status": "inferred",
+        "source": "视觉估计或组件/页面关联推断；尚未像素校准"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+ONE final interface design concept image. Three equal-width full-height portrait native Android screens side-by-side, landscape1536x1024, no device frames/margins. App 老白の日记. OPAQUE offwhite, charcoal labels, jade buttons, small blue/coral accents, clean restrained typography. Safe Android statusbar and gesture area. No excessive rounded cards or big imagery. All entries are fictitious example data. Do not print design instructions in UI.
+
+LEFT G09 新增足迹. Back arrow and title 新增足迹. Exactly fields 标题, 地点, 日期, 正文, 照片. Example 海边散步/东岸公园/2026年9月26日 and short diary paragraph. Photo row label 照片（2/3）, exactly TWO small photos each remove-X and ONE plus add slot. MAXIMUM THREE PHOTOS, never9. One bottom 保存 and small 取消. No mood or stress fields, no duplicate save, no barcode/GPS.
+
+CENTER H01 我的. Compact title, modest circular monogram with fictional nickname 老白, masked la***@example.com. Small sync status 已同步 with last-confirmed timestamp. Simple nav rows 个人资料/目标设置/同步状态/备份与恢复/清空个人数据. Logout command subdued but clear, destructive clear-data not primary. Bottom nav 今日/记录/向往/我的 with 我的 active. No large personal cover, subscription or social counts. This is an existing sample account, not a new-user default.
+
+RIGHT H02 编辑个人资料. Back arrow and title. EXACT five fields 昵称, 性别三项 男/女/其他, 身高（厘米）, 年龄（岁）, 活动水平 menu. Illustrative values 老白/男/175/28/中等. One bottom 保存. NO toolbar save, NO saved-success badge while editing, NO weight goals on this page. Use comfortable compact fields.

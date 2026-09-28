@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "targetFile": "ptA7IsUhV0rHsp8yRLFRVj",
+  "writer": "root only after loading image-to-editable-figma",
+  "libraryPage": "02｜组件库与素材",
+  "components": [
+    {"name": "素材 / 原图裁切", "properties": ["INSTANCE_SWAP"], "scope": "one master per artwork"},
+    {"name": "区域 / 登录品牌", "properties": ["TEXT"], "scope": "A01"},
+    {"name": "控件 / 登录邮箱", "properties": ["TEXT"], "scope": "A01"},
+    {"name": "控件 / 登录密码", "properties": ["TEXT"], "scope": "A01"},
+    {"name": "区域 / 今日热量概览", "properties": ["TEXT"], "scope": "C01 and C02 distinct variants"},
+    {"name": "控件 / 今日记录入口", "properties": ["TEXT", "INSTANCE_SWAP"], "scope": "four actions"},
+    {"name": "区域 / 底部导航", "properties": ["TEXT", "INSTANCE_SWAP"], "scope": "source-specific variants"}
+  ],
+  "acceptance": [
+    "No full-screen reference image under deliverable UI.",
+    "Original artwork identity and crop retained.",
+    "Visible text editable; repeated regions use instances.",
+    "Two screenshot-and-repair rounds documented by node ID.",
+    "Disposable text-edit and asset-swap test."
+  ]
+}

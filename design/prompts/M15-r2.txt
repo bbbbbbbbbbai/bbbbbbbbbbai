@@ -1,0 +1,7 @@
+Create ONE high fidelity UI concept image for Chinese Android app 老白の日记. Exactly THREE equal full-height portrait screens edge-to-edge, landscape1536x1024, no hardware or outside margins. Opaque white, charcoal, jade primary, restrained blue/coral. Clean precise Chinese labels, status/gesture safe space. Native Android UI styling, no logos or fake app branding. Example dates/content only.
+
+LEFT I01 日期选择. Show a native date picker bottom sheet on dimmed weight editor. Background visible fields only 体重69.5kg and 睡眠7.5小时. Sheet heading 选择日期, September2026 calendar with correct alignment (Tuesday September1), month previous/next arrows, Saturday September26 selected. Bottom 取消 and 确认. No stray extra dates, no reset action. Sheet appropriate safe bottom inset.
+
+CENTER I02 添加照片. Actual photo action sheet overlay dimmed exercise editor. Visible backdrop fields 运动类型 跑步, 时长30分钟, 距离5公里 and 照片（2/3） with2thumbs plus1add. NO mood, pressure or sleep fields on exercise form. Foreground sheet exactly THREE action rows 拍照 (camera icon), 从相册选择 (image icon), 取消. Preserve underlying editor and safe bottom inset. No extra instructions or fake OS camera screen.
+
+RIGHT I03 图片查看. Top toolbar close X, title 图片, position1/2. Large actual content photograph of quiet park walking path occupying central area, full image view not decorative card, two dots below. Opaque white surrounding space. NO delete, edit or share actions, NO simultaneous missing-picture card, NO broken image block. Missing-photo state belongs on a separate state board, not here.

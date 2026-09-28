@@ -1,0 +1,1404 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifactType": "asset-manifest",
+  "evidenceSchema": {
+    "description": "Every domain field uses value/status/evidence. Schema metadata is authored, not observed.",
+    "statuses": [
+      "measured",
+      "inferred",
+      "unknown"
+    ]
+  },
+  "createdAt": {
+    "value": "2026-09-28T00:41:15.172885+08:00",
+    "status": "measured",
+    "evidence": "local system clock"
+  },
+  "scope": {
+    "value": [
+      "A02",
+      "A03",
+      "A04",
+      "A05"
+    ],
+    "status": "measured",
+    "evidence": "assigned QA scope"
+  },
+  "sourceOfTruth": {
+    "value": "original screens/A02.png through A05.png",
+    "status": "measured",
+    "evidence": "parent instruction"
+  },
+  "deliveryState": {
+    "value": "in_progress_not_accepted",
+    "status": "inferred",
+    "evidence": "QA proposal; source screenshot remains authoritative"
+  },
+  "figmaIdentity": {
+    "fileKey": {
+      "value": "ptA7IsUhV0rHsp8yRLFRVj",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "apiDocumentName": {
+      "value": "Document",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "pageId": {
+      "value": "70:13",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "pageName": {
+      "value": "12 原图重建｜注册与密码",
+      "status": "measured",
+      "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+    },
+    "writePolicy": {
+      "value": "Read-only QA; no Figma writes performed in this audit",
+      "status": "measured",
+      "evidence": "task scope and tool log"
+    }
+  },
+  "assets": [
+    {
+      "assetId": {
+        "value": "A02-reference",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "full_reference_only",
+        "status": "measured",
+        "evidence": "actual locked rectangle"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A02.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "732e8c3e1ae1e2c607e00feddd72be9606d45d0ddcf87ee2865c9dcea208c36e",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "pixelSize": {
+        "value": [
+          512,
+          1024
+        ],
+        "status": "measured",
+        "evidence": "PNG IHDR"
+      },
+      "nodeId": {
+        "value": "70:15",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageHash": {
+        "value": "43e750caba20cf18ed1f72f8605f6c7d2d59f235",
+        "status": "measured",
+        "evidence": "upload_assets POST response and Figma fill readback"
+      },
+      "scope": {
+        "value": "outside editable screen, locked reference",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "deliveryScreenUsage": {
+        "value": false,
+        "status": "measured",
+        "evidence": "screen subtree image-fill readback"
+      },
+      "mayBeUsedAsUIBackground": {
+        "value": false,
+        "status": "inferred",
+        "evidence": "anti-raster-disguise rule"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A02-photo",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "raster_photo_cropped_from_original",
+        "status": "measured",
+        "evidence": "crop_auth_references.py"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A02.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "732e8c3e1ae1e2c607e00feddd72be9606d45d0ddcf87ee2865c9dcea208c36e",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "assetFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A02-photo.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "assetSHA256": {
+        "value": "d9c799dcd8655170eadd00befca8a39437e0189a0ecde00362ae54cee7f83dd9",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "cropLTRB": {
+        "value": [
+          23,
+          161,
+          490,
+          309
+        ],
+        "status": "measured",
+        "evidence": "executed Pillow crop script; exclusive right/bottom"
+      },
+      "pixelSize": {
+        "value": [
+          467,
+          148
+        ],
+        "status": "measured",
+        "evidence": "PNG IHDR"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "evidence": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "evidence": "Pillow image bands"
+      },
+      "pixelExactToDeclaredSourceCrop": {
+        "value": true,
+        "status": "measured",
+        "evidence": "Pillow ImageChops comparison"
+      },
+      "nodeId": {
+        "value": "70:36",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageHash": {
+        "value": "dfca73ed600083c5bbeb6a1076a34245af48f047",
+        "status": "measured",
+        "evidence": "official upload_assets POST response and Figma IMAGE fill readback"
+      },
+      "fillMode": {
+        "value": "FILL",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageTransform": {
+        "value": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Absent: standalone rectangle with image fill"
+      },
+      "instanceId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Absent: no material component instance"
+      },
+      "imageTwoPipeline": {
+        "value": "clean extraction via Pillow; no image model called",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "edgeRisk": {
+        "value": "Cropped rounded photo contains original background pixels in corners; preserve matching clipping and do not add opaque corner artifact.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "printedTextPolicy": {
+        "value": "Notebook/cup lettering is part of the photographic source, not editable interface copy.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A03-reference",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "full_reference_only",
+        "status": "measured",
+        "evidence": "actual locked rectangle"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A03.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "883f28cfc34bd2730929ad3b23ddb9e51bd70f3e91365c2354dc1dd85260d6b8",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "pixelSize": {
+        "value": [
+          512,
+          1024
+        ],
+        "status": "measured",
+        "evidence": "PNG IHDR"
+      },
+      "nodeId": {
+        "value": "70:17",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageHash": {
+        "value": "bf92f6adfd4662cb8f8331b2ffe0fefe9cb91792",
+        "status": "measured",
+        "evidence": "upload_assets POST response and Figma fill readback"
+      },
+      "scope": {
+        "value": "outside editable screen, locked reference",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "deliveryScreenUsage": {
+        "value": false,
+        "status": "measured",
+        "evidence": "screen subtree image-fill readback"
+      },
+      "mayBeUsedAsUIBackground": {
+        "value": false,
+        "status": "inferred",
+        "evidence": "anti-raster-disguise rule"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A04-reference",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "full_reference_only",
+        "status": "measured",
+        "evidence": "actual locked rectangle"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A04.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "6ee831e23047516934b9f9e2b29bc124539df021a0b0519c87c00c1788f98388",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "pixelSize": {
+        "value": [
+          512,
+          1024
+        ],
+        "status": "measured",
+        "evidence": "PNG IHDR"
+      },
+      "nodeId": {
+        "value": "70:19",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageHash": {
+        "value": "f6ea01b3b061fee63c53f14808193518d1e0fa69",
+        "status": "measured",
+        "evidence": "upload_assets POST response and Figma fill readback"
+      },
+      "scope": {
+        "value": "outside editable screen, locked reference",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "deliveryScreenUsage": {
+        "value": false,
+        "status": "measured",
+        "evidence": "screen subtree image-fill readback"
+      },
+      "mayBeUsedAsUIBackground": {
+        "value": false,
+        "status": "inferred",
+        "evidence": "anti-raster-disguise rule"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A04-photo",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "raster_photo_cropped_from_original",
+        "status": "measured",
+        "evidence": "crop_auth_references.py"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A04.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "6ee831e23047516934b9f9e2b29bc124539df021a0b0519c87c00c1788f98388",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "assetFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A04-photo.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "assetSHA256": {
+        "value": "6b2a5e622cf8338f5dbb6a7f9712623d51fc640f2f71ed125c38b22a7b70b4fb",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "cropLTRB": {
+        "value": [
+          29,
+          229,
+          484,
+          349
+        ],
+        "status": "measured",
+        "evidence": "executed Pillow crop script; exclusive right/bottom"
+      },
+      "pixelSize": {
+        "value": [
+          455,
+          120
+        ],
+        "status": "measured",
+        "evidence": "PNG IHDR"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "evidence": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "evidence": "Pillow image bands"
+      },
+      "pixelExactToDeclaredSourceCrop": {
+        "value": true,
+        "status": "measured",
+        "evidence": "Pillow ImageChops comparison"
+      },
+      "nodeId": {
+        "value": "70:37",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageHash": {
+        "value": "ff85aefbf8e5bbb176f4318aead432467e1ec547",
+        "status": "measured",
+        "evidence": "official upload_assets POST response and Figma IMAGE fill readback"
+      },
+      "fillMode": {
+        "value": "FILL",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageTransform": {
+        "value": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Absent: standalone rectangle with image fill"
+      },
+      "instanceId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Absent: no material component instance"
+      },
+      "imageTwoPipeline": {
+        "value": "clean extraction via Pillow; no image model called",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "edgeRisk": {
+        "value": "Cropped rounded photo contains original background pixels in corners; preserve matching clipping and do not add opaque corner artifact.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "printedTextPolicy": {
+        "value": "Notebook/cup lettering is part of the photographic source, not editable interface copy.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A05-reference",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "full_reference_only",
+        "status": "measured",
+        "evidence": "actual locked rectangle"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A05.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "815442b9b344a592dbadfa500836dae317efe50470ce4e2498f722b8e794b912",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "pixelSize": {
+        "value": [
+          512,
+          1024
+        ],
+        "status": "measured",
+        "evidence": "PNG IHDR"
+      },
+      "nodeId": {
+        "value": "70:21",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageHash": {
+        "value": "f7b6013480f240c9d6feba83b8844bbeb9abab6b",
+        "status": "measured",
+        "evidence": "upload_assets POST response and Figma fill readback"
+      },
+      "scope": {
+        "value": "outside editable screen, locked reference",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "deliveryScreenUsage": {
+        "value": false,
+        "status": "measured",
+        "evidence": "screen subtree image-fill readback"
+      },
+      "mayBeUsedAsUIBackground": {
+        "value": false,
+        "status": "inferred",
+        "evidence": "anti-raster-disguise rule"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A05-photo",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "raster_photo_cropped_from_original",
+        "status": "measured",
+        "evidence": "crop_auth_references.py"
+      },
+      "sourceFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\A05.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "sourceSHA256": {
+        "value": "815442b9b344a592dbadfa500836dae317efe50470ce4e2498f722b8e794b912",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "assetFile": {
+        "value": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild-auth-assets\\A05-photo.png",
+        "status": "measured",
+        "evidence": "filesystem"
+      },
+      "assetSHA256": {
+        "value": "8982cf9674fce3e0fd3acac21f16c2b6c05e75fcbd0ea2bd269b265759f37ac0",
+        "status": "measured",
+        "evidence": "file bytes SHA-256"
+      },
+      "cropLTRB": {
+        "value": [
+          29,
+          229,
+          484,
+          372
+        ],
+        "status": "measured",
+        "evidence": "executed Pillow crop script; exclusive right/bottom"
+      },
+      "pixelSize": {
+        "value": [
+          455,
+          143
+        ],
+        "status": "measured",
+        "evidence": "PNG IHDR"
+      },
+      "mode": {
+        "value": "RGB",
+        "status": "measured",
+        "evidence": "Pillow"
+      },
+      "hasAlpha": {
+        "value": false,
+        "status": "measured",
+        "evidence": "Pillow image bands"
+      },
+      "pixelExactToDeclaredSourceCrop": {
+        "value": true,
+        "status": "measured",
+        "evidence": "Pillow ImageChops comparison"
+      },
+      "nodeId": {
+        "value": "70:38",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageHash": {
+        "value": "3f5f38fd47fb8d1d06050cb62dfacf483ab80ce1",
+        "status": "measured",
+        "evidence": "official upload_assets POST response and Figma IMAGE fill readback"
+      },
+      "fillMode": {
+        "value": "FILL",
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "imageTransform": {
+        "value": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Absent: standalone rectangle with image fill"
+      },
+      "instanceId": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Absent: no material component instance"
+      },
+      "imageTwoPipeline": {
+        "value": "clean extraction via Pillow; no image model called",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "edgeRisk": {
+        "value": "Cropped rounded photo contains original background pixels in corners; preserve matching clipping and do not add opaque corner artifact.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "printedTextPolicy": {
+        "value": "Notebook/cup lettering is part of the photographic source, not editable interface copy.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A03-mail-art",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "mail illustration",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "A03",
+        "status": "measured",
+        "evidence": "assigned source"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": [
+          204,
+          174,
+          309,
+          285
+        ],
+        "status": "inferred",
+        "evidence": "manual source ROI"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:719"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A04-mail-hint-art",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "mail illustration with motion marks",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "A04",
+        "status": "measured",
+        "evidence": "assigned source"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": [
+          229,
+          719,
+          286,
+          750
+        ],
+        "status": "inferred",
+        "evidence": "manual source ROI"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:725"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "status-icons-A02-A03",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "status icon artwork",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "multiple listed screens",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Per-variant source bounding boxes require extraction pass"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:486",
+          "70:492"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "status-icons-A04-A05",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "status icon artwork",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "multiple listed screens",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Per-variant source bounding boxes require extraction pass"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:500",
+          "70:507"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "back-icons",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "precise UI navigation vector",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "multiple listed screens",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Per-variant source bounding boxes require extraction pass"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:498",
+          "70:505",
+          "70:512"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "mail-icons",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "mail field icon",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "multiple listed screens",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Per-variant source bounding boxes require extraction pass"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:639",
+          "70:643"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "lock-icons",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "password lock icon",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "multiple listed screens",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Per-variant source bounding boxes require extraction pass"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:647",
+          "70:651",
+          "70:655",
+          "70:659"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "eye-icons",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "password visibility icon",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "multiple listed screens",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Per-variant source bounding boxes require extraction pass"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:671",
+          "70:675",
+          "70:679",
+          "70:683"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A05-shield",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "verification shield icon",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "A05",
+        "status": "measured",
+        "evidence": "assigned source"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": [
+          50,
+          480,
+          73,
+          503
+        ],
+        "status": "inferred",
+        "evidence": "manual source ROI"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:687"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    },
+    {
+      "assetId": {
+        "value": "A05-match-check",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "kind": {
+        "value": "consistency check icon",
+        "status": "measured",
+        "evidence": "visible original and current layers"
+      },
+      "sourceScreen": {
+        "value": "A05",
+        "status": "measured",
+        "evidence": "assigned source"
+      },
+      "sourceInspectionRoiLTRB": {
+        "value": [
+          35,
+          781,
+          56,
+          802
+        ],
+        "status": "inferred",
+        "evidence": "manual source ROI"
+      },
+      "currentNodeIds": {
+        "value": [
+          "70:691"
+        ],
+        "status": "measured",
+        "evidence": "2026-09-28 Figma use_figma read-only query, page 70:13"
+      },
+      "currentRepresentation": {
+        "value": "manually authored SVG imported as editable vector subtree",
+        "status": "measured",
+        "evidence": "construction log"
+      },
+      "nativeSourceAsset": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original SVG/source illustration file not supplied"
+      },
+      "assetSHA256": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No local SVG asset was saved"
+      },
+      "imageHash": {
+        "value": null,
+        "status": "measured",
+        "evidence": "vector node, not raster fill"
+      },
+      "imageTwoPipeline": {
+        "value": "not performed",
+        "status": "measured",
+        "evidence": "execution log"
+      },
+      "pipelineException": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No explicit image-model-unavailable or failed-generation exception recorded"
+      },
+      "componentMaster": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "No master/instance relationship"
+      },
+      "remediation": {
+        "value": "Artwork: clean extraction/Image Two asset with provenance, then asset component. Precise control geometry may remain editable vector after explicit classification.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    }
+  ],
+  "missingMaterials": [
+    {
+      "material": {
+        "value": "background subtle texture / primary button mottling",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      },
+      "screens": {
+        "value": [
+          "A02",
+          "A03",
+          "A04",
+          "A05"
+        ],
+        "status": "measured",
+        "evidence": "visual comparison"
+      },
+      "current": {
+        "value": "flat solid fills",
+        "status": "measured",
+        "evidence": "construction log and screenshot variance"
+      },
+      "sourceParameters": {
+        "value": null,
+        "status": "unknown",
+        "evidence": "Original material generator parameters are unavailable"
+      },
+      "nextStep": {
+        "value": "Measure variation in empty source patches, then extract or generate only material layer without text or control edges; parent orchestrator decides acceptance.",
+        "status": "inferred",
+        "evidence": "QA proposal; source screenshot remains authoritative"
+      }
+    }
+  ]
+}

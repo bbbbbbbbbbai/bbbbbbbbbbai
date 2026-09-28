@@ -1,0 +1,1534 @@
+{
+  "schemaVersion": "1.0.0",
+  "scope": "source crop planning only; crop files not generated",
+  "sources": {
+    "G01": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G01.png",
+      "sha256": "74e2cf3e6a1f3688b75f523493b9b4226a6b25beb47b2c7d295ef5b81fa5c0b0",
+      "status": "measured"
+    },
+    "G02": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G02.png",
+      "sha256": "d73d5cb9846980c41ad368f58eda372ba8dc4b57f6937f400b58029bba95fe21",
+      "status": "measured"
+    },
+    "G03": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G03.png",
+      "sha256": "726c9441d563a8e65225fc1e211ff176319373808780d065b33c61bb541e68a6",
+      "status": "measured"
+    },
+    "G04": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G04.png",
+      "sha256": "17805186067b1d2aa9312a2944118e0e76aed1512adcd3430a4176858196ad05",
+      "status": "measured"
+    },
+    "G05": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G05.png",
+      "sha256": "d45e26b4b2a71e2917dbce585c2ea68f39cd45f28e82b6b73a0559026660be22",
+      "status": "measured"
+    },
+    "G06": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G06.png",
+      "sha256": "e0ac80fa5f0c3c2201a57eb0cca4df9ab38796deeb634e833f245556ab665afa",
+      "status": "measured"
+    },
+    "G07": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G07.png",
+      "sha256": "69d9bd8fcfe707625b5f5f758f49d9c7b16c0d3cc23d0e5e8f8423373277e541",
+      "status": "measured"
+    },
+    "G08": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G08.png",
+      "sha256": "99fd35806e04a0990692dc3b921815c3c2981b089748f96543730f14957fac67",
+      "status": "measured"
+    },
+    "G09": {
+      "path": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\screens\\G09.png",
+      "sha256": "3b02a90f7a01d45017ffd85f3b9c923181a8ea506a14c24b577eefaa705558ad",
+      "status": "measured"
+    }
+  },
+  "fieldStatusRules": {
+    "measured": [
+      "sourceScreen",
+      "cropLTRB",
+      "pixelSize",
+      "classification",
+      "sourcePixelSHA256",
+      "vector",
+      "fileCreated"
+    ],
+    "inferred": [
+      "plannedFile",
+      "status",
+      "componentRule"
+    ],
+    "unknown": [
+      "alpha"
+    ],
+    "source": "sourceScreen resolves through sources. Source artwork remains bitmap."
+  },
+  "componentRule": {
+    "value": "Use independent bitmap masters, reuse instances at natural pixel size within stable outer slots. Do not normalize all image fills to one size.",
+    "status": "inferred",
+    "source": "Candidate inferred from original raster; not original editable metadata"
+  },
+  "assets": [
+    {
+      "id": "G01-system-status",
+      "sourceScreen": "G01",
+      "cropLTRB": [
+        364,
+        34,
+        434,
+        60
+      ],
+      "pixelSize": [
+        70,
+        26
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G01-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "e7fa5503b3a3b5bbc8ad97f4fc696773f64500a3aea84c00ac0b653a67640520",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G01-help",
+      "sourceScreen": "G01",
+      "cropLTRB": [
+        439,
+        96,
+        480,
+        137
+      ],
+      "pixelSize": [
+        41,
+        41
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G01-help.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "5f19466466598b0a1e7b7e5c08f137be838f59cab3d5b0c2137c0565cfe4ca42",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G01-question-icon",
+      "sourceScreen": "G01",
+      "cropLTRB": [
+        30,
+        357,
+        62,
+        393
+      ],
+      "pixelSize": [
+        32,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G01-question-icon.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "aa152a1179e65ef93dc5e4b95558d552655fc69070369439877abc5d684a88f0",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G01-row-chevron",
+      "sourceScreen": "G01",
+      "cropLTRB": [
+        466,
+        365,
+        481,
+        388
+      ],
+      "pixelSize": [
+        15,
+        23
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G01-row-chevron.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "14ec70e748deac3fa8c0a867ae29bf7dd4fbaa96f5d4d8e0f11d9738e031da26",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G01-nav-today",
+      "sourceScreen": "G01",
+      "cropLTRB": [
+        50,
+        902,
+        88,
+        941
+      ],
+      "pixelSize": [
+        38,
+        39
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G01-nav-today.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "3a10a5ad9b496b4f14a12ef8d066f89062862247e5b44719fcf2cb82a911cf08",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G01-nav-history",
+      "sourceScreen": "G01",
+      "cropLTRB": [
+        174,
+        902,
+        212,
+        940
+      ],
+      "pixelSize": [
+        38,
+        38
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G01-nav-history.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "c0fbb5b9bbf05f6d015ac8b7e5f308c55c989b2623839fd7e4bcb5a47a0b545d",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G01-nav-life-active",
+      "sourceScreen": "G01",
+      "cropLTRB": [
+        300,
+        900,
+        340,
+        942
+      ],
+      "pixelSize": [
+        40,
+        42
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G01-nav-life-active.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "aa5668e2a35be00918b7c34ba137997b40d2ff6abf464138ada52242ebfda963",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G01-nav-profile",
+      "sourceScreen": "G01",
+      "cropLTRB": [
+        424,
+        902,
+        463,
+        940
+      ],
+      "pixelSize": [
+        39,
+        38
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G01-nav-profile.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "5c88a7fa899848ba97f75a87c5deaabf3f647fd187492aaeeba21ca68f26713e",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G02-system-status",
+      "sourceScreen": "G02",
+      "cropLTRB": [
+        364,
+        34,
+        434,
+        61
+      ],
+      "pixelSize": [
+        70,
+        27
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G02-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "e5a1ee4c603e9c32f225a78381dd89ae65eb3964540df280ce6db1e0b2f66d7c",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G02-back",
+      "sourceScreen": "G02",
+      "cropLTRB": [
+        28,
+        102,
+        60,
+        131
+      ],
+      "pixelSize": [
+        32,
+        29
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G02-back.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "8657f0f7a4d0bbbd8bda4f859155258028ba32f59c95970db963f0f158eb2cd4",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G02-help",
+      "sourceScreen": "G02",
+      "cropLTRB": [
+        438,
+        95,
+        480,
+        138
+      ],
+      "pixelSize": [
+        42,
+        43
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G02-help.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "642b296771a464282fad6604b48061dc893edf9edf5801afbff92281b56d469e",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G03-system-status",
+      "sourceScreen": "G03",
+      "cropLTRB": [
+        353,
+        42,
+        422,
+        66
+      ],
+      "pixelSize": [
+        69,
+        24
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G03-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "3e6b00567540029dc0987d96dd779e16cf943204b4a1753da6ef69bada4a9ffc",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G03-back",
+      "sourceScreen": "G03",
+      "cropLTRB": [
+        28,
+        96,
+        57,
+        126
+      ],
+      "pixelSize": [
+        29,
+        30
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G03-back.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "4288823ea1e552a9a99411124ca52fbc42170b86969afa9eced94fcc7c00dac6",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G04-system-status",
+      "sourceScreen": "G04",
+      "cropLTRB": [
+        353,
+        42,
+        422,
+        66
+      ],
+      "pixelSize": [
+        69,
+        24
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G04-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "cbcf592cde258b15daca6d81cb4f0dccdf9ee3849a4f64d3b421791b23c7401e",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G04-back",
+      "sourceScreen": "G04",
+      "cropLTRB": [
+        28,
+        96,
+        57,
+        126
+      ],
+      "pixelSize": [
+        29,
+        30
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G04-back.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "4f918b78dacce6b31d75f9b3eac8138a3b3d74734132276f2dfc1df2f1ca5658",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G04-dropdown",
+      "sourceScreen": "G04",
+      "cropLTRB": [
+        449,
+        302,
+        471,
+        321
+      ],
+      "pixelSize": [
+        22,
+        19
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G04-dropdown.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "421f46a86234f09782c6c91b90837abb96c1bac7cf3373621f30ff379241ada0",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-system-status",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        353,
+        42,
+        422,
+        66
+      ],
+      "pixelSize": [
+        69,
+        24
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "ba76c9ad9499986e8832540eec3a6888e6c13d495e48114e53aaf8eb99d9b82f",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-back",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        28,
+        96,
+        57,
+        127
+      ],
+      "pixelSize": [
+        29,
+        31
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-back.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "bfdbeca1729a42c69069995d6eb0a97e4597c10ac768e751c7a873887a351564",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-add",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        406,
+        96,
+        437,
+        127
+      ],
+      "pixelSize": [
+        31,
+        31
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-add.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "24e85898f22750bbf14542e2b31862869db3d3c1a9751694ffffd8cd18009804",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-state-idle-large",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        24,
+        491,
+        61,
+        527
+      ],
+      "pixelSize": [
+        37,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-state-idle-large.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "13ce4fa9843ea76b352eb43001f8ae3a0f8909725b9f6d3d32f360d1ccfd1568",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-state-progress-large",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        23,
+        556,
+        61,
+        593
+      ],
+      "pixelSize": [
+        38,
+        37
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-state-progress-large.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "c54f3bc399b86f0306c9a44771f820503dff5ff046704ed5a47cf35314b3e6cf",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-state-complete-large",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        23,
+        620,
+        62,
+        658
+      ],
+      "pixelSize": [
+        39,
+        38
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-state-complete-large.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "0180817300b395df1bf0f9a811c0ec3f73b826ae5406a2b5663db3c90bedde0d",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-more",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        468,
+        497,
+        480,
+        521
+      ],
+      "pixelSize": [
+        12,
+        24
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-more.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "e10e6fc4f3073a3558df6c7a6be7ce10e4055e2a1f46817e49fe4a14dca38315",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-summary-idle",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        41,
+        287,
+        73,
+        320
+      ],
+      "pixelSize": [
+        32,
+        33
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-summary-idle.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "f487262227a602b9234ce623df15df171c613b84bbe17b215c59c784f455cfdd",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-summary-progress",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        203,
+        285,
+        240,
+        322
+      ],
+      "pixelSize": [
+        37,
+        37
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-summary-progress.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "a999ea8f16daa446d0be8f8c6c7b8fed50cc6f838f94c32048ea596d28963a19",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G05-summary-complete",
+      "sourceScreen": "G05",
+      "cropLTRB": [
+        364,
+        285,
+        401,
+        322
+      ],
+      "pixelSize": [
+        37,
+        37
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G05-summary-complete.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "76186936222f44b3ff52d404dcb820d4513f10b86b4fb4ab94de192544098708",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G06-system-status",
+      "sourceScreen": "G06",
+      "cropLTRB": [
+        376,
+        15,
+        469,
+        37
+      ],
+      "pixelSize": [
+        93,
+        22
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G06-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "5d149e668f00163d08d44ec494194285b71d043185d42d832299aa261e0de1b1",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G06-back",
+      "sourceScreen": "G06",
+      "cropLTRB": [
+        28,
+        63,
+        63,
+        97
+      ],
+      "pixelSize": [
+        35,
+        34
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G06-back.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "6b596803adc0b29ec82c2898904d4adcc96d9c04c5b1f35e14c8286470bae134",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G06-clear",
+      "sourceScreen": "G06",
+      "cropLTRB": [
+        441,
+        263,
+        471,
+        293
+      ],
+      "pixelSize": [
+        30,
+        30
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G06-clear.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "1de3164b37c940b1d45a7e9edcbfc53a6e1e87ce0a058825035b992988538e8e",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G06-dropdown",
+      "sourceScreen": "G06",
+      "cropLTRB": [
+        446,
+        406,
+        469,
+        426
+      ],
+      "pixelSize": [
+        23,
+        20
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G06-dropdown.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "ee532659e7a00b997b5a69b6c7aad96999e9e75df473f9a209ae02cb07606817",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G07-system-status",
+      "sourceScreen": "G07",
+      "cropLTRB": [
+        380,
+        15,
+        472,
+        37
+      ],
+      "pixelSize": [
+        92,
+        22
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G07-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "4a6cdf3fda8669eafa505f22b70b50f566c7f643e8843a7996884b16402143ee",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G07-back",
+      "sourceScreen": "G07",
+      "cropLTRB": [
+        28,
+        63,
+        63,
+        97
+      ],
+      "pixelSize": [
+        35,
+        34
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G07-back.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "80edfa8ba83ba225868d0bde3568e521ccba8bc9ffbb6b3da3f1cddf97d78427",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G07-delete",
+      "sourceScreen": "G07",
+      "cropLTRB": [
+        455,
+        62,
+        486,
+        98
+      ],
+      "pixelSize": [
+        31,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G07-delete.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "338a265cd0b237e5d8912fc6f5e8e1a4e65ce6676e54dc807c44fafe603cc9b8",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G07-book-context",
+      "sourceScreen": "G07",
+      "cropLTRB": [
+        48,
+        211,
+        91,
+        250
+      ],
+      "pixelSize": [
+        43,
+        39
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G07-book-context.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "aac8a966b71524b8ab322fffbfce1ce467b8aca978c4cee21da2a4a26cade397",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G07-book-photo-1",
+      "sourceScreen": "G07",
+      "cropLTRB": [
+        29,
+        571,
+        179,
+        739
+      ],
+      "pixelSize": [
+        150,
+        168
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G07-book-photo-1.png",
+      "fileCreated": false,
+      "classification": "source_photo_with_overlay",
+      "sourcePixelSHA256": "bb5c3b85655433367017d142cd855927021e1a86e009464fdbcf5e93a231416f",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Contains removable X control at top-right. Do not use as final clean photo until overlay is removed; book cover text is photographic content, not UI."
+    },
+    {
+      "id": "G07-book-photo-2",
+      "sourceScreen": "G07",
+      "cropLTRB": [
+        188,
+        571,
+        338,
+        739
+      ],
+      "pixelSize": [
+        150,
+        168
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G07-book-photo-2.png",
+      "fileCreated": false,
+      "classification": "source_photo_with_overlay",
+      "sourcePixelSHA256": "a75b7a5dc21a9ea1f9bd900dfa28b750d66963e0ba5cec22922c53958ced8c89",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Contains removable X control at top-right. Keep photograph and editable remove action separate; requires clean extraction."
+    },
+    {
+      "id": "G07-photo-remove",
+      "sourceScreen": "G07",
+      "cropLTRB": [
+        140,
+        575,
+        176,
+        611
+      ],
+      "pixelSize": [
+        36,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G07-photo-remove.png",
+      "fileCreated": false,
+      "classification": "source_icon_with_overlay",
+      "sourcePixelSHA256": "43a39b2bc9f2c81fb9997abcdc45d9793cf621030fdeff99697d297fb781eda8",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Circular X over photographic pixels; only inner circle can be reused cleanly, alpha unknown. Needs mask/crop verification."
+    },
+    {
+      "id": "G07-photo-add",
+      "sourceScreen": "G07",
+      "cropLTRB": [
+        394,
+        635,
+        435,
+        677
+      ],
+      "pixelSize": [
+        41,
+        42
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G07-photo-add.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "4d90f39430f92b11a928f12478c797f132f366589fcde8dc8b3ac50128567f30",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-system-status",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        389,
+        15,
+        483,
+        37
+      ],
+      "pixelSize": [
+        94,
+        22
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "31885de3e7c9d02a2b636f6d779408f5603afa830a2c60f321fe8ecfaf8c8c6e",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-add",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        450,
+        63,
+        488,
+        104
+      ],
+      "pixelSize": [
+        38,
+        41
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-add.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "a55c3185c209bd1a6fe6d32f63337e90f8fc0b74aa3d5fd9d625d895a7198225",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-edit",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        382,
+        349,
+        414,
+        383
+      ],
+      "pixelSize": [
+        32,
+        34
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-edit.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "9698eea4ecd6e3f35f5a83dfe7005b4231d86e41318b30f834fddaed26a6dee4",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-delete",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        443,
+        349,
+        471,
+        383
+      ],
+      "pixelSize": [
+        28,
+        34
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-delete.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "141cb4e6648df862ab6ae2c8fba547d90436f170a09a441f0bb713ba9590436a",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-location",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        39,
+        427,
+        63,
+        455
+      ],
+      "pixelSize": [
+        24,
+        28
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-location.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "5e6e6b79451d021f0087fbfedacf6e56d4a2226baf6f2d6c80a6d641a7d38866",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-park-photo",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        346,
+        396,
+        478,
+        537
+      ],
+      "pixelSize": [
+        132,
+        141
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-park-photo.png",
+      "fileCreated": false,
+      "classification": "source_photo",
+      "sourcePixelSHA256": "bc6b6022e92928ec7a99acdebd50423d58e1d2c1639ad1d440e33e96d91dd718",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Original rounded crop, no adjacent editable UI text. Preserve natural source crop and radius."
+    },
+    {
+      "id": "G08-dinner-photo",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        346,
+        646,
+        478,
+        801
+      ],
+      "pixelSize": [
+        132,
+        155
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-dinner-photo.png",
+      "fileCreated": false,
+      "classification": "source_photo",
+      "sourcePixelSHA256": "8c4e90e2e376f3233f12e75c5be632d64ca42098dc3702ee26911a1708552929",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Original rounded crop, no adjacent editable UI text. Source aspect differs from park thumbnail."
+    },
+    {
+      "id": "G08-nav-today",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        42,
+        904,
+        79,
+        940
+      ],
+      "pixelSize": [
+        37,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-nav-today.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "615c7cd676f7e78e32902afc2bc25ec2e8c6d9de76e393946403525af9cbae5d",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-nav-history",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        173,
+        904,
+        209,
+        940
+      ],
+      "pixelSize": [
+        36,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-nav-history.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "7e73a05b65096c3c2281013ab4a8cd28db4157377a858e3ff2504666f58455f3",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-nav-life-active",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        301,
+        904,
+        343,
+        940
+      ],
+      "pixelSize": [
+        42,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-nav-life-active.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "5d2d9aedc2bef17c4c98ff34ba3716a25cc3c9df1f6e7e7a0f05cd3a2a3e9c97",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G08-nav-profile",
+      "sourceScreen": "G08",
+      "cropLTRB": [
+        434,
+        904,
+        470,
+        940
+      ],
+      "pixelSize": [
+        36,
+        36
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G08-nav-profile.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "22405575cd75eecf04859e62e598783b70011858d697c35a579373998529a198",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G09-system-status",
+      "sourceScreen": "G09",
+      "cropLTRB": [
+        363,
+        11,
+        432,
+        34
+      ],
+      "pixelSize": [
+        69,
+        23
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G09-system-status.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "d0be5d5eb53fcd9f08d4e395ec651c067cd3e14ebe458722b16b40e7d743904a",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G09-back",
+      "sourceScreen": "G09",
+      "cropLTRB": [
+        24,
+        61,
+        54,
+        93
+      ],
+      "pixelSize": [
+        30,
+        32
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G09-back.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "8731d3b3c55274b60e6b0dad5cab89bed5c3adcef3d9b5e471974bfb58c37445",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G09-calendar",
+      "sourceScreen": "G09",
+      "cropLTRB": [
+        443,
+        386,
+        472,
+        417
+      ],
+      "pixelSize": [
+        29,
+        31
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G09-calendar.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "a455570b98c572c0d69a6d720fbd5be812bc9305ee80cae4f27ca196e7a7b394",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    },
+    {
+      "id": "G09-beach-photo",
+      "sourceScreen": "G09",
+      "cropLTRB": [
+        29,
+        667,
+        170,
+        808
+      ],
+      "pixelSize": [
+        141,
+        141
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G09-beach-photo.png",
+      "fileCreated": false,
+      "classification": "source_photo_with_overlay",
+      "sourcePixelSHA256": "59a30497bc58c4d91c02a656bca2aceffeca4b46d03b1008e82591d7a0274c68",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Top-right remove control is baked into the source thumbnail. Requires clean extraction, not a complete UI-image replacement."
+    },
+    {
+      "id": "G09-sunset-photo",
+      "sourceScreen": "G09",
+      "cropLTRB": [
+        187,
+        667,
+        328,
+        808
+      ],
+      "pixelSize": [
+        141,
+        141
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G09-sunset-photo.png",
+      "fileCreated": false,
+      "classification": "source_photo_with_overlay",
+      "sourcePixelSHA256": "ec6178505272d027f071607954eddd280817fd74f8292055012089378ae3e5c7",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Top-right remove control is baked into the source thumbnail. Requires clean extraction."
+    },
+    {
+      "id": "G09-photo-remove",
+      "sourceScreen": "G09",
+      "cropLTRB": [
+        132,
+        672,
+        165,
+        705
+      ],
+      "pixelSize": [
+        33,
+        33
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G09-photo-remove.png",
+      "fileCreated": false,
+      "classification": "source_icon_with_overlay",
+      "sourcePixelSHA256": "c65bc827381250f9bcf6554b9e2eaa47760c8db57aed5253173ac8765d567e6e",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "needs_clean_extraction",
+      "notes": "Circular X contains photographic matte at corners; mask or clean extraction needed."
+    },
+    {
+      "id": "G09-photo-add",
+      "sourceScreen": "G09",
+      "cropLTRB": [
+        396,
+        720,
+        429,
+        757
+      ],
+      "pixelSize": [
+        33,
+        37
+      ],
+      "plannedFile": "D:\\codex\\Bicycle\\.worktrees\\native-android-rebuild\\artifacts\\ui-design-20260926\\rebuild\\life\\assets\\G09-photo-add.png",
+      "fileCreated": false,
+      "classification": "source_icon",
+      "sourcePixelSHA256": "d5b8000158d501684ec4c9d4851c679de125ac4e9fc393397cd57e69b60f4c40",
+      "vector": false,
+      "alpha": {
+        "value": null,
+        "status": "unknown",
+        "source": "Flattened PNG; transparency/source-matte handling must be explicit."
+      },
+      "status": "ready_for_exact_crop",
+      "notes": "Exact original crop; no neighboring editable text."
+    }
+  ]
+}

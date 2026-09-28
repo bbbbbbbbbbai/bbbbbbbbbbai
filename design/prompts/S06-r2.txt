@@ -1,0 +1,13 @@
+Produce ONE finished UI STATE BOARD for Chinese Android app 老白の日记. OPAQUE white background, landscape1536x1024, exactly SIX UI fragments in clean 3-column 2-row grid. Title S06 输入与营养边界. Jade primary, charcoal, coral errors, blue information, crisp readable Chinese. Do not turn this into paragraphs or an infographic without controls. No invented official organizations, publications, citations or data providers. All numbers are fictional UI examples. No broad claims about health.
+
+PANEL S06-01 份量无效. Food portion form for 米饭. Grams input -10 outlined red; error 请输入大于0的克数. Bottom 取消 and disabled gray 保存. No enabled confirm with invalid input, no calorie total calculated from negative grams.
+
+PANEL S06-02 未知营养. Food detail row with energy120千卡 per100g, protein -- with 暂无数据, carbs20g and fat2g. Unknown protein is NOT zero. Source 示例数据. Grams100, primary 选择份量. Only one nutrient unknown, NOT all energy unknown. Do not claim unsupported unknown-calorie records can be saved.
+
+PANEL S06-03 无照片. Food search result list for 土豆/红薯/玉米, each with plain category icon instead of photograph, concise per100g values, selection plus icon. No broken-image noise, no unrelated photo.
+
+PANEL S06-04 菜谱估算来源. Native source bottom sheet. Heading 参考估算. Food 番茄鸡蛋面, example portion350g. Labels 数据来源：示例菜谱, 份量基准：每100克, 配料：番茄/鸡蛋/面条. Small note 具体数值随做法与份量变化. Close X. NO official badge, NO made-up authority.
+
+PANEL S06-05 自定义运动. Five type icons 跑步/骑行/健身/步行/自定义, custom selected. Fields 运动名称 羽毛球, 时长30分钟, 强度 中, 估算体重70kg. Bottom 保存. No unrelated heart-rate/GPS/mood fields.
+
+PANEL S06-06 消耗估算. Exercise input fragment with duration changed from30to45分钟, weight70kg, MET4.0. Display 210千卡. Expanded source section: 计算示例：4.0 × 70 × 0.75; 参数来源：示例参数，待实际数据替换. Small label 估算值. NO multiplier1.05, NO official book names, NO fabricated references. This panel visualizes a transparent example calculation, not dietary advice.
