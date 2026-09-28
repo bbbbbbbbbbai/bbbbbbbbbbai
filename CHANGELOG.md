@@ -51,3 +51,14 @@
   `bbbbbbbbbbai/bbbbbbbbbbai`.
 - The branch tracks the remote branch and does not modify the remote default
   branch.
+
+## 2026-09-28: G05 Life List Reconstruction Checkpoint
+
+- Built the first native G05 frame on Figma page `223:2`, screen `223:7`.
+- Added editable page title, category switch, summary cards, system-template
+  list rows, custom-list section, completion note, and gesture-bar safe area.
+- Captured `design/rebuild/life/G05-round1.png` at the exact 512x1024 frame size.
+- The first comparison still differs from the raster source in header/status
+  icons and status glyph artwork; G05 remains in progress and is not accepted.
+- Figma transport became unstable during the icon-repair pass; no screenshot
+  was used as a visible UI background.
