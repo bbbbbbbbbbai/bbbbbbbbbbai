@@ -140,6 +140,10 @@
     "trendWeightChart": "210:1955",
     "trendPeriod": "219:340",
     "trendDateToolbar": "219:345"
+    ,"lifeAnswerHeader": "225:343"
+    ,"lifeAnswerPrompt": "226:345"
+    ,"lifeAnswerInput": "225:353"
+    ,"lifeAnswerActions": "226:350"
   },
   "acceptedScreens": [],
   "note": "These are actual rebuilt nodes, not proof of final acceptance. Previous scaled drafts are excluded. B01-B03, D04-D07 and E01-E04 have content and repair evidence but remain in progress. Generated migration art is an independent candidate, not an exact source replacement."

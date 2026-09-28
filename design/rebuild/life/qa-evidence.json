@@ -1,0 +1,26 @@
+{
+  "status": "in_progress_not_final_acceptance",
+  "fileKey": "ptA7IsUhV0rHsp8yRLFRVj",
+  "page": "223:2",
+  "font": "Noto Sans SC fallback; source family unknown",
+  "screens": {
+    "G03": {
+      "screen": "223:5",
+      "reference": "223:357",
+      "status": "partial-assembly",
+      "confirmedRegions": ["227:2", "227:14", "229:15"],
+      "components": ["225:343", "226:345", "225:353", "226:350"],
+      "evidence": ["G03-round1.png", "G03-round2.png"],
+      "remaining": ["Confirm actions instance and gesture bar after Figma transport recovers", "same-size final screenshot", "editable clone test"]
+    },
+    "G04": {
+      "screen": "223:6",
+      "reference": "223:12",
+      "status": "empty-shell",
+      "componentsReady": ["224:346", "224:348", "224:350"],
+      "remaining": ["Form fields, buttons, same-size screenshot and editability test"]
+    }
+  },
+  "remaining": ["G01", "G02", "G05", "G06", "G07", "G08", "G09", "15 interaction groups / 75 substates"],
+  "acceptedScreens": []
+}

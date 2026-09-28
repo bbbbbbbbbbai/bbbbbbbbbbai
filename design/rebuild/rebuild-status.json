@@ -28,6 +28,7 @@
     "F01",
     "F02",
     "F03",
+    "G03",
     "F04",
     "F05",
     "F06",
@@ -50,8 +51,8 @@
     "requestedRemote": "bbbbbbbbbbai/bbbbbbbbbbai",
     "remotePush": "pending-network-and-github-authentication"
   },
-  "nextAction": "Continue G01-G09 and 75 state variants, then complete visual/editability gates. F01-F03 now have complete content and first repairs. State S01-S03 refinement agent stopped on quota; no further measurements claimed.",
-  "lastEvidence": "36 functional screen drafts populated; no final acceptance inferred. F01-F03 screenshots saved, F01 clone text/artwork test passed and cleaned; 42 native calendar cells and editable native charts verified. See history/qa-evidence.json. Remaining G01-G09 plus 75 states; accepted list remains empty.",
+  "nextAction": "After Figma transport recovers, finish G03 action buttons and G04 form, then G01/G02/G05-G09. Continue 75 state variants and final visual/editability gates. State S01-S03 refinement agent stopped on quota; no further measurements claimed.",
+  "lastEvidence": "F01-F03 screenshots saved; F01 clone text/artwork test passed and cleaned; 42 native calendar cells and editable native charts verified. G03 partial assembly has page header, prompt and input confirmed; G04 shell and source assets ready. See history/qa-evidence.json and life/qa-evidence.json. Accepted list remains empty.",
   "latestBatchEvidenceFile": "batch-food-onboarding-evidence.json",
   "pages": [
     {

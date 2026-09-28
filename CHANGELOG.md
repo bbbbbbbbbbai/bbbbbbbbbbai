@@ -12,6 +12,16 @@
 - 36 functional-page drafts now have content. Final acceptance remains pending.
 - Remote push remains blocked by network/authentication; no remote sync claimed.
 
+## 2026-09-28: Life Module Partial Checkpoint
+
+- Created the new Figma page `21 原图重建｜向往与生活` with nine preserved
+  screen shells.
+- Extracted source artwork for G03/G04 without replacing the original screenshots.
+- Built and confirmed the G03 header, question prompt, and editable answer box.
+- G03 action controls and G04 form remain pending because Figma transport
+  became unstable during the final assembly calls.
+- No G03/G04 screen is accepted; see `design/rebuild/life/qa-evidence.json`.
+
 ## 2026-09-28: Reconstruction Snapshot
 
 - Preserve the original 45-page atlas and 15 state-group images.
