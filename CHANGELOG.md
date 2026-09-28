@@ -32,3 +32,15 @@
 - Resume F01-F03: create separate empty screen frames and initial reusable
   header, filter, date, and record-row components. These are in progress.
 - Keep remote push status separate from local checkpoint status.
+
+## 2026-09-28: Life Module Assembly Checkpoint
+
+- Added G03 round-three evidence with the answer actions and gesture bar
+  confirmed as separate editable regions.
+- Added G04 round-one evidence with the custom-question form and action
+  controls assembled from reusable components.
+- Updated the Figma node ledger and life-module QA ledger; neither screen is
+  final acceptance yet because same-size export and editable-clone checks are
+  still pending.
+- Snapshot added only the two new evidence images; the original atlas remains
+  untouched and the GitHub push is still pending authentication/network access.

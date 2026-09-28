@@ -33,6 +33,8 @@
     "F05": {"page": "178:2", "screen": "178:4", "reference": "178:120"},
     "F06": {"page": "178:2", "screen": "178:5", "reference": "178:7"},
     "F07": {"page": "178:2", "screen": "178:6", "reference": "178:119"},
+    "G03": {"page": "223:2", "screen": "223:5", "reference": "223:357", "status": "reconstructed-qa-in-progress"},
+    "G04": {"page": "223:2", "screen": "223:6", "reference": "223:12", "status": "reconstructed-qa-in-progress"},
     "H01": {"page": "161:2", "screen": "175:265", "reference": "176:994"},
     "H02": {"page": "161:2", "screen": "174:222", "reference": "174:223"},
     "H03": {"page": "161:2", "screen": "172:158", "reference": "173:196"},
@@ -144,6 +146,8 @@
     ,"lifeAnswerPrompt": "226:345"
     ,"lifeAnswerInput": "225:353"
     ,"lifeAnswerActions": "226:350"
+    ,"lifeCustomQuestionForm": "233:345"
+    ,"lifeCustomQuestionActions": "234:346"
   },
   "acceptedScreens": [],
   "note": "These are actual rebuilt nodes, not proof of final acceptance. Previous scaled drafts are excluded. B01-B03, D04-D07 and E01-E04 have content and repair evidence but remain in progress. Generated migration art is an independent candidate, not an exact source replacement."
