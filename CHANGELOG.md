@@ -44,3 +44,10 @@
   still pending.
 - Snapshot added only the two new evidence images; the original atlas remains
   untouched and the GitHub push is still pending authentication/network access.
+
+## 2026-09-28: GitHub Branch Published
+
+- Published `codex/figma-reconstruction-20260928` to
+  `bbbbbbbbbbai/bbbbbbbbbbai`.
+- The branch tracks the remote branch and does not modify the remote default
+  branch.
