@@ -4,6 +4,45 @@
   "page": "178:2",
   "font": "Noto Sans SC fallback; source family unknown",
   "screens": {
+    "F01": {
+      "screen": "189:306",
+      "reference": "189:420",
+      "evidence": "F01-round2.png",
+      "repair": "Moved record text stack to x134 and date heading down 4px. Source-derived navigation stays above gesture area.",
+      "textNodes": 42,
+      "instances": 47,
+      "wholeScreenImages": [],
+      "editableTest": {
+        "temporaryClone": "222:1003",
+        "testRow": "222:1008",
+        "changes": ["time to 13:00", "title to test record", "source artwork swapped from food to weight"],
+        "originalUnchanged": true,
+        "visuallyVerified": true,
+        "cloneRemoved": true
+      }
+    },
+    "F02": {
+      "screen": "189:307",
+      "reference": "189:309",
+      "evidence": "F02-round2.png",
+      "repair": "Changed empty-date chevron to a crop from its actual background; shifted month heading down 2px.",
+      "calendarCells": 42,
+      "textNodes": 71,
+      "instances": 67,
+      "wholeScreenImages": [],
+      "limitation": "Original P:02 label and mixed empty-date example preserved as source fidelity, not an approved product behavior."
+    },
+    "F03": {
+      "screen": "189:308",
+      "reference": "189:421",
+      "evidence": "F03-round2.png",
+      "repair": "Corrected normalized vector origin to 60,109 so weight line passes through measured dots. Sampled original bar pixels and added subtle native gradients. Adjusted toolbar date separator.",
+      "textNodes": 75,
+      "instances": 38,
+      "wholeScreenImages": [],
+      "nativeCharts": ["editable axes and labels", "resizable bar instances", "native dashed target line", "native weight polyline", "point instances"],
+      "limitation": "Source plotted geometry and example numeric labels are preserved independently; they are not runtime chart calculations."
+    },
     "F04": {
       "screen": "178:3",
       "reference": "178:118",
@@ -36,6 +75,6 @@
       "bitmapLimitation": "Original icon pixels remain raster. Enclosed pale areas and source blur remain; not claimed vectorized or pixel-identical."
     }
   },
-  "remaining": ["F01-F03 rebuild", "Independent text and asset swap tests", "Further documented repair cycles and source comparison"],
+  "remaining": ["Independent editability tests beyond the F01 record family", "Further documented repair cycles and source comparison"],
   "acceptedScreens": []
 }

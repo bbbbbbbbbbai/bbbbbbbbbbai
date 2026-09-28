@@ -22,7 +22,16 @@
     {"name": "History filters", "screens": ["F01"], "properties": ["category:TEXT", "dateRange:TEXT", "order:TEXT"], "assets": ["calendar-filter-small", "filter-chevron"]},
     {"name": "History record row", "screens": ["F01", "F02"], "properties": ["time:TEXT", "type:TEXT", "detail:TEXT", "icon:INSTANCE_SWAP"], "layout": "fixed time and image columns, text stack and right chevron"},
     {"name": "History date group", "screens": ["F01"], "properties": ["date:TEXT"], "layout": "native editable date heading with record row instance"},
-    {"name": "History bottom navigation", "screens": ["F01", "F02", "F03"], "layout": "source-specific four columns with record tab selected"}
+    {"name": "History bottom navigation", "screens": ["F01", "F02", "F03"], "layout": "source-specific four columns with record tab selected"},
+    {"name": "Calendar day", "screens": ["F02"], "properties": ["day:TEXT", "selected:BOOLEAN", "hasRecord:BOOLEAN"], "layout": "67x57 fixed cell, native selection circle and record marker"},
+    {"name": "Calendar month", "screens": ["F02"], "properties": ["month:TEXT"], "layout": "source measured 7-column, 6-row grid with editable day instances"},
+    {"name": "Calendar results heading", "screens": ["F02"], "properties": ["date:TEXT", "count:TEXT"]},
+    {"name": "Calendar empty date example", "screens": ["F02"], "assets": ["empty-record"], "layout": "separate source example, not the selected date result"},
+    {"name": "Trend date toolbar", "screens": ["F03"], "assets": ["chart-date-calendar"], "layout": "period selector and editable date range"},
+    {"name": "Trend bar", "screens": ["F03"], "states": ["intake-green", "exercise-blue"], "layout": "native resizable bar component; geometry follows source rectangles rather than recomputing source's inconsistent numeric scale"},
+    {"name": "Intake chart", "screens": ["F03"], "layout": "editable labels, native axes/grid, seven bar instances, native dashed target line"},
+    {"name": "Exercise chart", "screens": ["F03"], "layout": "editable labels, native axes/grid, five nonzero bar instances, two zero labels"},
+    {"name": "Weight trend chart", "screens": ["F03"], "layout": "native vector polyline, point instances, editable axis and value labels"}
   ],
   "constraints": [
     "Do not treat example dates, nutritional values or counts as live account data.",
