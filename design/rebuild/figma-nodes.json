@@ -38,6 +38,8 @@
     "G05": {"page": "223:2", "screen": "223:7", "status": "reconstructed-qa-in-progress"},
     "G06": {"page": "223:2", "screen": "223:8", "status": "reconstructed-qa-in-progress"},
     "G07": {"page": "223:2", "screen": "223:9", "status": "reconstructed-qa-in-progress"},
+    "G08": {"page": "223:2", "screen": "223:10", "status": "reconstructed-qa-in-progress"},
+    "G09": {"page": "223:2", "screen": "223:11", "status": "reconstructed-qa-in-progress"},
     "H01": {"page": "161:2", "screen": "175:265", "reference": "176:994"},
     "H02": {"page": "161:2", "screen": "174:222", "reference": "174:223"},
     "H03": {"page": "161:2", "screen": "172:158", "reference": "173:196"},

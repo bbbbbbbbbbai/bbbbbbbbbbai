@@ -46,8 +46,24 @@
       "confirmedRegions": ["247:42", "247:45", "247:47", "247:49", "247:53", "247:56", "247:59"],
       "evidence": ["G07-round1.png"],
       "remaining": ["replace photo slots with isolated source assets", "restore source back/delete icons", "same-size second repair screenshot", "editable clone test"]
+    },
+    "G08": {
+      "screen": "223:10",
+      "reference": null,
+      "status": "partial-assembly",
+      "confirmedRegions": ["252:42", "252:44", "252:46", "252:50", "253:44", "254:42", "254:48", "254:56"],
+      "evidence": ["G08-round1.png"],
+      "remaining": ["restore source add/edit/delete/location/navigation icons", "same-size second repair screenshot", "editable clone test"]
+    },
+    "G09": {
+      "screen": "223:11",
+      "reference": null,
+      "status": "partial-assembly",
+      "confirmedRegions": ["256:42", "256:45", "256:47", "256:49", "256:51", "256:57", "256:62", "256:65"],
+      "evidence": ["G09-round1.png"],
+      "remaining": ["replace photo slots with isolated source assets", "restore source back/calendar/photo-add icons", "same-size second repair screenshot", "editable clone test"]
     }
   },
-  "remaining": ["G01", "G02", "G08", "G09", "15 interaction groups / 75 substates"],
+  "remaining": ["G01", "G02", "15 interaction groups / 75 substates"],
   "acceptedScreens": []
 }

@@ -89,3 +89,18 @@
   `design/rebuild/life/G07-round1.png`.
 - Photo slots and header/delete icon artwork remain pending asset replacement;
   G07 is not accepted.
+
+## 2026-09-29: G08/G09 Life Footprint Reconstruction
+
+- Built G08 on Figma page `223:2`, screen `223:10` with editable tabs,
+  section copy, two footprint cards, navigation labels, and gesture safe area.
+- Imported independently cropped G08 park and dinner photos into the two card
+  slots; the original full-screen reference remains separate.
+- Built G09 on screen `223:11` with editable title/location/date/body fields,
+  photo slots, save/cancel actions, and gesture safe area.
+- Captured `G08-round1.png` and `G09-round1.png` at 512x1024.
+- Added source-derived G07/G09 photo crops and clean variants with the baked
+  delete-button overlay inpainted out; source crops remain preserved.
+- G08/G09 still require icon restoration, second visual repair, and clone
+  editability checks. Figma transport then became unavailable during the next
+  text-reflow repair, so no final acceptance is claimed.
